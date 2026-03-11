@@ -1,5 +1,6 @@
 /**
- * TOEIC Part 5 - Full Logic Script (Updated: Hide Random 40 on Single Test)
+ * TOEIC Part 5 - Full Logic Script
+ * Update: Hide test selector on All tests, Hide Random 40 on Single test
  */
 
 const FILES = Array.from({ length: 10 }, (_, i) => `jim/test${String(i + 1).padStart(2, '0')}_part5.json`);
@@ -8,6 +9,7 @@ const el = (id) => document.getElementById(id);
 
 // --- DOM Elements ---
 const testSelect = el('testSelect');
+const testSelectWrap = el('testSelectWrap');
 const quiz = el('quiz');
 const progressFill = el('progressFill');
 const submitBtn = el('submitBtn');
@@ -16,7 +18,7 @@ const summary = el('summary');
 const instantToggle = el('instant');
 const shuffleToggle = el('shuffle');
 const random40Toggle = el('random40');
-const random40Wrap = el('random40Wrap'); // Element bao quanh checkbox random 40
+const random40Wrap = el('random40Wrap');
 
 // --- App State ---
 let allQuestions = []; 
@@ -24,6 +26,7 @@ let questions = [];
 let answers = {};      
 
 function init() {
+    // Khởi tạo danh sách test
     FILES.forEach(f => {
         const opt = document.createElement('option');
         opt.value = f;
@@ -31,6 +34,7 @@ function init() {
         testSelect.appendChild(opt);
     });
 
+    // Listeners
     testSelect.addEventListener('change', loadPoolFromSelected);
     
     document.querySelectorAll('input[name="mode"]').forEach(radio => {
@@ -44,25 +48,30 @@ function init() {
     random40Toggle.addEventListener('change', prepareQuestionsAndRender);
     submitBtn.addEventListener('click', submitQuiz);
 
+    // Run first time
     updateModeLogic();
     loadPoolFromSelected();
 }
 
 /**
- * Cập nhật giao diện dựa trên chế độ chọn (All/Single)
+ * Điều khiển việc ẩn hiện các nút điều hướng và logic chế độ
  */
 function updateModeLogic() {
     const mode = document.querySelector('input[name="mode"]:checked').value;
     
     if (mode === 'all') {
-        // Chế độ All tests: Hiện Random 40, Khóa Instant Answer
+        // Chế độ All: Hiện Random 40, Ẩn chọn test, Khóa Instant Answer
         random40Wrap.style.display = 'flex';
+        testSelectWrap.style.display = 'none';
+        
         instantToggle.checked = true;
         instantToggle.disabled = true;
     } else {
-        // Chế độ Single test: Ẩn Random 40, Mở khóa Instant Answer
+        // Chế độ Single: Ẩn Random 40, Hiện chọn test, Mở khóa Instant Answer
         random40Wrap.style.display = 'none';
-        random40Toggle.checked = false; // Tắt random khi ẩn
+        random40Toggle.checked = false;
+        
+        testSelectWrap.style.display = 'inline-block';
         instantToggle.disabled = false;
     }
 }
@@ -74,7 +83,7 @@ async function loadPoolFromSelected() {
     try {
         const loads = await Promise.all(filesToLoad.map(async f => {
             const res = await fetch(f);
-            if (!res.ok) throw new Error(`Error loading: ${f}`);
+            if (!res.ok) throw new Error(`Fetch error: ${f}`);
             return await res.json();
         }));
         
@@ -94,7 +103,7 @@ function prepareQuestionsAndRender() {
     
     let pool = [...allQuestions];
 
-    // Chỉ thực hiện Random 40 nếu checkbox đang hiện và được tích
+    // Logic Random 40
     if (random40Toggle.checked && random40Wrap.style.display !== 'none') {
         pool = pool.sort(() => 0.5 - Math.random()).slice(0, 40);
     }
