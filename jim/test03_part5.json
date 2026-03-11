@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Our new social organizer's personal favorites do not include jazz or classical music, but she loves listening to techno, world music, ------- rock.",
+    "options": {
+      "A": "so",
+      "B": "but",
+      "C": "yet",
+      "D": "and"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "It is strongly advised that you check that you have all your essential documents in a briefcase ------- you set out on an international trip.",
+    "options": {
+      "A": "upon",
+      "B": "before",
+      "C": "beside",
+      "D": "next to"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 103,
+    "question": "The most ------- piece in the collection was acquired by our founder during an archaeological expedition he undertook in 1935.",
+    "options": {
+      "A": "value",
+      "B": "valuing",
+      "C": "values",
+      "D": "valuable"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 104,
+    "question": "At this year's orientation session, the general manager ------- took the time to personally welcome all new recruits.",
+    "options": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 105,
+    "question": "Our latest customer ------- survey reveals some problems in the after-sales service area.",
+    "options": {
+      "A": "satisfying",
+      "B": "satisfied",
+      "C": "satisfaction",
+      "D": "satisfactory"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 106,
+    "question": "Our ongoing, ------- development seminars allow staff members to develop their skills in various directions.",
+    "options": {
+      "A": "profession",
+      "B": "professionally",
+      "C": "professional",
+      "D": "professionalism"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 107,
+    "question": "If you wish to register for State University's new Academic News Update -------, please log in and click on the register box.",
+    "options": {
+      "A": "service",
+      "B": "servicing",
+      "C": "serviced",
+      "D": "serviceable"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "question": "The music faculty offers free weekly seminars designed to encourage young musicians to begin ------- their own masterpieces.",
+    "options": {
+      "A": "composer",
+      "B": "composes",
+      "C": "composed",
+      "D": "composing"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 109,
+    "question": "At the latest meeting of the Business Advisory Council, the newly elected president ------- that the council extend its activities to the field of social justice.",
+    "options": {
+      "A": "propose",
+      "B": "proposal",
+      "C": "proposing",
+      "D": "proposed"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 110,
+    "question": "To celebrate our tenth year in the stationery supply business, we'd like to offer a special bonus discount ------- our most loyal customers.",
+    "options": {
+      "A": "to",
+      "B": "by",
+      "C": "as",
+      "D": "at"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 111,
+    "question": "------- recent adjustments in income tax rates, workers will find themselves pleasantly surprised by an increase in their paychecks.",
+    "options": {
+      "A": "Due to",
+      "B": "While",
+      "C": "In fact",
+      "D": "Whether"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "question": "Much of investors' long-held esteem in the company ------- during the share-market boom when executives were involved in accounting irregularities.",
+    "options": {
+      "A": "losing",
+      "B": "loses",
+      "C": "was lost",
+      "D": "is lost"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "The Springborg Hotel chain's attention to detail and pricing structure make our hotels ------- to any others in the mid-priced bracket.",
+    "options": {
+      "A": "better",
+      "B": "improved",
+      "C": "superior",
+      "D": "advanced"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 114,
+    "question": "Professor Barkley is not ------- an expert in classical economics but also a specialist in international banking laws.",
+    "options": {
+      "A": "over",
+      "B": "only",
+      "C": "less",
+      "D": "alone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 115,
+    "question": "Under the new law consumers are entitled to ------- if products malfunction or fail to perform as promised.",
+    "options": {
+      "A": "compensate",
+      "B": "compensated",
+      "C": "compensating",
+      "D": "compensation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 116,
+    "question": "During the one-month trial period, customers are under no ------- to sign any contracts.",
+    "options": {
+      "A": "pledge",
+      "B": "promise",
+      "C": "obligation",
+      "D": "engagement"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 117,
+    "question": "Educational expenses are tax-deductible ------- the taxpayer can show these expenses enhanced professional skills.",
+    "options": {
+      "A": "only if",
+      "B": "as if",
+      "C": "as many as",
+      "D": "as much as"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 118,
+    "question": "If you cannot make up your mind ------- destination to choose for your summer holidays, talk with our travel consultants.",
+    "options": {
+      "A": "whom",
+      "B": "which",
+      "C": "on",
+      "D": "about"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "The Public Transport Commission's commitment to running trains and buses as ------- as possible has reduced costs.",
+    "options": {
+      "A": "efficient",
+      "B": "efficiency",
+      "C": "efficiently",
+      "D": "efficiencies"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 120,
+    "question": "Any benefits gained by lowering prices never ------- if they are achieved by reducing quality.",
+    "options": {
+      "A": "last",
+      "B": "pass",
+      "C": "spend",
+      "D": "retain"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 121,
+    "question": "------- serious disadvantage of the existing plant is the lack of adequate ventilation.",
+    "options": {
+      "A": "Any",
+      "B": "Other",
+      "C": "Another",
+      "D": "One another"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "question": "Encounter Environmental Tours offers trips to remote wildernesses ------- all the comforts of five-star accommodations.",
+    "options": {
+      "A": "both",
+      "B": "plus",
+      "C": "though",
+      "D": "together"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 123,
+    "question": "A recent survey showed that the increase in random tax audits has been ------- unpopular.",
+    "options": {
+      "A": "predict",
+      "B": "prediction",
+      "C": "to predict",
+      "D": "predictably"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 124,
+    "question": "The company has invited several members of our experienced ------- staff to become permanent employees.",
+    "options": {
+      "A": "minor",
+      "B": "lengthy",
+      "C": "temporary",
+      "D": "duplicate"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 125,
+    "question": "The company admitted fault and announced that all professional fees would be fully -------.",
+    "options": {
+      "A": "refunds",
+      "B": "refunding",
+      "C": "refunded",
+      "D": "is refunded"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "question": "Media organizations can be called before a tribunal if they fail to operate ------- the guidelines laid out by legislation.",
+    "options": {
+      "A": "within",
+      "B": "among",
+      "C": "between",
+      "D": "from"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 127,
+    "question": "These days managers and designers are expected to work ------- to a greater extent than in the past.",
+    "options": {
+      "A": "collaboratively",
+      "B": "collaborative",
+      "C": "collaboration",
+      "D": "collaborate"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 128,
+    "question": "The unemployment figures ------- last June due to the closure of several manufacturers.",
+    "options": {
+      "A": "enlarged",
+      "B": "reached",
+      "C": "peaked",
+      "D": "magnified"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "question": "The business council said the new penalties are out of ------- with the seriousness of the crime.",
+    "options": {
+      "A": "size",
+      "B": "proportion",
+      "C": "equivalence",
+      "D": "combination"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "question": "Senior management unanimously ------- to recall all versions of the sedans.",
+    "options": {
+      "A": "settled",
+      "B": "picked",
+      "C": "decided",
+      "D": "established"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 131,
+    "question": "We will be welcoming our keynote ------- at a reception in the Emerald Room.",
+    "options": {
+      "A": "speak",
+      "B": "spoken",
+      "C": "speaker",
+      "D": "speaking"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 132,
+    "question": "Any new staff member who has not submitted a recent photo should go ------- to the Personnel Office.",
+    "options": {
+      "A": "unexpectedly",
+      "B": "immediately",
+      "C": "especially",
+      "D": "recently"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 133,
+    "question": "Other ------- grammatical errors include failure to use punctuation correctly.",
+    "options": {
+      "A": "common",
+      "B": "genuine",
+      "C": "level",
+      "D": "even"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 134,
+    "question": "In addition to improvements to the cafeteria, the company sports facility will ------- be upgraded.",
+    "options": {
+      "A": "besides",
+      "B": "either",
+      "C": "also",
+      "D": "too"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 135,
+    "question": "It remains ------- that a merger will increase profitability because of redundancy costs.",
+    "options": {
+      "A": "doubt",
+      "B": "doubted",
+      "C": "doubtful",
+      "D": "doubtfully"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 136,
+    "question": "The Hytex Hotel, in ------- with the organizers of the film festival, is offering a travel package.",
+    "options": {
+      "A": "agreement",
+      "B": "alignment",
+      "C": "relation",
+      "D": "conjunction"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 137,
+    "question": "The judge's ------- words were directed at the company's accounting head.",
+    "options": {
+      "A": "harsher",
+      "B": "harshly",
+      "C": "harshest",
+      "D": "more harshly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 138,
+    "question": "A new health report warned of the ------- tendency for newly qualified doctors to refuse rural practices.",
+    "options": {
+      "A": "worry",
+      "B": "worried",
+      "C": "worries",
+      "D": "worrying"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 139,
+    "question": "------- unnamed sources, the central bank is unlikely to raise interest rates in the next six months.",
+    "options": {
+      "A": "According to",
+      "B": "In case of",
+      "C": "On behalf of",
+      "D": "In common with"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 140,
+    "question": "Senior management believes that we should immediately ------- the new government guidelines on sexual harassment.",
+    "options": {
+      "A": "spend",
+      "B": "waste",
+      "C": "achieve",
+      "D": "implement"
+    },
+    "answer": "D"
+  }
+]

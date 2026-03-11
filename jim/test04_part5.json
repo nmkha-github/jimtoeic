@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Our new range of products is available in ------- configurations, including sports and commercial styles.",
+    "options": {
+      "A": "vary",
+      "B": "variety",
+      "C": "variable",
+      "D": "various"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "------- your order, please complete the following form, including your credit card details, and click on the \"submit\" button.",
+    "options": {
+      "A": "Place",
+      "B": "Placed",
+      "C": "Placing",
+      "D": "To place"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 103,
+    "question": "All staff members are reminded that you should not use the executive restroom ------- you have written authorization to do so.",
+    "options": {
+      "A": "for",
+      "B": "unless",
+      "C": "without",
+      "D": "although"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 104,
+    "question": "Our multi-skilled CEO has distinguished ------- yet again by winning the coveted Brookings Award for innovation in business.",
+    "options": {
+      "A": "he",
+      "B": "his",
+      "C": "him",
+      "D": "himself"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 105,
+    "question": "Would the person ------- muddy jogging clothes were found in the staff shower room please claim them at the lost and found office?",
+    "options": {
+      "A": "who",
+      "B": "that",
+      "C": "whose",
+      "D": "which"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 106,
+    "question": "Even professional marketers are never sure ------- some new products are runaway successes while others fail miserably.",
+    "options": {
+      "A": "for",
+      "B": "why",
+      "C": "since",
+      "D": "whoever"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "Should anyone enter your home without your permission while you are at work, your Homesure security system will ------- send you email and cell phone alerts.",
+    "options": {
+      "A": "automatic",
+      "B": "automatical",
+      "C": "automatically",
+      "D": "more automatically"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 108,
+    "question": "We would like to remind our clients that, should they have any problems ------- our products, our after-sales hotline service is available 24 hours a day.",
+    "options": {
+      "A": "to",
+      "B": "at",
+      "C": "for",
+      "D": "with"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 109,
+    "question": "Major Australian car-manufacturers will continue to produce their flagship large sedans ------- the recent increases in fuel costs.",
+    "options": {
+      "A": "for",
+      "B": "except",
+      "C": "although",
+      "D": "despite"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 110,
+    "question": "Should the alarm sound, please ------- make your way to the rallying points, where safety wardens will direct you to the emergency exits.",
+    "options": {
+      "A": "take",
+      "B": "come",
+      "C": "bring",
+      "D": "have"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 111,
+    "question": "The company is reportedly ------- bankruptcy due to the rapid rise in resource costs, which has made its projects unprofitable.",
+    "options": {
+      "A": "next",
+      "B": "nearly",
+      "C": "almost",
+      "D": "close to"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "question": "Allways Engineering has guaranteed that ------- one of its employees will lose his or her job as a result of the merger.",
+    "options": {
+      "A": "no",
+      "B": "not",
+      "C": "none",
+      "D": "any"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 113,
+    "question": "The Security Department has warned that any ------- use of the car park on weekends will result in the vehicle being towed.",
+    "options": {
+      "A": "unauthorize",
+      "B": "unauthorizes",
+      "C": "unauthorizing",
+      "D": "unauthorized"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "question": "------- it prove necessary to send your payment by money order, please make your request to the Payments Department, where you will find the appropriate forms.",
+    "options": {
+      "A": "Could",
+      "B": "Would",
+      "C": "Should",
+      "D": "Might"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 115,
+    "question": "The committee calmly, usually, inherently, and increasingly prepares letters of recommendation.",
+    "options": {
+      "A": "calmly",
+      "B": "usually",
+      "C": "inherently",
+      "D": "increasingly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 116,
+    "question": "If you wish to take advantage of our special gift offers, please ------- your sales receipts to one of our employees at the promotions counter on the third floor.",
+    "options": {
+      "A": "guard",
+      "B": "record",
+      "C": "consider",
+      "D": "present"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "question": "The latest ------- to emerge from our production lines is considered by many to lead the field in the area of mobile communications.",
+    "options": {
+      "A": "product",
+      "B": "produce",
+      "C": "producing",
+      "D": "productivity"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 118,
+    "question": "Marketing specialists are really not sure ------- changes in the climate will affect sales of recreational vehicles.",
+    "options": {
+      "A": "where",
+      "B": "how",
+      "C": "what",
+      "D": "who"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "Would all participants in this year's convention please complete their confidential ------- and place them in the boxes provided before leaving today?",
+    "options": {
+      "A": "evaluate",
+      "B": "evaluator",
+      "C": "evaluated",
+      "D": "evaluations"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 120,
+    "question": "The manager noted that sales of smaller models had risen significantly but ------- mentioned the drop-off in orders for the electric version.",
+    "options": {
+      "A": "too",
+      "B": "also",
+      "C": "either",
+      "D": "besides"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 121,
+    "question": "Despite recent losses totaling millions of dollars, Bayside Construction ------- its shareholders the situation would be rectified in the near future.",
+    "options": {
+      "A": "assuring",
+      "B": "assured",
+      "C": "have assured",
+      "D": "was assured"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 122,
+    "question": "We'd like to congratulate our gifted head of personnel, who won a gold medal at the statewide archery competition ------- over the weekend.",
+    "options": {
+      "A": "held",
+      "B": "holds",
+      "C": "holding",
+      "D": "was held"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 123,
+    "question": "The social committee guarantees that this year's company mystery adventure tour will not fail to fascinate ------- surprise you.",
+    "options": {
+      "A": "but",
+      "B": "and",
+      "C": "also",
+      "D": "even"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 124,
+    "question": "Any staff members traveling overseas on company business will be ------- for exceeding their expense allowances.",
+    "options": {
+      "A": "billed",
+      "B": "arranged",
+      "C": "replaced",
+      "D": "produced"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "question": "Ridgeway College business graduates are highly sought-after, and many corporations go to extravagant lengths to recruit -------.",
+    "options": {
+      "A": "them",
+      "B": "their",
+      "C": "theirs",
+      "D": "themselves"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 126,
+    "question": "Creativity and productivity can be increased if our employees are able to spend ------- time doing repetitive and routine tasks.",
+    "options": {
+      "A": "least",
+      "B": "less",
+      "C": "lesser",
+      "D": "lessen"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 127,
+    "question": "Both ------- and collectively, the employees at our company have achieved great successes in technical as well as business innovations.",
+    "options": {
+      "A": "substantially",
+      "B": "individually",
+      "C": "successfully",
+      "D": "expressively"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 128,
+    "question": "Employees attending the writing seminar are expected to practice imaginative and ------- writing as well as develop their technical writing skills.",
+    "options": {
+      "A": "detective",
+      "B": "negative",
+      "C": "descriptive",
+      "D": "cooperative"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "question": "The managing director demonstrated his faith ------- the conscientiousness of the company's employees by allowing them to work flexible schedules.",
+    "options": {
+      "A": "on",
+      "B": "by",
+      "C": "in",
+      "D": "with"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 130,
+    "question": "Supervisors are reminded to ------- all subordinates with consideration and to remember that any discourtesy will be viewed as a serious breach of company guidelines.",
+    "options": {
+      "A": "give",
+      "B": "treat",
+      "C": "leave",
+      "D": "mention"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 131,
+    "question": "Any employee wishing to leave the workplace for any reason during business hours must ------- a special leave form.",
+    "options": {
+      "A": "sign",
+      "B": "signs",
+      "C": "to sign",
+      "D": "was signed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 132,
+    "question": "One of the ------- moments of my life was the moment that I saw the face of my new-born daughter for the first time.",
+    "options": {
+      "A": "great",
+      "B": "greatest",
+      "C": "greatly",
+      "D": "greatness"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 133,
+    "question": "The marketing think-tank believes that the next ten years will see an enormous ------- in travel and other leisure-related industries.",
+    "options": {
+      "A": "expand",
+      "B": "expansive",
+      "C": "expansion",
+      "D": "expansively"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 134,
+    "question": "The chief executive officer is particularly ------- that recent staff surveys have shown a severe drop-off in employee satisfaction.",
+    "options": {
+      "A": "concern",
+      "B": "concerns",
+      "C": "concerning",
+      "D": "concerned"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 135,
+    "question": "The company may have to ------- some production procedures which, since the earliest days, have always been done by skilled craftsmen.",
+    "options": {
+      "A": "process",
+      "B": "calculate",
+      "C": "automate",
+      "D": "manufacture"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 136,
+    "question": "In order to be registered for our 5-year warranty, please send us the following postage-paid registration form ------- 7 days of purchase.",
+    "options": {
+      "A": "by",
+      "B": "until",
+      "C": "within",
+      "D": "before"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 137,
+    "question": "The Department of Industrial Relations no longer believes that ------- reviews of employee pay and conditions are necessary.",
+    "options": {
+      "A": "most regularly",
+      "B": "more regular",
+      "C": "regularly",
+      "D": "regular"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 138,
+    "question": "Company employees may request special ------- in the case of family emergencies or other unforeseeable events that require special consideration.",
+    "options": {
+      "A": "leave",
+      "B": "policy",
+      "C": "version",
+      "D": "survey"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 139,
+    "question": "In order to operate ------- in today's dynamic business environment, our company must reward the creativity and energy of our employees.",
+    "options": {
+      "A": "competitively",
+      "B": "magnificently",
+      "C": "productively",
+      "D": "totally"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 140,
+    "question": "The management has assured all staff that anyone ------- the professional development seminars will receive a certificate thanking them for their participation.",
+    "options": {
+      "A": "attend",
+      "B": "attended",
+      "C": "attending",
+      "D": "to attend"
+    },
+    "answer": "C"
+  }
+]

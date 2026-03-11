@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "------- you want to receive additional information regarding the services we offer, please log onto our website at www.healthclub.com today.",
+    "options": {
+      "A": "If",
+      "B": "For",
+      "C": "Despite",
+      "D": "Whether"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 102,
+    "question": "Sanaly Duncan was handpicked by the general manager to head the next project because of ------- experience in this field.",
+    "options": {
+      "A": "her",
+      "B": "hers",
+      "C": "herself",
+      "D": "she"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 103,
+    "question": "The changes made in the working conditions at our company resulted in remarkable improvements in all aspects of our business and ------- more so in the morale of our employees.",
+    "options": {
+      "A": "all",
+      "B": "any",
+      "C": "even",
+      "D": "although"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "All commuters ------- the main highway to get to the center of the city will face delays of up to an hour today because of on-going construction.",
+    "options": {
+      "A": "use",
+      "B": "used",
+      "C": "using",
+      "D": "will use"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "In order to become a member of the country club, applicants have to meet the strict ------- set by the club president.",
+    "options": {
+      "A": "require",
+      "B": "requires",
+      "C": "requiring",
+      "D": "requirements"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 106,
+    "question": "The outcome of our meeting today with the board of directors will ------- the course of action we will take this year.",
+    "options": {
+      "A": "determine",
+      "B": "determines",
+      "C": "determining",
+      "D": "determination"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 107,
+    "question": "The announcement of John Stanton's retirement was not well received by most of the staff members, but Leslie was extremely ------- to hear that he will now be able to enjoy some leisure time.",
+    "options": {
+      "A": "happiest",
+      "B": "happily",
+      "C": "happier",
+      "D": "happy"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 108,
+    "question": "Because many of the warehouse workers were out sick today, Mr. Miller had to stock the goods on the shelves -------.",
+    "options": {
+      "A": "itself",
+      "B": "himself",
+      "C": "herself",
+      "D": "themselves"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 109,
+    "question": "Please accept our ------- apology for the inconvenience this delay is causing all the passengers here at Pearson International Airport.",
+    "options": {
+      "A": "sincere",
+      "B": "original",
+      "C": "estimated",
+      "D": "completed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "question": "The majority of the contract ------- that took place during the year were handled by lawyers from a local law firm.",
+    "options": {
+      "A": "negotiate",
+      "B": "negotiations",
+      "C": "negotiable",
+      "D": "negotiator"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "question": "It will be next to impossible to ------- a room at the Ashton Hotel this week.",
+    "options": {
+      "A": "reserve",
+      "B": "respond",
+      "C": "connect",
+      "D": "appoint"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "question": "The presentation of this evening's winners will commence ------- at seven following dinner at six.",
+    "options": {
+      "A": "precise",
+      "B": "precision",
+      "C": "precisely",
+      "D": "preciseness"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "The new sports complex will accommodate an Olympic-sized swimming pool and other ------- including a fitness center and a spa.",
+    "options": {
+      "A": "facilities",
+      "B": "categories",
+      "C": "qualities",
+      "D": "supplies"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 114,
+    "question": "Our new product will be put through a number of ------- tests before being released to the public.",
+    "options": {
+      "A": "dependent",
+      "B": "founded",
+      "C": "withhold",
+      "D": "stringent"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 115,
+    "question": "Mr. Chan's main role in the company for the next two weeks is to look ------- the right person to take over Mr. Shaw's position.",
+    "options": {
+      "A": "in",
+      "B": "for",
+      "C": "over",
+      "D": "from"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "question": "People unanimously agreed that John would have performed a great deal better under more ------- circumstances.",
+    "options": {
+      "A": "favorable",
+      "B": "favorably",
+      "C": "favorite",
+      "D": "favor"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 117,
+    "question": "After a long and difficult strike, the plant workers will show up to work ------- Monday.",
+    "options": {
+      "A": "starting on",
+      "B": "afterwards",
+      "C": "instead",
+      "D": "outside"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 118,
+    "question": "Scarborough General Hospital has two ------- for certified x-ray technicians to start immediately.",
+    "options": {
+      "A": "open",
+      "B": "opener",
+      "C": "openings",
+      "D": "openness"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 119,
+    "question": "Mark's Warehouse Clearance Store is having a sale with savings of up to 40 percent off this weekend ------- celebration of its 25th anniversary.",
+    "options": {
+      "A": "in",
+      "B": "at",
+      "C": "on",
+      "D": "of"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 120,
+    "question": "Probe Magazine conducted a survey asking one thousand employees to express ------- their biggest concerns are.",
+    "options": {
+      "A": "how",
+      "B": "when",
+      "C": "what",
+      "D": "which"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 121,
+    "question": "Should there be any requests for schedule changes, please notify us -------.",
+    "options": {
+      "A": "prompt",
+      "B": "prompted",
+      "C": "promptly",
+      "D": "prompting"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "question": "Bad Boys Electronics Store is celebrating its first year in business with up to thirty percent ------- on all items in the store.",
+    "options": {
+      "A": "retail",
+      "B": "market",
+      "C": "economy",
+      "D": "discounts"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 123,
+    "question": "The automobile parts we requested for our customer got here on -------.",
+    "options": {
+      "A": "authority",
+      "B": "condition",
+      "C": "schedule",
+      "D": "appointment"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 124,
+    "question": "The advertisements printed in this magazine do not ------- imply endorsement by the management.",
+    "options": {
+      "A": "highly",
+      "B": "barely",
+      "C": "gradually",
+      "D": "necessarily"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 125,
+    "question": "The alarm system will go off if the correct security code is not entered ------- 60 seconds of touching the keypad.",
+    "options": {
+      "A": "only",
+      "B": "under",
+      "C": "within",
+      "D": "directly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "question": "The airline requested a ------- call to ensure a seat on my flight back home.",
+    "options": {
+      "A": "confirm",
+      "B": "confirmed",
+      "C": "confirming",
+      "D": "confirmation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 127,
+    "question": "If the task is too complicated to figure out on ------- own, please ask one of our representatives.",
+    "options": {
+      "A": "you",
+      "B": "your",
+      "C": "yours",
+      "D": "yourself"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 128,
+    "question": "Please fax us the information immediately because I need to ------- the client right away.",
+    "options": {
+      "A": "notify",
+      "B": "speak",
+      "C": "report",
+      "D": "attend"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 129,
+    "question": "Our sales team keeps up with the ------- changes that occur in the market.",
+    "options": {
+      "A": "prosperous",
+      "B": "continuous",
+      "C": "straight",
+      "D": "mature"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "question": "The hard work put in during his younger years made him become ------- sound in his later years.",
+    "options": {
+      "A": "finance",
+      "B": "finances",
+      "C": "financial",
+      "D": "financially"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 131,
+    "question": "Ms. Taylor has called the managers to ------- her in the main conference room to discuss next year's budget.",
+    "options": {
+      "A": "met",
+      "B": "meet",
+      "C": "have met",
+      "D": "will meet"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 132,
+    "question": "------- announcing his retirement, Mr. Kinsley has been busy trying to train his replacement.",
+    "options": {
+      "A": "Because",
+      "B": "Once",
+      "C": "Since",
+      "D": "While"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 133,
+    "question": "John is a bit nervous because he will give a speech ------- the board members this afternoon.",
+    "options": {
+      "A": "by",
+      "B": "on",
+      "C": "to",
+      "D": "during"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 134,
+    "question": "Of the many radio stations in the city, FM 109 is considered to play the ------- listening music.",
+    "options": {
+      "A": "easy",
+      "B": "easiest",
+      "C": "more easily",
+      "D": "most easily"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 135,
+    "question": "The new expensive software was purchased to help keep better ------- of the clients we have.",
+    "options": {
+      "A": "records",
+      "B": "states",
+      "C": "points",
+      "D": "marks"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 136,
+    "question": "Only after ------- requests by the tenants did the superintendent fix the broken intercoms.",
+    "options": {
+      "A": "repeat",
+      "B": "repeated",
+      "C": "repeating",
+      "D": "repetition"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 137,
+    "question": "A rain shower ------- by cold winds is expected to reach our region this evening.",
+    "options": {
+      "A": "accompany",
+      "B": "accompanied",
+      "C": "accompanying",
+      "D": "will accompany"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 138,
+    "question": "The special deal offered by our supplier will last only for a ------- time.",
+    "options": {
+      "A": "limited",
+      "B": "minor",
+      "C": "partial",
+      "D": "lower"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 139,
+    "question": "------- something drastic happens before midnight, the postal workers will most likely walk out on their jobs.",
+    "options": {
+      "A": "Also",
+      "B": "Except",
+      "C": "Unless",
+      "D": "Therefore"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 140,
+    "question": "The defense attorney contemplated a long time before finally making his decision to ------- the accused in court.",
+    "options": {
+      "A": "attend",
+      "B": "represent",
+      "C": "express",
+      "D": "perform"
+    },
+    "answer": "B"
+  }
+]

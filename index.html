@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>JIM TOEIC Part 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">JIM TOEIC Part 5</div>
+      <div class="topbar-right">
+        <span id="score" class="score-header"></span>
+        <button id="submitBtn" class="btn-primary">Submit Result</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <div class="controls-group">
+          <label><input type="radio" name="mode" value="all" checked /> All tests</label>
+          <label><input type="radio" name="mode" value="single" /> Single test</label>
+          <select id="testSelect"></select>
+        </div>
+
+        <div class="controls-group">
+          <label class="small"><input type="checkbox" id="shuffle" checked /> Shuffle options</label>
+          <label class="small"><input type="checkbox" id="instant" /> Show answer immediately</label>
+          <label class="small"><input type="checkbox" id="random40" /> Random 40</label>
+        </div>
+      </section>
+
+      <div id="progressWrap" class="progress-wrap">
+        <div class="progress-info">
+          <span id="summary">0 / 0 answered</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <div id="quiz" class="quiz-area"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

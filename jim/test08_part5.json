@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "The latest company report indicates ------- lower profitability is likely over the next quarter due to the increased cost of resources.",
+    "options": {
+      "A": "which",
+      "B": "that",
+      "C": "since",
+      "D": "why"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 102,
+    "question": "The new computerized security system never, or at least, ------- ever, requires rebooting.",
+    "options": {
+      "A": "hardly",
+      "B": "just",
+      "C": "overly",
+      "D": "still"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 103,
+    "question": "The prices charged by your Accounting Department do not match those ------- me by your Sales Department at the time of purchase.",
+    "options": {
+      "A": "repeated",
+      "B": "informed",
+      "C": "recorded",
+      "D": "quoted"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 104,
+    "question": "The much-loved poet's words could ------- be heard above the sound of thunderous applause.",
+    "options": {
+      "A": "nearly",
+      "B": "barely",
+      "C": "sparsely",
+      "D": "singly"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 105,
+    "question": "Our CEO's flamboyant style has its -------, but our profitability is more than satisfying to our shareholders.",
+    "options": {
+      "A": "critics",
+      "B": "critical",
+      "C": "criticize",
+      "D": "criticizing"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "If you are not sure which exercise schedule best suits your personal needs, please ------- our detailed guidebook, or speak to one of our specialists.",
+    "options": {
+      "A": "refer",
+      "B": "consult",
+      "C": "discuss",
+      "D": "consider"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "Designers are experimenting with a new material ------- flexibility with lightness.",
+    "options": {
+      "A": "is combining",
+      "B": "has combined",
+      "C": "that combines",
+      "D": "combination of"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 108,
+    "question": "The management encourages all staff to place any complaints, suggestions, or questions in the box ------- in the lunch room.",
+    "options": {
+      "A": "provided",
+      "B": "provision",
+      "C": "providing",
+      "D": "provide"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 109,
+    "question": "Starlite Roofing Installation will accept responsibility for any damages ------- it can be proven that defective products were the cause of the accident.",
+    "options": {
+      "A": "unless",
+      "B": "because of",
+      "C": "although",
+      "D": "insofar as"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 110,
+    "question": "We would like to advise all advertisers that copy ------- for inclusion in the next catalog must be submitted before 5:00 p.m. on Friday.",
+    "options": {
+      "A": "intended",
+      "B": "engaged",
+      "C": "concluded",
+      "D": "expressed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 111,
+    "question": "We believe that the popularity of ------- products is the result of a combination of beauty and functionality.",
+    "options": {
+      "A": "us",
+      "B": "we",
+      "C": "our",
+      "D": "ours"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 112,
+    "question": "Contract details are not to be made ------- because of national security requirements.",
+    "options": {
+      "A": "public",
+      "B": "publicly",
+      "C": "publicity",
+      "D": "publicize"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 113,
+    "question": "Of course, we know that 'all work and no play makes Jack a dull boy', ------- we have decided to add a health club and spa to our staff facilities.",
+    "options": {
+      "A": "so",
+      "B": "then",
+      "C": "and",
+      "D": "because"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 114,
+    "question": "The weekend program of special activities for handicapped children was a great success thanks to those who generously ------- their time.",
+    "options": {
+      "A": "voluntary",
+      "B": "volunteer",
+      "C": "voluntarily",
+      "D": "volunteered"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 115,
+    "question": "While the Sales Department has been ------- in marketing our new range, we have been let down by our quality assurance section.",
+    "options": {
+      "A": "accomplishing",
+      "B": "mindful",
+      "C": "successful",
+      "D": "climbing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 116,
+    "question": "A recent strategic decision will see that more ------- are allocated for research and development.",
+    "options": {
+      "A": "resource",
+      "B": "resources",
+      "C": "resourceful",
+      "D": "resourcefulness"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 117,
+    "question": "If we are to ------- towards our common goals, workers must have faith in management, and vice versa.",
+    "options": {
+      "A": "break",
+      "B": "advance",
+      "C": "growth",
+      "D": "approach"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 118,
+    "question": "Problems resulting in cost blowouts are to be ------- in any large-scale engineering project.",
+    "options": {
+      "A": "expects",
+      "B": "expected",
+      "C": "expecting",
+      "D": "have expected"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "We would like to thank all of our sponsors for their generous donations, and we hope to have your ------- support in the future.",
+    "options": {
+      "A": "connected",
+      "B": "consecutive",
+      "C": "continued",
+      "D": "ceaseless"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 120,
+    "question": "All employees are ------- to perform their duties in a professional manner at all times.",
+    "options": {
+      "A": "apparent",
+      "B": "alleged",
+      "C": "allowed",
+      "D": "supposed"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 121,
+    "question": "The personnel section would like to advise all employees that from now on, no smoking breaks will be allowed ------- regular work hours.",
+    "options": {
+      "A": "while",
+      "B": "during",
+      "C": "after",
+      "D": "through"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 122,
+    "question": "The unemployment rate ------- sharply despite government policies designed to increase public sector employment.",
+    "options": {
+      "A": "was rising",
+      "B": "will have risen",
+      "C": "has risen",
+      "D": "risen"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 123,
+    "question": "We regret to inform all tenants that ------- circumstances beyond our control, the water supply will be shut down between 2:00 and 4:00 p.m. this afternoon.",
+    "options": {
+      "A": "as to",
+      "B": "due to",
+      "C": "in spite of",
+      "D": "in place of"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 124,
+    "question": "The safety inspector has advised us that our health and safety facilities are more than -------.",
+    "options": {
+      "A": "considerable",
+      "B": "decent",
+      "C": "adequate",
+      "D": "accountable"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 125,
+    "question": "The management has expressed its total faith in the abilities and performance of the present ------- and will not be seeking to replace him.",
+    "options": {
+      "A": "occupant",
+      "B": "resident",
+      "C": "incumbent",
+      "D": "competent"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "question": "The new summer collection ------- the Asiatic designs will be modeled in the Women's Fashion Department on Friday morning.",
+    "options": {
+      "A": "about",
+      "B": "within",
+      "C": "over",
+      "D": "from"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 127,
+    "question": "A healthy lifestyle and the opportunity for creativity will help you to maintain a positive attitude towards -------.",
+    "options": {
+      "A": "labor",
+      "B": "work",
+      "C": "business",
+      "D": "employment"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 128,
+    "question": "In his opening remarks at the company's internal design conference, the president spoke in general ------- about developments in the business environment.",
+    "options": {
+      "A": "marks",
+      "B": "expressions",
+      "C": "names",
+      "D": "terms"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 129,
+    "question": "Unfortunately, several patients at the hospital have been struck by a disease for ------- there is no known cure.",
+    "options": {
+      "A": "while",
+      "B": "whose",
+      "C": "which",
+      "D": "that"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 130,
+    "question": "The investigating panel is ------- out of patience with senior company executives, who are blocking the release of essential documents.",
+    "options": {
+      "A": "moving",
+      "B": "going",
+      "C": "breaking",
+      "D": "running"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 131,
+    "question": "A government spokesman stated that reductions in health benefits are not due to a lack of ------- for workers' welfare.",
+    "options": {
+      "A": "affair",
+      "B": "rights",
+      "C": "attachment",
+      "D": "concern"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 132,
+    "question": "Our Design Department has recently purchased the most ------- software available, with the aim of greatly increasing our design capabilities.",
+    "options": {
+      "A": "sophisticate",
+      "B": "sophisticating",
+      "C": "sophisticated",
+      "D": "sophistication"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 133,
+    "question": "The original research facility was ------- in 1967 thanks to the foresight of our founding chairman.",
+    "options": {
+      "A": "build",
+      "B": "building",
+      "C": "to build",
+      "D": "built"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 134,
+    "question": "------- you have written authorization from the Security Department, please do not enter the zone delineated by the green line.",
+    "options": {
+      "A": "Because",
+      "B": "Unless",
+      "C": "Despite",
+      "D": "Whereas"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 135,
+    "question": "We recently received a memo ------- the Accounting Department requesting that all purchases over $1,000 be approved by the heads of sections.",
+    "options": {
+      "A": "before",
+      "B": "for",
+      "C": "with",
+      "D": "from"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "question": "The company has received many complaints from customers who believe that our rates are far from -------.",
+    "options": {
+      "A": "allowable",
+      "B": "satisfied",
+      "C": "trustworthy",
+      "D": "reasonable"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 137,
+    "question": "The research and development section is currently experimenting with two new ------- which should reduce production time without affecting quality.",
+    "options": {
+      "A": "proceeds",
+      "B": "processing",
+      "C": "processes",
+      "D": "proceedings"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 138,
+    "question": "The oil exploration unit operates in very ------- areas and requires staff members who can adapt to isolation.",
+    "options": {
+      "A": "far",
+      "B": "unaware",
+      "C": "remote",
+      "D": "absent"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 139,
+    "question": "------- favorably by several specialist journals, our latest product should be well received by our overseas distributors.",
+    "options": {
+      "A": "Having been reviewed",
+      "B": "Been reviewed",
+      "C": "Reviewing",
+      "D": "Reviewed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 140,
+    "question": "The recent surprise resignation of the company's CEO is not expected to affect the share price -------.",
+    "options": {
+      "A": "adversely",
+      "B": "appropriately",
+      "C": "unanimously",
+      "D": "dissentingly"
+    },
+    "answer": "A"
+  }
+]

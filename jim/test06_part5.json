@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Simms Engineering estimates that the proposed modifications ------- your original design will cost in the region of $200,000.",
+    "options": {
+      "A": "at",
+      "B": "as",
+      "C": "by",
+      "D": "to"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "All of the offices in the new complex ------- keyless entry systems, video interphones, and 24-hour access to secure parking.",
+    "options": {
+      "A": "save",
+      "B": "enter",
+      "C": "replace",
+      "D": "feature"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 103,
+    "question": "It is becoming apparent that all medium to large businesses will seek to ------- their operations by reducing the number of middle managers.",
+    "options": {
+      "A": "streamline",
+      "B": "streamlines",
+      "C": "streamlined",
+      "D": "streamlining"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 104,
+    "question": "The president, ------- comments in a press conference last week aroused considerable criticism, will again address the media today.",
+    "options": {
+      "A": "who",
+      "B": "that",
+      "C": "whose",
+      "D": "what"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "All staff will be required to attend a seminar dealing with changes ------ operating procedures.",
+    "options": {
+      "A": "in",
+      "B": "so",
+      "C": "about",
+      "D": "such"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "Many specialists believe ------- the housing boom will continue for some time unless the government intervenes.",
+    "options": {
+      "A": "if",
+      "B": "that",
+      "C": "what",
+      "D": "which"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "Westfield Finances believe that ------- member of each team should be allowed to contribute his or her thoughts freely during brainstorming sessions.",
+    "options": {
+      "A": "every",
+      "B": "other",
+      "C": "most",
+      "D": "several"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "question": "A frequent ------- made by our regular clients is that we explain our operating methods in non-technical language.",
+    "options": {
+      "A": "request",
+      "B": "requesting",
+      "C": "requested",
+      "D": "requests"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 109,
+    "question": "Our company has always sought the most ------- qualified and skilled practitioners in the field of management.",
+    "options": {
+      "A": "higher",
+      "B": "high",
+      "C": "highest",
+      "D": "highly"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 110,
+    "question": "The staff here at Compudesign are ------- to satisfying the needs of all of our computer system purchasers.",
+    "options": {
+      "A": "vowed",
+      "B": "expected",
+      "C": "honored",
+      "D": "committed"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 111,
+    "question": "Whether ------ not you have obtained security clearance, please fill in the logbook clearly and accurately every time you enter this building on weekends.",
+    "options": {
+      "A": "or",
+      "B": "if",
+      "C": "though",
+      "D": "also"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "question": "When it comes to writing reports, we encourage you to ------- an emphasis on clarity and simplicity of language.",
+    "options": {
+      "A": "cause",
+      "B": "contact",
+      "C": "place",
+      "D": "elect"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "------- details are subject to confidentiality requirements in accordance with the latest workplace regulations.",
+    "options": {
+      "A": "Contract",
+      "B": "Contracted",
+      "C": "Contraction",
+      "D": "Contracting"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 114,
+    "question": "Applicants seeking special consideration must submit all the required documents ------- 5:00 p.m. on Thursday at the latest.",
+    "options": {
+      "A": "for",
+      "B": "among",
+      "C": "by",
+      "D": "between"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 115,
+    "question": "------- the formal part of this evening's proceedings, you are all welcome to pass into the dining hall for a relaxed buffet dinner.",
+    "options": {
+      "A": "Followed",
+      "B": "Following",
+      "C": "Follows",
+      "D": "Follow"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "question": "Graduates ------- qualifications in accounting, banking, or economics are encouraged to apply for research positions in our company.",
+    "options": {
+      "A": "to",
+      "B": "of",
+      "C": "at",
+      "D": "with"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "question": "In today's rapidly changing world, no professional can ------- to pass up the opportunity to upgrade his or her qualifications.",
+    "options": {
+      "A": "help",
+      "B": "leave",
+      "C": "afford",
+      "D": "include"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 118,
+    "question": "And finally, something to look forward -------: the annual company picnic, which this year will take place in beautiful Hyde Park.",
+    "options": {
+      "A": "at",
+      "B": "to",
+      "C": "by",
+      "D": "on"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "A new Internet security system has been installed that ------- notifies the moderator when guidelines are breached.",
+    "options": {
+      "A": "obviously",
+      "B": "financially",
+      "C": "fiercely",
+      "D": "automatically"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 120,
+    "question": "Anti tax-reduction lobbyists claim that the proposed tax cuts will ------- only the richest at the expense of social welfare programs.",
+    "options": {
+      "A": "attend",
+      "B": "dispose",
+      "C": "benefit",
+      "D": "compose"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 121,
+    "question": "The legal officer is currently rewriting regulations ------- the personal use of e-mail and the Internet during office hours.",
+    "options": {
+      "A": "regard",
+      "B": "regards",
+      "C": "regarding",
+      "D": "were regarded"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "question": "All tenants may access the building outside of normal office hours by entering ------- the security door on the south side.",
+    "options": {
+      "A": "on",
+      "B": "upon",
+      "C": "through",
+      "D": "between"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 123,
+    "question": "After you have exited the operating system and shut down the projector, please flick the master power switch to the \"-------\" position.",
+    "options": {
+      "A": "of",
+      "B": "to",
+      "C": "off",
+      "D": "over"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 124,
+    "question": "The design committee is currently considering plans for a complex which will be able to ------- up to 120 shops and offices.",
+    "options": {
+      "A": "deal",
+      "B": "found",
+      "C": "situate",
+      "D": "accommodate"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 125,
+    "question": "Talentspotters Agency is now ------- fashion models and actors with portfolios who wish to work in advertising, film, or television.",
+    "options": {
+      "A": "looking",
+      "B": "seeking",
+      "C": "extending",
+      "D": "equipping"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "question": "We can expect ------- temperatures and calm conditions in the central and southern regions for at least the next three days.",
+    "options": {
+      "A": "moderate",
+      "B": "moderates",
+      "C": "moderately",
+      "D": "moderation"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 127,
+    "question": "------- way you look at the problem, it is clear that no solution can be found without the creativity and commitment of the staff themselves.",
+    "options": {
+      "A": "Whichever",
+      "B": "Since",
+      "C": "Which",
+      "D": "That"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 128,
+    "question": "It is often reported in the press ------- bonuses paid to chief executives are excessive and do not take actual performance into consideration.",
+    "options": {
+      "A": "of",
+      "B": "for",
+      "C": "that",
+      "D": "what"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "question": "The high resolution camera introduced last December has ------- been superseded as a result of recent technological developments.",
+    "options": {
+      "A": "so",
+      "B": "already",
+      "C": "such",
+      "D": "yet"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "question": "It has been ------- 40 years since our current president first walked through the doors of this illustrious institution.",
+    "options": {
+      "A": "entirely",
+      "B": "nearly",
+      "C": "ever",
+      "D": "most"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 131,
+    "question": "------- his appointment as our head of accounting services, Paul Robinson was working as a high-powered merchant banker in London.",
+    "options": {
+      "A": "Since",
+      "B": "Prior to",
+      "C": "Except",
+      "D": "Because"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 132,
+    "question": "Our consultants are expected to conform to a high standard of ------- conduct in their relations with clients.",
+    "options": {
+      "A": "profession",
+      "B": "professions",
+      "C": "professional",
+      "D": "professionally"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 133,
+    "question": "\"Midnight Special\" is a weekly ------- aimed at university students and young professionals who love the vibrant music scene offered by our city.",
+    "options": {
+      "A": "published",
+      "B": "publisher",
+      "C": "publication",
+      "D": "publishing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 134,
+    "question": "The management regrets that, due to an oversight, no advance notification ------- the decision to cut power supplies was given.",
+    "options": {
+      "A": "of",
+      "B": "as",
+      "C": "that",
+      "D": "because"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 135,
+    "question": "The final choice of location is ------- upon factors such as transportation costs and the presence of a communications infrastructure.",
+    "options": {
+      "A": "aimed",
+      "B": "associated",
+      "C": "contingent",
+      "D": "dependable"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 136,
+    "question": "It is unfortunate that, due to a glitch in the computer system, several of our most valued customers ------- incorrectly.",
+    "options": {
+      "A": "bills",
+      "B": "was billing",
+      "C": "were billed",
+      "D": "have billed"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 137,
+    "question": "For some years now, our investment fund has been ------- from the rapid rise in the price of gold.",
+    "options": {
+      "A": "benefited",
+      "B": "benefiting",
+      "C": "will benefit",
+      "D": "to benefit"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 138,
+    "question": "------- the purchase of three inexpensive digital cameras, no new equipment orders were made by our department during the last financial year.",
+    "options": {
+      "A": "Let alone",
+      "B": "Aside from",
+      "C": "Because of",
+      "D": "In response to"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 139,
+    "question": "One of the main tasks of statisticians is to ------- update databases so that accurate reports can be published as needed.",
+    "options": {
+      "A": "regular",
+      "B": "regularly",
+      "C": "regularity",
+      "D": "most regular"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 140,
+    "question": "The city council admits that ------- of the new tunnel will seriously disrupt vehicular and pedestrian traffic over the next 9 months.",
+    "options": {
+      "A": "constructed",
+      "B": "constructing",
+      "C": "construction",
+      "D": "to construct"
+    },
+    "answer": "C"
+  }
+]

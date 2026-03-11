@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Due to popular demand by the staff members, the scheduled talk by Mr. Smith will take place ------- Room 15 instead of Room 20 as was first planned.",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "of",
+      "D": "as"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 102,
+    "question": "I extend my sincere ------- to the family and friends of John Miller, who has suddenly left us at the age of 54.",
+    "options": {
+      "A": "appreciation",
+      "B": "description",
+      "C": "condolences",
+      "D": "charges"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 103,
+    "question": "Hotel employees are reminded to be ------- and courteous, especially to first-time guests.",
+    "options": {
+      "A": "friend",
+      "B": "friends",
+      "C": "friendly",
+      "D": "friendship"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "The government issued a warning to local companies that all waste must be disposed of ------- or they will face heavy fines.",
+    "options": {
+      "A": "corrects",
+      "B": "correcting",
+      "C": "correction",
+      "D": "correctly"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 105,
+    "question": "Golf Weekly is a newly published magazine that caters ------ to experienced and inexperienced golfers who are just learning to play the game.",
+    "options": {
+      "A": "both",
+      "B": "neither",
+      "C": "either",
+      "D": "so"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "We are seeking an ------- to represent us in talks with our Japanese clients.",
+    "options": {
+      "A": "interpret",
+      "B": "interpreter",
+      "C": "interpreting",
+      "D": "interpretation"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "Following a widespread dispute over wages, both parties involved ------- came to an agreement to end the three-month walkout.",
+    "options": {
+      "A": "equally",
+      "B": "finally",
+      "C": "annually",
+      "D": "increasingly"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 108,
+    "question": "A new booklet explaining the process of course selection along with counseling services is ------- to any student interested in receiving help.",
+    "options": {
+      "A": "potential",
+      "B": "available",
+      "C": "expressed",
+      "D": "approaching"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 109,
+    "question": "The vast number of new businesses the city is attracting is good news for the local economy; however the ------- of vacant office space is something the mayor has to figure out soon.",
+    "options": {
+      "A": "level",
+      "B": "gaining",
+      "C": "shortage",
+      "D": "exaggeration"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 110,
+    "question": "We believe that ------ recent changes in state laws, the majority vote standard is now in the best interests of the company and its shareholders.",
+    "options": {
+      "A": "due to",
+      "B": "whereas",
+      "C": "otherwise",
+      "D": "instead of"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 111,
+    "question": "------- in universities around the nation has more than tripled compared to this time last year.",
+    "options": {
+      "A": "Enroll",
+      "B": "Enrolls",
+      "C": "Enrolling",
+      "D": "Enrollment"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "question": "------- Mr. Pennington retires, he will receive an annual pension of more than fifty thousand dollars from Packard Incorporated.",
+    "options": {
+      "A": "Often",
+      "B": "Once",
+      "C": "Whoever",
+      "D": "Sometimes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 113,
+    "question": "------- Mr. Bingham's promotion became official, many of his colleagues have approached him to congratulate him.",
+    "options": {
+      "A": "Despite",
+      "B": "Still",
+      "C": "Since",
+      "D": "During"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 114,
+    "question": "John Clarke, who is in the prime of his career, has been ranked ------- the top 10 players in tennis history by Sports Daily.",
+    "options": {
+      "A": "at",
+      "B": "into",
+      "C": "among",
+      "D": "from"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 115,
+    "question": "Due to the heavy damage the storm has caused in some rural areas, it is predicted that the cost of fruits and vegetables will be ------- this summer.",
+    "options": {
+      "A": "increase",
+      "B": "increases",
+      "C": "to increase",
+      "D": "increasing"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 116,
+    "question": "All of our stores will be extending their business hours during the holiday season, but we will go back to our ------- hours after the new year.",
+    "options": {
+      "A": "regular",
+      "B": "regulars",
+      "C": "regularity",
+      "D": "regularities"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 117,
+    "question": "Sarah Ewing received rave ------- for her outstanding performance in the new blockbuster movie Single Mom.",
+    "options": {
+      "A": "inspections",
+      "B": "articles",
+      "C": "reviews",
+      "D": "surveys"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 118,
+    "question": "Bad Boys Electronics Store found ------- under increased media attention after its manager was indicted for embezzling money.",
+    "options": {
+      "A": "ours",
+      "B": "theirs",
+      "C": "himself",
+      "D": "itself"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 119,
+    "question": "Some of our clients have complained that the time it takes to get a ------- from a service representative is enough to make them not want to use our services again.",
+    "options": {
+      "A": "response",
+      "B": "responding",
+      "C": "responded",
+      "D": "respond"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 120,
+    "question": "After a long and gruesome season, Jeff Willis has been performing ------- better since the playoffs started a week ago.",
+    "options": {
+      "A": "significance",
+      "B": "significant",
+      "C": "significancy",
+      "D": "significantly"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 121,
+    "question": "The new store, ------- is currently undergoing construction, will have its grand opening sometime next spring.",
+    "options": {
+      "A": "who",
+      "B": "where",
+      "C": "when",
+      "D": "which"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 122,
+    "question": "The company is planning to offer a special discount ------- its customers.",
+    "options": {
+      "A": "by",
+      "B": "to",
+      "C": "with",
+      "D": "upon"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 123,
+    "question": "------- in computer technology are allowing users to reach any part of the world by just clicking a mouse.",
+    "options": {
+      "A": "Advancement",
+      "B": "Advances",
+      "C": "Advancing",
+      "D": "Advance"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 124,
+    "question": "The company's profits are ------- to hit their peak in the next quarter mainly due to the release of its new line of clothing.",
+    "options": {
+      "A": "forecast",
+      "B": "forecasting",
+      "C": "to forecast",
+      "D": "will forecast"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "question": "Mr. Gonzales, who has been a ------- member of the country club for over 25 years, has recently been appointed president.",
+    "options": {
+      "A": "first",
+      "B": "valued",
+      "C": "strong",
+      "D": "durable"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "question": "The ------- of climbing to the top of the corporate ladder is best defined in the new book published by Scott Thompson.",
+    "options": {
+      "A": "challenge",
+      "B": "dimension",
+      "C": "introduction",
+      "D": "compassion"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 127,
+    "question": "The ------- tough training given by our company creates strong and able sales representatives.",
+    "options": {
+      "A": "indifferently",
+      "B": "presumably",
+      "C": "completely",
+      "D": "unbearably"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 128,
+    "question": "The new dome built in the center of town houses many new facilities including a hotel with rooms that have a spectacular view of the stadium that is -------.",
+    "options": {
+      "A": "impress",
+      "B": "impression",
+      "C": "impressive",
+      "D": "impressing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "question": "Our staff prefers to fly than to use other modes of transportation since it is much more -------.",
+    "options": {
+      "A": "optional",
+      "B": "protective",
+      "C": "excessive",
+      "D": "convenient"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 130,
+    "question": "------- the job market is not stable, those who persist will be able to land jobs eventually.",
+    "options": {
+      "A": "Whether",
+      "B": "Therefore",
+      "C": "Even if",
+      "D": "So that"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 131,
+    "question": "Our team enjoyed a 10-game winning streak at the start of this season, ------- our position as the top team in baseball.",
+    "options": {
+      "A": "reconfirms",
+      "B": "reconfirmed",
+      "C": "reconfirming",
+      "D": "be reconfirmed"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 132,
+    "question": "Mr. Bonn reassured everyone that a ------- copy of the report will be available by this afternoon's meeting.",
+    "options": {
+      "A": "revise",
+      "B": "revising",
+      "C": "revision",
+      "D": "revised"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 133,
+    "question": "They had to stop the production line for nearly two hours after a problem was discovered and the workers had to wait until they ------- instructions from their superiors.",
+    "options": {
+      "A": "raised",
+      "B": "received",
+      "C": "persuaded",
+      "D": "contended"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 134,
+    "question": "Any plant workers ------- overtime work should immediately speak to their supervisor.",
+    "options": {
+      "A": "seek",
+      "B": "seeks",
+      "C": "seeking",
+      "D": "will seek"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 135,
+    "question": "------- how difficult the situation may seem, it is important to remember that there are others in worse situations.",
+    "options": {
+      "A": "As if",
+      "B": "Even so",
+      "C": "As though",
+      "D": "No matter"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "question": "The detective ------- the solving of this case to an anonymous phone call the police received.",
+    "options": {
+      "A": "accused",
+      "B": "presented",
+      "C": "attributed",
+      "D": "disapproved"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 137,
+    "question": "It is easy to read Sam because he ------- squints when he finds himself in an uncomfortable situation.",
+    "options": {
+      "A": "habitually",
+      "B": "habitual",
+      "C": "habits",
+      "D": "habit"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 138,
+    "question": "Many fans were shocked when the team captain signed a two-year contract with a ------- team.",
+    "options": {
+      "A": "rival",
+      "B": "partial",
+      "C": "renewed",
+      "D": "contrasting"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 139,
+    "question": "The ------- behind the yellow tape is prohibited to anyone without a press pass.",
+    "options": {
+      "A": "posting",
+      "B": "scenery",
+      "C": "exterior",
+      "D": "area"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 140,
+    "question": "One of the things that a good manager should do is to ------- the work in equal shares amongst the team members.",
+    "options": {
+      "A": "divide",
+      "B": "divided",
+      "C": "divides",
+      "D": "dividing"
+    },
+    "answer": "A"
+  }
+]

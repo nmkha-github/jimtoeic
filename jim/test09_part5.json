@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Mrs. Szubanska has made a great contribution to our company through ------- wide knowledge and practical, down-to-earth approach.",
+    "options": {
+      "A": "she",
+      "B": "hers",
+      "C": "herself",
+      "D": "her"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "The lunch menu today consists of a choice of ------- chicken or pork served with a salad or vegetables.",
+    "options": {
+      "A": "both",
+      "B": "other",
+      "C": "either",
+      "D": "another"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 103,
+    "question": "A committee of senior managers has designed a new interest rate schedule that it believes will ------- many new investors.",
+    "options": {
+      "A": "observe",
+      "B": "appeal",
+      "C": "attract",
+      "D": "engage"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "The ------- of the most recent customer satisfaction survey are generally positive, and we would like to congratulate all of our employees.",
+    "options": {
+      "A": "effects",
+      "B": "replies",
+      "C": "results",
+      "D": "amount"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "Senior managers assured investigators that ------- no time were they aware of illegal activities in their Accounting Department.",
+    "options": {
+      "A": "at",
+      "B": "over",
+      "C": "by",
+      "D": "in"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "As part of the takeover agreement, the new owners have agreed to ------- the existing senior managers.",
+    "options": {
+      "A": "enquire",
+      "B": "contain",
+      "C": "retain",
+      "D": "absorb"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 107,
+    "question": "Investors should realistically ------- the potential of any startup before investing their hard-earned funds.",
+    "options": {
+      "A": "compensate",
+      "B": "convince",
+      "C": "evaluate",
+      "D": "aim"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 108,
+    "question": "Employees wishing to ------- professional congresses or seminars will continue to receive their pay during the time they are absent.",
+    "options": {
+      "A": "enroll",
+      "B": "attend",
+      "C": "participate",
+      "D": "perform"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 109,
+    "question": "If ------- has found a wallet containing cash and valuable papers, could that person please hand it in to the security desk?",
+    "options": {
+      "A": "anyone",
+      "B": "everyone",
+      "C": "they",
+      "D": "oneself"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "question": "The Business Advice Council has been specifically designed for those in ------- of advice about setting up new businesses.",
+    "options": {
+      "A": "need",
+      "B": "want",
+      "C": "duty",
+      "D": "absence"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 111,
+    "question": "Payment of telephone or Internet orders is ------- within 7 working days of the receipt of the goods and invoice.",
+    "options": {
+      "A": "due",
+      "B": "coming",
+      "C": "payable",
+      "D": "complete"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "question": "The organizing committee has not yet set a ------- date for the seminar, but it will be sometime in the first week of November.",
+    "options": {
+      "A": "full",
+      "B": "factual",
+      "C": "explicit",
+      "D": "specific"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 113,
+    "question": "The new head of marketing has been criticized for being too ------- to please senior managers.",
+    "options": {
+      "A": "eager",
+      "B": "happy",
+      "C": "ambitious",
+      "D": "simple"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "question": "The main ------- of completing a postgraduate business qualification is that it allows you to make valuable contacts in related fields.",
+    "options": {
+      "A": "use",
+      "B": "merit",
+      "C": "advantage",
+      "D": "improvement"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 115,
+    "question": "All female employees are advised to be ------- when entering and leaving the building after-hours due to a recent spate of attacks.",
+    "options": {
+      "A": "caution",
+      "B": "cautious",
+      "C": "cautiously",
+      "D": "cautiousness"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "question": "At the last meeting, many enquiries were made ------- the proposed shift in the company’s mission statement.",
+    "options": {
+      "A": "regard",
+      "B": "regarding",
+      "C": "in regard",
+      "D": "with regard"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 117,
+    "question": "As you are aware, a wide range of issues was ------- at the meeting last Thursday, and I am pleased to announce that several action committees have already been set up.",
+    "options": {
+      "A": "discusses",
+      "B": "discussed",
+      "C": "discussing",
+      "D": "discussion"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 118,
+    "question": "Answering mobile phone calls while you are at a work meeting is not only discourteous, but it can also destroy the ------- of the meeting.",
+    "options": {
+      "A": "capableness",
+      "B": "efficacy",
+      "C": "facts",
+      "D": "impression"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "Entry to the seminar is restricted to those who have received a personal ------- from the general manager.",
+    "options": {
+      "A": "bidding",
+      "B": "appeal",
+      "C": "invitation",
+      "D": "honor"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 120,
+    "question": "------- recent changes in government small business regulations, we will be holding a series of practical workshops to assist owners and managers.",
+    "options": {
+      "A": "Even if",
+      "B": "However",
+      "C": "As soon as",
+      "D": "Because of"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 121,
+    "question": "Mr. Smith wants you to know that he will be ------- job applicants all day on Thursday.",
+    "options": {
+      "A": "interview",
+      "B": "interviews",
+      "C": "interviewed",
+      "D": "interviewing"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 122,
+    "question": "All possible ------- will be taken to ensure that this mine is entirely accident- and injury-free.",
+    "options": {
+      "A": "rules",
+      "B": "details",
+      "C": "guidelines",
+      "D": "measures"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 123,
+    "question": "The selection committee will consider applications from any employee ------- to apply for these positions.",
+    "options": {
+      "A": "valuable",
+      "B": "impressive",
+      "C": "eligible",
+      "D": "flexible"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 124,
+    "question": "Our rapid courier service guarantees to ------- your urgent documents anywhere within the city limits within an hour of pickup.",
+    "options": {
+      "A": "check",
+      "B": "deliver",
+      "C": "commute",
+      "D": "respond"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 125,
+    "question": "It won't be ------- to take notes during the seminar, as we will be handing out detailed summaries.",
+    "options": {
+      "A": "basic",
+      "B": "compelling",
+      "C": "necessary",
+      "D": "natural"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "question": "Management experts consider it highly ------- that internal communications not only be top-down.",
+    "options": {
+      "A": "desire",
+      "B": "desirable",
+      "C": "desirably",
+      "D": "desirability"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 127,
+    "question": "Fine Fare is a journal devoted ------- to the subject of exquisite foods and wines from all over the world.",
+    "options": {
+      "A": "mutually",
+      "B": "generously",
+      "C": "impulsively",
+      "D": "exclusively"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 128,
+    "question": "During high school, Richard was ------- by his uncompromising determination to win at any cost.",
+    "options": {
+      "A": "distinguish",
+      "B": "distinguished",
+      "C": "distinguishable",
+      "D": "distinguisher"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 129,
+    "question": "Should you have ------- regarding the new contracts, don’t hesitate to contact your union representative.",
+    "options": {
+      "A": "relations",
+      "B": "concerns",
+      "C": "significance",
+      "D": "attachments"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "question": "Could you please tell Mr. Parsons that I tried to contact him ------- this morning, but there was no answer at the number he gave me?",
+    "options": {
+      "A": "exactly",
+      "B": "genuinely",
+      "C": "diligently",
+      "D": "repeatedly"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 131,
+    "question": "Due to time-consuming security clearances, Lightning Courier ------- that delivery will be delayed by approximately 2 days.",
+    "options": {
+      "A": "hopes",
+      "B": "prepares",
+      "C": "anticipates",
+      "D": "hinders"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 132,
+    "question": "Despite the company’s unspectacular profit performance, Glasnost Investments has remained ------- popular with investors.",
+    "options": {
+      "A": "strike",
+      "B": "striking",
+      "C": "strikingly",
+      "D": "strikingness"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 133,
+    "question": "Recyclers believe that ------- will be well-placed to take advantage of the rapid rise in the prices of all metals.",
+    "options": {
+      "A": "she",
+      "B": "it",
+      "C": "they",
+      "D": "he"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 134,
+    "question": "Don’t forget that any purchases over $1,000 must first be submitted to the finance section for -------.",
+    "options": {
+      "A": "on approval",
+      "B": "approved",
+      "C": "approval",
+      "D": "approves"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 135,
+    "question": "We are happy to announce that all employees will be receiving a bonus this month, as we have had no ------- at all for 6 weeks.",
+    "options": {
+      "A": "complain",
+      "B": "complaining",
+      "C": "complainer",
+      "D": "complaints"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "question": "------- long it may take, no final decision will be made until after all the short-listed applicants have been interviewed twice.",
+    "options": {
+      "A": "However",
+      "B": "Whenever",
+      "C": "Although",
+      "D": "Despite"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 137,
+    "question": "In 2001, Michael Pennington qualified ------- an architect and began working at his father’s firm.",
+    "options": {
+      "A": "of",
+      "B": "as",
+      "C": "for",
+      "D": "into"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 138,
+    "question": "Workers ------- the entire organization are encouraged to make suggestions relating to any area of company operations.",
+    "options": {
+      "A": "among",
+      "B": "between",
+      "C": "toward",
+      "D": "throughout"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 139,
+    "question": "Unfortunately, many ------- of our latest product have found faults which should have been picked up by quality control.",
+    "options": {
+      "A": "reviews",
+      "B": "reviewed",
+      "C": "reviewer",
+      "D": "reviewers"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 140,
+    "question": "Earthquake damage has caused some of the communications networks to shut down ------- until essential repairs are carried out.",
+    "options": {
+      "A": "complete",
+      "B": "completely",
+      "C": "completeness",
+      "D": "completion"
+    },
+    "answer": "B"
+  }
+]

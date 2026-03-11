@@ -1,0 +1,442 @@
+[
+  {
+    "id": 101,
+    "question": "Recent graduates often find it a challenge to communicate ------- less-qualified but more-experienced workers.",
+    "options": {
+      "A": "by",
+      "B": "per",
+      "C": "for",
+      "D": "with"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "The successful ------- of a large corporation requires a variety of skills and talents.",
+    "options": {
+      "A": "administer",
+      "B": "administration",
+      "C": "administering",
+      "D": "administrable"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 103,
+    "question": "Our company prides itself on making many special recreational and educational programs ------- to its workers.",
+    "options": {
+      "A": "presentable",
+      "B": "reachable",
+      "C": "available",
+      "D": "enjoyable"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "The company chairman expressed disappointment in the behavior of some staff members ------- said that most employees had followed company guidelines.",
+    "options": {
+      "A": "and",
+      "B": "but",
+      "C": "or",
+      "D": "else"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 105,
+    "question": "A spokesman for the board of directors announced that the chairman will step down ------- and when it becomes necessary.",
+    "options": {
+      "A": "if",
+      "B": "there",
+      "C": "then",
+      "D": "so"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "Following criticism by government regulators, the company will issue ------- safety guidelines in the near future.",
+    "options": {
+      "A": "revise",
+      "B": "revised",
+      "C": "revision",
+      "D": "revising"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "Our new director is not only highly qualified and experienced, ------- also has a great deal of personal charm.",
+    "options": {
+      "A": "he",
+      "B": "his",
+      "C": "him",
+      "D": "himself"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "question": "The In-Transit Travel Agency will do everything possible to ------- your stay in Asia relaxing and enjoyable.",
+    "options": {
+      "A": "do",
+      "B": "have",
+      "C": "give",
+      "D": "make"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 109,
+    "question": "The new tracking system will ------- our company's ability to deliver packages and letters on or ahead of schedule.",
+    "options": {
+      "A": "succeed",
+      "B": "enhance",
+      "C": "obtain",
+      "D": "consider"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 110,
+    "question": "The Department of Energy announced that the president ------- will make a tour of the new facility when it opens a week from today.",
+    "options": {
+      "A": "herself",
+      "B": "oneself",
+      "C": "myself",
+      "D": "himself"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "question": "------- the introduction of any new evidence, the investigating judge is expected to deliver a preliminary judgment sometime today.",
+    "options": {
+      "A": "Unless",
+      "B": "Except",
+      "C": "Beside",
+      "D": "Barring"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "question": "Despite being a newcomer to the field of shipbuilding, Upgrade Engineering has achieved ------- results in its first year.",
+    "options": {
+      "A": "envier",
+      "B": "envying",
+      "C": "enviable",
+      "D": "envyingly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "The acting medical superintendent will be replaced by someone ------- for the position.",
+    "options": {
+      "A": "qualified",
+      "B": "more qualified",
+      "C": "most qualified",
+      "D": "more qualifications"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 114,
+    "question": "Advance Personnel guarantees salary and conditions ------- with your skills and professionalism.",
+    "options": {
+      "A": "attractive",
+      "B": "sufficient",
+      "C": "commensurate",
+      "D": "capable"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 115,
+    "question": "The survey indicated that teenage boys who consume alcohol are ------- to experience stress during exam periods.",
+    "options": {
+      "A": "like",
+      "B": "likeness",
+      "C": "liked",
+      "D": "more likely"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 116,
+    "question": "The building management has introduced guidelines aimed at streamlining the process of ------- existing leases.",
+    "options": {
+      "A": "renewing",
+      "B": "reacting",
+      "C": "reminding",
+      "D": "returning"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 117,
+    "question": "Fill the reservoir with cold water, and place one scoop of coffee in the filter; ------- press the start button for wonderful, fresh coffee.",
+    "options": {
+      "A": "before",
+      "B": "therefore",
+      "C": "following",
+      "D": "then"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 118,
+    "question": "------- Easter break, a skeleton staff of volunteers will maintain all essential services to keep the business running.",
+    "options": {
+      "A": "While",
+      "B": "Ahead",
+      "C": "During",
+      "D": "Since"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 119,
+    "question": "All applications for the current positions should be submitted to the personnel section ------- triplicate and in separate envelopes.",
+    "options": {
+      "A": "by",
+      "B": "in",
+      "C": "on",
+      "D": "to"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 120,
+    "question": "------- personnel are required to participate in professional development programs and to submit program evaluations.",
+    "options": {
+      "A": "Some of",
+      "B": "Every",
+      "C": "Most",
+      "D": "All"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 121,
+    "question": "We would like to inform our employees that any complaints should be ------- to their union representative at first.",
+    "options": {
+      "A": "outlined",
+      "B": "addressed",
+      "C": "focused",
+      "D": "applied"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 122,
+    "question": "It is true that the number of traffic accidents involving cyclists has increased ------- over the last 10 years.",
+    "options": {
+      "A": "meagerly",
+      "B": "fundamentally",
+      "C": "significantly",
+      "D": "adequately"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 123,
+    "question": "Naturally, our company utilizes the production process ------- guarantees the most satisfactory results.",
+    "options": {
+      "A": "that",
+      "B": "who",
+      "C": "what",
+      "D": "how"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 124,
+    "question": "The unexpected surge in the prices of steel and other minerals will result in a dramatic increase in tax ------- this year.",
+    "options": {
+      "A": "rates",
+      "B": "charges",
+      "C": "expenses",
+      "D": "revenues"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 125,
+    "question": "Following media criticism ------- the Defense Secretary's performance, the President today spoke in his defense at a special press conference.",
+    "options": {
+      "A": "at",
+      "B": "of",
+      "C": "for",
+      "D": "from"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "question": "The new tax cuts are designed ------- low-income earners and those with young families.",
+    "options": {
+      "A": "benefits",
+      "B": "to benefit",
+      "C": "benefited",
+      "D": "benefiting"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 127,
+    "question": "An independent investigator ------- a report on the company's financial operations which, for some unknown reason, was never released.",
+    "options": {
+      "A": "contracted",
+      "B": "confirmed",
+      "C": "compiled",
+      "D": "converted"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 128,
+    "question": "After a highly profitable first six months, the restaurant's profits for the second half of the year were a great -------.",
+    "options": {
+      "A": "disappoints",
+      "B": "disappointed",
+      "C": "disappointing",
+      "D": "disappointment"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 129,
+    "question": "------- you are no doubt aware, the new security system requires the installation of a backup power source in case an emergency situation arises.",
+    "options": {
+      "A": "As",
+      "B": "For",
+      "C": "With",
+      "D": "So"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 130,
+    "question": "Electron Recycling has developed a profitable business by recycling metals retrieved from ------- electronic components.",
+    "options": {
+      "A": "discarded",
+      "B": "extended",
+      "C": "unoccupied",
+      "D": "suppressed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 131,
+    "question": "Consultation with the appropriate experts is essential if we are to arrive at an ------- decision.",
+    "options": {
+      "A": "informed",
+      "B": "obtained",
+      "C": "enlightened",
+      "D": "acquainted"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 132,
+    "question": "Once you have paid the appropriate student fees, you will be able to ------- the medical, recreational, and other facilities.",
+    "options": {
+      "A": "access",
+      "B": "accessed",
+      "C": "accessory",
+      "D": "accessible"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 133,
+    "question": "Should you experience ------- in obtaining access to the building on the weekend, please contact the Security Department.",
+    "options": {
+      "A": "hardness",
+      "B": "difficulty",
+      "C": "burden",
+      "D": "predicament"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 134,
+    "question": "The Department of Social Welfare's report this year indicated that it is focusing ------- on the homeless and long-term unemployed.",
+    "options": {
+      "A": "distinctly",
+      "B": "individually",
+      "C": "exceptionally",
+      "D": "particularly"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 135,
+    "question": "Numerous speakers came forward to express their gratitude ------- the retiring secretary's unfailing courtesy and efficiency.",
+    "options": {
+      "A": "for",
+      "B": "at",
+      "C": "to",
+      "D": "with"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 136,
+    "question": "------- good evaluations from their immediate bosses should be the main objective of those who wish to be promoted this year.",
+    "options": {
+      "A": "Attain",
+      "B": "Attained",
+      "C": "Attaining",
+      "D": "Attainable"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 137,
+    "question": "A small group of contestants has been selected following a nationwide search ------- over the last six months.",
+    "options": {
+      "A": "alerted",
+      "B": "engaged",
+      "C": "protected",
+      "D": "conducted"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 138,
+    "question": "As we ------- in our guidelines for applicants, please submit documents in triplicate before 5:00 p.m. on Friday.",
+    "options": {
+      "A": "exceeded",
+      "B": "indicated",
+      "C": "conducted",
+      "D": "reserved"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 139,
+    "question": "The sudden rainstorm arrived -------, leaving a trail of damage which many predict will take some time to repair.",
+    "options": {
+      "A": "unexpected",
+      "B": "unexpectant",
+      "C": "unexpectedly",
+      "D": "unexpectedness"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 140,
+    "question": "Please read the ------- passages carefully, and then answer the multiple choice questions below within the time allotted.",
+    "options": {
+      "A": "consecutive",
+      "B": "constant",
+      "C": "following",
+      "D": "subsequent"
+    },
+    "answer": "C"
+  }
+]
