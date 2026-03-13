@@ -1,261 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TOEIC Reading Test</title>
-<style>
-    body {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOEIC Reading Test - Passage 2</title>
+    <style>
+      body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #f4f4f4;
         display: flex;
         justify-content: center;
-        padding: 20px;
-    }
+        padding: 40px 20px;
+      }
 
-    .main-container {
-        width: 800px;
-        background-color: #a6a6a6;
-        padding: 15px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+      .main-wrapper {
+        width: 850px;
+        position: relative;
+      }
 
-    /* --- Email Header Styling --- */
-    .email-header {
-        margin-bottom: 15px;
-    }
-
-    .header-row {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
-    }
-
-    .header-label {
-        width: 80px;
-        color: #333;
-        font-size: 14px;
-        padding-left: 10px;
-    }
-
-    .header-colon {
-        width: 20px;
-        text-align: center;
-    }
-
-    .header-value {
-        flex-grow: 1;
-        background-color: #fcfcfc;
-        padding: 5px 10px;
-        border: 1px solid #ccc;
-        font-size: 14px;
-        box-shadow: inset 1px 1px 3px rgba(0,0,0,0.1);
-    }
-
-    /* --- Email Body Styling --- */
-    .email-body {
-        background-color: #ffffff;
-        border: 2px solid #333;
-        padding: 30px 40px;
-        font-size: 15px;
-        line-height: 1.6;
-        color: #222;
-    }
-
-    p {
-        margin-top: 0;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
-
-    /* --- Questions Styling --- */
-    .question-block {
-        margin: 10px 0 25px 0;
-    }
-
-    /* Q150 centered layout */
-    .q-center {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    .q-center .q-number {
-        margin-right: 15px;
+      /* Top Instruction Header */
+      .top-header {
         font-weight: bold;
-    }
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+      }
 
-    .q-options {
+      /* Test Badge Styling */
+      .test-badge {
+        position: absolute;
+        top: -15px;
+        right: -10px;
+        width: 60px;
+        background: #fff;
+        z-index: 10;
         display: flex;
         flex-direction: column;
-    }
+      }
 
-    /* Q151 & Q152 two-column layout */
-    .two-col-questions {
+      .test-badge .word {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 3px 0;
+        letter-spacing: 1px;
+      }
+
+      .test-badge .num {
+        font-family: Arial, sans-serif;
+        font-size: 38px;
+        color: #666;
+        text-align: center;
+        line-height: 1.1;
+        padding-bottom: 5px;
+      }
+
+      /* Main Paper Container */
+      .paper-container {
+        background-color: #ffffff;
+        border: 3px dashed #b3b3b3;
+        padding: 40px 50px;
+        font-size: 17px;
+        line-height: 1.8;
+        color: #222;
+        font-family: "Times New Roman", Times, serif; /* Sử dụng font có chân giống giấy thi */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        position: relative;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+
+      .intro-text {
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 40px;
+        padding: 0 20px;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
+
+      .text-continued {
+        margin-top: -10px; /* Kéo text sát lên phần câu hỏi */
+        margin-bottom: 25px;
+      }
+
+      /* --- Questions Styling --- */
+      .question-block {
         display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-    }
+        justify-content: flex-end;
+        padding-right: 15%; /* Căn lề phải cho khối câu hỏi giống trong ảnh */
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif; /* Font không chân cho đáp án */
+        font-size: 15px;
+      }
 
-    .col-q {
-        width: 45%;
-        display: flex;
-    }
-
-    .col-q .q-number {
+      .question-block .q-number {
         margin-right: 10px;
         font-weight: bold;
-    }
+      }
 
-    /* Interactive Options */
-    .option {
+      .q-options {
+        display: flex;
+        flex-direction: column;
+        min-width: 150px;
+      }
+
+      /* Interactive Options */
+      .option {
         cursor: pointer;
-        padding: 2px 5px;
-        margin-bottom: 3px;
+        padding: 2px 6px;
+        margin-bottom: 4px;
         border-radius: 3px;
         transition: background-color 0.2s;
-    }
+      }
 
-    .option:hover {
+      .option:hover {
         background-color: #e0e0e0;
-    }
+      }
 
-    /* Feedback States */
-    .correct {
+      /* Feedback States */
+      .correct {
         color: #155724;
         background-color: #d4edda;
         font-weight: bold;
         border: 1px solid #c3e6cb;
-    }
+      }
 
-    .incorrect {
+      .incorrect {
         color: #721c24;
         background-color: #f8d7da;
         text-decoration: line-through;
         border: 1px solid #f5c6cb;
-    }
+      }
 
-    .answered .option {
+      .answered .option {
         cursor: default;
         pointer-events: none; /* Disable clicking after answered */
-    }
-</style>
-</head>
-<body>
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="top-header">
+        Questions 147-149 refer to the following notice.
+      </div>
 
-<div class="main-container">
-    <div class="email-header">
-        <div class="header-row">
-            <div class="header-label">From</div>
-            <div class="header-colon">:</div>
-            <div class="header-value">Jonathan Wong [mailto:jonathan.wong@hydetransport.com]</div>
+      <div class="paper-container">
+        <h2>Promoting Cycling in our City</h2>
+
+        <p class="intro-text">
+          An essential element of the transportation system in many of the
+          cities around the world is cycling. The city of Buffalo recognizes
+          this and has developed a 10-year plan to promote more cycling in our
+          city.
+        </p>
+
+        <p>
+          The city's development plan includes the addition of more cycling
+          -------- to our streets.
+        </p>
+
+        <div class="question-block" id="q147">
+          <div class="q-number">147.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) admission</div>
+            <div class="option" data-ans="B">(B) entrance</div>
+            <div class="option" data-ans="C">(C) access</div>
+            <div class="option" data-ans="D">(D) pass</div>
+          </div>
         </div>
-        <div class="header-row">
-            <div class="header-label">Sent</div>
-            <div class="header-colon">:</div>
-            <div class="header-value">Monday, October 27, 2007 11:07 AM</div>
+
+        <p>
+          This, of course, is with the intention of encouraging greater cycling
+          -------- by our citizens in
+        </p>
+
+        <div class="question-block" id="q148">
+          <div class="q-number">148.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) participate</div>
+            <div class="option" data-ans="B">(B) participation</div>
+            <div class="option" data-ans="C">(C) participates</div>
+            <div class="option" data-ans="D">(D) participated</div>
+          </div>
         </div>
-        <div class="header-row">
-            <div class="header-label">To</div>
-            <div class="header-colon">:</div>
-            <div class="header-value">John Devereux; Steve Tracey; Brian Kibble</div>
+
+        <p class="text-continued">
+          an effort to mimic the benefits other global cities have experienced,
+          such as the reduction of pollution and traffic congestion as well as
+          health and social advantages.
+        </p>
+
+        <p style="margin-bottom: 30px">
+          Other plans include a coordinated network of bicycle lanes to be
+          interconnected to the surrounding towns as well as the setting up of a
+          number of social programs to provide information to the cyclists.
+        </p>
+
+        <p>
+          The city wishes to hear your thoughts about its --------. Further
+          information and submission
+        </p>
+
+        <div class="question-block" id="q149" style="padding-right: 252px">
+          <div class="q-number">149.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) effects</div>
+            <div class="option" data-ans="B">(B) operations</div>
+            <div class="option" data-ans="C">(C) remedies</div>
+            <div class="option" data-ans="D">(D) proposals</div>
+          </div>
         </div>
-        <div class="header-row">
-            <div class="header-label">Cc</div>
-            <div class="header-colon">:</div>
-            <div class="header-value">Alfredo Chen; Jenny Lee</div>
-        </div>
-        <div class="header-row">
-            <div class="header-label">Subject</div>
-            <div class="header-colon">:</div>
-            <div class="header-value">Visit to Global Logistics</div>
-        </div>
+
+        <p class="text-continued">
+          forms are available at our website at: www.cityofbuffalo.gov.us, by
+          visiting your local Neighborhood Service Center, or by calling
+          755-9333.
+        </p>
+      </div>
     </div>
 
-    <div class="email-body">
-        <p>On behalf of Alfredo Chen and Hydetransport Taiwan, I would like to thank you for your warm hospitality during our visit to Global Logistics. It was a pleasure meeting all of you and seeing your operations and setup. We were very impressed with your -------- facility and your investment in technology.</p>
-        
-        <div class="question-block q-center" id="q150">
-            <div class="q-number" style="left: -40px;position: relative;">150.</div>
-            <div class="q-options" style="left: -40px;position: relative;">
-                <div class="option" data-ans="A">(A) secure</div>
-                <div class="option" data-ans="B">(B) secured</div>
-                <div class="option" data-ans="C">(C) securely</div>
-                <div class="option" data-ans="D">(D) to secure</div>
-            </div>
-        </div>
+    <script>
+      // Định nghĩa đáp án đúng cho các câu hỏi 147-149
+      const correctAnswers = {
+        q147: "C", // cycling access
+        q148: "B", // greater cycling participation
+        q149: "D", // thoughts about its proposals
+      };
 
-        <p>As we discussed, we would like to extend our gratitude by inviting you to Taipei when you are available in the -------- future. Please let me know when you would like to schedule your --------.</p>
-        
-        <div class="question-block two-col-questions">
-            <div class="col-q" id="q151">
-                <div class="q-number">151.</div>
-                <div class="q-options">
-                    <div class="option" data-ans="A">(A) prevalent</div>
-                    <div class="option" data-ans="B">(B) surfacing</div>
-                    <div class="option" data-ans="C">(C) foreseeable</div>
-                    <div class="option" data-ans="D">(D) ongoing</div>
-                </div>
-            </div>
-            
-            <div class="col-q" id="q152">
-                <div class="q-number" style="left: 40px;position: relative;">152.</div>
-                <div class="q-options" style="left: 40px;position: relative;">
-                    <div class="option" data-ans="A">(A) tourism</div>
-                    <div class="option" data-ans="B">(B) trip</div>
-                    <div class="option" data-ans="C">(C) talk</div>
-                    <div class="option" data-ans="D">(D) request</div>
-                </div>
-            </div>
-        </div>
+      // Thêm sự kiện click cho tất cả các lựa chọn (giữ nguyên logic gốc)
+      document.querySelectorAll(".option").forEach((item) => {
+        item.addEventListener("click", function () {
+          // Tìm khối câu hỏi chứa lựa chọn này
+          const questionBlock = this.closest(".question-block");
 
-        <p>As a second step, we would also like further to explore your business ventures with Hydetransport. As part of your plan to expand globally, we see much synergy and advantage for both parties to pursue a business partnership in Taiwan.</p>
-        
-        <p>Thank you once again and I'm looking forward to your response.</p>
-        
-        <p>Best regards,<br><br>
-        Jonathan Wong<br>
-        Director / Planning Group</p>
-    </div>
-</div>
+          // Nếu đã trả lời thì bỏ qua
+          if (questionBlock.classList.contains("answered")) return;
 
-<script>
-    // Define correct answers here
-    const correctAnswers = {
-        'q150': 'A', // secure facility (adjective)
-        'q151': 'C', // foreseeable future (collocation)
-        'q152': 'B'  // schedule your trip
-    };
+          const questionId = questionBlock.id;
+          const selectedAnswer = this.getAttribute("data-ans");
+          const correctAnswer = correctAnswers[questionId];
 
-    // Add click event to all options
-    document.querySelectorAll('.option').forEach(item => {
-        item.addEventListener('click', function() {
-            // Find which question block this option belongs to
-            const questionBlock = this.closest('.col-q, .q-center');
-            
-            // If already answered, do nothing
-            if (questionBlock.classList.contains('answered')) return;
-            
-            const questionId = questionBlock.id;
-            const selectedAnswer = this.getAttribute('data-ans');
-            const correctAnswer = correctAnswers[questionId];
+          // Đánh dấu câu hỏi đã trả lời
+          questionBlock.classList.add("answered");
 
-            // Mark question as answered to prevent multiple clicks
-            questionBlock.classList.add('answered');
-
-            // Check logic
-            if (selectedAnswer === correctAnswer) {
-                // Correct
-                this.classList.add('correct');
-            } else {
-                // Incorrect
-                this.classList.add('incorrect');
-                // Highlight the correct one so the user knows
-                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
-            }
+          // Kiểm tra logic đúng/sai
+          if (selectedAnswer === correctAnswer) {
+            // Đúng
+            this.classList.add("correct");
+          } else {
+            // Sai
+            this.classList.add("incorrect");
+            // Hiển thị đáp án đúng cho người dùng thấy
+            questionBlock
+              .querySelector(`.option[data-ans="${correctAnswer}"]`)
+              .classList.add("correct");
+          }
         });
-    });
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>

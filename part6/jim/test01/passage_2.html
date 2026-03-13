@@ -1,276 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOEIC Reading Test - Passage 2</title>
-    <style>
-      body {
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #f4f4f4;
         display: flex;
         justify-content: center;
-        padding: 40px 20px;
-      }
+        padding: 20px;
+        margin: 0;
+    }
 
-      .main-wrapper {
-        width: 850px;
-        position: relative;
-      }
+    .main-container {
+        width: 800px;
+        background-color: #e0e0e0;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
 
-      /* Top Instruction Header */
-      .top-header {
+    .intro-text {
         font-weight: bold;
-        font-size: 16px;
         margin-bottom: 15px;
-        margin-left: 10px;
-      }
-
-      /* Test Badge Styling */
-      .test-badge {
-        position: absolute;
-        top: -15px;
-        right: -10px;
-        width: 60px;
-        background: #fff;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .test-badge .word {
-        background-color: #333;
-        color: #fff;
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        font-size: 14px;
-        text-align: center;
-        padding: 3px 0;
-        letter-spacing: 1px;
-      }
-
-      .test-badge .num {
-        font-family: Arial, sans-serif;
-        font-size: 38px;
-        color: #666;
-        text-align: center;
-        line-height: 1.1;
-        padding-bottom: 5px;
-      }
-
-      /* Main Paper Container */
-      .paper-container {
-        background-color: #ffffff;
-        border: 3px dashed #b3b3b3;
-        padding: 40px 50px;
-        font-size: 17px;
-        line-height: 1.8;
-        color: #222;
-        font-family: "Times New Roman", Times, serif; /* Sử dụng font có chân giống giấy thi */
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        position: relative;
-      }
-
-      h2 {
-        text-align: center;
-        font-size: 22px;
-        margin-top: 0;
-        margin-bottom: 25px;
-      }
-
-      .intro-text {
-        text-align: center;
-        font-style: italic;
-        margin-bottom: 40px;
-        padding: 0 20px;
-      }
-
-      p {
-        margin-top: 0;
-        margin-bottom: 10px;
-        text-align: justify;
-      }
-
-      .text-continued {
-        margin-top: -10px; /* Kéo text sát lên phần câu hỏi */
-        margin-bottom: 25px;
-      }
-
-      /* --- Questions Styling --- */
-      .question-block {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 15%; /* Căn lề phải cho khối câu hỏi giống trong ảnh */
-        margin-bottom: 15px;
-        margin-top: 5px;
-        font-family: Arial, Helvetica, sans-serif; /* Font không chân cho đáp án */
         font-size: 15px;
-      }
+    }
 
-      .question-block .q-number {
-        margin-right: 10px;
+    /* --- Advertisement Box Styling --- */
+    .ad-box {
+        background-color: #ffffff;
+        /* Mô phỏng viền nét đứt giống như tem/vé trong hình */
+        border: 3px dashed #666; 
+        padding: 40px 40px;
+        color: #222;
+    }
+
+    /* --- Header / Quote Styling --- */
+    .ad-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .ad-header h2 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        line-height: 1.4;
+    }
+
+    .ad-header p {
+        font-size: 16px;
+        margin: 0;
+        color: #444;
+    }
+
+    /* --- Text Body Styling --- */
+    .text-segment {
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 15px 0;
+    }
+
+    .q-number {
         font-weight: bold;
-      }
+        margin-right: 15px;
+        text-align: right;
+    }
 
-      .q-options {
+    .q-options {
         display: flex;
         flex-direction: column;
-        min-width: 150px;
-      }
+        width: 150px; /* Cố định width để các đáp án thẳng hàng */
+    }
 
-      /* Interactive Options */
-      .option {
+    /* Interactive Options */
+    .option {
         cursor: pointer;
-        padding: 2px 6px;
-        margin-bottom: 4px;
+        padding: 2px 5px;
+        margin-bottom: 3px;
         border-radius: 3px;
         transition: background-color 0.2s;
-      }
+    }
 
-      .option:hover {
+    .option:hover {
         background-color: #e0e0e0;
-      }
+    }
 
-      /* Feedback States */
-      .correct {
+    /* Feedback States */
+    .correct {
         color: #155724;
         background-color: #d4edda;
         font-weight: bold;
         border: 1px solid #c3e6cb;
-      }
+    }
 
-      .incorrect {
+    .incorrect {
         color: #721c24;
         background-color: #f8d7da;
         text-decoration: line-through;
         border: 1px solid #f5c6cb;
-      }
+    }
 
-      .answered .option {
+    .answered .option {
         cursor: default;
         pointer-events: none; /* Disable clicking after answered */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="main-wrapper">
-      <div class="top-header">
-        Questions 147-149 refer to the following notice.
-      </div>
+    }
 
-      <div class="paper-container">
-        <h2>Promoting Cycling in our City</h2>
+    /* --- Footer Styling --- */
+    .ad-footer {
+        text-align: center;
+        margin-top: 40px;
+    }
 
-        <p class="intro-text">
-          An essential element of the transportation system in many of the
-          cities around the world is cycling. The city of Buffalo recognizes
-          this and has developed a 10-year plan to promote more cycling in our
-          city.
-        </p>
+    .ad-footer h1 {
+        font-size: 22px;
+        margin: 0 0 10px 0;
+    }
 
-        <p>
-          The city's development plan includes the addition of more cycling
-          -------- to our streets.
-        </p>
+    .ad-footer p {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        margin: 0;
+    }
+</style>
+</head>
+<body>
 
-        <div class="question-block" id="q147">
-          <div class="q-number">147.</div>
-          <div class="q-options">
-            <div class="option" data-ans="A">(A) admission</div>
-            <div class="option" data-ans="B">(B) entrance</div>
-            <div class="option" data-ans="C">(C) access</div>
-            <div class="option" data-ans="D">(D) pass</div>
-          </div>
-        </div>
-
-        <p>
-          This, of course, is with the intention of encouraging greater cycling
-          -------- by our citizens in
-        </p>
-
-        <div class="question-block" id="q148">
-          <div class="q-number">148.</div>
-          <div class="q-options">
-            <div class="option" data-ans="A">(A) participate</div>
-            <div class="option" data-ans="B">(B) participation</div>
-            <div class="option" data-ans="C">(C) participates</div>
-            <div class="option" data-ans="D">(D) participated</div>
-          </div>
-        </div>
-
-        <p class="text-continued">
-          an effort to mimic the benefits other global cities have experienced,
-          such as the reduction of pollution and traffic congestion as well as
-          health and social advantages.
-        </p>
-
-        <p style="margin-bottom: 30px">
-          Other plans include a coordinated network of bicycle lanes to be
-          interconnected to the surrounding towns as well as the setting up of a
-          number of social programs to provide information to the cyclists.
-        </p>
-
-        <p>
-          The city wishes to hear your thoughts about its --------. Further
-          information and submission
-        </p>
-
-        <div class="question-block" id="q149" style="padding-right: 252px">
-          <div class="q-number">149.</div>
-          <div class="q-options">
-            <div class="option" data-ans="A">(A) effects</div>
-            <div class="option" data-ans="B">(B) operations</div>
-            <div class="option" data-ans="C">(C) remedies</div>
-            <div class="option" data-ans="D">(D) proposals</div>
-          </div>
-        </div>
-
-        <p class="text-continued">
-          forms are available at our website at: www.cityofbuffalo.gov.us, by
-          visiting your local Neighborhood Service Center, or by calling
-          755-9333.
-        </p>
-      </div>
+<div class="main-container">
+    <div class="intro-text">
+        Questions 144-146 refer to the following advertisement.
     </div>
 
-    <script>
-      // Định nghĩa đáp án đúng cho các câu hỏi 147-149
-      const correctAnswers = {
-        q147: "C", // cycling access
-        q148: "B", // greater cycling participation
-        q149: "D", // thoughts about its proposals
-      };
+    <div class="ad-box">
+        <div class="ad-header">
+            <h2>"A net worth of $2.5 million<br>in just 4 years using London Life's<br>simple wealth strategy"</h2>
+            <p>– Jane Booth and Glenda Jackson – Investment Advisers</p>
+        </div>
 
-      // Thêm sự kiện click cho tất cả các lựa chọn (giữ nguyên logic gốc)
-      document.querySelectorAll(".option").forEach((item) => {
-        item.addEventListener("click", function () {
-          // Tìm khối câu hỏi chứa lựa chọn này
-          const questionBlock = this.closest(".question-block");
+        <div class="text-segment">
+            If you're looking to get on the -------- to financial freedom but aren't sure of what steps
+        </div>
 
-          // Nếu đã trả lời thì bỏ qua
-          if (questionBlock.classList.contains("answered")) return;
+        <div class="question-block" id="q144" style="position: relative; left: -120px;">
+            <div class="q-number">144.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) path</div>
+                <div class="option" data-ans="B">(B) access</div>
+                <div class="option" data-ans="C">(C) line</div>
+                <div class="option" data-ans="D">(D) track</div>
+            </div>
+        </div>
 
-          const questionId = questionBlock.id;
-          const selectedAnswer = this.getAttribute("data-ans");
-          const correctAnswer = correctAnswers[questionId];
+        <div class="text-segment" style="margin-bottom: 25px;">
+            to take or if your existing investment portfolio is not doing its job and needs a major shake up, then we can help.
+        </div>
 
-          // Đánh dấu câu hỏi đã trả lời
-          questionBlock.classList.add("answered");
+        <div class="text-segment">
+            Many middle-income earners have expressed their opinions on how difficult it is to get honest, straightforward, and unbiased advice that supports their financial goals. According to one couple, they were working hard as teachers and never thought that they could get ahead on their -------- until they discovered
+        </div>
 
-          // Kiểm tra logic đúng/sai
-          if (selectedAnswer === correctAnswer) {
-            // Đúng
-            this.classList.add("correct");
-          } else {
-            // Sai
-            this.classList.add("incorrect");
-            // Hiển thị đáp án đúng cho người dùng thấy
-            questionBlock
-              .querySelector(`.option[data-ans="${correctAnswer}"]`)
-              .classList.add("correct");
-          }
+        <div class="question-block" id="q145" style="position: relative; right: -200px;">
+            <div class="q-number">145.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) costs</div>
+                <div class="option" data-ans="B">(B) prices</div>
+                <div class="option" data-ans="C">(C) charges</div>
+                <div class="option" data-ans="D">(D) wages</div>
+            </div>
+        </div>
+
+        <div class="text-segment">
+            London Life's simple -------- effective investing techniques. By following our simple strategy,
+        </div>
+
+        <div class="question-block" id="q146" style="position: relative; left: -180px;">
+            <div class="q-number">146.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) once</div>
+                <div class="option" data-ans="B">(B) still</div>
+                <div class="option" data-ans="C">(C) yet</div>
+                <div class="option" data-ans="D">(D) ever</div>
+            </div>
+        </div>
+
+        <div class="text-segment">
+            we were able to amass a small fortune for the couple! Now, we can show you how you can, too.
+        </div>
+
+        <div class="ad-footer">
+            <h1>London Life</h1>
+            <p>• FINANCIAL PLANNING • STOCKBROKING • PROPERTY • FINANCE</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q144': 'A', // path to financial freedom
+        'q145': 'D', // wages (giáo viên -> lương)
+        'q146': 'C'  // simple yet effective (đơn giản nhưng hiệu quả)
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
         });
-      });
-    </script>
-  </body>
+    });
+</script>
+
+</body>
 </html>
