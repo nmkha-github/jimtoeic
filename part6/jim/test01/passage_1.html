@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        color: #333;
+    }
+
+    .main-wrapper {
+        width: 800px;
+    }
+
+    .instruction-text {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    .article-container {
+        background-color: #ffffff;
+        padding: 64px;
+        border: 4px double #888; /* Tạo viền đôi giống trong ảnh */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .article-title {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .article-text {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    .paragraph-break {
+        margin-top: 25px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+        width: 35px;
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        font-size: 15px;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="instruction-text">Questions 141-143 refer to the following article.</div>
+    
+    <div class="article-container">
+        <h1 class="article-title">Bank Mortgage Rates Will Fall</h1>
+        
+        <div class="article-text">
+            Several of Canada's largest banks -------- to decrease their mortgage rates. Royal Bank
+        </div>
+
+        <div class="question-block" id="q141" style="position: relative; left: -68px;">
+            <div class="q-number">141.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) decide</div>
+                <div class="option" data-ans="B">(B) deciding</div>
+                <div class="option" data-ans="C">(C) was decided</div>
+                <div class="option" data-ans="D">(D) have decided</div>
+            </div>
+        </div>
+
+        <div class="article-text">
+            revealed its plan to cut key mortgage rates by a tenth of a percentage point across the board, while TD Canada Trust will decrease its rates by the same -------- except for
+        </div>
+
+        <div class="question-block" id="q142" style="position: relative; left: 120px;">
+            <div class="q-number">142.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) margin</div>
+                <div class="option" data-ans="B">(B) allowance</div>
+                <div class="option" data-ans="C">(C) space</div>
+                <div class="option" data-ans="D">(D) surplus</div>
+            </div>
+        </div>
+
+        <div class="article-text">
+            its 10-year rate. The Bank of Montreal will also lower its fixed-rate mortgages on four-year terms and longer by a tenth of a percentage point.
+        </div>
+
+        <div class="article-text paragraph-break">
+            And lastly, Vancouver Trust has also jumped on the wagon by announcing that it is planning to -------- its rates, but the exact numbers are still unknown. However, insiders are predicting
+        </div>
+
+        <div class="question-block" id="q143" style="position: relative; right: 240px;">
+            <div class="q-number">143.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) turn down</div>
+                <div class="option" data-ans="B">(B) shorten</div>
+                <div class="option" data-ans="C">(C) reduce</div>
+                <div class="option" data-ans="D">(D) narrow</div>
+            </div>
+        </div>
+
+        <div class="article-text">
+            that the reduction rates will be similar to those of other banks.
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q141': 'D', 
+        'q142': 'A', 
+        'q143': 'C'  
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

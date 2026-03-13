@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e0e0e0;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        color: #333;
+    }
+
+    /* --- Instructions --- */
+    .instructions {
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    /* --- Ad Container & Borders --- */
+    .ad-container {
+        margin-top: 10px;
+        position: relative;
+        border: 3px dashed #666;
+    }
+
+    .hatch-border {
+        height: 12px;
+        width: 100%;
+        background: repeating-linear-gradient(
+            to right,
+            #666,
+            #666 1px,
+            transparent 1px,
+            transparent 4px
+        );
+        margin: 15px 0;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+    }
+
+    .ad-content {
+        padding: 10px 20px;
+    }
+
+    /* --- Typography --- */
+    .ad-title {
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+        margin: 0 0 5px 0;
+    }
+
+    .ad-subtitle {
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 30px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin: 10px 0 20px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    /* Alignment specific to the image */
+    .q-center {
+        justify-content: center;
+        margin-left: -50px; /* Offset to center under the blank */
+    }
+
+    .q-left {
+        justify-content: flex-start;
+    }
+
+    .q-right {
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+        display: inline-block;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instructions">Questions 144-146 refer to the following advertisement.</div>
+    
+    <div class="ad-container">
+        <div class="ad-content">
+            <h1 class="ad-title">WANTED</h1>
+            <h2 class="ad-subtitle">DESIGNER FOR 3D SYMPHONY MAGAZINE</h2>
+            
+            <p>London's premier classical music magazine, 3D Symphony, is seeking a designer to join our team.</p>
+            
+            <p>The ideal candidate is someone -------- qualifications must include a working knowledge of</p>
+            
+            <div class="question-block q-center" id="q144" style="position: relative; left: -120px;">
+                <div class="q-number">144.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) who</div>
+                    <div class="option" data-ans="B">(B) whom</div>
+                    <div class="option" data-ans="C">(C) whose</div>
+                    <div class="option" data-ans="D">(D) which</div>
+                </div>
+            </div>
+
+            <p>Adobe Creative Suite 2 (Indesign, Adobe Acrobat, Photoshop and Illustrator) on a MAC OS X platform. An understanding of magazine layout, press ad design, and pre-press will be highly --------.</p>
+            
+            <div class="question-block q-left" id="q145" style="position: relative; left: 520px;">
+                <div class="q-number">145.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) regard</div>
+                    <div class="option" data-ans="B">(B) regards</div>
+                    <div class="option" data-ans="C">(C) regarded</div>
+                    <div class="option" data-ans="D">(D) regarding</div>
+                </div>
+            </div>
+
+            <p>The position is part-time from Wednesday to Friday, and the person must be able to work to the pressure of strict deadlines. The candidate must also be reliable and possess a keen eye for detail. If selected, you'll have the advantage of working within a young and dynamic team --------.</p>
+            
+            <div class="question-block q-right" id="q146">
+                <div class="q-number">146.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) circumstances</div>
+                    <div class="option" data-ans="B">(B) environment</div>
+                    <div class="option" data-ans="C">(C) background</div>
+                    <div class="option" data-ans="D">(D) incident</div>
+                </div>
+            </div>
+
+            <p>Expressions of interest can be emailed to Joan@threedsymphony.com.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng cho các câu hỏi
+    const correctAnswers = {
+        'q144': 'C', // "someone whose qualifications" (Đại từ quan hệ sở hữu)
+        'q145': 'C', // "highly regarded" (Bị động)
+        'q146': 'B'  // "team environment" (Cụm danh từ hợp nghĩa)
+    };
+
+    // Thêm sự kiện click cho các lựa chọn
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm block câu hỏi chứa lựa chọn này
+            const questionBlock = this.closest('.question-block');
+            
+            // Nếu đã trả lời rồi thì không cho click nữa
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu là đã trả lời
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra logic đúng sai
+            if (selectedAnswer === correctAnswer) {
+                // Đúng
+                this.classList.add('correct');
+            } else {
+                // Sai
+                this.classList.add('incorrect');
+                // Bôi xanh đáp án đúng để người dùng biết
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
