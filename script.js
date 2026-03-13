@@ -1,6 +1,5 @@
 /**
  * TOEIC Part 5 - Full Logic Script
- * Update: Hide test selector on All tests, Hide Random 40 on Single test
  */
 
 const FILES = Array.from({ length: 10 }, (_, i) => `jim/test${String(i + 1).padStart(2, '0')}_part5.json`);
@@ -13,6 +12,8 @@ const testSelectWrap = el('testSelectWrap');
 const quiz = el('quiz');
 const progressFill = el('progressFill');
 const submitBtn = el('submitBtn');
+const redoBtn = el('redoBtn');
+const bottomActions = el('bottomActions');
 const scoreEl = el('score');
 const summary = el('summary');
 const instantToggle = el('instant');
@@ -23,10 +24,10 @@ const random40Wrap = el('random40Wrap');
 // --- App State ---
 let allQuestions = []; 
 let questions = [];    
-let answers = {};      
+let answers = {};
+let isSubmitted = false; // Thêm trạng thái khóa nộp bài
 
 function init() {
-    // Khởi tạo danh sách test
     FILES.forEach(f => {
         const opt = document.createElement('option');
         opt.value = f;
@@ -34,7 +35,6 @@ function init() {
         testSelect.appendChild(opt);
     });
 
-    // Listeners
     testSelect.addEventListener('change', loadPoolFromSelected);
     
     document.querySelectorAll('input[name="mode"]').forEach(radio => {
@@ -46,33 +46,33 @@ function init() {
 
     shuffleToggle.addEventListener('change', prepareQuestionsAndRender);
     random40Toggle.addEventListener('change', prepareQuestionsAndRender);
+    
     submitBtn.addEventListener('click', submitQuiz);
+    redoBtn.addEventListener('click', redoQuiz);
 
-    // Run first time
     updateModeLogic();
     loadPoolFromSelected();
 }
 
-/**
- * Điều khiển việc ẩn hiện các nút điều hướng và logic chế độ
- */
 function updateModeLogic() {
     const mode = document.querySelector('input[name="mode"]:checked').value;
     
     if (mode === 'all') {
-        // Chế độ All: Hiện Random 40, Ẩn chọn test, Khóa Instant Answer
         random40Wrap.style.display = 'flex';
         testSelectWrap.style.display = 'none';
         
         instantToggle.checked = true;
         instantToggle.disabled = true;
+        
+        bottomActions.style.display = 'none';
     } else {
-        // Chế độ Single: Ẩn Random 40, Hiện chọn test, Mở khóa Instant Answer
         random40Wrap.style.display = 'none';
         random40Toggle.checked = false;
         
         testSelectWrap.style.display = 'inline-block';
         instantToggle.disabled = false;
+        
+        bottomActions.style.display = 'flex';
     }
 }
 
@@ -91,7 +91,7 @@ async function loadPoolFromSelected() {
         prepareQuestionsAndRender();
     } catch (err) {
         console.error(err);
-        quiz.innerHTML = `<p style="color:red; text-align:center;">Lỗi tải dữ liệu.</p>`;
+        quiz.innerHTML = `<p style="color:red; text-align:center;">Lỗi tải dữ liệu. Hãy chắc chắn bạn đang chạy trên Server (Live Server).</p>`;
     }
 }
 
@@ -100,10 +100,10 @@ function prepareQuestionsAndRender() {
     
     answers = {}; 
     scoreEl.textContent = ''; 
+    isSubmitted = false; // Reset trạng thái khi đổi test
     
     let pool = [...allQuestions];
 
-    // Logic Random 40
     if (random40Toggle.checked && random40Wrap.style.display !== 'none') {
         pool = pool.sort(() => 0.5 - Math.random()).slice(0, 40);
     }
@@ -149,6 +149,9 @@ function renderAll() {
 }
 
 function handleSelect(q, optElement, idx, key) {
+    // Nếu đã nộp bài thì không cho click chọn nữa
+    if (isSubmitted) return; 
+
     answers[idx] = key;
     const card = document.getElementById(`q${idx}`);
     const allOpts = card.querySelectorAll('.option');
@@ -179,15 +182,45 @@ function updateProgress() {
 }
 
 function submitQuiz() {
-    if (questions.length === 0) return;
+    // Chặn nộp lại nếu đã nộp rồi hoặc chưa có câu hỏi
+    if (questions.length === 0 || isSubmitted) return;
+    
+    isSubmitted = true; // Đánh dấu đã nộp bài
     let correctCount = 0;
+    
+    // Duyệt qua toàn bộ câu hỏi để chấm điểm và hiển thị UI
     questions.forEach((q, idx) => {
-        if (answers[idx] === q.answer) correctCount++;
+        const userAns = answers[idx];
+        const card = document.getElementById(`q${idx}`);
+        const allOpts = card.querySelectorAll('.option');
+
+        if (userAns === q.answer) correctCount++;
+
+        // Cập nhật giao diện đúng/sai cho từng option
+        q.displayedOptions.forEach((o, i) => {
+            const optEl = allOpts[i];
+            optEl.classList.remove('selected'); // Xóa màu xanh dương của lúc đang làm
+
+            if (o.origKey === q.answer) {
+                optEl.classList.add('correct'); // Bôi xanh lá đáp án đúng
+            } else if (o.origKey === userAns) {
+                optEl.classList.add('wrong'); // Bôi đỏ nếu người dùng chọn sai
+            }
+        });
     });
     
     scoreEl.textContent = `Score: ${correctCount} / ${questions.length}`;
-    alert(`🎉 Xong! \nSố câu đúng: ${correctCount} / ${questions.length}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function redoQuiz() {
+    if (confirm('Bạn có chắc chắn muốn làm lại bài này? Mọi đáp án sẽ bị xóa.')) {
+        answers = {}; 
+        scoreEl.textContent = ''; 
+        isSubmitted = false; // Mở khóa nộp bài
+        renderAll(); 
+        window.scrollTo({ top: 0, behavior: 'smooth' }); 
+    }
 }
 
 init();

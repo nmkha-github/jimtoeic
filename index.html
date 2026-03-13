@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>JIM TOEIC Part 5</title>
+    <title>JIM TOEIC</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="topbar">
-      <div class="brand">JIM TOEIC Part 5</div>
+      <div class="brand">JIM TOEIC</div>
       <div class="topbar-right">
         <span id="score" class="score-header"></span>
-        <button id="submitBtn" class="btn-primary">Submit Result</button>
+        <div class="dropdown">
+          <button class="btn-menu">Part ▾</button>
+          <div class="dropdown-content">
+            <a href="#">Part 5</a>
+            <a href="#">Part 6</a>
+            <a href="#">Part 7</a>
+            <a href="#">Part 8</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -30,6 +38,7 @@
           <label class="small"><input type="checkbox" id="shuffle" checked /> Shuffle options</label>
           <label class="small"><input type="checkbox" id="instant" /> Show answer immediately</label>
           <label class="small" id="random40Wrap"><input type="checkbox" id="random40" /> Random 40</label>
+          <button id="redoBtn" class="btn-secondary">Reset</button>
         </div>
       </section>
 
@@ -43,6 +52,11 @@
       </div>
 
       <div id="quiz" class="quiz-area"></div>
+
+      <div id="bottomActions" class="bottom-actions" style="display: none;">
+        <button id="redoBtn" class="btn-secondary">Làm lại</button>
+        <button id="submitBtn" class="btn-primary">Submit Result</button>
+      </div>
     </main>
 
     <script src="script.js"></script>
