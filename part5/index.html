@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>JIM TOEIC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">JIM TOEIC</div>
+      <div class="topbar-right">
+        <span id="score" class="score-header"></span>
+    
+        <a href="../index.html" class="btn-secondary back-btn">
+          ← Back
+        </a>
+      </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <div class="controls-group">
+          <label><input type="radio" name="mode" value="all" checked /> All tests</label>
+          <label><input type="radio" name="mode" value="single" /> Single test</label>
+          
+          <span id="testSelectWrap" style="display: none;">
+            <select id="testSelect"></select>
+          </span>
+        </div>
+      
+        <div class="controls-group">
+          <label class="small"><input type="checkbox" id="shuffle" checked /> Shuffle options</label>
+          <label class="small"><input type="checkbox" id="instant" /> Show answer immediately</label>
+          <label class="small" id="random40Wrap"><input type="checkbox" id="random40" /> Random 40</label>
+          <button id="redoBtn" class="btn-secondary">Reset</button>
+        </div>
+      </section>
+
+      <div id="progressWrap" class="progress-wrap">
+        <div class="progress-info">
+          <span id="summary">0 / 0 answered</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <div id="quiz" class="quiz-area"></div>
+
+      <div id="bottomActions" class="bottom-actions" style="display: none;">
+        <button id="redoBtn" class="btn-secondary">Làm lại</button>
+        <button id="submitBtn" class="btn-primary">Submit Result</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

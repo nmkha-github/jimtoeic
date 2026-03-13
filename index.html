@@ -1,64 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>JIM TOEIC</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <div class="brand">JIM TOEIC</div>
-      <div class="topbar-right">
-        <span id="score" class="score-header"></span>
-        <div class="dropdown">
-          <button class="btn-menu">Part ▾</button>
-          <div class="dropdown-content">
-            <a href="#">Part 5</a>
-            <a href="#">Part 6</a>
-            <a href="#">Part 7</a>
-            <a href="#">Part 8</a>
-          </div>
-        </div>
-      </div>
-    </header>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JIM TOEIC - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">JIM TOEIC</div>
+    <div class="user-info">Sẵn sàng luyện tập!</div>
+  </header>
 
-    <main class="container">
-      <section class="controls">
-        <div class="controls-group">
-          <label><input type="radio" name="mode" value="all" checked /> All tests</label>
-          <label><input type="radio" name="mode" value="single" /> Single test</label>
-          
-          <span id="testSelectWrap" style="display: none;">
-            <select id="testSelect"></select>
-          </span>
-        </div>
-      
-        <div class="controls-group">
-          <label class="small"><input type="checkbox" id="shuffle" checked /> Shuffle options</label>
-          <label class="small"><input type="checkbox" id="instant" /> Show answer immediately</label>
-          <label class="small" id="random40Wrap"><input type="checkbox" id="random40" /> Random 40</label>
-          <button id="redoBtn" class="btn-secondary">Reset</button>
-        </div>
-      </section>
+  <main class="container">
+    <section class="welcome">
+      <h1>Chọn phần bạn muốn luyện tập</h1>
+      <p>Mỗi phần được thiết kế giao diện tối ưu cho trải nghiệm làm bài tốt nhất.</p>
+    </section>
 
-      <div id="progressWrap" class="progress-wrap">
-        <div class="progress-info">
-          <span id="summary">0 / 0 answered</span>
+    <div class="menu-grid">
+      <a href="part5/index.html" class="menu-card">
+        <div class="card-icon">05</div>
+        <div class="card-content">
+          <h3>Part 5</h3>
+          <p>Incomplete Sentences</p>
+          <span class="btn-go">Bắt đầu →</span>
         </div>
-        <div class="progress-bar">
-          <div id="progressFill" class="progress-fill"></div>
+      </a>
+
+      <a href="part6/index.html" class="menu-card disabled">
+        <div class="card-icon">06</div>
+        <div class="card-content">
+          <h3>Part 6</h3>
+          <p>Text Completion</p>
+          <span class="btn-go">Sắp ra mắt</span>
         </div>
-      </div>
+      </a>
 
-      <div id="quiz" class="quiz-area"></div>
+      <a href="part7/index.html" class="menu-card disabled">
+        <div class="card-icon">07</div>
+        <div class="card-content">
+          <h3>Part 7</h3>
+          <p>Reading Comprehension</p>
+          <span class="btn-go">Sắp ra mắt</span>
+        </div>
+      </a>
 
-      <div id="bottomActions" class="bottom-actions" style="display: none;">
-        <button id="redoBtn" class="btn-secondary">Làm lại</button>
-        <button id="submitBtn" class="btn-primary">Submit Result</button>
-      </div>
-    </main>
-
-    <script src="script.js"></script>
-  </body>
+      <a href="#" class="menu-card disabled">
+        <div class="card-icon">08</div>
+        <div class="card-content">
+          <h3>Full Test</h3>
+          <p>Mô phỏng bài thi thật</p>
+          <span class="btn-go">Sắp ra mắt</span>
+        </div>
+      </a>
+    </div>
+  </main>
+</body>
 </html>
