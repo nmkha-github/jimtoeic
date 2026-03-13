@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOEIC Reading Test - Passage 2</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+      }
+
+      .main-wrapper {
+        width: 850px;
+        position: relative;
+      }
+
+      /* Top Instruction Header */
+      .top-header {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+      }
+
+      /* Test Badge Styling */
+      .test-badge {
+        position: absolute;
+        top: -15px;
+        right: -10px;
+        width: 60px;
+        background: #fff;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .test-badge .word {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 3px 0;
+        letter-spacing: 1px;
+      }
+
+      .test-badge .num {
+        font-family: Arial, sans-serif;
+        font-size: 38px;
+        color: #666;
+        text-align: center;
+        line-height: 1.1;
+        padding-bottom: 5px;
+      }
+
+      /* Main Paper Container */
+      .paper-container {
+        background-color: #ffffff;
+        border: 3px dashed #b3b3b3;
+        padding: 40px 50px;
+        font-size: 17px;
+        line-height: 1.8;
+        color: #222;
+        font-family: "Times New Roman", Times, serif; /* Sử dụng font có chân giống giấy thi */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        position: relative;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+
+      .intro-text {
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 40px;
+        padding: 0 20px;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
+
+      .text-continued {
+        margin-top: -10px; /* Kéo text sát lên phần câu hỏi */
+        margin-bottom: 25px;
+      }
+
+      /* --- Questions Styling --- */
+      .question-block {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 15%; /* Căn lề phải cho khối câu hỏi giống trong ảnh */
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif; /* Font không chân cho đáp án */
+        font-size: 15px;
+      }
+
+      .question-block .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+      }
+
+      .q-options {
+        display: flex;
+        flex-direction: column;
+        min-width: 150px;
+      }
+
+      /* Interactive Options */
+      .option {
+        cursor: pointer;
+        padding: 2px 6px;
+        margin-bottom: 4px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+      }
+
+      .option:hover {
+        background-color: #e0e0e0;
+      }
+
+      /* Feedback States */
+      .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+      }
+
+      .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+      }
+
+      .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="top-header">
+        Questions 147-149 refer to the following notice.
+      </div>
+
+      <div class="paper-container">
+        <h2>Promoting Cycling in our City</h2>
+
+        <p class="intro-text">
+          An essential element of the transportation system in many of the
+          cities around the world is cycling. The city of Buffalo recognizes
+          this and has developed a 10-year plan to promote more cycling in our
+          city.
+        </p>
+
+        <p>
+          The city's development plan includes the addition of more cycling
+          -------- to our streets.
+        </p>
+
+        <div class="question-block" id="q147">
+          <div class="q-number">147.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) admission</div>
+            <div class="option" data-ans="B">(B) entrance</div>
+            <div class="option" data-ans="C">(C) access</div>
+            <div class="option" data-ans="D">(D) pass</div>
+          </div>
+        </div>
+
+        <p>
+          This, of course, is with the intention of encouraging greater cycling
+          -------- by our citizens in
+        </p>
+
+        <div class="question-block" id="q148">
+          <div class="q-number">148.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) participate</div>
+            <div class="option" data-ans="B">(B) participation</div>
+            <div class="option" data-ans="C">(C) participates</div>
+            <div class="option" data-ans="D">(D) participated</div>
+          </div>
+        </div>
+
+        <p class="text-continued">
+          an effort to mimic the benefits other global cities have experienced,
+          such as the reduction of pollution and traffic congestion as well as
+          health and social advantages.
+        </p>
+
+        <p style="margin-bottom: 30px">
+          Other plans include a coordinated network of bicycle lanes to be
+          interconnected to the surrounding towns as well as the setting up of a
+          number of social programs to provide information to the cyclists.
+        </p>
+
+        <p>
+          The city wishes to hear your thoughts about its --------. Further
+          information and submission
+        </p>
+
+        <div class="question-block" id="q149" style="padding-right: 252px">
+          <div class="q-number">149.</div>
+          <div class="q-options">
+            <div class="option" data-ans="A">(A) effects</div>
+            <div class="option" data-ans="B">(B) operations</div>
+            <div class="option" data-ans="C">(C) remedies</div>
+            <div class="option" data-ans="D">(D) proposals</div>
+          </div>
+        </div>
+
+        <p class="text-continued">
+          forms are available at our website at: www.cityofbuffalo.gov.us, by
+          visiting your local Neighborhood Service Center, or by calling
+          755-9333.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Định nghĩa đáp án đúng cho các câu hỏi 147-149
+      const correctAnswers = {
+        q147: "C", // cycling access
+        q148: "B", // greater cycling participation
+        q149: "D", // thoughts about its proposals
+      };
+
+      // Thêm sự kiện click cho tất cả các lựa chọn (giữ nguyên logic gốc)
+      document.querySelectorAll(".option").forEach((item) => {
+        item.addEventListener("click", function () {
+          // Tìm khối câu hỏi chứa lựa chọn này
+          const questionBlock = this.closest(".question-block");
+
+          // Nếu đã trả lời thì bỏ qua
+          if (questionBlock.classList.contains("answered")) return;
+
+          const questionId = questionBlock.id;
+          const selectedAnswer = this.getAttribute("data-ans");
+          const correctAnswer = correctAnswers[questionId];
+
+          // Đánh dấu câu hỏi đã trả lời
+          questionBlock.classList.add("answered");
+
+          // Kiểm tra logic đúng/sai
+          if (selectedAnswer === correctAnswer) {
+            // Đúng
+            this.classList.add("correct");
+          } else {
+            // Sai
+            this.classList.add("incorrect");
+            // Hiển thị đáp án đúng cho người dùng thấy
+            questionBlock
+              .querySelector(`.option[data-ans="${correctAnswer}"]`)
+              .classList.add("correct");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
