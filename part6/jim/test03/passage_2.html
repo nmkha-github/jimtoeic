@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 48px;
+        color: #222;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 40px 64px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        border: 1px solid #ccc;
+        position: relative;
+    }
+
+    /* Tạo viền họa tiết giống tờ giấy in trong hình */
+    .main-container::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        border: 2px dashed #e0e0e0;
+        pointer-events: none;
+        margin: 5px;
+    }
+
+    .header-title {
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .address-block {
+        margin-bottom: 25px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    .salutation {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* --- Details Table Styling --- */
+    .details-block {
+        border-top: 1px solid #444;
+        border-bottom: 1px solid #444;
+        margin: 20px 40px 30px 40px;
+        padding: 15px 0;
+    }
+
+    .detail-row {
+        display: flex;
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+
+    .detail-label {
+        font-weight: bold;
+        width: 160px;
+    }
+
+    .detail-value {
+        flex-grow: 1;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .question-block.center-align {
+        margin-left: 120px; /* Thụt lề sâu hơn cho câu 145, 146 */
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 5px;
+        width: 40px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .signature-font {
+        font-family: 'Brush Script MT', 'Dancing Script', cursive;
+        font-size: 32px;
+        margin: 10px 0;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="header-title">Questions 144-146 refer to the following letter.</div>
+
+    <div class="address-block">
+        Mr. Sean Ronald<br>
+        1385 Midland Ave.<br>
+        Sydney<br>
+        Australia
+    </div>
+
+    <div class="salutation">
+        Dear Mr. Ronald,
+    </div>
+
+    <p>On September 3, you asked me to make hotel reservations for your guests. As per your instruction, 2 rooms (double-bed requested) have been booked at the Marco Polo Hong Kong Hotel -------- details as shown:</p>
+
+    <div class="question-block" id="q144" style="position: relative; left: -40px;">
+        <div class="q-number">144.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) with</div>
+            <div class="option" data-ans="B">(B) by</div>
+            <div class="option" data-ans="C">(C) for</div>
+            <div class="option" data-ans="D">(D) along</div>
+        </div>
+    </div>
+
+    <div class="details-block">
+        <div class="detail-row">
+            <div class="detail-label">Guest Names:</div>
+            <div class="detail-value">Mr. John Simpson & Mr. Mark Fritzler</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Check-in Date:</div>
+            <div class="detail-value">Sept. 22, 2006</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Check-out Date:</div>
+            <div class="detail-value">Sept. 25, 2006</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Hotel Address:</div>
+            <div class="detail-value">3 Canton Road, Harbour City, Tsim Sha Tsui, Kowloon</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Hotel Telephone:</div>
+            <div class="detail-value">(852) 2113 0088</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Room Rate:</div>
+            <div class="detail-value">HK$1,250 net per room per night</div>
+        </div>
+        <div class="detail-row">
+            <div class="detail-label">Total Room Rate:</div>
+            <div class="detail-value">HK$1,250 x 3 nights x 2 rooms = HK$7,500</div>
+        </div>
+    </div>
+
+    <p>There is a hotel shuttle bus that can take the guests to the hotel. Simply proceed to counters A16 or B16 (Parklane Counter) at the Arrival Hall and pay HK$130 per person for the shuttle bus fare. The shuttle bus will take you to the hotel.</p>
+
+    <p>Apex/HKG will -------- the room rate for the guests first. Thus, the guests are not required to pay the</p>
+
+    <div class="question-block center-align" id="q145" style="position: relative; left: -80px;">
+        <div class="q-number">145.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) decide</div>
+            <div class="option" data-ans="B">(B) select</div>
+            <div class="option" data-ans="C">(C) settle</div>
+            <div class="option" data-ans="D">(D) detour</div>
+        </div>
+    </div>
+
+    <p>room rate when checking out. Apex/HKG will -------- them later. However, if room service such as</p>
+
+    <div class="question-block center-align" id="q146" style="position: relative; left: 120px;">
+        <div class="q-number">146.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) accuse</div>
+            <div class="option" data-ans="B">(B) loan</div>
+            <div class="option" data-ans="C">(C) credit</div>
+            <div class="option" data-ans="D">(D) charge</div>
+        </div>
+    </div>
+
+    <p>the minibar is used, the guests will need to settle them when checking out.</p>
+
+    <br>
+    <p>Sincerely,</p>
+    <div class="signature-font">Cory White</div>
+    <p>Cory White</p>
+
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q144': 'A', // ...with details as shown
+        'q145': 'C', // settle the room rate
+        'q146': 'D'  // charge them later
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

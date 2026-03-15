@@ -103,89 +103,88 @@
 </main>
 
 <script>
-  // Định nghĩa danh sách các bài test theo cấu trúc thư mục của bạn
-  const playlist = [
-    { title: "Test 01 - Passage 1", url: "jim/test01/passage_1.html" },
-    { title: "Test 01 - Passage 2", url: "jim/test01/passage_2.html" },
-    { title: "Test 01 - Passage 3", url: "jim/test01/passage_3.html" },
-    { title: "Test 01 - Passage 4", url: "jim/test01/passage_4.html" },
-    { title: "Test 02 - Passage 1", url: "jim/test02/passage_1.html" },
-    { title: "Test 02 - Passage 2", url: "jim/test02/passage_2.html" },
-  ];
+    const playlist = [
+  { title: "Test 01 - Passage 1", url: "jim/test01/passage_1.html" },
+  { title: "Test 01 - Passage 2", url: "jim/test01/passage_2.html" },
+  { title: "Test 01 - Passage 3", url: "jim/test01/passage_3.html" },
+  { title: "Test 01 - Passage 4", url: "jim/test01/passage_4.html" },
+  { title: "Test 02 - Passage 1", url: "jim/test02/passage_1.html" },
+  { title: "Test 02 - Passage 2", url: "jim/test02/passage_2.html" },
+  { title: "Test 02 - Passage 3", url: "jim/test02/passage_3.html" },
+  { title: "Test 02 - Passage 4", url: "jim/test02/passage_4.html" },
+  { title: "Test 03 - Passage 1", url: "jim/test03/passage_1.html" },
+  { title: "Test 03 - Passage 2", url: "jim/test03/passage_2.html" },
+];
 
-  let currentIndex = 0;
-  const frame = document.getElementById('quizFrame');
-  const displayTitle = document.getElementById('displayTitle');
-  const currentLabel = document.getElementById('currentLabel');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
+const frame = document.getElementById("quizFrame");
+const displayTitle = document.getElementById("displayTitle");
+const currentLabel = document.getElementById("currentLabel");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
 
-  function updateQuiz() {
-    const item = playlist[currentIndex];
-    frame.src = item.url;
-    displayTitle.innerText = item.title;
-    currentLabel.innerText = `Bài ${currentIndex + 1} / ${playlist.length}`;
+/* cache index */
+let currentIndex = Number(localStorage.getItem("part6_index")) || 0;
 
-    // Cập nhật trạng thái nút
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex === playlist.length - 1;
+function saveIndex() {
+  localStorage.setItem("part6_index", currentIndex);
+}
+
+function updateQuiz() {
+  const item = playlist[currentIndex];
+
+  frame.src = item.url;
+  displayTitle.innerText = item.title;
+  currentLabel.innerText = `Bài ${currentIndex + 1} / ${playlist.length}`;
+
+  prevBtn.disabled = currentIndex === 0;
+  nextBtn.disabled = currentIndex === playlist.length - 1;
+
+  saveIndex();
+}
+
+function goNext() {
+  if (currentIndex < playlist.length - 1) {
+    currentIndex++;
+    updateQuiz();
   }
+}
 
-  function goNext() {
-    if (currentIndex < playlist.length - 1) {
-      currentIndex++;
-      updateQuiz();
+function goPrev() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateQuiz();
+  }
+}
+
+/* iframe helpers */
+
+function getIframeDoc() {
+  return frame.contentDocument || frame.contentWindow.document;
+}
+
+function resetIframe() {
+  const doc = getIframeDoc();
+  const elements = doc.querySelectorAll(".correct, .incorrect, .answered");
+  elements.forEach(el => el.classList.remove("correct","incorrect","answered"));
+}
+
+function shuffleIframe() {
+  const doc = getIframeDoc();
+  const blocks = doc.querySelectorAll(".q-options");
+
+  blocks.forEach(container => {
+    const options = Array.from(container.querySelectorAll(".option"));
+
+    for (let i = options.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      container.appendChild(options[j]);
+      options.splice(j,1);
     }
-  }
+  });
+}
 
-  function goPrev() {
-    if (currentIndex > 0) {
-      currentIndex--;
-      updateQuiz();
-    }
-  }
-
-  // --- Hàm điều khiển Iframe (giống các yêu cầu trước) ---
-  
-  function getIframeDoc() {
-    return frame.contentDocument || frame.contentWindow.document;
-  }
-
-  function resetIframe() {
-    const doc = getIframeDoc();
-    const elements = doc.querySelectorAll('.correct, .incorrect, .answered');
-    elements.forEach(el => el.classList.remove('correct', 'incorrect', 'answered'));
-  }
-
-  function shuffleIframe() {
-    resetIframe();
-    const doc = getIframeDoc();
-    const blocks = doc.querySelectorAll('.q-options');
-    blocks.forEach(container => {
-      const options = Array.from(container.querySelectorAll('.option'));
-      const data = options.map(opt => {
-        const txt = opt.innerText;
-        return {
-          text: txt.substring(txt.indexOf(')') + 1).trim(),
-          ans: opt.getAttribute('data-ans')
-        };
-      });
-      // Shuffle
-      for (let i = data.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [data[i], data[j]] = [data[j], data[i]];
-      }
-      // Re-render
-      const labels = ['(A)', '(B)', '(C)', '(D)'];
-      options.forEach((opt, idx) => {
-        opt.innerText = `${labels[idx]} ${data[idx].text}`;
-        opt.setAttribute('data-ans', data[idx].ans);
-      });
-    });
-  }
-
-  // Khởi tạo lần đầu
-  updateQuiz();
+/* init */
+updateQuiz();
 </script>
 
 </body>

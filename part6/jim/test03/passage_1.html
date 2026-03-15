@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 72px;
+    }
+
+    .main-container {
+        width: 800px;
+    }
+
+    .test-header {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    /* --- Notice Box Styling --- */
+    .notice-box {
+        background-color: #ffffff;
+        border: 6px double #666;
+        border-radius: 6px;
+        padding: 56px 72px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #222;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .notice-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 10px 0 20px 0;
+        display: flex;
+    }
+
+    .q-number {
+        font-weight: bold;
+        width: 45px;
+        flex-shrink: 0;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Positioning to match the image */
+    .q-left {
+        margin-left: 20px;
+    }
+
+    .q-center-right {
+        margin-left: 45%;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="test-header">Questions 141-143 refer to the following notice.</div>
+    
+    <div class="notice-box">
+        <div class="notice-title">The High Park Harvest Festival</div>
+        
+        <p>A trio of colorful fall events gets underway in October with a horse and wagon ride -------- High Park from Grenadier Café to Colborne Lodge.</p>
+        
+        <div class="question-block q-left" id="q141" style="position: relative; left: -20px;">
+            <div class="q-number">141.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) after</div>
+                <div class="option" data-ans="B">(B) before</div>
+                <div class="option" data-ans="C">(C) during</div>
+                <div class="option" data-ans="D">(D) through</div>
+            </div>
+        </div>
+
+        <p><strong>All ages. Oct. 1. $2.</strong> Storytelling, face painting, nature-themed crafts, and a marketplace full of autumn treats take -------- residence at the Children's Garden.</p>
+        
+        <div class="question-block q-center-right" id="q142" style="position: relative; left: -32px;">
+            <div class="q-number">142.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) off</div>
+                <div class="option" data-ans="B">(B) on</div>
+                <div class="option" data-ans="C">(C) up</div>
+                <div class="option" data-ans="D">(D) care</div>
+            </div>
+        </div>
+
+        <p style="margin-bottom: 20px;"><strong>Ages three and up. Oct. 1. Free.</strong> When the sun sets, brave the Haunted High Park tour, a moonlit stroll set to the eerie tales of old Chicago. Pre-registration is required.</p>
+
+        <p><strong>Ages eight and up. Oct. 27 and 28. Adults $10, ages eight and up $5.</strong> The playground in the northwest corner of the park becomes pumpkin carving central, when creations are set adrift on the water -------- the annual High Park</p>
+        
+        <div class="question-block q-center-right" id="q143" style="position: relative; left: -20px;">
+            <div class="q-number">143.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) until</div>
+                <div class="option" data-ans="B">(B) while</div>
+                <div class="option" data-ans="C">(C) during</div>
+                <div class="option" data-ans="D">(D) between</div>
+            </div>
+        </div>
+
+        <p>Pumpkin Float. Warm up afterward with some hot cider and storytelling. <strong>Ages two to ten Oct. 29. $2 per pumpkin.</strong></p>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q141': 'D', // ride through High Park
+        'q142': 'C', // take up residence
+        'q143': 'C'  // during the annual...
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

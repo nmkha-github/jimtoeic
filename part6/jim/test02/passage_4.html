@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOEIC Reading Test - Passage 1</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+        margin: 0;
+      }
+
+      /* Container cho phần tiêu đề ngoài */
+      .top-instruction {
+        width: 800px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      /* Main Card / Bảng chứa nội dung */
+      .main-container {
+        width: 760px;
+        background-color: #ffffff;
+        padding: 40px 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        border: 1px solid #dcdcdc;
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 22px;
+        color: #222;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #222;
+      }
+
+      /* --- Questions Styling --- */
+      .question-block {
+        margin: 10px 0 25px 0;
+        display: flex;
+      }
+
+      .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .q-options {
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Layout riêng cho Q150 ở góc phải đoạn 1 */
+      .row-q150 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; /* Để câu hỏi thẳng hàng với dòng cuối của văn bản */
+        margin-bottom: 20px;
+      }
+
+      .row-q150 p {
+        margin-bottom: 0;
+        width: 60%;
+      }
+
+      .row-q150 .question-block {
+        width: 35%;
+        margin: 0;
+      }
+
+      /* Layout cho Q151 và Q152 (thụt lề một chút) */
+      .indented-q {
+        margin-left: 50px;
+      }
+
+      /* Interactive Options */
+      .option {
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        font-size: 15px;
+      }
+
+      .option:hover {
+        background-color: #e0e0e0;
+      }
+
+      /* Feedback States */
+      .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+      }
+
+      .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+      }
+
+      .answered .option {
+        cursor: default;
+        pointer-events: none; /* Không cho click nữa sau khi đã chọn */
+      }
+
+      /* Signature styling */
+      .sign-off {
+        margin-top: 40px;
+      }
+
+      .sign-off .printed-name {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+
+      .sign-off .signature-name {
+        font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+        font-size: 26px;
+        margin-top: 0;
+        color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-instruction">
+      Questions 150-152 refer to the following notice.
+    </div>
+
+    <div class="main-container">
+      <h2>Editor's Welcome</h2>
+
+      <p>
+        Welcome to <i>Street Life's</i> live and intimate celebration of the
+        200th edition of ---------.
+      </p>
+      <div class="question-block" id="q150" style="position: relative; left: 440px">
+        <div class="q-number">150.</div>
+        <div class="q-options">
+          <div class="option" data-ans="A">(A) publish</div>
+          <div class="option" data-ans="B">(B) publishing</div>
+          <div class="option" data-ans="C">(C) to publish</div>
+          <div class="option" data-ans="D">(D) to be published</div>
+        </div>
+      </div>
+
+      <p>
+        In the next few pages, we have a special feature to let you meet the
+        luminaries who have made great contributions to our magazine. These
+        special people will also entertain you this Friday, October 27, at the
+        <i>Street Life</i> 200th Edition Gala Celebration at Queen's Quay,
+        Toronto. If you can't physically be there tonight, settle back, and
+        enjoy our magazine, and try to --------- some of these talented artists
+        the next time they are in your area.
+      </p>
+
+      <div class="question-block indented-q" id="q151" style="position: relative; left: 60px">
+        <div class="q-number">151.</div>
+        <div class="q-options">
+          <div class="option" data-ans="A">(A) win</div>
+          <div class="option" data-ans="B">(B) gain</div>
+          <div class="option" data-ans="C">(C) earn</div>
+          <div class="option" data-ans="D">(D) catch</div>
+        </div>
+      </div>
+
+      <p>
+        So as the curtains go up on the night of nights -
+        <i>Street Life's</i> celebration of 200 fabulous editions - please raise
+        your glass to Toronto's most popular magazine.<br />
+        Here's to --------- 200 editions!
+      </p>
+
+      <div class="question-block indented-q" id="q152" style="position: relative; left: -40px">
+        <div class="q-number">152.</div>
+        <div class="q-options">
+          <div class="option" data-ans="A">(A) other</div>
+          <div class="option" data-ans="B">(B) another</div>
+          <div class="option" data-ans="C">(C) one another</div>
+          <div class="option" data-ans="D">(D) each other</div>
+        </div>
+      </div>
+
+      <div class="sign-off">
+        <div class="printed-name">Carl Stevens</div>
+        <div class="signature-name">Carl Stevens</div>
+      </div>
+    </div>
+
+    <script>
+      // Định nghĩa các đáp án đúng cho file này (đáp án tham khảo)
+      const correctAnswers = {
+        q150: "B", // publishing
+        q151: "D", // catch
+        q152: "B", // another
+      };
+
+      // Thêm sự kiện click cho các option
+      document.querySelectorAll(".option").forEach((item) => {
+        item.addEventListener("click", function () {
+          // Tìm block câu hỏi bao ngoài chứa thẻ option này
+          const questionBlock = this.closest(".question-block");
+
+          // Nếu đã trả lời rồi thì bỏ qua không xử lý
+          if (questionBlock.classList.contains("answered")) return;
+
+          const questionId = questionBlock.id;
+          const selectedAnswer = this.getAttribute("data-ans");
+          const correctAnswer = correctAnswers[questionId];
+
+          // Đánh dấu là đã trả lời để block các click tiếp theo
+          questionBlock.classList.add("answered");
+
+          // Kiểm tra logic đúng/sai
+          if (selectedAnswer === correctAnswer) {
+            // Trả lời đúng
+            this.classList.add("correct");
+          } else {
+            // Trả lời sai
+            this.classList.add("incorrect");
+            // Highlight đáp án đúng để người dùng biết
+            questionBlock
+              .querySelector(`.option[data-ans="${correctAnswer}"]`)
+              .classList.add("correct");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

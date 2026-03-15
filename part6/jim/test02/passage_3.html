@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .instruction {
+        font-weight: bold;
+        color: #444;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    /* --- Box Content Styling --- */
+    .dashed-box {
+        border: 2px dashed #a0a0a0;
+        padding: 40px 30px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 17px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    .article-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+
+    /* Các câu hỏi có vị trí thụt lề khác nhau để nằm dưới đoạn "--------" giống y như trong ảnh */
+    #q147 { margin-left: 90px; }
+    #q148 { margin-left: 20px; }
+    #q149 { margin-left: 420px; }
+
+    .q-row {
+        display: flex;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 12px;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        padding-top: 2px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        color: #555;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 3px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        width: fit-content; /* Chỉ highlight quanh text */
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Vô hiệu hóa click sau khi đã chọn */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction">Questions 147-149 refer to the following news.</div>
+    
+    <div class="dashed-box">
+        <div class="article-title">Pet Dislikes of Urban Life</div>
+
+        <p>According to a survey conducted by the city of Boston, traffic, pollution and noise were found to be the least -------- aspects of living in the city.</p>
+        
+        <div class="question-block" id="q147" style="position: relative; left: -88px;">
+            <div class="q-row">
+                <div class="q-number">147.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) desirable</div>
+                    <div class="option" data-ans="B">(B) erectable</div>
+                    <div class="option" data-ans="C">(C) seasonable</div>
+                    <div class="option" data-ans="D">(D) permissible</div>
+                </div>
+            </div>
+        </div>
+
+        <p>The --------, administered as part of the city's local action plan, asked the citizens of Boston about their likes</p>
+        
+        <div class="question-block" id="q148" style="position: relative; left: -20px;">
+            <div class="q-row">
+                <div class="q-number">148.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) lecture</div>
+                    <div class="option" data-ans="B">(B) conference</div>
+                    <div class="option" data-ans="C">(C) survey</div>
+                    <div class="option" data-ans="D">(D) discussion</div>
+                </div>
+            </div>
+        </div>
+
+        <p>and dislikes of their surroundings. The results of the survey communicated proximity (27.02 percent) and community character/ village feel (11.54 percent) to be at the top of the list of things most liked about city life.</p>
+        
+        <p style="margin-top: 25px;">The respondents felt the protection or enhancement of heritage (16.1 percent) and open space (15.59 percent) were the two things they most desired the city to have.</p>
+        
+        <p style="margin-top: 25px;">On the other hand, traffic (10.22 percent), general noise (9.98 percent), and parking (7.52 percent) within the main core of the city were the -------- attractive parts of living in the city.</p>
+        
+        <div class="question-block" id="q149" style="position: relative; left: -240px;">
+            <div class="q-row">
+                <div class="q-number">149.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) less</div>
+                    <div class="option" data-ans="B">(B) fewer</div>
+                    <div class="option" data-ans="C">(C) a few</div>
+                    <div class="option" data-ans="D">(D) least</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng tại đây
+    const correctAnswers = {
+        'q147': 'A', // the least desirable aspects
+        'q148': 'C', // The survey, administered...
+        'q149': 'D'  // the least attractive parts
+    };
+
+    // Gắn event click cho tất cả lựa chọn
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm block câu hỏi bao chứa đáp án này
+            const questionBlock = this.closest('.question-block');
+            
+            // Nếu đã trả lời rồi thì bỏ qua
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu đã trả lời
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra logic đúng/sai
+            if (selectedAnswer === correctAnswer) {
+                // Đúng
+                this.classList.add('correct');
+            } else {
+                // Sai
+                this.classList.add('incorrect');
+                // Làm nổi bật đáp án đúng
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
