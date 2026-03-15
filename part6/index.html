@@ -8,7 +8,7 @@
   :root {
     --accent: #1a73e8;
     --success: #10b981;
-    --danger: #ef4444;
+    --danger: #创造44;
     --bg: #f8f9fa;
   }
 
@@ -33,11 +33,11 @@
   }
 
   .back-btn{
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap:6px;
-}
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap:6px;
+  }
 
   /* Controls Section */
   .controls {
@@ -51,11 +51,20 @@
   .btn {
     padding: 8px 16px; border-radius: 6px; cursor: pointer; 
     font-weight: 600; font-size: 0.9rem; transition: 0.2s; border: none;
+    display: flex; align-items: center; gap: 5px;
   }
   .btn-primary { background: var(--accent); color: white; }
   .btn-primary:hover { background: #1557b0; }
   .btn-secondary { background: white; color: var(--accent); border: 1px solid var(--accent); }
   .btn-secondary:hover { background: #e8f0fe; }
+  
+  /* Toggle Active State */
+  .btn-toggle-on {
+    background: var(--success) !important;
+    color: white !important;
+    border-color: var(--success) !important;
+  }
+
   .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
   /* Iframe Wrapper */
@@ -92,7 +101,9 @@
     </div>
 
     <div class="action-group">
-        <button class="btn btn-secondary" onclick="shuffleIframe()">Shuffle</button>
+        <button id="shuffleToggleBtn" class="btn btn-secondary" onclick="toggleShuffle()">
+          Shuffle: OFF
+        </button>
         <button class="btn btn-secondary" onclick="resetIframe()">Reset</button>
     </div>
   </section>
@@ -123,12 +134,40 @@ const displayTitle = document.getElementById("displayTitle");
 const currentLabel = document.getElementById("currentLabel");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
+const shuffleToggleBtn = document.getElementById("shuffleToggleBtn");
 
-/* cache index */
+/* State variables */
 let currentIndex = Number(localStorage.getItem("part6_index")) || 0;
+let isShuffleEnabled = localStorage.getItem("part6_shuffle") === "true"; // Mặc định là false (OFF)
 
-function saveIndex() {
+function saveState() {
   localStorage.setItem("part6_index", currentIndex);
+  localStorage.setItem("part6_shuffle", isShuffleEnabled);
+}
+
+function updateShuffleUI() {
+  if (isShuffleEnabled) {
+    shuffleToggleBtn.classList.add("btn-toggle-on");
+    shuffleToggleBtn.innerText = "Shuffle: ON";
+  } else {
+    shuffleToggleBtn.classList.remove("btn-toggle-on");
+    shuffleToggleBtn.innerText = "Shuffle: OFF";
+  }
+}
+
+function toggleShuffle() {
+  isShuffleEnabled = !isShuffleEnabled;
+  updateShuffleUI();
+  saveState();
+  
+  // Nếu bật lên thì shuffle ngay lập tức trang hiện tại
+  if (isShuffleEnabled) {
+    shuffleIframe();
+  } else {
+    // Nếu tắt đi thì thường sẽ cần reload lại để về thứ tự cũ
+    // Ở đây ta có thể để người dùng tự reset hoặc reload frame
+    frame.contentWindow.location.reload();
+  }
 }
 
 function updateQuiz() {
@@ -141,7 +180,7 @@ function updateQuiz() {
   prevBtn.disabled = currentIndex === 0;
   nextBtn.disabled = currentIndex === playlist.length - 1;
 
-  saveIndex();
+  saveState();
 }
 
 function goNext() {
@@ -161,18 +200,27 @@ function goPrev() {
 /* iframe helpers */
 
 function getIframeDoc() {
-  return frame.contentDocument || frame.contentWindow.document;
+  try {
+    return frame.contentDocument || frame.contentWindow.document;
+  } catch (e) {
+    console.error("Không thể truy cập iframe. Hãy đảm bảo chạy trên cùng origin.", e);
+    return null;
+  }
 }
 
 function resetIframe() {
   const doc = getIframeDoc();
+  if(!doc) return;
   const elements = doc.querySelectorAll(".correct, .incorrect, .answered");
   elements.forEach(el => el.classList.remove("correct","incorrect","answered"));
 }
 
 function shuffleIframe() {
   const doc = getIframeDoc();
+  if(!doc) return;
+  
   const blocks = doc.querySelectorAll(".q-options");
+  if(blocks.length === 0) return;
 
   blocks.forEach(container => {
     const options = Array.from(container.querySelectorAll(".option"));
@@ -180,12 +228,19 @@ function shuffleIframe() {
     for (let i = options.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       container.appendChild(options[j]);
-      options.splice(j,1);
     }
   });
 }
 
+// Lắng nghe sự kiện iframe load xong để thực hiện auto shuffle
+frame.onload = function() {
+  if (isShuffleEnabled) {
+    shuffleIframe();
+  }
+};
+
 /* init */
+updateShuffleUI();
 updateQuiz();
 </script>
 
