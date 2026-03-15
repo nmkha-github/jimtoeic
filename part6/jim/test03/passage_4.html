@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 850px;
+    }
+
+    .instructions {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    /* --- Email Header Styling --- */
+    .email-header-wrapper {
+        background-color: #a3a3a3;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+    .email-header {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .header-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-label {
+        width: 80px;
+        color: #333;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .header-colon {
+        width: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .header-value {
+        flex-grow: 1;
+        background-color: #ffffff;
+        padding: 4px 10px;
+        font-size: 15px;
+        box-shadow: inset 1px 1px 4px rgba(0,0,0,0.2);
+    }
+
+    /* --- Email Body Styling --- */
+    .email-body-wrapper {
+        background-color: #a3a3a3;
+        padding: 10px;
+    }
+
+    .email-body {
+        background-color: #ffffff;
+        border: 1px solid #777;
+        padding: 30px 40px;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    .text-block {
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    
+    .margin-top-15 {
+        margin-top: 15px;
+    }
+
+    .margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 5px 0 10px 0;
+        display: flex;
+    }
+
+    .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Specific alignments based on the image */
+    #q150 {
+        justify-content: center;
+        margin-right: 50px; /* Offset to center under the blank */
+    }
+
+    #q151 {
+        padding-left: 60px; /* Left aligned under the blank */
+    }
+
+    #q152 {
+        justify-content: center;
+        padding-left: 150px; /* Center-right aligned under the blank */
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instructions">Questions 150-152 refer to the following email.</div>
+    
+    <div class="email-header-wrapper">
+        <div class="email-header">
+            <div class="header-row">
+                <div class="header-label">From</div>
+                <div class="header-colon">:</div>
+                <div class="header-value">Cindy Williams [mailto:cindy.williams@costworth.com]</div>
+            </div>
+            <div class="header-row">
+                <div class="header-label">Sent</div>
+                <div class="header-colon">:</div>
+                <div class="header-value">Tuesday, October 25, 2007 5:38 PM</div>
+            </div>
+            <div class="header-row">
+                <div class="header-label">To</div>
+                <div class="header-colon">:</div>
+                <div class="header-value">seanharris@giat.com</div>
+            </div>
+            <div class="header-row">
+                <div class="header-label">Cc</div>
+                <div class="header-colon">:</div>
+                <div class="header-value">Peter Channings</div>
+            </div>
+            <div class="header-row">
+                <div class="header-label">Subject</div>
+                <div class="header-colon">:</div>
+                <div class="header-value">Another Sales Lead</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="email-body-wrapper">
+        <div class="email-body">
+            <div class="text-block margin-bottom-20">Dear Sean,</div>
+            
+            <div class="text-block">I have another sales lead for you today. The -------- is to send a package by express cargo mode</div>
+            
+            <div class="question-block" id="q150">
+                <div class="q-number">150.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) job</div>
+                    <div class="option" data-ans="B">(B) chance</div>
+                    <div class="option" data-ans="C">(C) limit</div>
+                    <div class="option" data-ans="D">(D) pursuit</div>
+                </div>
+            </div>
+
+            <div class="text-block">from FRA to NY. The shipments' content is printed matter weighing approximately 200 kgs, and it will be sent every other day (3 times a week). We are looking for an arrival on the day after shipment. I would like to know -------- you are able to handle this and if you can meet this service requirement.</div>
+            
+            <div class="question-block" id="q151">
+                <div class="q-number">151.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) how</div>
+                    <div class="option" data-ans="B">(B) that</div>
+                    <div class="option" data-ans="C">(C) what</div>
+                    <div class="option" data-ans="D">(D) whether</div>
+                </div>
+            </div>
+
+            <div class="text-block">If so, can you please quote us the delivery rates and all -------- charges in NY? As for profit sharing,</div>
+            
+            <div class="question-block" id="q152">
+                <div class="q-number">152.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) defended</div>
+                    <div class="option" data-ans="B">(B) refused</div>
+                    <div class="option" data-ans="C">(C) incurred</div>
+                    <div class="option" data-ans="D">(D) conveyed</div>
+                </div>
+            </div>
+
+            <div class="text-block margin-bottom-20">I would like to say 50/50 as we discussed earlier. I am hoping that this will be okay with you.</div>
+            
+            <div class="text-block margin-bottom-20">I look forward to your reply soon. Thanks!</div>
+            
+            <div class="text-block margin-bottom-20">Best regards,</div>
+            
+            <div class="text-block margin-top-15">
+                Cindy Williams<br>
+                Costworth Ltd.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers based on grammar/vocabulary context
+    const correctAnswers = {
+        'q150': 'A', // The job is to send...
+        'q151': 'D', // know whether you are able...
+        'q152': 'C'  // incurred charges...
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

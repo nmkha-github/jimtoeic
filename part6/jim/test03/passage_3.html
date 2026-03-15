@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .main-wrapper {
+        width: 800px;
+    }
+
+    .instruction-text {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #333;
+    }
+
+    .paper-container {
+        background-color: #ffffff;
+        border: 3px dashed #a0a0a0;
+        padding: 40px 60px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    /* --- Overview Header Styling --- */
+    .overview-header {
+        padding: 15px 0;
+        margin-bottom: 25px;
+    }
+
+    .overview-header h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* --- Text Styling --- */
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 10px 0;
+    }
+
+    /* Centered layout for inline options */
+    .q-center {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .q-center .q-number {
+        margin-right: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 3px 8px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="instruction-text">
+        Questions 147-149 refer to the following advertisement.
+    </div>
+
+    <div class="paper-container">
+        <div class="overview-header">
+            <h2>Overview</h2>
+        </div>
+
+        <p>The Grand Hotel, which is situated at Fort Worth International Airport in Dallas, has a covered, climate-controlled skywalk that connects the hotel directly to Terminal 3 and to an Automated People Mover going to Terminal 1.</p>
+        
+        <p>Our check-in kiosks, recently installed in the lobby, allow our guests to check in for flights and receive their boarding passes -------- from the hotel. Guests can also check their baggage here</p>
+        
+        <div class="question-block q-center" id="q147" style="position: relative; left:-180px;">
+            <div class="q-number">147.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) right</div>
+                <div class="option" data-ans="B">(B) rightly</div>
+                <div class="option" data-ans="C">(C) rightful</div>
+                <div class="option" data-ans="D">(D) rightfully</div>
+            </div>
+        </div>
+
+        <p>and not have to worry about lining up at the airport. The monitors set up next to the kiosks display flight departure and arrival times to ensure that you're -------- on time.</p>
+        
+        <div class="question-block q-center" id="q148" style="position: relative; left:-40px;">
+            <div class="q-number" style="margin-left: 20px;">148.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) often</div>
+                <div class="option" data-ans="B">(B) finally</div>
+                <div class="option" data-ans="C">(C) always</div>
+                <div class="option" data-ans="D">(D) almost</div>
+            </div>
+        </div>
+
+        <p>At the Grand Hotel, you will feel right at home the moment you set foot in our hotel. Our warm and friendly staff will go out of their way to make you feel right at home. Relax and unwind from the stresses of -------- in one of our recently renovated guest rooms, complete with a</p>
+        
+        <div class="question-block q-center" id="q149" style="position: relative; left:-280px;">
+            <div class="q-number">149.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) visit</div>
+                <div class="option" data-ans="B">(B) tour</div>
+                <div class="option" data-ans="C">(C) travel</div>
+                <div class="option" data-ans="D">(D) arrival</div>
+            </div>
+        </div>
+
+        <p>jacuzzi in each room.</p>
+        
+        <p>So the next time you're in Dallas, experience how comfortable and convenient travel can be. When you check into the Grand Hotel, you don't just stay, you belong.</p>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q147': 'A', // right from the hotel
+        'q148': 'C', // always on time
+        'q149': 'C'  // stresses of travel
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.q-center');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
