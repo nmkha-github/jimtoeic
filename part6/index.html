@@ -182,6 +182,7 @@ function toggleShuffle() {
   
   // Nếu bật lên thì shuffle ngay lập tức trang hiện tại
   if (isShuffleEnabled) {
+    resetIframe();
     shuffleIframe();
   } else {
     // Nếu tắt đi thì thường sẽ cần reload lại để về thứ tự cũ
@@ -237,22 +238,77 @@ function resetIframe() {
 
 function shuffleIframe() {
   const doc = getIframeDoc();
-  if(!doc) return;
-  
-  const blocks = doc.querySelectorAll(".q-options");
-  if(blocks.length === 0) return;
+  if (!doc) return;
 
-  blocks.forEach(container => {
+  const iframeWindow = frame.contentWindow;
+
+  // Bước 1: Đọc correctAnswers từ iframe bằng eval (const không gắn vào window)
+  let originalCorrectAnswers = {};
+  try {
+    originalCorrectAnswers = JSON.parse(iframeWindow.eval('JSON.stringify(correctAnswers)'));
+  } catch (e) {
+    console.error('Không thể đọc correctAnswers từ iframe:', e);
+    return;
+  }
+
+  // Bước 2: Shuffle nội dung, giữ nhãn A/B/C/D, tính lại đáp án đúng
+  const newCorrectAnswers = {};
+
+  doc.querySelectorAll(".question-block").forEach(questionBlock => {
+    const questionId = questionBlock.id;
+    const container = questionBlock.querySelector(".q-options");
+    if (!container) return;
+
     const options = Array.from(container.querySelectorAll(".option"));
+    if (options.length < 2) return;
 
-    for (let i = options.length - 1; i > 0; i--) {
+    const correctLetter = originalCorrectAnswers[questionId];
+
+    const items = options.map(opt => ({
+      text: opt.textContent.replace(/^\([A-D]\)\s*/, "").trim(),
+      isCorrect: opt.getAttribute("data-ans") === correctLetter
+    }));
+
+    // Fisher-Yates shuffle
+    for (let i = items.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      container.appendChild(options[j]);
+      [items[i], items[j]] = [items[j], items[i]];
     }
-  });
-}
 
-// Lắng nghe sự kiện iframe load xong để thực hiện auto shuffle
+    const labels = ["A", "B", "C", "D"];
+    options.forEach((opt, i) => {
+      opt.setAttribute("data-ans", labels[i]);
+      opt.textContent = `(${labels[i]}) ${items[i].text}`;
+      if (items[i].isCorrect) newCorrectAnswers[questionId] = labels[i];
+    });
+  });
+
+  // Bước 3: Xóa click handler cũ (clone node) rồi gắn handler mới dùng newCorrectAnswers
+  doc.querySelectorAll(".option").forEach(opt => {
+    const fresh = opt.cloneNode(true);
+    opt.parentNode.replaceChild(fresh, opt);
+  });
+
+  doc.querySelectorAll(".option").forEach(item => {
+    item.addEventListener("click", function () {
+      const questionBlock = this.closest(".question-block");
+      if (questionBlock.classList.contains("answered")) return;
+
+      const questionId = questionBlock.id;
+      const selected = this.getAttribute("data-ans");
+      const correct = newCorrectAnswers[questionId];
+
+      questionBlock.classList.add("answered");
+
+      if (selected === correct) {
+        this.classList.add("correct");
+      } else {
+        this.classList.add("incorrect");
+        questionBlock.querySelector(`.option[data-ans="${correct}"]`).classList.add("correct");
+      }
+    });
+  });
+}// Lắng nghe sự kiện iframe load xong để thực hiện auto shuffle
 frame.onload = function() {
   if (isShuffleEnabled) {
     shuffleIframe();
