@@ -60,7 +60,7 @@
     }
 
     /* --- Questions Styling --- */
-    .q-block {
+    .question-block {
         display: flex;
         margin-top: 5px;
         margin-bottom: 25px;
@@ -142,7 +142,7 @@
 
         <p>The quantity of tickets ordered and/or distributed may vary and -------- affect the presented prizes.</p>
         
-        <div class="q-block" id="q147" style="position: relative; left: -80px;">
+        <div class="question-block" id="q147" style="position: relative; left: -80px;">
             <div class="q-number">147.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) must</div>
@@ -154,7 +154,7 @@
 
         <p>For further information -------- the prizes, call the OLGC Customer Excellence Center toll-free</p>
         
-        <div class="q-block" id="q148" style="position: relative; left: -80px;">
+        <div class="question-block" id="q148" style="position: relative; left: -80px;">
             <div class="q-number">148.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) regarding</div>
@@ -167,7 +167,7 @@
 
         <p>Instant winning tickets must be redeemed -------- the “Prizes Must Be Claimed by” date printed</p>
         
-        <div class="q-block" id="q149" style="position: relative; left: -40px;">
+        <div class="question-block" id="q149" style="position: relative; left: -40px;">
             <div class="q-number">149.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) under</div>
@@ -192,7 +192,7 @@
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
             // Find which question block this option belongs to
-            const questionBlock = this.closest('.q-block');
+            const questionBlock = this.closest('.question-block');
             
             // If already answered, do nothing
             if (questionBlock.classList.contains('answered')) return;

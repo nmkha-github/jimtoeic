@@ -62,13 +62,13 @@
     }
 
     /* --- Questions Styling --- */
-    .q-container {
+    .question-block {
         display: flex;
         margin-top: 5px;
         margin-bottom: 25px;
     }
 
-    .q-container .q-number {
+    .question-block .q-number {
         font-weight: bold;
         margin-right: 15px;
         width: 40px;
@@ -150,7 +150,7 @@
 
         <p>Recover, relax, and revive at the Stargate Sauna and Spa. Start with a sauna or steam, soak in a relaxing spa, -------- revitalize and soothe your soul with one of Stargate's massages.</p>
         
-        <div class="q-container" id="q144">
+        <div class="question-block" id="q144">
             <div class="q-number">144.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) soon</div>
@@ -162,7 +162,7 @@
 
         <p>Choose from a traditional Chinese massage, Korean style, aromatherapy, body scrub, or a good old-fashioned head and foot massage. With over 20 professional licensed masseurs on staff every day, we are sure to have the style to suit your --------.</p>
         
-        <div class="q-container" id="q145">
+        <div class="question-block" id="q145">
             <div class="q-number">145.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) needs</div>
@@ -174,7 +174,7 @@
 
         <p>We have separate, luxurious, lounge areas for men and women to relax in. So the next time you feel the need to -------- yourself, come and check us out.</p>
         
-        <div class="q-container" id="q146">
+        <div class="question-block" id="q146">
             <div class="q-number">146.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) repair</div>
@@ -204,7 +204,7 @@
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
             // Tìm block câu hỏi mà lựa chọn này thuộc về
-            const questionBlock = this.closest('.q-container');
+            const questionBlock = this.closest('.question-block');
             
             // Nếu đã trả lời rồi thì không làm gì cả
             if (questionBlock.classList.contains('answered')) return;

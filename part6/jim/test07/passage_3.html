@@ -66,7 +66,7 @@
     }
 
     /* --- Question Layouts --- */
-    .question-wrapper {
+    .question-block {
         display: inline-flex;
         align-items: flex-start;
         margin: 15px 0;
@@ -146,7 +146,7 @@
         
         <p>Canada's two official cultures clash -------- an uptight, by-the-book police officer (Jerry Kirkland)<p>
 
-        <div class="question-wrapper q147-container" id="q147">
+        <div class="question-block q147-container" id="q147">
             <div class="q-number">147.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) despite</div>
@@ -158,7 +158,7 @@
 
         <p>from Vancouver hooks up with a rule-breaking street cop from Quebec (Bruce Huard) for a drug-related murder investigation. The chemistry -------- the lead actors is good, but the</p>
 
-        <div class="question-wrapper q148-container" id="q148">
+        <div class="question-block q148-container" id="q148">
             <div class="q-number">148.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) within</div>
@@ -170,7 +170,7 @@
 
         <p>outdated Canadian clichés displayed throughout the movie sometimes were a bit too much for the audience. The story line begins -------- but starts to lag on toward the latter half of the</p>
 
-        <div class="question-wrapper q149-container" id="q149" style="position: relative; left: -80px;">
+        <div class="question-block q149-container" id="q149" style="position: relative; left: -80px;">
             <div class="q-number">149.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) fairly</div>
@@ -194,7 +194,7 @@
 
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
-            const questionBlock = this.closest('.question-wrapper');
+            const questionBlock = this.closest('.question-block');
             
             if (questionBlock.classList.contains('answered')) return;
             

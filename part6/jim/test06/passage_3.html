@@ -52,7 +52,7 @@
     }
 
     /* --- Questions Styling --- */
-    .question-inline {
+    .question-block {
         display: inline-flex;
         align-items: flex-start;
         margin: 5px 20px;
@@ -121,7 +121,7 @@
         <p>
             Energetic, new public relations agency is looking for a -------- talented Office/Administrative 
         </p>
-        <div class="question-inline" id="q147" style="position: relative; left: 320px;">
+        <div class="question-block" id="q147" style="position: relative; left: 320px;">
             <div class="q-number">147.</div>
             <div class="q-options">
                 <div class="option" data-ans="A">(A) highness</div>
@@ -136,7 +136,7 @@
         
 
         <div class="q-block-wrapper">
-            <div class="question-inline" id="q148">
+            <div class="question-block" id="q148">
                 <span class="q-number">148.</span>
                 <span class="q-options">
                     <span class="option" data-ans="A">(A) While</span>
@@ -152,7 +152,7 @@
         </p>
 
         <div class="q-block-wrapper">
-            <div class="question-inline" id="q149">
+            <div class="question-block" id="q149">
                 <span class="q-number">149.</span>
                 <span class="q-options">
                     <span class="option" data-ans="A">(A) accomplished</span>
@@ -184,7 +184,7 @@
 
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
-            const questionBlock = this.closest('.question-inline');
+            const questionBlock = this.closest('.question-block');
             
             if (questionBlock.classList.contains('answered')) return;
             

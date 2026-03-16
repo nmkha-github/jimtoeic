@@ -50,7 +50,7 @@
     }
 
     /* Cấu trúc câu hỏi thụt lề và đánh số giống ảnh */
-    .q-row {
+    .question-block {
         display: flex;
         justify-content: center; /* Căn giữa các block câu hỏi */
         margin-bottom: 20px;
@@ -113,7 +113,7 @@
 
         <p>The Sharp Tongue has -------- let the world in on the title of the group’s next album.</p>
 
-        <div class="q-row" id="q150" style="position: relative; left: -120px;">
+        <div class="question-block" id="q150" style="position: relative; left: -120px;">
             <div class="q-content">
                 <div class="q-number">150.</div>
                 <div class="q-options">
@@ -127,7 +127,7 @@
 
         <p>Terence Tyron and Co. have decided on Equalizers as the follow-up to 2004’s studio effort in Revolution, -------- the band’s manager, Shawn Lewinsky.</p>
 
-        <div class="q-row" id="q151" style="position: relative; left: -200px;">
+        <div class="question-block" id="q151" style="position: relative; left: -200px;">
             <div class="q-content">
                 <div class="q-number">151.</div>
                 <div class="q-options">
@@ -144,7 +144,7 @@
         <p><b><i>Equalizers</i></b> was produced by John Stack, whose extensive credits include <b>The Stone</b>, <b>Evolution</b>, <b>The Girls</b>, <b>Bryan McAdams</b>, and <b>The Party</b>. More details of the </p>
         <p>-------- as well as tour plans are expected to be made public in the coming weeks.</p>
 
-        <div class="q-row" id="q152" style="position: relative; left: -260px;">
+        <div class="question-block" id="q152" style="position: relative; left: -260px;">
             <div class="q-content">
                 <div class="q-number">152.</div>
                 <div class="q-options">
@@ -170,7 +170,7 @@
 
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
-            const questionBlock = this.closest('.q-row');
+            const questionBlock = this.closest('.question-block');
             
             if (questionBlock.classList.contains('answered')) return;
             
