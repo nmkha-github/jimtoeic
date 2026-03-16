@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 700px;
+        background-color: #ffffff;
+        padding: 40px;
+        border: 2px dashed #999;
+        position: relative;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    /* --- Review Header --- */
+    .header-text {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 0 0 15px 0;
+        letter-spacing: 1px;
+    }
+
+    .meta-info {
+        font-style: italic;
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 1.4;
+    }
+
+    .movie-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    /* --- Text Content --- */
+    .content-area {
+        line-height: 1.6;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .blank {
+        display: inline-block;
+        width: 80px;
+        border-bottom: 1px dashed #333;
+        margin: 0 5px;
+    }
+
+    /* --- Question Layouts --- */
+    .question-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        margin: 15px 0;
+        vertical-align: top;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+        min-width: 30px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+    p {
+        font-size: 17px;
+    }
+
+    /* Specific layouts to match the image spacing */
+    .q147-container { margin-left: 200px; }
+    .q148-container { margin-left: 300px; }
+    .q149-container { margin-left: 250px; }
+
+    /* Interactive Options */
+    .option {
+        font-size: 17px;
+        cursor: pointer;
+        padding: 1px 5px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .footer-sign {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <div class="header-text">Questions 147-149 refer to the following review.</div>
+<div class="main-container">
+    
+
+    <h2>AT THE MOVIES</h2>
+    <div class="meta-info">
+        Reviews by Elisa Reigns<br>
+        Ratings out of 5
+    </div>
+
+    <div class="content-area">
+        <span class="movie-title"><i>STRAIGHT COP CROOKED COP</i></span>
+        
+        <p>Canada's two official cultures clash -------- an uptight, by-the-book police officer (Jerry Kirkland)<p>
+
+        <div class="question-wrapper q147-container" id="q147">
+            <div class="q-number">147.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) despite</div>
+                <div class="option" data-ans="B">(B) when</div>
+                <div class="option" data-ans="C">(C) because of</div>
+                <div class="option" data-ans="D">(D) until</div>
+            </div>
+        </div>
+
+        <p>from Vancouver hooks up with a rule-breaking street cop from Quebec (Bruce Huard) for a drug-related murder investigation. The chemistry -------- the lead actors is good, but the</p>
+
+        <div class="question-wrapper q148-container" id="q148">
+            <div class="q-number">148.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) within</div>
+                <div class="option" data-ans="B">(B) over</div>
+                <div class="option" data-ans="C">(C) between</div>
+                <div class="option" data-ans="D">(D) along</div>
+            </div>
+        </div>
+
+        <p>outdated Canadian clichés displayed throughout the movie sometimes were a bit too much for the audience. The story line begins -------- but starts to lag on toward the latter half of the</p>
+
+        <div class="question-wrapper q149-container" id="q149" style="position: relative; left: -80px;">
+            <div class="q-number">149.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) fairly</div>
+                <div class="option" data-ans="B">(B) directly</div>
+                <div class="option" data-ans="C">(C) exactly</div>
+                <div class="option" data-ans="D">(D) quickly</div>
+            </div>
+        </div>
+
+        <p>movie, and the plot was too obvious to receive a good rating. <span class="footer-sign">•• Elisa Reigns</span></p>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng dựa trên ngữ cảnh đoạn văn
+    const correctAnswers = {
+        'q147': 'B', // clash when an officer... (liên từ chỉ thời gian)
+        'q148': 'C', // chemistry between (hóa học/sự ăn ý giữa 2 người)
+        'q149': 'D'  // begins quickly (bắt đầu nhanh nhưng sau đó chậm lại)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-wrapper');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

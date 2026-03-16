@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .test-header-text {
+        width: 800px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .main-container {
+        width: 760px;
+        background-color: #ffffff;
+        padding: 40px 50px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 15px rgba(0,0,0,0.15);
+        border: 1px solid #e0e0e0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #222;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin: 10px 0 15px 0;
+    }
+
+    .q-number {
+        margin-right: 8px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Specific Alignments to match the image */
+    #q150 {
+        margin-left: 0;
+    }
+
+    #q151 {
+        margin-left: 45%;
+    }
+
+    #q152 {
+        margin-left: 25%;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 4px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+        font-size: 16px;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="test-header-text">Questions 150-152 refer to the following article.</div>
+
+<div class="main-container">
+    <h1>Latin Group Honors Gabrielle Gonzales</h1>
+
+    <p><strong>SAN DIEGO</strong> – Puerto Rican pop star Gabrielle Gonzales will be named the Latin Recording Academy's Person of the Year for his accomplishments as an entertainer and humanitarian during the year 2006, the academy said yesterday.</p>
+    
+    <p>At a special dinner and concert in New York on November 1, Mr. Gonzales<br>-------- with this prestigious award.</p>
+    
+    <div class="question-block" id="q150">
+        <div class="q-number">150.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) honor</div>
+            <div class="option" data-ans="B">(B) honoring</div>
+            <div class="option" data-ans="C">(C) is honoring</div>
+            <div class="option" data-ans="D">(D) will be honored</div>
+        </div>
+    </div>
+
+    <p>A great portion of the proceeds from the evening's extravaganza will go to the Gabrielle Gonzales Foundation, which advocates the -------- of unprivileged children around the</p>
+    
+    <div class="question-block" id="q151">
+        <div class="q-number">151.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) wills</div>
+            <div class="option" data-ans="B">(B) claims</div>
+            <div class="option" data-ans="C">(C) trials</div>
+            <div class="option" data-ans="D">(D) rights</div>
+        </div>
+    </div>
+
+    <p>globe. According to the Latin Recording Academy President, Ricky Rodriguez,<br>Mr. Gonzales' musical -------- are matched by his endeavors as an advocate for the</p>
+    
+    <div class="question-block" id="q152">
+        <div class="q-number">152.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) performances</div>
+            <div class="option" data-ans="B">(B) accomplishments</div>
+            <div class="option" data-ans="C">(C) productions</div>
+            <div class="option" data-ans="D">(D) creations</div>
+        </div>
+    </div>
+
+    <p>welfare of unprivileged children around the world.</p>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q150': 'D', // will be honored (passive, future)
+        'q151': 'D', // rights (advocates the rights)
+        'q152': 'B'  // accomplishments (musical accomplishments)
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

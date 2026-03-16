@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 750px;
+        background-color: #ffffff;
+        padding: 40px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border: 1px solid #ccc;
+        position: relative;
+    }
+
+    /* Tạo viền răng cưa/họa tiết trang trí giống trong ảnh */
+    .main-container::before {
+        content: "";
+        position: absolute;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+        border: 2px solid #555;
+        border-style: double;
+        pointer-events: none;
+    }
+
+    .notice-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .notice-header h1 {
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        font-weight: 800;
+    }
+
+    .content-text {
+        font-size: 19px;
+        line-height: 1.6;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .q-number {
+        font-weight: bold;
+        min-width: 35px;
+        font-size: 19px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .option {
+        cursor: pointer;
+        font-size: 19px;
+        padding: 2px 8px;
+        margin-bottom: 2px;
+        border-radius: 4px;
+        transition: 0.2s;
+        width: fit-content;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .footer-info {
+        margin-top: 30px;
+        font-size: 19px;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px dashed #999;
+        margin: 20px 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="notice-header">
+        <h1>PUBLIC NOTICE</h1>
+    </div>
+
+    <div class="content-text">
+        Sheraton College intends to enter into a contract for consulting services with a potential company for the purpose of developing and implementing a campus-wide one-card system.
+    </div>
+
+    <p class="content-text">
+        The identification card will provide access to a multitude of campus applications to all persons 
+    </p>
+    <p class="content-text">-------- with the college. The system must coordinate and integrate with existing and future
+    </p>
+    <div class="question-block" id="q144">
+        <div class="q-number">144.</div>
+        <div class="q-options">
+            <div class="option" data-ans="A">(A) assisted</div>
+            <div class="option" data-ans="B">(B) blended</div>
+            <div class="option" data-ans="C">(C) associated</div>
+            <div class="option" data-ans="D">(D) united</div>
+        </div>
+    </div>
+    <p class="content-text">card-based computer systems.</p>
+
+    
+
+    <p class="content-text">
+        -------- will be given to those individuals or firms with equal or superior knowledge and 
+        </p>
+        <div class="question-block" id="q145">
+            <div class="q-number">145.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) Consider</div>
+                <div class="option" data-ans="B">(B) Consideration</div>
+                <div class="option" data-ans="C">(C) Considered</div>
+                <div class="option" data-ans="D">(D) Considerate</div>
+            </div>
+        </div>
+    <p class="content-text">
+        proven consulting in the areas of one-card assessment, design, installation, products, and implementation.
+    </p>
+    
+
+    <p class="content-text">
+        Applicants will be required to sign an affidavit stating they are not now affiliated with nor are receiving compensation from any card system vendors, financial consortiums, vendor groups, card institutes, or banking institutes.
+    </p>
+
+    <p class="content-text">
+        For information or a copy of the Request for Proposal, contact Justin Redd, Sheraton College Facilities Services, 2478 Euclid Ave., Utah, 755-0000.
+    </p>
+
+    <p class="content-text">
+        The college reserves the right to reject any of all proposals or to waive any specification or requirement determined to be in the best -------- of the college.
+        
+    </p>
+<div class="question-block" id="q146" style="position: relative; left: 280px;">
+            <div class="q-number">146.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) interests</div>
+                <div class="option" data-ans="B">(B) interested</div>
+                <div class="option" data-ans="C">(C) interesting</div>
+                <div class="option" data-ans="D">(D) interestingly</div>
+            </div>
+        </div>
+    <div class="footer-info">
+        <strong>Proposals are due and will be publicly opened at the Sheraton College Facilities Services, 2478 Euclid Ave., Room 55, Utah, at 2:00 p.m. on Monday, January 15, 2007.</strong>
+    </div>
+</div>
+
+<script>
+    // Logic đáp án dựa trên ngữ pháp TOEIC
+    const correctAnswers = {
+        'q144': 'C', // associated with (liên kết với)
+        'q145': 'B', // Consideration (Danh từ đóng vai trò chủ ngữ)
+        'q146': 'A'  // in the best interests of (vì lợi ích tốt nhất của)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

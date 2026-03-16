@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #f4f4f4;
+        padding: 10px;
+    }
+
+    .instruction-text {
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    /* --- Advertisement Box Styling --- */
+    .advertisement-body {
+        background-color: #ffffff;
+        /* Mô phỏng viền đứt đoạn của bài test */
+        border: 4px solid transparent;
+        border-image: repeating-linear-gradient(
+            -45deg,
+            #888,
+            #888 2px,
+            transparent 2px,
+            transparent 6px
+        ) 1;
+        padding: 40px 50px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #222;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .ad-title {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        line-height: 1.2;
+        color: #333;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .q-container {
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .q-container .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+        width: 40px;
+        text-align: right;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Vị trí riêng biệt cho từng câu hỏi dựa theo hình ảnh */
+    #q144 {
+        margin-left: 60px;
+    }
+
+    #q145 {
+        margin-left: 360px;
+    }
+
+    #q146 {
+        margin-left: 100px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 3px 6px;
+        margin-bottom: 3px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        color: #555;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+
+    /* --- Footer Styling --- */
+    .ad-footer {
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid #ccc;
+        color: #777;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction-text">Questions 144-146 refer to the following advertisement.</div>
+
+    <div class="advertisement-body">
+        <div class="ad-title">
+            STARGATE<br>SAUNA AND SPA
+        </div>
+
+        <p>Recover, relax, and revive at the Stargate Sauna and Spa. Start with a sauna or steam, soak in a relaxing spa, -------- revitalize and soothe your soul with one of Stargate's massages.</p>
+        
+        <div class="q-container" id="q144">
+            <div class="q-number">144.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) soon</div>
+                <div class="option" data-ans="B">(B) after</div>
+                <div class="option" data-ans="C">(C) then</div>
+                <div class="option" data-ans="D">(D) later</div>
+            </div>
+        </div>
+
+        <p>Choose from a traditional Chinese massage, Korean style, aromatherapy, body scrub, or a good old-fashioned head and foot massage. With over 20 professional licensed masseurs on staff every day, we are sure to have the style to suit your --------.</p>
+        
+        <div class="q-container" id="q145">
+            <div class="q-number">145.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) needs</div>
+                <div class="option" data-ans="B">(B) duties</div>
+                <div class="option" data-ans="C">(C) promises</div>
+                <div class="option" data-ans="D">(D) charges</div>
+            </div>
+        </div>
+
+        <p>We have separate, luxurious, lounge areas for men and women to relax in. So the next time you feel the need to -------- yourself, come and check us out.</p>
+        
+        <div class="q-container" id="q146">
+            <div class="q-number">146.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) repair</div>
+                <div class="option" data-ans="B">(B) recreate</div>
+                <div class="option" data-ans="C">(C) rejuvenate</div>
+                <div class="option" data-ans="D">(D) renovate</div>
+            </div>
+        </div>
+
+        <div class="ad-footer">
+            LEVEL 3, ST. LAWRENCE SQUARE MALL<br>
+            BUSINESS HOURS: 10AM – 11PM<br>
+            PHONE: (205) 755-6987
+        </div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng cho các câu hỏi
+    const correctAnswers = {
+        'q144': 'C', // ...soak in a relaxing spa, THEN revitalize and soothe...
+        'q145': 'A', // ...to suit your NEEDS.
+        'q146': 'C'  // ...need to REJUVENATE yourself...
+    };
+
+    // Thêm logic tương tác cho tất cả các lựa chọn (giống bài passage_3)
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm block câu hỏi mà lựa chọn này thuộc về
+            const questionBlock = this.closest('.q-container');
+            
+            // Nếu đã trả lời rồi thì không làm gì cả
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu câu hỏi đã được trả lời để ngăn click nhiều lần
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra logic đúng/sai
+            if (selectedAnswer === correctAnswer) {
+                // Đúng
+                this.classList.add('correct');
+            } else {
+                // Sai
+                this.classList.add('incorrect');
+                // Hiển thị đáp án đúng lên cho người dùng biết
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

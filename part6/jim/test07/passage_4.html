@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .wrapper {
+        width: 800px;
+    }
+
+    /* Top Instruction Text */
+    .instruction-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    /* Main Paper Container */
+    .paper-container {
+        background-color: #ffffff;
+        border: 2px solid #dcdcdc;
+        border-radius: 12px;
+        padding: 40px 50px;
+        box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
+        font-family: "Times New Roman", Times, serif; /* Serif font matching the image */
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* Header Section */
+    .account-heading {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .account-details {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* Paragraph spacing */
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    /* Question Block Styling */
+    .question-block {
+        display: flex;
+        margin-left: 50px; /* Indent matching the image */
+        margin-bottom: 15px;
+        font-family: Arial, Helvetica, sans-serif; /* Keep options clear */
+    }
+
+    .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+        width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options (Kept from your logic) */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 3px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+
+    /* Signature area */
+    .signature {
+        margin-top: 30px;
+        line-height: 1.3;
+    }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="instruction-text">Questions 150-152 refer to the following letter.</div>
+    
+    <div class="paper-container">
+        <div class="account-heading">Your account information</div>
+        <div class="account-details">
+            <div>Your Zone number: 115-2005</div>
+            <div>Your account number: 58124</div>
+        </div>
+
+        <p>Welcome Mr. Patrick Dillon:</p>
+        
+        <p>Thanks for choosing Zone. Our promise is simple: we always offer you the best</p>
+        <p>-------- with greater choice and flexibility. In this spirit, we invite you to get to know</p>
+        
+        <div class="question-block" id="q150" style="position: relative; left: -48px;">
+            <div class="q-number">150.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) value</div>
+                <div class="option" data-ans="B">(B) valor</div>
+                <div class="option" data-ans="C">(C) valuable</div>
+                <div class="option" data-ans="D">(D) validity</div>
+            </div>
+        </div>
+
+        <p>all about Zone.</p>
+
+        <p>Three easy guides! Tons of tips and rewards to discover!</p>
+
+        <p>This package will help you get familiar with the -------- privileges of your prepaid</p>
+        
+        <div class="question-block" id="q151" style="position: relative; left: 240px;">
+            <div class="q-number">151.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) much</div>
+                <div class="option" data-ans="B">(B) many</div>
+                <div class="option" data-ans="C">(C) every</div>
+                <div class="option" data-ans="D">(D) most</div>
+            </div>
+        </div>
+
+        <p>service and the innovative services Zone offers you, from text messaging to mobile Internet service. You'll also discover all the ways to manage your account on zone.com. You can also visit zone.com for loads of tips on making the most of your --------.</p>
+        
+        <div class="question-block" id="q152" style="position: relative; left: 320px;">
+            <div class="q-number">152.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) computer</div>
+                <div class="option" data-ans="B">(B) handset</div>
+                <div class="option" data-ans="C">(C) textbook</div>
+                <div class="option" data-ans="D">(D) account</div>
+            </div>
+        </div>
+
+        <p>If you have any questions, simply visit zone.com, or call 116, free of charge, from your Zone, or call 1-800-7555-zone (ext. 451).</p>
+        
+        <p>Explore away!</p>
+
+        <div class="signature">
+            Andrew Chiva<br>
+            Vice-president, Customer Relations
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here based on grammar and context
+    const correctAnswers = {
+        'q150': 'A', // the best value
+        'q151': 'B', // many privileges (countable plural noun)
+        'q152': 'B'  // making the most of your account (or handset, set D as logical choice for account management)
+    };
+
+    // Add click event to all options (Kept logic exactly same as passage_3.html)
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

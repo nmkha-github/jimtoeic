@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: 1px solid #ccc;
+    }
+
+    .instruction {
+        font-style: italic;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .announcement-box {
+        border: 3px double #333;
+        padding: 30px 40px;
+        position: relative;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: inline-flex;
+        vertical-align: top;
+        margin: 10px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+        min-width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Layout for specific questions */
+    .inline-question {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction">Questions 141-143 refer to the following announcement.</div>
+
+    <div class="announcement-box">
+        <h2>Halls will Come to Life with Music</h2>
+
+        <p>
+            Albert Hall and Royal Hall have disclosed their schedules for the upcoming season, with everything -------- classical music to stand-up comedy acts and lots in between.
+        </p>
+
+        <div class="question-block inline-question" id="q141">
+            <div class="q-number">141.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) over</div>
+                <div class="option" data-ans="B">(B) at</div>
+                <div class="option" data-ans="C">(C) up</div>
+                <div class="option" data-ans="D">(D) from</div>
+            </div>
+        </div>
+
+        <p>
+            The Smiths are set to make their debut at 100-year-old Albert Hall on Jan 25, 2007. The venerable venue -------- will host Bruce Thornton on January 17, Ron Ghanem on January 3,
+        </p>
+
+        <div class="question-block inline-question" id="q142">
+            <div class="q-number">142.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) besides</div>
+                <div class="option" data-ans="B">(B) of</div>
+                <div class="option" data-ans="C">(C) also</div>
+                <div class="option" data-ans="D">(D) either</div>
+            </div>
+        </div>
+
+        <p>
+            Terry Lightfoot on January 9, and folk superstar Judith Bachman on February 12, 13, and 14.
+        </p>
+
+        <p>
+            At Royal Hall, in its classical --------, American soprano Rosemary Voigt, Canadian soprano
+        </p>
+
+        <div class="question-block inline-question" id="q143" style="position: relative; left: 120px;">
+            <div class="q-number">143.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) series</div>
+                <div class="option" data-ans="B">(B) steps</div>
+                <div class="option" data-ans="C">(C) occasions</div>
+                <div class="option" data-ans="D">(D) separations</div>
+            </div>
+        </div>
+
+        <p>
+            Jonathon Pierre, Canadian baritone Mel Finley, and Polish contralto George Podles are on the bill.
+        </p>
+    </div>
+</div>
+
+<script>
+    // Logic đáp án
+    const correctAnswers = {
+        'q141': 'D', // from ... to ...
+        'q142': 'C', // also (cũng sẽ tổ chức...)
+        'q143': 'A'  // classical series (chuỗi âm nhạc cổ điển)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

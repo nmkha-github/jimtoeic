@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #f4f4f4; /* Nền đồng nhất với body */
+    }
+
+    .instruction-text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .instruction-text strong {
+        font-weight: bold;
+    }
+
+    /* --- Khung viền nét đứt giống bài thi TOEIC --- */
+    .border-wrapper {
+        background: 
+            repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 6px) top/100% 6px no-repeat,
+            repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 6px) bottom/100% 6px no-repeat,
+            repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 6px) left/6px 100% no-repeat,
+            repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 6px) right/6px 100% no-repeat;
+        padding: 8px; /* Khoảng cách từ viền đến nội dung */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .content-inner {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        font-size: 15px;
+        line-height: 1.8;
+        color: #000;
+    }
+
+    p {
+        margin: 0;
+        text-align: left;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin: 5px 0 10px 0;
+    }
+
+    .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Định vị từng câu hỏi cho giống hình */
+    .q-144 {
+        justify-content: center;
+        padding-right: 180px; /* Canh lùi vào giữa */
+    }
+
+    .q-145 {
+        justify-content: flex-end;
+        padding-right: 20px; /* Canh sát mép phải */
+    }
+
+    .q-146 {
+        justify-content: flex-start;
+        padding-left: 20px; /* Canh sát mép trái */
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction-text">
+        <strong>Questions 144-146</strong> refer to the following information.
+    </div>
+
+    <div class="border-wrapper">
+        <div class="content-inner">
+            <p>SUBSCRIBE today or pick up an -------- at your local newsstand, and get in on the chance to become</p>
+            
+            <div class="question-block q-144" id="q144">
+                <div class="q-number">144.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) requirement</div>
+                    <div class="option" data-ans="B">(B) description</div>
+                    <div class="option" data-ans="C">(C) issue</div>
+                    <div class="option" data-ans="D">(D) information</div>
+                </div>
+            </div>
+
+            <p>the winner of our grand prize: a trip for two to Paris, France, with all expenses --------. Plus, five</p>
+
+            <div class="question-block q-145" id="q145">
+                <div class="q-number">145.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) earned</div>
+                    <div class="option" data-ans="B">(B) paid</div>
+                    <div class="option" data-ans="C">(C) allowed</div>
+                    <div class="option" data-ans="D">(D) compensated</div>
+                </div>
+            </div>
+
+            <p>runners-up will win two nights' stays in the Premier Suite at the Hilton Hotel right here in our city.</p>
+            
+            <div class="spacer"></div>
+
+            <p>Yes, a total package valued at over $20,000 dollars will be given away! For a chance to become a</p>
+            <p>--------, drop by your local newsstand or dial 1-800-358-8484 to subscribe today! This offer lasts</p>
+
+            <div class="question-block q-146" id="q146">
+                <div class="q-number">146.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) contributor</div>
+                    <div class="option" data-ans="B">(B) participant</div>
+                    <div class="option" data-ans="C">(C) contestant</div>
+                    <div class="option" data-ans="D">(D) winner</div>
+                </div>
+            </div>
+
+            <p>until October 31.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng cho đoạn văn này
+    const correctAnswers = {
+        'q144': 'C', // pick up an issue
+        'q145': 'B', // all expenses paid
+        'q146': 'D'  // become a winner
+    };
+
+    // Thêm sự kiện click cho tất cả các lựa chọn (options)
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm khối câu hỏi chứa option đang click (tương thích mọi class giao diện)
+            const questionBlock = this.closest('.question-block');
+            
+            // Nếu đã trả lời rồi thì không thực hiện gì thêm
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu câu hỏi đã trả lời để khóa click
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra tính đúng/sai
+            if (selectedAnswer === correctAnswer) {
+                // Đúng
+                this.classList.add('correct');
+            } else {
+                // Sai
+                this.classList.add('incorrect');
+                // Hiển thị đáp án đúng lên cho người dùng biết
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

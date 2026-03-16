@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 66px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 800px;
+    }
+
+    .instruction {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    /* --- Announcement Box Styling --- */
+    .announcement-box {
+        background-color: #ffffff;
+        padding: 30px 20px;
+        /* Mô phỏng viền sọc đứt quãng trong hình */
+        border: 4px dashed #999;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .announcement-box h2 {
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #222;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin: 8px 0 15px 0;
+    }
+
+    /* Căn lề phải cho câu 144 và 145 giống hình */
+    .align-right {
+        justify-content: flex-start;
+        padding-left: 350px; /* Đẩy khối câu hỏi sang phải */
+    }
+
+    /* Căn lề trái cho câu 146 giống hình */
+    .align-left {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+        font-size: 16px;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Vô hiệu hóa click sau khi đã trả lời */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction">Questions 144-146 refer to the following announcement.</div>
+    
+    <div class="announcement-box">
+        <h2>COMMUNITY ANNOUNCEMENTS</h2>
+        
+        <p>Census night is November 8. Remember to fill in the census form you received in the mail to make sure that you and your family members are --------. Tick off one of the boxes asking you</p>
+        
+        <div class="question-block align-right" id="q144" style="position: relative; left: -80px;">
+            <div class="q-number">144.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) accepted</div>
+                <div class="option" data-ans="B">(B) counted</div>
+                <div class="option" data-ans="C">(C) granted</div>
+                <div class="option" data-ans="D">(D) understood</div>
+            </div>
+        </div>
+
+        <p>whether you are married or, if you are single, and specify the number of -------- you have if you</p>
+        
+        <div class="question-block align-right" id="q145" style="position: relative; left: 120px;">
+            <div class="q-number">145.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) young</div>
+                <div class="option" data-ans="B">(B) family</div>
+                <div class="option" data-ans="C">(C) children</div>
+                <div class="option" data-ans="D">(D) baby</div>
+            </div>
+        </div>
+
+        <p>are married, in the space provided. Previous census forms have been quite confusing, and</p>
+        <p>-------- residents did not respond accurately, leading to the gross under-reporting of our actual</p>
+        <div class="question-block align-left" id="q146" style="position: relative; left: -12px;">
+            <div class="q-number">146.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) much</div>
+                <div class="option" data-ans="B">(B) many</div>
+                <div class="option" data-ans="C">(C) as</div>
+                <div class="option" data-ans="D">(D) whole</div>
+            </div>
+        </div>
+
+        <p>population. However, we have made some alterations to make it a lot simpler this year.</p>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng cho bài 1
+    const correctAnswers = {
+        'q144': 'B', // counted (Census count people)
+        'q145': 'C', // children (number of children)
+        'q146': 'B'  // many (many residents)
+    };
+
+    // Giữ nguyên Logic Add click event to all options từ file cũ
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

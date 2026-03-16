@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 800px;
+        padding: 15px;
+    }
+
+    .instruction {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    /* --- Double Border Notice Box --- */
+    .notice-outer {
+        border: 3px solid #888;
+        padding: 4px;
+        background-color: #fff;
+    }
+
+    .notice-inner {
+        border: 1px solid #888;
+        padding: 40px;
+        min-height: 400px;
+    }
+
+    /* --- Notice Content Styling --- */
+    .notice-title {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        line-height: 1.3;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 45%; /* Indent to match the image layout */
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 15px;
+        padding-top: 2px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+        font-size: 15px;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+    
+    .spacing-break {
+        height: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction">
+        Questions 141-143 refer to the following notice.
+    </div>
+
+    <div class="notice-outer">
+        <div class="notice-inner">
+            <div class="notice-title">
+                NOTICE TO EMPLOYMENT<br>
+                ADVERTISERS AND JOB SEEKERS
+            </div>
+
+            <div class="paragraph">
+                Misleading advertisements placed in the employment -------- of our newspaper can
+            </div>
+            
+            <div class="question-block" id="q141" style="position: relative;">
+                <div class="q-number">141.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) area</div>
+                    <div class="option" data-ans="B">(B) section</div>
+                    <div class="option" data-ans="C">(C) branch</div>
+                    <div class="option" data-ans="D">(D) department</div>
+                </div>
+            </div>
+
+            <div class="paragraph">
+                result in hardship and time wasted by those who are looking for jobs, and this is certainly unacceptable. Placing false ads that are misleading is an offence against the Trade Practices and Fair Trade Act.
+            </div>
+
+            <div class="spacing-break"></div>
+
+            <div class="paragraph">
+                Any -------- wishing to place a want ad with us should keep in mind that all advertisements
+            </div>
+
+            <div class="question-block" id="q142" style="position: relative; left: -316px;"> <div class="q-number">142.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) employees</div>
+                    <div class="option" data-ans="B">(B) employs</div>
+                    <div class="option" data-ans="C">(C) employment</div>
+                    <div class="option" data-ans="D">(D) employer</div>
+                </div>
+            </div>
+
+            <div class="paragraph">
+                should include a job title, a clear -------- of the job, and the income basis and be placed
+            </div>
+
+            <div class="question-block" id="q143" style="position: relative; left: -180px;">
+                <div class="q-number">143.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) information</div>
+                    <div class="option" data-ans="B">(B) subscription</div>
+                    <div class="option" data-ans="C">(C) description</div>
+                    <div class="option" data-ans="D">(D) requirement</div>
+                </div>
+            </div>
+
+            <div class="paragraph">
+                under the appropriate category.
+            </div>
+
+            <div class="spacing-break"></div>
+            <div class="spacing-break"></div>
+
+            <div class="paragraph">
+                For further information, contact the Department of Fair Trade at 755-5720 during business hours.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q141': 'B', // employment section
+        'q142': 'D', // Any employer wishing
+        'q143': 'C'  // a clear description of the job
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

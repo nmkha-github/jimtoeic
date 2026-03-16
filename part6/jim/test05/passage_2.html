@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #a6a6a6; /* Màu nền xám bên ngoài */
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* --- News Article Styling --- */
+    .article-container {
+        background-color: #ffffff;
+        border: 1px solid #999;
+        padding: 40px;
+        position: relative;
+    }
+
+    /* Viền răng cưa giả lập như trong ảnh */
+    .article-container::before, .article-container::after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        height: 10px;
+        background-image: radial-gradient(circle, transparent 70%, #a6a6a6 70%);
+        background-size: 15px 15px;
+    }
+    .article-container::before { top: -5px; }
+    .article-container::after { bottom: -5px; transform: rotate(180deg); }
+
+    .article-content {
+        color: #333;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .article-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .article-header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #444;
+        text-transform: uppercase;
+    }
+
+    .article-header .sub-header {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    p { margin: 15px 0; text-align: justify; }
+
+    .instruction-text {
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: inline-flex;
+        vertical-align: top;
+        margin: 10px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+        min-width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Layout for specific questions */
+    .inline-question {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction-text">Questions 144-146 refer to the following news article.</div>
+    
+    <div class="article-container">
+        <div class="article-content">
+            <div class="article-header">
+                <h1>Thornhill Sales</h1>
+                <div class="sub-header">Increased 124% in June</div>
+            </div>
+
+            <p>Trimart's Housing Report gave Thornhill the number one ranking in sales for the month of June.</p>
+            
+            <p>
+                Sales in Thornhill increased by 124%, with 330 sales -------- to a May tally of 147.
+            </p>
+            <div class="question-block" id="q144" style="position: relative; left: 280px;">
+                <div class="q-number">144.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) comparisons</div>
+                    <div class="option" data-ans="B">(B) compared</div>
+                    <div class="option" data-ans="C">(C) comparing</div>
+                    <div class="option" data-ans="D">(D) comparative</div>
+                </div>
+            </div>
+            <p>
+                This dramatic -------- was the result of the outstanding success of the Saxton Group's launch of
+            </p> 
+                
+            <div class="question-block" id="q145">
+                <div class="q-number">145.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) decrease</div>
+                    <div class="option" data-ans="B">(B) lift</div>
+                    <div class="option" data-ans="C">(C) reduction</div>
+                    <div class="option" data-ans="D">(D) increase</div>
+                </div>
+            </div>
+            <p>
+            their new, affordable subdivision Home Sweet Home.
+            </p>
+            <p>
+                In its first weekend, Home Sweet Home completely sold out its 152-unit inventory in the Thornhill area. A more -------- increase of 16% was recorded in the Toronto region, comprised
+            </p>
+            <div class="question-block" id="q146">
+                <div class="q-number">146.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) cautious</div>
+                    <div class="option" data-ans="B">(B) careful</div>
+                    <div class="option" data-ans="C">(C) moderate</div>
+                    <div class="option" data-ans="D">(D) deliberate</div>
+                </div>
+            </div>
+            <p>
+                of North York, East York, Etobicoke, York, and Central Toronto.
+            </p>
+
+            <p>The total market area experienced a 5% increase in sales over May.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng cho bài đọc
+    const correctAnswers = {
+        'q144': 'B', // compared to (cấu trúc so sánh)
+        'q145': 'D', // increase (dựa vào ngữ cảnh "Increased 124%")
+        'q146': 'C'  // moderate increase (mức tăng vừa phải 16% so với 124%)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

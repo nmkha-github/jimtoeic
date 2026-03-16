@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Dreammaker</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: 2px dashed #999;
+        position: relative;
+    }
+
+    /* Header Styling */
+    .ad-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .brand-name {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .slogan {
+        font-style: italic;
+        font-size: 18px;
+        color: #555;
+    }
+
+    /* Content Styling */
+    .content-area {
+        line-height: 1.8;
+        font-size: 19px;
+    }
+
+    p {
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: inline-flex;
+        vertical-align: top;
+        margin: 10px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        min-width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 1px 8px;
+        margin-bottom: 2px;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    /* Divider */
+    .divider {
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="ad-header">
+        <div class="brand-name">Dreammaker</div>
+        <div class="slogan">The professionals that make your nights comfortable</div>
+    </div>
+
+    <div class="content-area">
+        <p>
+            The Dreammaker Plus -------- the exclusive coil system everyone's been talking about.
+        </p>
+        <div class="question-block" id="q147" style="position: relative; left: 120px;">
+            <div class="q-number">147.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) takes</div>
+                <div class="option" data-ans="B">(B) features</div>
+                <div class="option" data-ans="C">(C) accounts</div>
+                <div class="option" data-ans="D">(D) calculates</div>
+            </div>
+        </div>
+        <p>
+            For the past 50 years, the experts at Dreammaker have dedicated their time and effort to bring the Americans a good night's rest by using our reliable and proven technology.
+        </p>
+
+        <p>
+            Compared to any conventional spring systems available in the industry, the Dreammaker Plus has nearly twice the coils of any others. Quality comfort layers and fabrics --------
+            to ensure a 
+        </p>
+        <div class="question-block" id="q148" style="position: relative; left: 440px;">
+            <div class="q-number">148.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) was used</div>
+                <div class="option" data-ans="B">(B) have been used</div>
+                <div class="option" data-ans="C">(C) are to use</div>
+                <div class="option" data-ans="D">(D) will be used</div>
+            </div>
+        </div>
+        <p>comfortable and durable sleeping surface.</p>
+        <p>
+            By increasing the wire thickness in the outer two rows, Dreammaker Plus --------
+        </p>
+        <div class="question-block" id="q149" style="position: relative; left: 480px;">
+            <div class="q-number">149.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) provide</div>
+                <div class="option" data-ans="B">(B) provisions</div>
+                <div class="option" data-ans="C">(C) providing</div>
+                <div class="option" data-ans="D">(D) provides</div>
+            </div>
+        </div>
+        <p>
+            a firmer seating edge, increases the usable sleeping space, and helps to prevent that "roll out of bed" feeling.
+        </p>
+        
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng cho Passage 1
+    const correctAnswers = {
+        'q147': 'B', // features (bao gồm/có đặc điểm)
+        'q148': 'B', // have been used (thì hiện tại hoàn thành bị động - chủ ngữ số nhiều)
+        'q149': 'D'  // provides (chia theo chủ ngữ số ít Dreammaker Plus)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.inline-question');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

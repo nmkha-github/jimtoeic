@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 24px;
+    }
+
+    .main-container {
+        width: 750px;
+        background-color: #ffffff;
+        padding: 60px 60px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        color: #333;
+        position: relative;
+    }
+
+    /* Letter Header Styling */
+    .letter-header {
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 1.3;
+    }
+
+    .recipient-info {
+        margin-bottom: 30px;
+    }
+
+    .salutation {
+        margin-bottom: 25px;
+    }
+
+    /* Text Body Styling */
+    .letter-body {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    /* --- Questions Styling inside the text --- */
+    .question-inline {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    /* Layout for questions in text */
+    .q-block-150 { margin: 10px 0; display: flex; align-items: flex-start; gap: 10px; }
+    .q-block-151 { margin: 10px 0; display: flex; align-items: flex-start; gap: 10px; }
+    .q-block-152 { margin: 10px 0; display: flex; align-items: flex-start; gap: 10px; }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 1px 4px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724 !important;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        text-decoration: none !important;
+    }
+
+    .incorrect {
+        color: #721c24 !important;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    /* Signature Styling */
+    .signature {
+        margin-top: 40px;
+    }
+
+    .signature-name {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .sender-details {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="letter-header">
+        <div class="recipient-info">
+            Michelle L. Sinnott<br>
+            The Mitel Limited<br>
+            45 Landsdowne Road<br>
+            Seattle, Washington
+        </div>
+        
+        <div class="salutation">Dear Ms. Sinnott:</div>
+    </div>
+
+    <div class="letter-body">
+        <p>
+            Mr. Steven Davis, who is currently employed as a junior accountant at your firm, has recently shown his interest in a similar post with -------- and has provided your name as 
+        </p>
+
+        <div class="q-block-150" id="150" style="position: relative; left: 360px">
+            <span class="q-number">150.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) you</div>
+                <div class="option" data-ans="B">(B) us</div>
+                <div class="option" data-ans="C">(C) them</div>
+                <div class="option" data-ans="D">(D) him</div>
+            </div>
+        </div>
+
+        <p>a reference.</p>
+
+        <p style="font-size: 21px;">
+            I would be grateful to receive any information regarding his work ethic, character, and achievements. Furthermore, if you can provide your personal views of how his 
+        </p>
+        <p>-------- with you have been and what your opinion is regarding Mr. Davis taking on </p>
+
+        <div class="q-block-151" id="151">
+            <span class="q-number">151.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) facilities</div>
+                <div class="option" data-ans="B">(B) values</div>
+                <div class="option" data-ans="C">(C) services</div>
+                <div class="option" data-ans="D">(D) opportunities</div>
+            </div>
+        </div>
+
+        <p>
+            full responsibility as an accountant in a very large and busy department, I would appreciate it.
+        </p>
+
+        <p>
+            I am -------- aware that Mr. Davis graduated from George Brown College with an 
+        </p>
+
+        <div class="q-block-152" id="152">
+            <span class="q-number">152.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) enough</div>
+                <div class="option" data-ans="B">(B) thoroughly</div>
+                <div class="option" data-ans="C">(C) entirely</div>
+                <div class="option" data-ans="D">(D) fully</div>
+            </div>
+        </div>
+
+        <p>
+            accounting degree but I am more interested in how he has performed under your supervision since he began working for you.
+        </p>
+
+        <p>
+            If there is any other information you feel I can use, I would appreciate it very much. I'd like to thank you in advance and add that any information you provide will be treated as strictly confidential.
+        </p>
+
+        <div class="signature">
+            <p>Sincerely,</p>
+            <div class="signature-name">Brian Simpson</div>
+            <div class="sender-details">
+                Brian S. Simpson<br>
+                Accounting Manager<br>
+                Coram Incorporated<br>
+                (206) 755 8956
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng cho Passage 1
+    const correctAnswers = {
+        '150': 'B', // with us (với chúng tôi - công ty người viết)
+        '151': 'C', // services (dịch vụ/quá trình làm việc)
+        '152': 'D'  // fully aware (hoàn toàn nhận biết được)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.q-block-150, .q-block-151, .q-block-152');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

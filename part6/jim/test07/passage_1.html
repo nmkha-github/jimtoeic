@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #a6a6a6;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* --- Email Header Styling --- */
+    .email-header {
+        margin-bottom: 15px;
+    }
+
+    .header-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .header-label {
+        width: 80px;
+        color: #333;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .header-colon {
+        width: 20px;
+        text-align: center;
+    }
+
+    .header-value {
+        flex-grow: 1;
+        background-color: #fcfcfc;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        box-shadow: inset 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* --- Email Body Styling --- */
+    .email-body {
+        background-color: #ffffff;
+        border: 2px solid #333;
+        padding: 30px 40px;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 10px 0 25px 0;
+    }
+
+    /* Center layout for Q141 */
+    .q-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .q-center .q-number {
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Two-column layout for Q142 & Q143 */
+    .two-col-questions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .col-q {
+        width: 45%;
+        display: flex;
+    }
+
+    .col-q .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724 !important;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24 !important;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="email-header">
+        <div class="header-row">
+            <div class="header-label">From</div>
+            <div class="header-colon">:</div>
+            <div class="header-value">Pauline Campbell [mailto:pauline.campbell@power.recruit.com]</div>
+        </div>
+        <div class="header-row">
+            <div class="header-label">To</div>
+            <div class="header-colon">:</div>
+            <div class="header-value">Mr. Justin Long</div>
+        </div>
+        <div class="header-row">
+            <div class="header-label">Sent</div>
+            <div class="header-colon">:</div>
+            <div class="header-value">Tues, 20 Jun 2007 2:44 PM</div>
+        </div>
+        <div class="header-row">
+            <div class="header-label">Subject</div>
+            <div class="header-colon">:</div>
+            <div class="header-value">Thank You</div>
+        </div>
+    </div>
+
+    <div class="email-body">
+        <p>First I'd like to thank you for taking the time to forward your resume and for expressing your interest in employment opportunities with RECRUIT USA, Inc. Your -------- will be reviewed within the next few</p>
+        
+        <div class="question-block q-center" id="q141" style="position: relative; left: 40px;">
+            <div class="q-number">141.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) employment</div>
+                <div class="option" data-ans="B">(B) application</div>
+                <div class="option" data-ans="C">(C) subscription</div>
+                <div class="option" data-ans="D">(D) administration</div>
+            </div>
+        </div>
+        <p>business days.</p>
+        <p>Should your qualifications -------- our requirements, we will contact you directly to arrange an interview.</p>
+        
+        <div class="question-block q-center" id="q142" style="position: relative; left: -160px;">
+            <div class="q-number">142.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) agree</div>
+                <div class="option" data-ans="B">(B) equal</div>
+                <div class="option" data-ans="C">(C) match</div>
+                <div class="option" data-ans="D">(D) test</div>
+            </div>
+        </div>
+            
+
+
+        <p>-------- the volume of applications we receive, we cannot guarantee that your resume will stay on file </p>
+        <div class="question-block q-center" id="q143" style="position: relative; left: -280px;">
+            <div class="q-number">143.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) Due to</div>
+                <div class="option" data-ans="B">(B) Even though</div>
+                <div class="option" data-ans="C">(C) In spite of</div>
+                <div class="option" data-ans="D">(D) In addition to</div>
+            </div>
+        </div>
+        <p>for an extended period of time. As new positions are posted on a regular basis, we encourage you to revisit our site and submit further applications as appropriate.</p>
+        
+        <p>We wish you the best of luck in your pursuit of new career opportunities and thank you again for your interest in RECRUIT USA, Inc.</p>
+        
+        <p>Sincerely,<br><br>
+        Pauline Campbell<br>
+        Human Resources<br>
+        RECRUIT USA, Inc.</p>
+    </div>
+</div>
+
+<script>
+    const correctAnswers = {
+        'q141': 'B', // Your application will be reviewed
+        'q142': 'C', // qualifications match our requirements
+        'q143': 'A'  // Due to the volume of applications
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.col-q, .q-center');
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

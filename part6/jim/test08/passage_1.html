@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f9fa; /* Tệp nền sáng giống bảng điều khiển */
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 800px;
+    }
+
+    .instruction-text {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #000;
+    }
+
+    /* Tạo viền đôi giống hệt đề thi thực tế */
+    .outer-border {
+        border: 3px solid #000;
+        padding: 2px;
+        background-color: #fff;
+    }
+
+    .inner-border {
+        border: 1px solid #000;
+        padding: 35px 40px;
+        background-color: #ffffff;
+        color: #000;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    h2 {
+        font-family: 'Arial Black', Impact, sans-serif;
+        font-weight: 900;
+        font-size: 26px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .text-line {
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+
+    /* Styling cho các câu hỏi */
+    .question-block {
+        margin: 5px 0;
+        display: flex;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States giữ nguyên từ passage_3 */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Không cho click lại sau khi đã chọn */
+    }
+
+    /* Định dạng danh sách nghiêng như trong hình */
+    ol {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding-left: 40px;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+        font-style: italic;
+        text-align: justify;
+    }
+
+    /* Tùy chỉnh vị trí để giống với layout trên giấy */
+    #q141 {
+        margin-left: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #q142 {
+        justify-content: flex-end;
+        margin-right: 20%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-style: normal; /* Reset italic cho khối câu hỏi bên trong list */
+    }
+    
+    #q143 {
+        justify-content: flex-end;
+        margin-right: 8%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction-text">Questions 141-143 refer to the following instructions.</div>
+    
+    <div class="outer-border">
+        <div class="inner-border">
+            <h2>Emergency Evacuation Functions</h2>
+            
+            <div class="text-line">-------- an emergency situation arises, the persons seated near the exits might be called</div>
+            
+            <div class="question-block" id="q141">
+                <div class="q-number">141.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) In particular</div>
+                    <div class="option" data-ans="B">(B) By the way</div>
+                    <div class="option" data-ans="C">(C) In the event</div>
+                    <div class="option" data-ans="D">(D) Therefore</div>
+                </div>
+            </div>
+            
+            <div class="text-line">upon to perform the following tasks:</div>
+            
+            <ol>
+                <li>Identify, locate, and operate the mechanisms to open the emergency exits.</li>
+                <li>Assess the situation quickly, and make a decision to see if opening the door would expose the passengers to any hazards.</li>
+                <li>Fasten the emergency exit door to the hinge to ensure a safe flow of departure for the passengers.</li>
+                <li>As the exit doors are unlocked, the inflatable slide will automatically be deployed to the ground below. The diagrams posted next to the exit doors illustrate this procedure. Alert the other passengers once the slide has been fully --------. Exit first to make sure that the
+                    <div class="question-block" id="q142">
+                        <div class="q-number">142.</div>
+                        <div class="q-options">
+                            <div class="option" data-ans="A">(A) amplified</div>
+                            <div class="option" data-ans="B">(B) inflated</div>
+                            <div class="option" data-ans="C">(C) boosted</div>
+                            <div class="option" data-ans="D">(D) built up</div>
+                        </div>
+                    </div>
+                    situation is safe outside. Once safety has been confirmed, guide the others out of the plane by helping them from the bottom of the slide.
+                </li>
+            </ol>
+            
+            <div class="text-line">If your seating allocation is by the exit doors, but you feel that you can't meet the --------</div>
+            
+            <div class="question-block" id="q143">
+                <div class="q-number">143.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) principle</div>
+                    <div class="option" data-ans="B">(B) value</div>
+                    <div class="option" data-ans="C">(C) law</div>
+                    <div class="option" data-ans="D">(D) criteria</div>
+                </div>
+            </div>
+            
+            <div class="text-line">listed above, or you simply wish not to take on the responsibility, please tell one of the flight attendants before take off. You will be provided with an alternative seating arrangement.</div>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    // Logic đáp án chính xác
+    const correctAnswers = {
+        'q141': 'C', // In the event
+        'q142': 'B', // inflated
+        'q143': 'D'  // criteria
+    };
+
+    // Bắt sự kiện click giữ nguyên từ passage_3
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm block chứa câu hỏi
+            const questionBlock = this.closest('.question-block');
+            
+            // Bỏ qua nếu đã trả lời
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu câu hỏi đã được trả lời
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra tính đúng/sai
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                // Làm nổi bật câu trả lời đúng
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

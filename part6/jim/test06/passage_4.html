@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #a6a6a6; /* Màu nền xám đậm bên ngoài giống mẫu */
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* --- Paper Styling --- */
+    .paper-body {
+        background-color: #ffffff;
+        border: 2px solid #ddd;
+        border-radius: 15px; /* Bo góc nhẹ giống trong ảnh */
+        padding: 40px 50px;
+        font-size: 17px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 15px 0 25px 0;
+    }
+
+    /* Cấu trúc câu hỏi thụt lề và đánh số giống ảnh */
+    .q-row {
+        display: flex;
+        justify-content: center; /* Căn giữa các block câu hỏi */
+        margin-bottom: 20px;
+    }
+
+    .q-content {
+        display: flex;
+        gap: 15px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        min-width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 2px;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="paper-body">
+        <h2>Tongue at last Gives away Their New Album Title</h2>
+
+        <p>The Sharp Tongue has -------- let the world in on the title of the group’s next album.</p>
+
+        <div class="q-row" id="q150" style="position: relative; left: -120px;">
+            <div class="q-content">
+                <div class="q-number">150.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) finally</div>
+                    <div class="option" data-ans="B">(B) ever</div>
+                    <div class="option" data-ans="C">(C) lastly</div>
+                    <div class="option" data-ans="D">(D) permanently</div>
+                </div>
+            </div>
+        </div>
+
+        <p>Terence Tyron and Co. have decided on Equalizers as the follow-up to 2004’s studio effort in Revolution, -------- the band’s manager, Shawn Lewinsky.</p>
+
+        <div class="q-row" id="q151" style="position: relative; left: -200px;">
+            <div class="q-content">
+                <div class="q-number">151.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) according to</div>
+                    <div class="option" data-ans="B">(B) depending on</div>
+                    <div class="option" data-ans="C">(C) in accordance</div>
+                    <div class="option" data-ans="D">(D) in compliance</div>
+                </div>
+            </div>
+        </div>
+
+        <p>The album is set to hit stores nationwide on November 17, while the first single, To Kill, will begin airing on the radio in two weeks.</p>
+        
+        <p><b><i>Equalizers</i></b> was produced by John Stack, whose extensive credits include <b>The Stone</b>, <b>Evolution</b>, <b>The Girls</b>, <b>Bryan McAdams</b>, and <b>The Party</b>. More details of the </p>
+        <p>-------- as well as tour plans are expected to be made public in the coming weeks.</p>
+
+        <div class="q-row" id="q152" style="position: relative; left: -260px;">
+            <div class="q-content">
+                <div class="q-number">152.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) release</div>
+                    <div class="option" data-ans="B">(B) notice</div>
+                    <div class="option" data-ans="C">(C) confidence</div>
+                    <div class="option" data-ans="D">(D) availability</div>
+                </div>
+            </div>
+        </div>
+
+        <p><b>The Tongue</b> now has several tours scheduled, including one here in our city at the Grand Dome on December 14.</p>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng cho Passage 1
+    const correctAnswers = {
+        'q150': 'A', // finally (cuối cùng thì cũng...)
+        'q151': 'A', // according to (theo như lời của ai đó)
+        'q152': 'A'  // details of the release (chi tiết về việc phát hành)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.q-row');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                // Hiển thị đáp án đúng
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

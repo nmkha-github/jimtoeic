@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #a6a6a6; /* Màu nền xám bao quanh như mẫu */
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* --- Ad Content Styling --- */
+    .ad-body {
+        background-color: #ffffff;
+        border: 2px dashed #999; /* Viền nét đứt giống trong hình */
+        padding: 40px;
+        font-size: 16.5px;
+        line-height: 1.6;
+        color: #333;
+        position: relative;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #000;
+        text-align: left;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .closing-text {
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-inline {
+        display: inline-flex;
+        align-items: flex-start;
+        margin: 5px 20px;
+        vertical-align: middle;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+        min-width: 35px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+        font-weight: normal;
+    }
+
+    .option:hover {
+        background-color: #e8f0fe;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    /* Layout helper for 148, 149 to match the image structure */
+    .q-block-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20%;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="ad-body">
+        <h2>Experienced Office/Administrative Assistant</h2>
+
+        <p>
+            Energetic, new public relations agency is looking for a -------- talented Office/Administrative 
+        </p>
+        <div class="question-inline" id="q147" style="position: relative; left: 320px;">
+            <div class="q-number">147.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) highness</div>
+                <div class="option" data-ans="B">(B) higher</div>
+                <div class="option" data-ans="C">(C) highest</div>
+                <div class="option" data-ans="D">(D) highly</div>
+            </div>
+        </div>
+        <p> 
+            Assistant to join and help organize a small but rapidly growing team. You will have at least 2-3 years office experience, be a self-starter with a 'can-do' attitude, and have the ability to bring order to chaos! Duties will include: word processing such as letters, reports, and proposals; developing PowerPoint presentations; creating and maintaining filing systems; creating Excel spreadsheets; organizing meetings; and managing the diaries of consultants and other general office management duties. -------- experience as an administrative assistant in the PR or media 
+        </p>
+        
+
+        <div class="q-block-wrapper">
+            <div class="question-inline" id="q148">
+                <span class="q-number">148.</span>
+                <span class="q-options">
+                    <span class="option" data-ans="A">(A) While</span>
+                    <span class="option" data-ans="B">(B) If</span>
+                    <span class="option" data-ans="C">(C) Whether</span>
+                    <span class="option" data-ans="D">(D) Since</span>
+                </span>
+            </div>
+        </div>
+
+        <p>
+            industry is of value, it is not essential. To be successful in this role, you will have excellent communication skills, be -------- in all Microsoft applications, particularly PowerPoint, and have 
+        </p>
+
+        <div class="q-block-wrapper">
+            <div class="question-inline" id="q149">
+                <span class="q-number">149.</span>
+                <span class="q-options">
+                    <span class="option" data-ans="A">(A) accomplished</span>
+                    <span class="option" data-ans="B">(B) gifted</span>
+                    <span class="option" data-ans="C">(C) proficient</span>
+                    <span class="option" data-ans="D">(D) qualified</span>
+                </span>
+            </div>
+        </div>
+
+        <p>
+            an outstanding eye for details. The position is open to both part-time and full-time applicants, and flexible working conditions are offered.
+        </p>
+
+        <p class="closing-text">
+            If you believe you fit the criteria, are bright, energetic, and proactive, please submit a CV outlining your specific experience by Friday, July 7 to recruitment@sinclair.com. <br>
+            Please note only candidates that meet the criteria will be short-listed and contacted.
+        </p>
+    </div>
+</div>
+
+<script>
+    // Logic đáp án dựa trên nội dung bài đọc
+    const correctAnswers = {
+        'q147': 'D', // highly talented (adverb + adjective)
+        'q148': 'A', // While (Mặc dù kinh nghiệm có giá trị, nhưng không bắt buộc)
+        'q149': 'C'  // proficient in (thành thạo các ứng dụng)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-inline');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
