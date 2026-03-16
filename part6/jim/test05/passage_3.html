@@ -177,7 +177,7 @@
 
     document.querySelectorAll('.option').forEach(item => {
         item.addEventListener('click', function() {
-            const questionBlock = this.closest('.inline-question');
+            const questionBlock = this.closest('.question-block');
             
             if (questionBlock.classList.contains('answered')) return;
             
