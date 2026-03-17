@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #000;
+    }
+
+    .main-wrapper {
+        width: 800px;
+    }
+
+    .instruction {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* Double border effect for the ad */
+    .ad-outer-border {
+        border: 3px solid #000;
+        padding: 2px;
+        background-color: #fff;
+    }
+
+    .ad-inner-border {
+        border: 1px solid #000;
+        padding: 40px 50px;
+    }
+
+    /* Ad Content Typography */
+    h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    h2 em {
+        font-style: italic;
+        font-weight: bold;
+    }
+    h2 strong {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .text-line {
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Questions Layout */
+    .question-block {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0 5px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+        width: 150px; /* fixed width to align neatly */
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        font-size: 15px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    /* Footer text */
+    .ad-footer {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .ad-footer p {
+        margin-bottom: 5px;
+        font-style: italic;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="instruction">Questions 141-143 refer to the following advertisement.</div>
+    
+    <div class="ad-outer-border">
+        <div class="ad-inner-border">
+            
+            <h2><em>Your Invitation to</em> <strong>saturdays@artswave</strong></h2>
+            
+            <h3>Scenario</h3>
+            <p>Saturday, casual wear, inspired space, scented oils, soothing music, ambient lighting, warm cups of green tea, lost in the experience, sketch the day away... pure bliss.</p>
+
+            <div class="text-line">Saturday is an excellent day to lose -------- in a creative activity at Artswave. All experiences</div>
+            
+            <div class="question-block" id="q141">
+                <div class="q-number">141.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) themselves</div>
+                    <div class="option" data-ans="B">(B) herself</div>
+                    <div class="option" data-ans="C">(C) himself</div>
+                    <div class="option" data-ans="D">(D) yourself</div>
+                </div>
+            </div>
+
+            <div class="text-line">are designed for complete beginners. Absolutely no talent is needed. And we have</div>
+            <div class="text-line">-------- our special offer, so you will still save $20. Between now and November 30, all</div>
+
+            <div class="question-block" id="q142" style="position: relative; left: -200px;">
+                <div class="q-number" style="margin-left: -70px;">142.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) exposed</div>
+                    <div class="option" data-ans="B">(B) expected</div>
+                    <div class="option" data-ans="C">(C) extended</div>
+                    <div class="option" data-ans="D">(D) expelled</div>
+                </div>
+            </div>
+
+            <div class="text-line">experiences are just $79 (except life drawing). But hurry, -------- places are available.</div>
+
+            <div class="question-block" id="q143">
+                <div class="q-number" style="margin-left: 200px;">143.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) little</div>
+                    <div class="option" data-ans="B">(B) partial</div>
+                    <div class="option" data-ans="C">(C) few</div>
+                    <div class="option" data-ans="D">(D) limited</div>
+                </div>
+            </div>
+
+            <div class="ad-footer">
+                <p>saturdays@artswave 10 a.m.-2:30 p.m. Light lunch included.</p>
+                <p>Unwind your mind at www.artswave.com/escape.</p>
+                <p>Or phone 1-800-755-4554 for a free catalogue.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án chính xác cho passage 1
+    const correctAnswers = {
+        'q141': 'D', // yourself
+        'q142': 'C', // extended
+        'q143': 'D'  // limited
+    };
+
+    // Logic kiểm tra đáp án giống hệt passage 3
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm block chứa câu hỏi hiện tại
+            const questionBlock = this.closest('.question-block');
+            
+            // Nếu đã trả lời rồi thì bỏ qua
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu đã trả lời
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra đúng sai
+            if (selectedAnswer === correctAnswer) {
+                // Trả lời đúng
+                this.classList.add('correct');
+            } else {
+                // Trả lời sai
+                this.classList.add('incorrect');
+                // Làm nổi bật đáp án đúng
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

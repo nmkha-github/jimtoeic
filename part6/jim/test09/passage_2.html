@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: transparent;
+    }
+
+    .intro-text {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #000;
+    }
+
+    /* Tạo khung viền sọc (barcode border) giống trong hình ảnh */
+    .letter-wrapper {
+        background: 
+            repeating-linear-gradient(to right, #333, #333 2px, transparent 2px, transparent 6px) top/100% 6px no-repeat,
+            repeating-linear-gradient(to right, #333, #333 2px, transparent 2px, transparent 6px) bottom/100% 6px no-repeat,
+            repeating-linear-gradient(to bottom, #333, #333 2px, transparent 2px, transparent 6px) left/6px 100% no-repeat,
+            repeating-linear-gradient(to bottom, #333, #333 2px, transparent 2px, transparent 6px) right/6px 100% no-repeat;
+        background-color: white;
+        padding: 10px; /* Độ dày của viền để chừa khoảng trống cho sọc */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .letter-body {
+        background-color: #ffffff;
+        padding: 30px 40px;
+        font-size: 15px;
+        line-height: 1.8;
+        color: #222;
+        border: 1px solid #e0e0e0; /* Viền trong mỏng */
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .split-top {
+        margin-bottom: 5px !important;
+    }
+
+    .split-bottom {
+        margin-top: 5px !important;
+    }
+
+    /* --- Questions Styling --- */
+    .q-indent {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    /* Căn lề từng câu hỏi cho giống vị trí trong ảnh */
+    #q144 {
+        padding-left: 20%;
+    }
+    #q145 {
+        padding-left: 25%;
+    }
+    #q146 {
+        padding-left: 70%;
+    }
+
+    .q-number {
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+
+    /* Chữ ký */
+    .signature {
+        font-family: 'Brush Script MT', 'Dancing Script', cursive, sans-serif;
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="intro-text">Questions 144-146 refer to the following letter.</div>
+    
+    <div class="letter-wrapper">
+        <div class="letter-body">
+            <p>Dear Samantha,</p>
+            
+            <p>I am writing in regards to Mimi Stone. I had the privilege of meeting her during my last visit to the Singapore Business Conference. I have heard recently that she left Global Tech about a month ago. This is a good thing because we are currently in search of someone like her for our new business prospects with your company. I know it may still be premature to conclude on the new business; however, we have met her, and she seems well versed in the operations part of our business. We are strongly considering her as a potential operations manager, but we need your feedback as --------.</p>
+            
+            <div class="q-indent" id="q144" style="position: relative; left: 240px;">
+                <div class="q-number">144.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) settlement</div>
+                    <div class="option" data-ans="B">(B) selection</div>
+                    <div class="option" data-ans="C">(C) connection</div>
+                    <div class="option" data-ans="D">(D) reference</div>
+                </div>
+            </div>
+
+            <p class="split-top">I am doing a background -------- on her and want to know if she is worthwhile to hire. If you do</p>
+            
+            <div class="q-indent" id="q145">
+                <div class="q-number">145.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) check</div>
+                    <div class="option" data-ans="B">(B) checks</div>
+                    <div class="option" data-ans="C">(C) checking</div>
+                    <div class="option" data-ans="D">(D) checked</div>
+                </div>
+            </div>
+
+            <p class="split-bottom split-top">know anything about her, your reference will be of great value. If you are not familiar with her, could you talk to Jack Ryan, her ex-boss for me? I think you will get a much better -------- from</p>
+            
+            <div class="q-indent" id="q146">
+                <div class="q-number">146.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) answer</div>
+                    <div class="option" data-ans="B">(B) commitment</div>
+                    <div class="option" data-ans="C">(C) estimate</div>
+                    <div class="option" data-ans="D">(D) respond</div>
+                </div>
+            </div>
+
+            <p class="split-bottom">him since you've done business with Global Tech in the past.</p>
+            
+            <p>Thank you.</p>
+            
+            <p>Best regards,</p>
+            
+            <div class="signature">Jeffrey Hill</div>
+            <p>Director of Planning & Business Development Group, BASE ON-ROUTE INC.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Logic đáp án
+    const correctAnswers = {
+        'q144': 'D', // "feedback as a reference"
+        'q145': 'A', // "background check"
+        'q146': 'A'  // "much better answer"
+    };
+
+    // Thêm sự kiện click cho các option
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.q-indent');
+            
+            // Nếu đã trả lời thì bỏ qua
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu đã trả lời để khóa click
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra đúng sai
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                // Tự động bôi xanh đáp án đúng
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

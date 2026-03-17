@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #222;
+    }
+
+    .wrapper {
+        width: 800px;
+    }
+
+    .instruction {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .main-container {
+        background-color: #ffffff;
+        padding: 40px 50px;
+        border: 2px solid #555;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+
+    .q-number {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Positioning questions to match the image */
+    #q150 { margin-left: 62%; }
+    #q151 { margin-left: 5%; }
+    #q152 { margin-left: 38%; }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="instruction">Questions 150-152 refer to the following article.</div>
+    
+    <div class="main-container">
+        <h2>Interest Rate Hike Expected This Week</h2>
+        
+        <p>Investors will pace themselves very cautiously this week with all attention focused on the U.S. Federal Reserve for guidance after seeing equity markets retreat last month with concerns over higher interest rates and the economic -------- they can cause.</p>
+        
+        <div class="question-block" id="q150" style="position: relative; left: -160px;">
+            <div class="q-number">150.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) maim</div>
+                <div class="option" data-ans="B">(B) malign</div>
+                <div class="option" data-ans="C">(C) damage</div>
+                <div class="option" data-ans="D">(D) disqualify</div>
+            </div>
+        </div>
+
+        <p>This week, the U.S. central banks will meet, and the interest rates will likely be hiked. This comes -------- the Fed has raised them four percentage points over the last two years.</p>
+        
+        <div class="question-block" id="q151">
+            <div class="q-number">151.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) that</div>
+                <div class="option" data-ans="B">(B) but</div>
+                <div class="option" data-ans="C">(C) since</div>
+                <div class="option" data-ans="D">(D) even though</div>
+            </div>
+        </div>
+
+        <p>“The market has kind of positioned -------- for the Fed raising 25 basis points...</p>
+        
+        <div class="question-block" id="q152">
+            <div class="q-number">152.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) one</div>
+                <div class="option" data-ans="B">(B) it</div>
+                <div class="option" data-ans="C">(C) oneself</div>
+                <div class="option" data-ans="D">(D) itself</div>
+            </div>
+        </div>
+
+        <p>because of these fears about inflation,” said John Johnston, chief strategist at Royal Securities.</p>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here
+    const correctAnswers = {
+        'q150': 'C', // economic damage
+        'q151': 'D', // even though the Fed has raised them...
+        'q152': 'D'  // The market has... positioned itself
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

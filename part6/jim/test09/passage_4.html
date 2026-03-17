@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #a6a6a6;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* --- Advertisement Styling --- */
+    .ad-body {
+        background-color: #ffffff;
+        border: 1px solid #333;
+        border-radius: 25px; /* Bo góc giống trong hình */
+        padding: 40px 50px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #000;
+        position: relative;
+    }
+
+    .ad-title {
+        font-weight: 900;
+        font-style: italic;
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        margin: 10px 0 20px 0;
+    }
+
+    /* Q150 layout */
+    .q-center {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Q151 & Q152 layout */
+    .two-col-questions {
+        display: flex;
+        justify-content: flex-start;
+        gap: 100px;
+        margin-top: 10px;
+    }
+
+    .col-q {
+        display: flex;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .footer-text {
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="ad-body">
+        <div class="ad-title">ENTER TO WIN!</div>
+        
+        <p>4 tickets to the Blue Jays in -------- at the Sky Dome and 4 passes to CN Tower,</p>
+        
+        <div class="question-block q-center" id="q150" style="position:relative; left: -120px;">
+            <div class="q-number">150.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) active</div>
+                <div class="option" data-ans="B">(B) action</div>
+                <div class="option" data-ans="C">(C) activeness</div>
+                <div class="option" data-ans="D">(D) actively</div>
+            </div>
+        </div>
+
+        <p>plus a $100 gift card to be used at the CN Tower restaurant overlooking the beautiful city of Toronto!</p>
+        
+        <p>To --------, please send an e-mail to entertowin@tor.com with your name, address, and</p>
+
+        <div class="question-block two-col-questions" >
+            <div class="col-q" id="q151">
+                <div class="q-number">151.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) access</div>
+                    <div class="option" data-ans="B">(B) enter</div>
+                    <div class="option" data-ans="C">(C) insert</div>
+                    <div class="option" data-ans="D">(D) penetrate</div>
+                </div>
+            </div>
+            
+            <div class="col-q" style="display:none"></div> </div>
+
+        <p>phone number and write subject line: A day in Toronto</p>
+        
+        <p>If you are interested in receiving more information about Downsview Park Events, please include YES in your e-mail --------. Visit www.dp.com for more information!</p>
+
+        <div class="question-block">
+             <div class="col-q" id="q152" style="margin-left: 100px;">
+                <div class="q-number">152.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) solicitation</div>
+                    <div class="option" data-ans="B">(B) submitting</div>
+                    <div class="option" data-ans="C">(C) subjection</div>
+                    <div class="option" data-ans="D">(D) submission</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-text">Contest closes Friday, October 6 at 9 p.m.</p>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng dựa trên ngữ cảnh quảng cáo
+    const correctAnswers = {
+        'q150': 'B', // in action (cụm từ cố định: đang thi đấu/hoạt động)
+        'q151': 'B', // To enter (Để tham gia/dự thi)
+        'q152': 'D'  // e-mail submission (việc nộp bài/đăng ký qua email)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
