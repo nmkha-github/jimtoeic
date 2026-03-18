@@ -74,18 +74,24 @@ async function discoverFiles(folder) {
 async function onFolderChanged() {
   const folder = folderSelect.value;
 
-  discoverStatus.textContent = `Đang load ${folder}...`;
+  // Show spinner
+  discoverStatus.innerHTML = `<span class="spinner"></span> Đang load ${folder}...`;
 
   FILES = await discoverFiles(folder);
 
   if (!FILES.length) {
+    discoverStatus.textContent = "";
     quiz.innerHTML = `<p style="color:red;text-align:center;">Không có dữ liệu</p>`;
     return;
   }
 
-  discoverStatus.textContent = `Loaded ${FILES.length} tests`;
+  // Still loading all JSON files — keep spinner
+  discoverStatus.innerHTML = `<span class="spinner"></span> Đang tải ${FILES.length} bài test...`;
 
-  loadAll();
+  await loadAll();
+
+  // Done — show clean status, no spinner
+  discoverStatus.textContent = `✅ Đã tải ${FILES.length} bài test`;
 }
 
 // LOAD ALL
@@ -97,6 +103,7 @@ async function loadAll() {
   allQuestions = loads.flat();
   loadShuffleSetting();
   prepareQuestions();
+  // status is set by onFolderChanged after this resolves
 }
 
 // PREPARE
