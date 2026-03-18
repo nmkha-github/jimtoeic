@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #000;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .instructions {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* --- Notice Box Styling --- */
+    .notice-box {
+        border: 2px solid #333;
+        border-radius: 12px;
+        padding: 40px 50px;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng bóng đổ cứng giống giấy in */
+        background-color: #fff;
+    }
+
+    .notice-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .text-line {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin-left: 25px; /* Thụt lề cho câu hỏi */
+        margin-bottom: 15px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        font-size: 16px;
+        transition: background-color 0.2s;
+        display: inline-block;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Không cho click sau khi đã trả lời */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instructions"><b>Questions 150-152</b> refer to the following notice.</div>
+
+    <div class="notice-box">
+        <h2 class="notice-title">WANTED: SMOKERS READY TO QUIT</h2>
+
+        <div class="text-line">We are -------- for people aged between 30 and 45 to take part in a project aiming to</div>
+        
+        <div class="question-block" id="q150">
+            <div class="q-number">150.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) viewing</div>
+                <div class="option" data-ans="B">(B) watching</div>
+                <div class="option" data-ans="C">(C) looking</div>
+                <div class="option" data-ans="D">(D) observing</div>
+            </div>
+        </div>
+
+        <div class="text-line" style="margin-top: -5px;">help you become a nonsmoker.</div>
+        
+        <br>
+
+        <div class="text-line">Ideally -------- who smoke 15+ cigarettes a day and have been smoking for over</div>
+        
+        <div class="question-block" id="q151">
+            <div class="q-number">151.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) any</div>
+                <div class="option" data-ans="B">(B) none</div>
+                <div class="option" data-ans="C">(C) this</div>
+                <div class="option" data-ans="D">(D) those</div>
+            </div>
+        </div>
+
+        <div class="text-line" style="margin-top: -5px;">10 years are the best candidates for this study.</div>
+
+        <br>
+
+        <div class="text-line">If you think you are ready to give up smoking or have been looking for something to help<br>you --------, then call Lucinda today. She can be reached at 755-7878 from</div>
+
+        <div class="question-block" id="q152">
+            <div class="q-number">152.</div>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) halt</div>
+                <div class="option" data-ans="B">(B) quit</div>
+                <div class="option" data-ans="C">(C) resign</div>
+                <div class="option" data-ans="D">(D) cease</div>
+            </div>
+        </div>
+
+        <div class="text-line" style="margin-top: -5px;">9 a.m. – 6 p.m., Monday to Friday.</div>
+    </div>
+</div>
+
+<script>
+    // Định nghĩa đáp án đúng cho bài này
+    const correctAnswers = {
+        'q150': 'C', // We are "looking" for...
+        'q151': 'D', // Ideally "those" who smoke...
+        'q152': 'B'  // help you "quit"...
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Tìm khối câu hỏi chứa option này
+            const questionBlock = this.closest('.question-block');
+            
+            // Nếu đã trả lời thì bỏ qua
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Đánh dấu câu hỏi đã được trả lời
+            questionBlock.classList.add('answered');
+
+            // Kiểm tra logic đúng/sai
+            if (selectedAnswer === correctAnswer) {
+                // Đúng
+                this.classList.add('correct');
+            } else {
+                // Sai
+                this.classList.add('incorrect');
+                // Bôi xanh đáp án đúng để người dùng biết
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

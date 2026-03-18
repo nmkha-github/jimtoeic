@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading Test - Passage 1</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .instruction {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    /* Double border effect */
+    .outer-border {
+        border: 1px solid #000;
+        padding: 3px;
+    }
+
+    .inner-border {
+        border: 1px solid #000;
+        padding: 30px 40px;
+        min-height: 500px;
+    }
+
+    .title {
+        font-size: 28px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    .text-content {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #000;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    /* --- Questions Styling --- */
+    .question-block {
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-right: 5px;
+        width: 35px;
+        text-align: right;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Alignment specific to the image */
+    #q141 {
+        margin-left: 45px;
+    }
+
+    #q142 {
+        margin-left: 55%; 
+    }
+
+    #q143 {
+        margin-left: 60%;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 5px;
+        margin-bottom: 2px;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none; /* Disable clicking after answered */
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="instruction">Questions 141-143 refer to the following information.</div>
+    
+    <div class="outer-border">
+        <div class="inner-border">
+            <h1 class="title">Parking</h1>
+
+            <div class="text-content">
+                <div>Parking is -------- in the Yorkdale Parking Lot. Parking permit stickers are required and should</div>
+                
+                <div class="question-block" id="q141">
+                    <div class="q-number">141.</div>
+                    <div class="q-options">
+                        <div class="option" data-ans="A">(A) considerable</div>
+                        <div class="option" data-ans="B">(B) creditable</div>
+                        <div class="option" data-ans="C">(C) available</div>
+                        <div class="option" data-ans="D">(D) presentable</div>
+                    </div>
+                </div>
+
+                <p>be placed on the dashboard of each vehicle where they are clearly visible. Parking permit stickers can be picked up at the front desk.</p>
+
+                <div>UC Permits — Vehicles with a University Annual, Central Campus, or other UC acceptable parking permit have access to all the parking sites at no -------- cost.</div>
+                
+                <div class="question-block" id="q142" style="position: relative; left: -160px;">
+                    <div class="q-number">142.</div>
+                    <div class="q-options">
+                        <div class="option" data-ans="A">(A) add</div>
+                        <div class="option" data-ans="B">(B) addition</div>
+                        <div class="option" data-ans="C">(C) additional</div>
+                        <div class="option" data-ans="D">(D) additionally</div>
+                    </div>
+                </div>
+
+                <p style="margin-top: 15px;">Weekly Permits — For anyone without a campus permit but who wishes to get a weekly permit, the cost is $49.00 per week.</p>
+
+                <div>Daily Permits — A dispensing machine is available for individuals wishing to purchase permits on a daily basis for $6.00. Daily permits expire each night at midnight. Therefore, it is important that vehicles are removed before midnight to avoid --------. Please note that</div>
+                
+                <div class="question-block" id="q143" style="position: relative; left: -220px;">
+                    <div class="q-number">143.</div>
+                    <div class="q-options">
+                        <div class="option" data-ans="A">(A) charges</div>
+                        <div class="option" data-ans="B">(B) citations</div>
+                        <div class="option" data-ans="C">(C) summons</div>
+                        <div class="option" data-ans="D">(D) complaints</div>
+                    </div>
+                </div>
+
+                <p>parking rates are subject to change without notice.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Define correct answers here based on the grammar/vocab logic
+    const correctAnswers = {
+        'q141': 'C', // available
+        'q142': 'C', // additional
+        'q143': 'B'  // citations
+    };
+
+    // Add click event to all options
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            // Find which question block this option belongs to
+            const questionBlock = this.closest('.question-block');
+            
+            // If already answered, do nothing
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            // Mark question as answered to prevent multiple clicks
+            questionBlock.classList.add('answered');
+
+            // Check logic
+            if (selectedAnswer === correctAnswer) {
+                // Correct
+                this.classList.add('correct');
+            } else {
+                // Incorrect
+                this.classList.add('incorrect');
+                // Highlight the correct one so the user knows
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

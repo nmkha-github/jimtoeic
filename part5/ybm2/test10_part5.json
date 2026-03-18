@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "The passenger was asked to place ------- luggage in the overhead compartments after boarding the plane.",
+      "options": {
+        "A": "her",
+        "B": "she",
+        "C": "hers",
+        "D": "herself"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "------- the initial prototype and the final model of the keyboard featured customizable media keys.",
+      "options": {
+        "A": "None",
+        "B": "Either",
+        "C": "Both",
+        "D": "That"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "Executives at the Cedal Corporation ------- negotiations for the acquisition of Nevix Industries two months ago.",
+      "options": {
+        "A": "begins",
+        "B": "began",
+        "C": "beginning",
+        "D": "will begin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Our associates searched the file cabinet for nearly an hour and finally found the missing receipts ------- some travel documents.",
+      "options": {
+        "A": "at",
+        "B": "onto",
+        "C": "during",
+        "D": "among"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 105,
+      "question": "The fund for maintaining the community's public parks will run out ------- if the city council does not make it a top priority.",
+      "options": {
+        "A": "entire",
+        "B": "entirety",
+        "C": "entireness",
+        "D": "entirely"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 106,
+      "question": "------- hotels charge a fee for cancellation within 24 hours of check-in, but the Renora Inn does not.",
+      "options": {
+        "A": "Other",
+        "B": "Each",
+        "C": "Which",
+        "D": "Another"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "question": "A legitimate ------- of residency in the city can be proven via a valid apartment rental lease.",
+      "options": {
+        "A": "is claiming",
+        "B": "claimed",
+        "C": "claim",
+        "D": "claims"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "Please ------- the sources for all of the statistics included in your report.",
+      "options": {
+        "A": "base",
+        "B": "direct",
+        "C": "fulfill",
+        "D": "cite"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "The candidate had already won a majority by a large margin, but election officials counted the rest of the votes -------.",
+      "options": {
+        "A": "otherwise",
+        "B": "ever",
+        "C": "nonetheless",
+        "D": "rather"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "Even when the drone unexpectedly encountered a storm, its operator remained in ------- and kept the machine on course.",
+      "options": {
+        "A": "control",
+        "B": "shape",
+        "C": "force",
+        "D": "order"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 111,
+      "question": "Many construction firms delegate portions of their work to ------- who can complete the job more cost-effectively.",
+      "options": {
+        "A": "contractually",
+        "B": "contractors",
+        "C": "contractual",
+        "D": "contracts"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "The branch manager called for an emergency meeting to tell staff ------- the change in government policy.",
+      "options": {
+        "A": "for",
+        "B": "through",
+        "C": "behind",
+        "D": "about"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "Fortunately, the inventory taken by the aid organization found that the shelter had ------- levels of reserve supplies.",
+      "options": {
+        "A": "willing",
+        "B": "acceptable",
+        "C": "skillful",
+        "D": "rapid"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "Owing to strong competition in the industry, the new smartphone designed by Vamiant Electronics must be marketed -------.",
+      "options": {
+        "A": "consecutively",
+        "B": "recently",
+        "C": "strictly",
+        "D": "aggressively"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "The natural history museum's VIP members are ------- to enter the workshop and see the curators in action.",
+      "options": {
+        "A": "permitted",
+        "B": "permitting",
+        "C": "permits",
+        "D": "permit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "Roonelot Manufacturing installed solar panels on its rooftops ------- it could generate some of its own energy on site.",
+      "options": {
+        "A": "such as",
+        "B": "regardless of",
+        "C": "no matter what",
+        "D": "so that"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "Due to the prestigious nature of the award, even Ms. Donnelly's most ------- colleagues traveled to watch her accept it.",
+      "options": {
+        "A": "distances",
+        "B": "distance",
+        "C": "distant",
+        "D": "distantly"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "The owner of Hedley Tower may ------- the building if it does not pass the upcoming safety inspection.",
+      "options": {
+        "A": "demolish",
+        "B": "demolishing",
+        "C": "demolished",
+        "D": "demolishes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "Despite the IT director ------- warning the company president of issues with the e-mail system, he did not allocate funds to fix it.",
+      "options": {
+        "A": "repetition",
+        "B": "repetitive",
+        "C": "repeatedly",
+        "D": "repeating"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "question": "By signing a sponsorship agreement with a highly respected athlete, Ferdan Sports was able to ------- its status.",
+      "options": {
+        "A": "divide",
+        "B": "recruit",
+        "C": "attach",
+        "D": "elevate"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 121,
+      "question": "Most analysts agree that all three of the suggested tax measures offer ------- alternatives to the system that is currently in place.",
+      "options": {
+        "A": "preferences",
+        "B": "preferring",
+        "C": "preferable",
+        "D": "prefer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "The client complained that our technicians left ------- scratches on the glass in the process of transporting it.",
+      "options": {
+        "A": "vital",
+        "B": "visible",
+        "C": "reduced",
+        "D": "accessible"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "------- for the economic summit must have a professional certificate and be native speakers of the target language.",
+      "options": {
+        "A": "Interpreting",
+        "B": "Interpretation",
+        "C": "Interprets",
+        "D": "Interpreters"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "When opportunities for promotion at the university are insufficient, the rate of faculty ------- rises significantly.",
+      "options": {
+        "A": "dissatisfying",
+        "B": "dissatisfaction",
+        "C": "dissatisfies",
+        "D": "dissatisfy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Members of Parliament are expected to pass proposed ------- to conserve the natural habitat of a rare bird species in the southwest region.",
+      "options": {
+        "A": "regulations",
+        "B": "transactions",
+        "C": "affiliations",
+        "D": "admissions"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "If the grant for the project is not renewed by the Kogara Science Foundation, the lab's research will have to stop -------.",
+      "options": {
+        "A": "lately",
+        "B": "altogether",
+        "C": "almost",
+        "D": "much"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Employees at the Soracune Corporation were encouraged ------- their cubicles to create a pleasant work environment.",
+      "options": {
+        "A": "being personalized",
+        "B": "to personalize",
+        "C": "personalized",
+        "D": "personalizing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "In order to ensure that the participants are treated fairly by the judging panel, their identities are ------- until a winner has been selected.",
+      "options": {
+        "A": "defined",
+        "B": "concealed",
+        "C": "verified",
+        "D": "prohibited"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "More than half of older adults still have a landline phone in their home, ------- younger consumers depend solely on mobile technology.",
+      "options": {
+        "A": "whereas",
+        "B": "instead of",
+        "C": "before",
+        "D": "so as to"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Although Gassett Pharmaceuticals has experienced a great deal of success in the past few years, its revenues are predicted to ------- in the foreseeable future.",
+      "options": {
+        "A": "criticize",
+        "B": "revolve",
+        "C": "shrink",
+        "D": "deduct"
+      },
+      "answer": "C"
+    }
+  ]

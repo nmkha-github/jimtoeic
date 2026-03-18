@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Mr. Pritchard called the bank to ask about the savings account ------- had opened last month.",
+      "options": {
+        "A": "he",
+        "B": "him",
+        "C": "his",
+        "D": "himself"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "Most people in the office choose to ------- the bus to work because there is limited parking near the building.",
+      "options": {
+        "A": "travel",
+        "B": "cross",
+        "C": "ride",
+        "D": "run"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "For safety reasons, the kitchen ------- on display in the showroom are not kept plugged in.",
+      "options": {
+        "A": "utensils",
+        "B": "appliances",
+        "C": "tiles",
+        "D": "counters"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Surprisingly, the cost of repairing the vehicle after the accident was ------- than purchasing a new one.",
+      "options": {
+        "A": "greatly",
+        "B": "great",
+        "C": "greater",
+        "D": "greatness"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "question": "The small business loan from Renata Bank is what helped ------- café make some much-needed refurbishments.",
+      "options": {
+        "A": "our",
+        "B": "ours",
+        "C": "we",
+        "D": "us"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "The negotiator position requires a ------- understanding of the internal conflicts in the organization.",
+      "options": {
+        "A": "sole",
+        "B": "deep",
+        "C": "private",
+        "D": "severe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "As the two products were ------- identical, the manager ordered the one with the lower price.",
+      "options": {
+        "A": "nearer",
+        "B": "nearly",
+        "C": "nearest",
+        "D": "nearness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "Customers using the laundry facility for the ------- time may need assistance in operating the machines.",
+      "options": {
+        "A": "first",
+        "B": "each",
+        "C": "single",
+        "D": "once"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 109,
+      "question": "Langley Software ------- its user agreement later this year to make the terms easier for customers to understand.",
+      "options": {
+        "A": "modified",
+        "B": "modifying",
+        "C": "will modify",
+        "D": "having modified"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "The spokesperson seemed to respond to reporters' inquiries ------- though he were unfamiliar with the company's history.",
+      "options": {
+        "A": "if",
+        "B": "so",
+        "C": "as",
+        "D": "when"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "Everyone who completes the customer ------- within the time frame will be entered into a prize drawing.",
+      "options": {
+        "A": "demand",
+        "B": "questionnaire",
+        "C": "loyalty",
+        "D": "service"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Small bags can be placed in the overhead compartments or ------- the seat in front of you.",
+      "options": {
+        "A": "under",
+        "B": "between",
+        "C": "toward",
+        "D": "among"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "Guests who do not want to leave ------- in their rooms can use the hotel's safe while they're away.",
+      "options": {
+        "A": "fluent",
+        "B": "attentive",
+        "C": "prompt",
+        "D": "valuable"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 114,
+      "question": "The report had to be rewritten because a piece of ------- information about the budget had been omitted.",
+      "options": {
+        "A": "critics",
+        "B": "critically",
+        "C": "criticize",
+        "D": "critical"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "Cottage Farms specializes in ------- produce organically, without harmful fertilizers or pesticides.",
+      "options": {
+        "A": "cultivates",
+        "B": "cultivating",
+        "C": "cultivation",
+        "D": "cultivate"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "The weekday lunch special at Paradise Café is served ------- a choice of side salad or the soup of the day.",
+      "options": {
+        "A": "by",
+        "B": "with",
+        "C": "to",
+        "D": "until"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "When responding to the invitation, please indicate your meal ------- if you will be in attendance.",
+      "options": {
+        "A": "preference",
+        "B": "preferred",
+        "C": "preferable",
+        "D": "preferably"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "question": "------- safer than other cutting machines on the market, it's no wonder that the Y-881 is a top-selling product.",
+      "options": {
+        "A": "Demonstration",
+        "B": "Demonstrate",
+        "C": "Demonstrably",
+        "D": "Demonstrable"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 119,
+      "question": "------- Rochester Boulevard has been expanded, traffic jams are rarely seen in the area.",
+      "options": {
+        "A": "Whenever",
+        "B": "Only if",
+        "C": "Once",
+        "D": "Now that"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 120,
+      "question": "To prevent cross-contamination of the food, raw meat and fresh vegetables should be kept ------- at all times.",
+      "options": {
+        "A": "separate",
+        "B": "further",
+        "C": "nearby",
+        "D": "opposite"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "------- wishes to upgrade a standard class ticket to first class may do so at the station or on board.",
+      "options": {
+        "A": "Anything",
+        "B": "Every",
+        "C": "Whoever",
+        "D": "Those"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "------- made from plated copper are becoming more popular in the fashion world these days.",
+      "options": {
+        "A": "Accessorized",
+        "B": "Accessorizes",
+        "C": "Accessorize",
+        "D": "Accessories"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 123,
+      "question": "Dr. Madison was unable to complete the experiment ------- some of the necessary equipment was malfunctioning.",
+      "options": {
+        "A": "through",
+        "B": "since",
+        "C": "neither",
+        "D": "although"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "The airline's ticketing agent should ------- your luggage on the scale at the time of check-in.",
+      "options": {
+        "A": "weighing",
+        "B": "have weighed",
+        "C": "be weighed",
+        "D": "have been weighed"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Some of the items sold by Henrietta Gifts are more fragile than others, so they should be packaged -------.",
+      "options": {
+        "A": "absolutely",
+        "B": "flexibly",
+        "C": "accordingly",
+        "D": "mutually"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 126,
+      "question": "The team led by Ms. Gibbons ------- a memorable slogan to use in the Westbury Beverages commercial.",
+      "options": {
+        "A": "came up with",
+        "B": "took off",
+        "C": "ran out of",
+        "D": "relied on"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "During the lecture, biologist Joanne Marquez outlined ------- that this songbird has made to adjust to living near highly populated areas.",
+      "options": {
+        "A": "adaptations",
+        "B": "adapting",
+        "C": "adapt",
+        "D": "adapted"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "Ms. Richards performs the majority of her writing in the ------- garage that she uses as a home office.",
+      "options": {
+        "A": "convert",
+        "B": "converting",
+        "C": "converts",
+        "D": "converted"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "Most of the city council members nodded their heads ------- as Mr. Vidalia spoke about the need to reduce taxes.",
+      "options": {
+        "A": "agreeable",
+        "B": "agreement",
+        "C": "agree",
+        "D": "agreeably"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "question": "Because the new employee information is so complicated, Mr. Conley ------- it down into four training sessions.",
+      "options": {
+        "A": "withdrew",
+        "B": "ensured",
+        "C": "broke",
+        "D": "shared"
+      },
+      "answer": "C"
+    }
+  ]

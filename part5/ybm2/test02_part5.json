@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "The head office holds workshops that can prepare ------- to lead a team.",
+      "options": {
+        "A": "you",
+        "B": "your",
+        "C": "yourself",
+        "D": "yourselves"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "Ms. Kingston decided to reserve transportation to the meeting venue ------- the clients.",
+      "options": {
+        "A": "but",
+        "B": "off",
+        "C": "for",
+        "D": "down"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "------- attempted to answer questions about local and national history.",
+      "options": {
+        "A": "Contests",
+        "B": "Contestant",
+        "C": "Contesting",
+        "D": "Contestants"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 104,
+      "question": "The \"Business Plus\" lecture will outline things you should do ------- after launching a new product.",
+      "options": {
+        "A": "immediately",
+        "B": "nearly",
+        "C": "previously",
+        "D": "popularly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "In its ------- scene, the contemporary musical Picnic at the River depicts a joyful family celebration.",
+      "options": {
+        "A": "final",
+        "B": "finally",
+        "C": "finality",
+        "D": "finalize"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "Customers must write their initials on the dotted lines to indicate their ------- to the terms of the contract.",
+      "options": {
+        "A": "consent",
+        "B": "receipt",
+        "C": "ability",
+        "D": "deal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "question": "The much-anticipated next episode of Cat and Mouse will be ------- tonight at nine on ZLTV.",
+      "options": {
+        "A": "transformed",
+        "B": "entertained",
+        "C": "overcome",
+        "D": "broadcast"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "question": "Noted chef Pierre Massasoit has been ------- awarded top prizes in famous cooking competitions.",
+      "options": {
+        "A": "regular",
+        "B": "regularly",
+        "C": "regularity",
+        "D": "regularize"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "The employees were able to choose among a list of industrial machinery ------- the headquarters.",
+      "options": {
+        "A": "from",
+        "B": "after",
+        "C": "into",
+        "D": "up"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "Because of the poor condition of its furniture, the small conference room is not considered ------- for formal meetings.",
+      "options": {
+        "A": "appropriate",
+        "B": "timely",
+        "C": "competent",
+        "D": "responsible"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 111,
+      "question": "We were surprised to learn that one of the boxes showed ------- damage after being shipped from the warehouse.",
+      "options": {
+        "A": "noticeable",
+        "B": "noticeably",
+        "C": "notices",
+        "D": "noticing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "question": "Marlexia Shipping Co. will not ------- freight between trucks and trains any longer.",
+      "options": {
+        "A": "transferred",
+        "B": "transfer",
+        "C": "transferring",
+        "D": "transfers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "Onderik Garage carried out a ------- while the vehicle's owner was out of town.",
+      "options": {
+        "A": "modification",
+        "B": "modify",
+        "C": "modified",
+        "D": "modifies"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "The chief technician had ------- to operate the laboratory's most sensitive instruments at his discretion.",
+      "options": {
+        "A": "design",
+        "B": "request",
+        "C": "permission",
+        "D": "benefit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "question": "The vendor warned that the data conversion project would ------- fall behind schedule due to software issues.",
+      "options": {
+        "A": "probably",
+        "B": "probable",
+        "C": "probabilities",
+        "D": "probability"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "Dalamet Publishing asks interviewees to send in salary requirements ------- their availability.",
+      "options": {
+        "A": "also",
+        "B": "as well",
+        "C": "along with",
+        "D": "furthermore"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 117,
+      "question": "The council requests that citizens limit themselves to remarks that are ------- to the topic under discussion.",
+      "options": {
+        "A": "steady",
+        "B": "accustomed",
+        "C": "obvious",
+        "D": "relevant"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 118,
+      "question": "With such a large ------- of tourists visiting the country every month, Narpan Tours Ltd. decided to open a new branch.",
+      "options": {
+        "A": "role",
+        "B": "ground",
+        "C": "extent",
+        "D": "volume"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "Client support teams should always strive ------- customer satisfaction by offering excellent service.",
+      "options": {
+        "A": "increased",
+        "B": "to increase",
+        "C": "increases",
+        "D": "is increasing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "The building's roof was weakened during yesterday's storm and ------- must be repaired as soon as possible.",
+      "options": {
+        "A": "occasionally",
+        "B": "consequently",
+        "C": "seldom",
+        "D": "easily"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "The Airline Rewards Card is predicted to attract many new customers and lead to ------- profits for the bank.",
+      "options": {
+        "A": "elevated",
+        "B": "practiced",
+        "C": "supervised",
+        "D": "illustrated"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "question": "Agricultural drones can survey vast areas of farmland ------- a limited time frame.",
+      "options": {
+        "A": "within",
+        "B": "toward",
+        "C": "about",
+        "D": "onto"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "The league's decision that some plays are not ------- during a game restricts coaches' opportunities to challenge referees.",
+      "options": {
+        "A": "reviewable",
+        "B": "review",
+        "C": "reviews",
+        "D": "reviewing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "During the factory tour, visitors must not ------- with any of the operations inside the production plant.",
+      "options": {
+        "A": "attain",
+        "B": "interfere",
+        "C": "comply",
+        "D": "prevent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "The red buses now in operation, ------- carry passengers to and from the city, are free for airline employees.",
+      "options": {
+        "A": "which",
+        "B": "whose",
+        "C": "they",
+        "D": "their"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "According to the coordinator, several rooms remain ------- at our new branch office.",
+      "options": {
+        "A": "experienced",
+        "B": "momentary",
+        "C": "yielding",
+        "D": "vacant"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 127,
+      "question": "All throughout last month, Abla-Marc Ltd.'s operating profits ------- analysts' expectations.",
+      "options": {
+        "A": "will be surpassing",
+        "B": "are being surpassed",
+        "C": "would have been surpassed",
+        "D": "have been surpassing"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 128,
+      "question": "The first day of the Pinesville community festival is ------- the antiques flea market is held each year.",
+      "options": {
+        "A": "any",
+        "B": "to",
+        "C": "since",
+        "D": "when"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "After detailed -------, scientists have determined the social systems of several species of wildlife.",
+      "options": {
+        "A": "observation",
+        "B": "observed",
+        "C": "observe",
+        "D": "observant"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Make sure to keep the loading area clear ------- forklift drivers can maneuver without difficulty.",
+      "options": {
+        "A": "whether",
+        "B": "in view of",
+        "C": "due to",
+        "D": "so that"
+      },
+      "answer": "D"
+    }
+  ]

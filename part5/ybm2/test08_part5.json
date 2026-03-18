@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Several local food makers offer ------- own products to employees at reduced prices.",
+      "options": {
+        "A": "themselves",
+        "B": "they",
+        "C": "them",
+        "D": "their"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "Fawley Academy's ------- on absences caused by medical issues are explained in the student handbook.",
+      "options": {
+        "A": "solutions",
+        "B": "classrooms",
+        "C": "instructors",
+        "D": "guidelines"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "Check that the lid of the container is ------- sealed to prevent its contents from leaking.",
+      "options": {
+        "A": "firm",
+        "B": "firmly",
+        "C": "firming",
+        "D": "firmness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "It is ------- that the accuracy of measuring instruments be tested yearly.",
+      "options": {
+        "A": "active",
+        "B": "initial",
+        "C": "vital",
+        "D": "fluent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "question": "The new law will not affect homeowners whose property has been ------- at less than $80,000 in value.",
+      "options": {
+        "A": "assess",
+        "B": "assessed",
+        "C": "assessor",
+        "D": "assessment"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "Taxi service should ------- be used when there is cheaper alternative transportation available during your business travel.",
+      "options": {
+        "A": "overly",
+        "B": "too",
+        "C": "never",
+        "D": "ever"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "question": "This technique is meant to be ------- in treating muscle-related soreness.",
+      "options": {
+        "A": "employment",
+        "B": "employed",
+        "C": "employs",
+        "D": "employing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "------- this summer's unusual weather, it is no surprise that ice cream sales fell.",
+      "options": {
+        "A": "Into",
+        "B": "Until",
+        "C": "Given",
+        "D": "Amid"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "To minimize any negative impact on tourism, the ------- of the famous statue will require careful timing.",
+      "options": {
+        "A": "relocate",
+        "B": "relocates",
+        "C": "relocation",
+        "D": "relocated"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "Ms. Migliacio asked that corrections to online articles be made ------- upon noticing errors.",
+      "options": {
+        "A": "accidentally",
+        "B": "chiefly",
+        "C": "promptly",
+        "D": "highly"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "All of our products undergo ------- inspections at our manufacturing facility to ensure they meet high quality standards.",
+      "options": {
+        "A": "strict",
+        "B": "bent",
+        "C": "aware",
+        "D": "vacant"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "question": "Dr. Itaru Matsuda's studies have proven the ------- effects of the new medication on patients.",
+      "options": {
+        "A": "advantageously",
+        "B": "advantageous",
+        "C": "advantage",
+        "D": "advantages"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "You are provided a license to use Crombee ------- until the end of next month under the ------- of this agreement.",
+      "options": {
+        "A": "conditions",
+        "B": "penalties",
+        "C": "approaches",
+        "D": "phrases"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "A company that is ------- for its corporate values will have greater success in attracting qualified job candidates.",
+      "options": {
+        "A": "respecting",
+        "B": "respects",
+        "C": "respect",
+        "D": "respected"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "Although relatively few surveyed residents commute to work by bike, recreational bicycle use is -------.",
+      "options": {
+        "A": "impatient",
+        "B": "widespread",
+        "C": "talented",
+        "D": "empty"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Managers must submit revised deadline schedules ------- their projects face delays.",
+      "options": {
+        "A": "behind",
+        "B": "when",
+        "C": "over",
+        "D": "whereas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "The traffic sign was ------- visible from the road until the branches of a nearby tree obscured it.",
+      "options": {
+        "A": "clearest",
+        "B": "clearer",
+        "C": "clearly",
+        "D": "cleared"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "Deenad Import-Export Ltd. operates a modern warehouse with floor space ------- 27,000 square meters.",
+      "options": {
+        "A": "finishing",
+        "B": "obtaining",
+        "C": "developing",
+        "D": "covering"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "Clothing sales revenues are ------- even though the store's home goods remain popular.",
+      "options": {
+        "A": "declining",
+        "B": "declines",
+        "C": "declined",
+        "D": "decline"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "The executive committee is proud to announce that ------- will soon resume negotiations with Pruneda Holdings.",
+      "options": {
+        "A": "we",
+        "B": "us",
+        "C": "our",
+        "D": "ourselves"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "Human Resources reports that staff in a majority of departments are ------- absent during weeks that include national holidays.",
+      "options": {
+        "A": "persisted",
+        "B": "persisting",
+        "C": "persistent",
+        "D": "persistently"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 122,
+      "question": "Tours of select apartments ------- now that construction on the complex has been completed.",
+      "options": {
+        "A": "are allowing",
+        "B": "to allow",
+        "C": "have allowed",
+        "D": "will be allowed"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 123,
+      "question": "------- you find our mobile app satisfactory, please tap on the button below to leave a five-star review.",
+      "options": {
+        "A": "If",
+        "B": "Either",
+        "C": "Regardless",
+        "D": "So that"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "The Karvex-K's advanced features are ------- with what professional photographers expect from a digital camera.",
+      "options": {
+        "A": "incapable",
+        "B": "excited",
+        "C": "thankful",
+        "D": "consistent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 125,
+      "question": "Shoppers are encouraged to look around our store's entire showroom floor ------- they decide not to purchase anything.",
+      "options": {
+        "A": "even if",
+        "B": "in case",
+        "C": "now that",
+        "D": "such as"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "The IT team ------- that all database systems be upgraded monthly.",
+      "options": {
+        "A": "expires",
+        "B": "believes",
+        "C": "recalls",
+        "D": "advises"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 127,
+      "question": "Quality control officials found defects in a Phung's Apparel item just ------- over the course of a weeklong visit.",
+      "options": {
+        "A": "yet",
+        "B": "for",
+        "C": "about",
+        "D": "once"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 128,
+      "question": "------- to package a new food product depends heavily on the item's brand image and target customer.",
+      "options": {
+        "A": "Which",
+        "B": "How",
+        "C": "Nothing",
+        "D": "Whatever"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "Patient records ------- with 'Confidential' in red ink are subject to stronger protection measures.",
+      "options": {
+        "A": "stamping",
+        "B": "stamped",
+        "C": "that stamp",
+        "D": "are stamped"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "The Snell Herald's career advice column enables readers to seize opportunities they may ------- at work.",
+      "options": {
+        "A": "come across",
+        "B": "take apart",
+        "C": "go through",
+        "D": "back up"
+      },
+      "answer": "A"
+    }
+  ]

@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Mr. Dola chose to take a ------- flight from Austin to Chicago in order to save time.",
+      "options": {
+        "A": "direct",
+        "B": "precise",
+        "C": "durable",
+        "D": "formal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "Guests at the international conference can request an interpreter if ------- do not understand spoken English.",
+      "options": {
+        "A": "them",
+        "B": "they",
+        "C": "theirs",
+        "D": "their"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "------- Ms. Lester nor her partner could find the updated contact details for the client.",
+      "options": {
+        "A": "Both",
+        "B": "Not",
+        "C": "Neither",
+        "D": "Only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "Prime Realty printed its logo on some ------- products for distribution to current and prospective customers.",
+      "options": {
+        "A": "promotes",
+        "B": "promote",
+        "C": "promotionally",
+        "D": "promotional"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 105,
+      "question": "The team leaders ------- by the head of the department based on seniority and experience.",
+      "options": {
+        "A": "select",
+        "B": "are selecting",
+        "C": "are selected",
+        "D": "selected"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "If the severe storm hits the area as expected, the store's owner will ------- delay the grand opening ceremony.",
+      "options": {
+        "A": "rather",
+        "B": "probably",
+        "C": "seldom",
+        "D": "ever"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Unfortunately, just ten percent of the charity's fundraising goal has been collected -------.",
+      "options": {
+        "A": "in brief",
+        "B": "so far",
+        "C": "even so",
+        "D": "at last"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "Mr. Woburn called the hotel's front desk to confirm that he planned to stay ------- than his original booking.",
+      "options": {
+        "A": "longer",
+        "B": "long",
+        "C": "length",
+        "D": "lengthen"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 109,
+      "question": "The fastest way to the Holt Shopping Center is to take Bus 409 from the stop ------- the pharmacy.",
+      "options": {
+        "A": "since",
+        "B": "through",
+        "C": "opposite",
+        "D": "against"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "Southeast Utilities customers can ------- make their monthly payments by phone using our automated system.",
+      "options": {
+        "A": "else",
+        "B": "now",
+        "C": "there",
+        "D": "well"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "There was some discussion ------- the shareholders as to whether the CEO was competently operating the business.",
+      "options": {
+        "A": "inside",
+        "B": "at",
+        "C": "onto",
+        "D": "among"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "If the Caraway Electronics plant in Atlanta is not running ------- by December, it is at risk of closure.",
+      "options": {
+        "A": "profiting",
+        "B": "profits",
+        "C": "profitable",
+        "D": "profitably"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "Ms. Choi's accountant explained that investing in a single company is ------- more dangerous than having a diverse portfolio of assets.",
+      "options": {
+        "A": "such",
+        "B": "too",
+        "C": "far",
+        "D": "very"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "question": "Thanks to strong revenues during its first year, Freshtime Bakery was able to pay off the ------- it incurred to cover opening costs.",
+      "options": {
+        "A": "debt",
+        "B": "stock",
+        "C": "receipt",
+        "D": "term"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "Although the monthly salaries at Metz Tech are below average, the staff is ------- in other ways.",
+      "options": {
+        "A": "compensated",
+        "B": "impressed",
+        "C": "emphasized",
+        "D": "congratulated"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "Whenever he is away from the office, Director Clement's ------- takes over any necessary duties that arise.",
+      "options": {
+        "A": "assistant",
+        "B": "assistance",
+        "C": "assisted",
+        "D": "assisting"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "Most of the interns had their name badges pinned to their uniforms, but Ms. Naquin forgot to wear -------.",
+      "options": {
+        "A": "her",
+        "B": "hers",
+        "C": "herself",
+        "D": "she"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "If the packages are not tied properly and securely, they will fall ------- when moved by the shipping team.",
+      "options": {
+        "A": "apart",
+        "B": "quite",
+        "C": "across",
+        "D": "less"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "Housing prices in the city are still ------- more expensive than those in the suburb, but the commuting time is more reasonable.",
+      "options": {
+        "A": "substantially",
+        "B": "unanimously",
+        "C": "respectfully",
+        "D": "accurately"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "The ------- submitted to the publisher was considered a possible best-seller due to its intriguing plot and charming characters.",
+      "options": {
+        "A": "parcel",
+        "B": "contract",
+        "C": "bulletin",
+        "D": "manuscript"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 121,
+      "question": "The first step in building a positive work environment is sincerely ------- the contributions of each employee.",
+      "options": {
+        "A": "acknowledges",
+        "B": "acknowledgement",
+        "C": "acknowledging",
+        "D": "acknowledged"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "During the interview, the job candidate described how he overcame a number of challenges ------- his career.",
+      "options": {
+        "A": "aboard",
+        "B": "throughout",
+        "C": "between",
+        "D": "than"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "As the banners were needed -------, the customer opted to pay extra for the express printing service.",
+      "options": {
+        "A": "steadily",
+        "B": "urgently",
+        "C": "typically",
+        "D": "entirely"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Before entering the production area, it is our responsibility to caution ------- that industrial machinery may be in use.",
+      "options": {
+        "A": "you",
+        "B": "yours",
+        "C": "your",
+        "D": "yourself"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "Hickory Restaurant had no choice but to discard all food that was in the refrigerator during the four-hour power -------.",
+      "options": {
+        "A": "yield",
+        "B": "rating",
+        "C": "distribution",
+        "D": "outage"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "To maintain authenticity, the homeowner hired a contractor ------- in historic homes to renovate the property.",
+      "options": {
+        "A": "specialized",
+        "B": "specialize",
+        "C": "specializing",
+        "D": "specialty"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "The dental clinic has added features to its Web site so that customers can make or change ------- online.",
+      "options": {
+        "A": "appointed",
+        "B": "appointments",
+        "C": "appointing",
+        "D": "appointment"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "When the vehicle's engine started making an unusual sound, Mr. Patel immediately took it to a local ------- for inspection.",
+      "options": {
+        "A": "mechanic",
+        "B": "mechanize",
+        "C": "mechanism",
+        "D": "mechanistic"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "Employees attending the Annual Engineering Trade Expo are welcome to travel to the event site ------- they choose.",
+      "options": {
+        "A": "however",
+        "B": "afterward",
+        "C": "where",
+        "D": "once"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Mr. Asano was not offered the financial consultant position ------- his extensive experience in the field and broad professional network.",
+      "options": {
+        "A": "in spite of",
+        "B": "not to mention",
+        "C": "as much as",
+        "D": "on behalf of"
+      },
+      "answer": "A"
+    }
+  ]

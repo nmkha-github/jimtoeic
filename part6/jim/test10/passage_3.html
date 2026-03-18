@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #000;
+    }
+
+    .main-container {
+        width: 850px;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: 2px dashed #333; /* Khung viền đứt đoạn như trong hình */
+        position: relative;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .article-content {
+        font-size: 21px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    p {
+        font-size: 19.5px;
+        margin-bottom: 25px;
+    }
+
+    /* Định dạng khu vực câu hỏi nằm bên phải */
+    .question-wrap {
+        float: right;
+        width: 200px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-family: Arial, sans-serif; /* Font không chân cho phần lựa chọn để dễ đọc */
+        font-size: 19.5px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Tùy chỉnh riêng cho câu 149 nằm giữa dòng */
+    .question-block {
+        display: flex;
+        vertical-align: top;
+        margin: 0 10px;
+        font-family: Arial, sans-serif;
+        font-size: 19.5px;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 2px 8px;
+        margin-bottom: 2px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="header-text" style="font-weight: bold; margin-bottom: 20px;">
+        Questions 147-149 refer to the following article.
+    </div>
+
+    <h2>BOA to Add 110 New Branches</h2>
+
+    <div class="article-content">
+        <p>Bank of America, one of the nation's biggest banks, is planning to add another 110 new domestic branches by the year 2010.</p>
+
+        
+            <p>Candice Schneider, the Chief Operating Officer of BOA, gave an outline of their future plans at a conference for investors in Los Angeles yesterday. This announcement makes BOA the fifth of the five largest banks to unfold its plan for American -------- in recent months.</p>
+            <div class="question-block" id="q147" style="position: relative; left: 360px;">
+                <div class="q-number">147.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) existence</div>
+                    <div class="option" data-ans="B">(B) exception</div>
+                    <div class="option" data-ans="C">(C) expansion</div>
+                    <div class="option" data-ans="D">(D) experience</div>
+                </div>
+            </div>
+
+            
+            <p>
+                Schneider was spotted relating a message to delegates at the AEBA World Market conference saying, "Our main focus is on our metro Los Angeles market, and we plan to open -------- to 
+            </p>
+            <div class="question-block" id="q148" style="position: relative; left: 520px;">
+                <div class="q-number">148.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) close</div>
+                    <div class="option" data-ans="B">(B) closed</div>
+                    <div class="option" data-ans="C">(C) closely</div>
+                    <div class="option" data-ans="D">(D) closeness</div>
+                </div>
+            </div>
+            <p>
+                another 50 branch offices before the end of 2007." BOA's network of domestic branch stands at 1,110 at the end of June, up from 1,099 in January 2006.
+            </p>
+            <p>
+                Last month, -------- CITI confirmed that it will take action by strengthening its domestic 
+            </p>
+            <div class="question-block" id="q149">
+                <div class="q-number">149.</div>
+                <div class="q-options">
+                    <div class="option" data-ans="A">(A) rival</div>
+                    <div class="option" data-ans="B">(B) partial</div>
+                    <div class="option" data-ans="C">(C) renewed</div>
+                    <div class="option" data-ans="D">(D) contrasting</div>
+                </div>
+            </div>
+            <p>
+                operations by moving, expanding, or building 70 branches in the downtown areas of California, New York, and Illinois between 2007 and 2011.
+            </p>
+    </div>
+</div>
+
+<script>
+    // Đáp án đúng dựa trên ngữ cảnh bài đọc
+    const correctAnswers = {
+        'q147': 'C', // expansion (mở rộng chi nhánh)
+        'q148': 'A', // open close to (mở gần xấp xỉ - cấu trúc TOEIC thường gặp)
+        'q149': 'A'  // rival (CITI là đối thủ của BOA)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

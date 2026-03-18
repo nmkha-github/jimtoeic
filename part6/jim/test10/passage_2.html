@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOEIC Reading - Passage 1</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: #333;
+    }
+
+    .main-container {
+        width: 800px;
+        background-color: #ffffff;
+        padding: 40px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        /* Tạo viền răng cưa giả lập như trong ảnh */
+        border: 15px solid transparent;
+        border-image: repeating-linear-gradient(45deg, #333, #333 2px, transparent 2px, transparent 10px) 15;
+        position: relative;
+    }
+
+    /* --- Hospital Header --- */
+    .hospital-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hospital-name {
+        font-size: 28px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+    }
+
+    .hospital-slogan {
+        font-style: italic;
+        font-size: 16px;
+        color: #555;
+        line-height: 1.2;
+    }
+
+    .study-title {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 30px 0;
+        text-decoration: none;
+    }
+
+    /* --- Content Body --- */
+    .content-body {
+        font-size: 19.3px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    .gap {
+        display: inline-block;
+        width: 80px;
+        border-bottom: 1px dashed #000;
+        margin: 0 5px;
+    }
+
+    .question-block {
+        display: flex;
+        width: 30%;
+        min-width: 200px;
+    }
+
+    .q-number {
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 18px;
+    }
+
+    .q-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Interactive Options */
+    .option {
+        cursor: pointer;
+        padding: 4px 8px;
+        margin-bottom: 4px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        font-size: 16px;
+    }
+
+    .option:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Feedback States */
+    .correct {
+        color: #155724;
+        background-color: #d4edda !important;
+        font-weight: bold;
+        border: 1px solid #c3e6cb;
+    }
+
+    .incorrect {
+        color: #721c24;
+        background-color: #f8d7da !important;
+        text-decoration: line-through;
+        border: 1px solid #f5c6cb;
+    }
+
+    .answered .option {
+        cursor: default;
+        pointer-events: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="hospital-header">
+        <div class="hospital-name">ST. VINCENT'S HOSPITAL</div>
+        <div class="hospital-slogan">
+            Leading with Innovation<br>
+            Serving with Compassion
+        </div>
+    </div>
+
+    <div class="study-title">Diet & Diabetes Research Study</div>
+
+    <div class="content-body">
+        <p>
+            At St. Vincent's Hospital in Kansas, we are planning to conduct a six-month -------- comparing 
+        </p>
+        <div class="question-block" id="q144" style="position: relative; left: 560px;">
+            <span class="q-number">144.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) work</div>
+                <div class="option" data-ans="B">(B) insight</div>
+                <div class="option" data-ans="C">(C) glance</div>
+                <div class="option" data-ans="D">(D) study</div>
+            </div>
+        </div>
+        <p>
+            the potential benefits of two dietary approaches to -------- blood sugar.
+        </p>
+        <div class="question-block" id="q145" style="position: relative; left: 360px;">
+            <span class="q-number">145.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) reduce</div>
+                <div class="option" data-ans="B">(B) reducing</div>
+                <div class="option" data-ans="C">(C) be reduced</div>
+                <div class="option" data-ans="D">(D) to reduce</div>
+            </div>
+        </div>
+        <p>
+            Twenty individuals currently taking tablets for diabetes but who have clean bills of health are 
+            -------- in the Kansas area. If you feel that you want to participate in this study, please get in 
+        </p>
+
+        <div class="question-block" id="q146">
+            <span class="q-number">146.</span>
+            <div class="q-options">
+                <div class="option" data-ans="A">(A) sought</div>
+                <div class="option" data-ans="B">(B) accepted</div>
+                <div class="option" data-ans="C">(C) approved</div>
+                <div class="option" data-ans="D">(D) in demand</div>
+            </div>
+        </div>
+
+        <p>
+            contact with Dr. Sullivan's research group at St. Vincent's Hospital. The number is 755-8989.
+        </p>
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0 20px 0;">
+</div>
+
+<script>
+    // Đáp án đúng cho Passage 1
+    const correctAnswers = {
+        'q144': 'D', // "six-month study" (nghiên cứu 6 tháng)
+        'q145': 'A', // "approaches to reducing" (cấu trúc approach to + V-ing)
+        'q146': 'A'  // "individuals... are sought" (đang được tìm kiếm - bị động)
+    };
+
+    document.querySelectorAll('.option').forEach(item => {
+        item.addEventListener('click', function() {
+            const questionBlock = this.closest('.question-block');
+            
+            if (questionBlock.classList.contains('answered')) return;
+            
+            const questionId = questionBlock.id;
+            const selectedAnswer = this.getAttribute('data-ans');
+            const correctAnswer = correctAnswers[questionId];
+
+            questionBlock.classList.add('answered');
+
+            if (selectedAnswer === correctAnswer) {
+                this.classList.add('correct');
+            } else {
+                this.classList.add('incorrect');
+                questionBlock.querySelector(`.option[data-ans="${correctAnswer}"]`).classList.add('correct');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

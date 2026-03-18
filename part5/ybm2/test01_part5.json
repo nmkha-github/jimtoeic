@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Diners at the Appleton Buffet have commented favorably on ------- wide variety of seafood dishes.",
+      "options": {
+        "A": "we",
+        "B": "us",
+        "C": "our",
+        "D": "ours"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 102,
+      "question": "Rev Furniture has high-quality handmade goods and reasonable delivery -------.",
+      "options": {
+        "A": "routines",
+        "B": "trucks",
+        "C": "duties",
+        "D": "fees"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "The Fort Myers Garden Club ----- a monthly newsletter to its members to keep them informed.",
+      "options": {
+        "A": "circulates",
+        "B": "was circulated",
+        "C": "to circulate",
+        "D": "has been circulated"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "question": "Decorated with fascinating -------, the hotel's lobby is a great place to pass the time while waiting for someone.",
+      "options": {
+        "A": "photographer",
+        "B": "photographed",
+        "C": "photographs",
+        "D": "photographic"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "question": "At the end of the lease period, ------- keys to the apartment must be returned to the building owner.",
+      "options": {
+        "A": "each",
+        "B": "all",
+        "C": "another",
+        "D": "others"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "The chemical can be hazardous if it gets in contact with bare skin, so be sure to handle it -------.",
+      "options": {
+        "A": "carefully",
+        "B": "fairly",
+        "C": "currently",
+        "D": "barely"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "question": "Tourism in Palm Valley has declined steadily ------- the past few years due to the rising cost of flights.",
+      "options": {
+        "A": "over",
+        "B": "of",
+        "C": "beneath",
+        "D": "then"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "Most of the patient files are stored ------- secure cabinets on the fourth floor, which has a high level of security.",
+      "options": {
+        "A": "as",
+        "B": "to",
+        "C": "in",
+        "D": "down"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "Because of a lack of space at the warehouse, some goods will be sent ------- to the store from the manufacturer.",
+      "options": {
+        "A": "directs",
+        "B": "director",
+        "C": "directly",
+        "D": "direction"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "------- the expansion to the Phoenix Building be approved, construction will begin at the beginning of March.",
+      "options": {
+        "A": "Should",
+        "B": "Since",
+        "C": "Did",
+        "D": "While"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 111,
+      "question": "Although the CEO spoke to reporters at the press conference, he failed to provide ------- answers to their questions.",
+      "options": {
+        "A": "satisfies",
+        "B": "satisfactory",
+        "C": "satisfaction",
+        "D": "satisfactorily"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Fans of the Galaxy Battle adventure series are ------- awaiting the release of the new film by director Rick Keller.",
+      "options": {
+        "A": "fairly",
+        "B": "precisely",
+        "C": "repeatedly",
+        "D": "eagerly"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "The hotel works with several distributors in the region to ensure a ------- supply of cleaning products.",
+      "options": {
+        "A": "constant",
+        "B": "portable",
+        "C": "reluctant",
+        "D": "previous"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "The office manager held a last-minute meeting ------- the sudden resignation of the company's president.",
+      "options": {
+        "A": "concerning",
+        "B": "whereas",
+        "C": "until",
+        "D": "within"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "The first topic in the safety training covered ------- it is necessary to contact emergency medical personnel.",
+      "options": {
+        "A": "when",
+        "B": "who",
+        "C": "what",
+        "D": "which"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "Ms. Lang uses Sky Couriers to send packages because she knows the service will be -------.",
+      "options": {
+        "A": "prompts",
+        "B": "promptly",
+        "C": "promptness",
+        "D": "prompt"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "The parking policy that ------- by city officials last month resulted in a great deal of confusion among residents.",
+      "options": {
+        "A": "had been implementing",
+        "B": "was implemented",
+        "C": "will have been implemented",
+        "D": "had implemented"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "The ticket allows you to visit all sections of the museum's permanent gallery ------- not its special exhibits.",
+      "options": {
+        "A": "or",
+        "B": "but",
+        "C": "so",
+        "D": "as"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Not until her book was published did the author speak ------- about her inspiration for writing it.",
+      "options": {
+        "A": "publicity",
+        "B": "publicly",
+        "C": "public",
+        "D": "publicized"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "------- its positive effect on the environment, the recycling program will generate extra income for the city.",
+      "options": {
+        "A": "Besides",
+        "B": "Among",
+        "C": "Instead",
+        "D": "Toward"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "The factory increased productivity by nearly thirty percent through equipment ------- made possible by a federal grant.",
+      "options": {
+        "A": "modernize",
+        "B": "modernization",
+        "C": "modernized",
+        "D": "modernizes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "Applicants must be at least eighteen years old ------- participate in the amateur photography contest.",
+      "options": {
+        "A": "even though",
+        "B": "in order to",
+        "C": "on behalf of",
+        "D": "so that"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "All patrons of the Vanceville Public Library must agree to ------- by the library's rules and regulations.",
+      "options": {
+        "A": "conform",
+        "B": "accompany",
+        "C": "establish",
+        "D": "abide"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "The news program is ------- to countries around the world in real time through a continuous satellite feed.",
+      "options": {
+        "A": "featured",
+        "B": "equipped",
+        "C": "determined",
+        "D": "transmitted"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 125,
+      "question": "Trash bins are ------- placed throughout the amusement park to reduce the amount of litter left on the ground.",
+      "options": {
+        "A": "strategic",
+        "B": "strategized",
+        "C": "strategically",
+        "D": "strategy"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 126,
+      "question": "The supervisor decided to introduce a relaxed dress code on Fridays in an attempt to improve staff -------.",
+      "options": {
+        "A": "reimbursement",
+        "B": "appointment",
+        "C": "morale",
+        "D": "resource"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "A protective substance was applied to the new surface of the parking lot to keep it from ------- over time.",
+      "options": {
+        "A": "revealing",
+        "B": "commuting",
+        "C": "overtaking",
+        "D": "deteriorating"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 128,
+      "question": "The sales director believes that an eight percent increase in sales next quarter is a readily ------- goal.",
+      "options": {
+        "A": "achieve",
+        "B": "achievable",
+        "C": "achievement",
+        "D": "achieving"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "Because Ms. Ferris did not have her ID card with her, the security guard ------- to allow her to enter the building.",
+      "options": {
+        "A": "refuse",
+        "B": "refusal",
+        "C": "refusing",
+        "D": "refused"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "question": "Although the logos had a ------- similar design, they were created by two completely unrelated companies.",
+      "options": {
+        "A": "steadily",
+        "B": "remarkably",
+        "C": "consecutively",
+        "D": "unanimously"
+      },
+      "answer": "B"
+    }
+  ]

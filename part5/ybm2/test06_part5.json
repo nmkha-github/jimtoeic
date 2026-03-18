@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Won-Joon will handle receptionist duties ------- a more urgent matter requires his attention.",
+      "options": {
+        "A": "along",
+        "B": "unless",
+        "C": "after",
+        "D": "beyond"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Bexcan Ltd.'s consulting programs are ------- tailored to meet the needs of clients.",
+      "options": {
+        "A": "individualization",
+        "B": "individual",
+        "C": "individuality",
+        "D": "individually"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "Upon completion, nonfiction manuscripts are carefully ------- for publication by an expert team of editors.",
+      "options": {
+        "A": "preparing",
+        "B": "preparation",
+        "C": "prepared",
+        "D": "prepare"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "North-Metro Transit Authority ticket machines sell regular ------- special bus passes.",
+      "options": {
+        "A": "and",
+        "B": "off",
+        "C": "both",
+        "D": "across"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "The ------- to join the poetry workshop will be handled in the order that they arrive.",
+      "options": {
+        "A": "applies",
+        "B": "apply",
+        "C": "application",
+        "D": "applications"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 106,
+      "question": "Users of this software appreciate having their travel expenses ------- recorded in the database.",
+      "options": {
+        "A": "systematic",
+        "B": "systematize",
+        "C": "systematizes",
+        "D": "systematically"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 107,
+      "question": "Participants are issued a swift refund in the event that a course is cancelled without advance -------.",
+      "options": {
+        "A": "contribution",
+        "B": "interruption",
+        "C": "notification",
+        "D": "distribution"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "The merger with Walo Fashions is expected ------- our operating profit by ten million dollars this year.",
+      "options": {
+        "A": "boosts",
+        "B": "boosting",
+        "C": "to boost",
+        "D": "will boost"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "Each potential client is given a ------- of the gym's personal training programs.",
+      "options": {
+        "A": "descriptive",
+        "B": "describable",
+        "C": "description",
+        "D": "described"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "------- more fully understand the market, Panaski Products has undertaken a consumer survey.",
+      "options": {
+        "A": "Based on",
+        "B": "In case",
+        "C": "In order to",
+        "D": "Except for"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "------- mistakes can result in serious consequences, legal documents are quite difficult to translate.",
+      "options": {
+        "A": "Rather",
+        "B": "Just",
+        "C": "Because",
+        "D": "Any"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "question": "Mr. Bang's nomination is a well-deserved ------- of his strong commitment to the Nyer Foundation's mission.",
+      "options": {
+        "A": "inspiration",
+        "B": "acknowledgment",
+        "C": "allowance",
+        "D": "depiction"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "Lori Retton knows Mr. Vargas personally and so will remove ------- from the hiring committee.",
+      "options": {
+        "A": "she",
+        "B": "her",
+        "C": "hers",
+        "D": "herself"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 114,
+      "question": "The data show that Frosta Lite is ------- the top soft drink among teenagers.",
+      "options": {
+        "A": "now",
+        "B": "more",
+        "C": "early",
+        "D": "long"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "The can's label should direct users to spray the paint ------- to prevent small paint bubbles from forming.",
+      "options": {
+        "A": "lightens",
+        "B": "lighten",
+        "C": "lightly",
+        "D": "lightest"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 116,
+      "question": "A former television star, Mr. Noah explained that he chose to act in the play because of ------- multicultural themes.",
+      "options": {
+        "A": "it",
+        "B": "which",
+        "C": "something",
+        "D": "its"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "On Saturday, the first group of visitors toured around the city's ------- opened historical park.",
+      "options": {
+        "A": "densely",
+        "B": "newly",
+        "C": "generally",
+        "D": "solely"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Critchley Distributing price quotes expire one month ------- the date they are issued.",
+      "options": {
+        "A": "when",
+        "B": "from",
+        "C": "onto",
+        "D": "despite"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "To make the best impression in the job interview, candidates should bring ------- of their artistic skills in the form of a portfolio.",
+      "options": {
+        "A": "reduction",
+        "B": "cover",
+        "C": "reply",
+        "D": "evidence"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 120,
+      "question": "The interns were asked to ------- the list of reports into sections by research topic.",
+      "options": {
+        "A": "discuss",
+        "B": "demand",
+        "C": "delete",
+        "D": "divide"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 121,
+      "question": "Thanks to the city's generous spending on infrastructure, all types of public transportation are readily ------- in central Melwood City.",
+      "options": {
+        "A": "availability",
+        "B": "availabilities",
+        "C": "availably",
+        "D": "available"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 122,
+      "question": "At yesterday's meeting, the board of directors decided to ------- our contract with Egbele Consulting.",
+      "options": {
+        "A": "insist",
+        "B": "exceed",
+        "C": "terminate",
+        "D": "agree"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 123,
+      "question": "All of the hotel's deluxe suites are ------- with separate kitchens and work areas.",
+      "options": {
+        "A": "subscribed",
+        "B": "equipped",
+        "C": "accelerated",
+        "D": "conducted"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "The courier delivered the urgent package directly to Ms. Uhm, so the standard sign-in protocol -------.",
+      "options": {
+        "A": "disregards",
+        "B": "disregarding",
+        "C": "was disregarded",
+        "D": "is disregarding"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 125,
+      "question": "The need to renovate some of the older store locations has been ------- among our management's concerns.",
+      "options": {
+        "A": "attentive",
+        "B": "maximum",
+        "C": "executive",
+        "D": "foremost"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "The increase in Goshu Jam's brand recognition is likely due to the television ------- it has received.",
+      "options": {
+        "A": "expose",
+        "B": "exposes",
+        "C": "exposed",
+        "D": "exposure"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 127,
+      "question": "Through the demonstration, Diravi hopes to stimulate a multimillion-dollar ------- in the company's mobile platform.",
+      "options": {
+        "A": "objective",
+        "B": "investment",
+        "C": "affiliation",
+        "D": "statement"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "------- you indicate your region, the Web site will personalize the contents of your news feed.",
+      "options": {
+        "A": "Whether",
+        "B": "Later",
+        "C": "Mostly",
+        "D": "Once"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "The museum is attempting to collect portable CD players and other ------- products before they disappear entirely.",
+      "options": {
+        "A": "reversible",
+        "B": "anonymous",
+        "C": "tentative",
+        "D": "obsolete"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "question": "Economists have noted that the region's unusually plentiful orange harvest this season will ------- lower prices for the fruit at supermarkets.",
+      "options": {
+        "A": "inquire into",
+        "B": "complain about",
+        "C": "correspond to",
+        "D": "participate in"
+      },
+      "answer": "C"
+    }
+  ]

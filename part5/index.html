@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,10 +14,7 @@
 
   <div class="topbar-right">
     <span id="score" class="score-header"></span>
-
-    <a href="../index.html" class="btn-secondary back-btn">
-      ← Back
-    </a>
+    <a href="../index.html" class="btn-secondary back-btn">← Back</a>
   </div>
 </header>
 
@@ -26,12 +23,9 @@
 <section class="controls">
 
   <div class="controls-group">
-    <label><input type="radio" name="mode" value="all" checked> All tests</label>
-    <label><input type="radio" name="mode" value="single"> Single test</label>
-
-    <span id="testSelectWrap" style="display:none;">
-      <select id="testSelect"></select>
-    </span>
+    <label>Folder:
+      <select id="folderSelect"></select>
+    </label>
   </div>
 
   <div class="controls-group">
@@ -41,11 +35,6 @@
     </label>
 
     <label class="small">
-      <input type="checkbox" id="instant">
-      Show answer immediately
-    </label>
-
-    <label class="small" id="random40Wrap">
       <input type="checkbox" id="random40">
       Random 40
     </label>
@@ -53,27 +42,19 @@
     <button class="btn-secondary redo-btn">Reset</button>
   </div>
 
+  <div id="discoverStatus" style="margin-top:8px;color:#5f6368;font-size:0.9rem;"></div>
 </section>
 
-
-<div id="progressWrap" class="progress-wrap">
+<div class="progress-wrap">
   <div class="progress-info">
     <span id="summary">0 / 0 answered</span>
   </div>
-
   <div class="progress-bar">
     <div id="progressFill" class="progress-fill"></div>
   </div>
 </div>
 
-
 <div id="quiz" class="quiz-area"></div>
-
-
-<div id="bottomActions" class="bottom-actions" style="display:none;">
-  <button class="btn-secondary redo-btn">Làm lại</button>
-  <button id="submitBtn" class="btn-primary">Submit Result</button>
-</div>
 
 </main>
 

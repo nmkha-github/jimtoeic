@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Before sending us your résumé, be sure to check that it meets our requirements -------.",
+      "options": {
+        "A": "preciseness",
+        "B": "precise",
+        "C": "precision",
+        "D": "precisely"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "Most of the product photographs were taken by either the manufacturer ------- a freelance photographer.",
+      "options": {
+        "A": "nor",
+        "B": "as",
+        "C": "and",
+        "D": "or"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "------- about payments and account balances should be directed to our billing department.",
+      "options": {
+        "A": "To inquire",
+        "B": "Inquired",
+        "C": "Inquiries",
+        "D": "Inquire"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "Girmus Airlines suspended several flights yesterday ------- issues with its aircraft.",
+      "options": {
+        "A": "due to",
+        "B": "except for",
+        "C": "whereas",
+        "D": "although"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "Darablatt Ltd. ------- its earnings figures at its board meeting next Tuesday.",
+      "options": {
+        "A": "being released",
+        "B": "was releasing",
+        "C": "will release",
+        "D": "released"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "Thanks to the new street signs, drivers' dependence on city landmarks for navigation will be reduced -------.",
+      "options": {
+        "A": "recently",
+        "B": "more",
+        "C": "soon",
+        "D": "early"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "question": "The film Greenmeadow Memories has received warm praise ------- audiences and critics alike.",
+      "options": {
+        "A": "from",
+        "B": "away",
+        "C": "during",
+        "D": "into"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "Steel bars placed inside the concrete should provide sufficient -------.",
+      "options": {
+        "A": "reinforce",
+        "B": "reinforcement",
+        "C": "reinforced",
+        "D": "reinforceable"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "Set to open on Friday, the new Hagoya Shopping Mall ------- a variety of architectural styles and details.",
+      "options": {
+        "A": "incorporations",
+        "B": "incorporating",
+        "C": "incorporation",
+        "D": "incorporates"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 110,
+      "question": "After inspecting the artwork, please share your assessment of ------- authenticity and value.",
+      "options": {
+        "A": "what",
+        "B": "whose",
+        "C": "there",
+        "D": "its"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "In one of the prize-winning posters currently on exhibition, a bicycle is shown leaning ------- a large oak tree.",
+      "options": {
+        "A": "until",
+        "B": "between",
+        "C": "contrary",
+        "D": "against"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "Voter polls suggest that the two mayoral candidates are ------- likely to win the seat.",
+      "options": {
+        "A": "normally",
+        "B": "equally",
+        "C": "formerly",
+        "D": "gradually"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "The ------- Fiona Lim has acquired enables her to deliver a persuasive talk to any audience.",
+      "options": {
+        "A": "progress",
+        "B": "experience",
+        "C": "graduation",
+        "D": "instance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "Folk singer Karen Watson is ------- considering appearing on the upcoming season of a popular music program.",
+      "options": {
+        "A": "strengthen",
+        "B": "strongly",
+        "C": "strength",
+        "D": "strong"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "At Sebetich Mutual, employees may be given permission to telecommute if they have ------- at a superior level consistently.",
+      "options": {
+        "A": "encountered",
+        "B": "assured",
+        "C": "understood",
+        "D": "performed"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 116,
+      "question": "Despite his youth, Mark Brown has written one of the most ------- novels of recent times.",
+      "options": {
+        "A": "engagement",
+        "B": "engaging",
+        "C": "engagingly",
+        "D": "engages"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "Bezotte, Inc.'s latest survey sought respondents' opinions on a ------- of economic and political topics.",
+      "options": {
+        "A": "material",
+        "B": "range",
+        "C": "type",
+        "D": "distance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "The Design Team made minor changes to the final version of the product, but overall it is not ------- different from the prototype.",
+      "options": {
+        "A": "fundamentally",
+        "B": "approximately",
+        "C": "easily",
+        "D": "separately"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "The Product Support Department is on hand to assist customers ------- questions arise concerning warranty conditions.",
+      "options": {
+        "A": "whenever",
+        "B": "rather than",
+        "C": "such as",
+        "D": "so that"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Versoi Financial has denied claims that the investments are ------- risky.",
+      "options": {
+        "A": "intentional",
+        "B": "intentionally",
+        "C": "intention",
+        "D": "intend"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "This document details the factors that Mr. Zhao took into account for his ------- of the new employees.",
+      "options": {
+        "A": "evaluate",
+        "B": "evaluation",
+        "C": "evaluated",
+        "D": "evaluates"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "The limited-edition Jeerab tea gift set will probably sell out fast, as the store has almost ------- supply remaining in inventory.",
+      "options": {
+        "A": "no",
+        "B": "not",
+        "C": "nothing",
+        "D": "none"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "Although the restaurant's cuisine has become quite bold and adventurous, patrons agree that it is ------- delicious.",
+      "options": {
+        "A": "much",
+        "B": "still",
+        "C": "far",
+        "D": "how"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "The Sales Team ------- in the all-employee meeting last month, but most of its members were away on business trips.",
+      "options": {
+        "A": "have been participating",
+        "B": "would have participated",
+        "C": "can participate",
+        "D": "will be participating"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "We are working past regular hours to ensure the ------- resolution of the matter.",
+      "options": {
+        "A": "steep",
+        "B": "prompt",
+        "C": "identical",
+        "D": "vague"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "During one impressive period in her directing career, Ms. Lu earned ------- Mauller Awards for Hand to Hand and The Renwicks.",
+      "options": {
+        "A": "successive",
+        "B": "thorough",
+        "C": "mandatory",
+        "D": "compatible"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "By encouraging innovative promotional ideas, the company hopes to gain a ------- market share than it had previously.",
+      "options": {
+        "A": "highly",
+        "B": "high",
+        "C": "higher",
+        "D": "highest"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "question": "The city expects that the language classes will help newly-arrived international residents ------- their neighbors.",
+      "options": {
+        "A": "apply for",
+        "B": "reach out",
+        "C": "interact with",
+        "D": "belong to"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "The Park Ecology Committee's weekly meeting is intended to provide a ------- in which attendees can discuss environmental issues.",
+      "options": {
+        "A": "forum",
+        "B": "mission",
+        "C": "safeguard",
+        "D": "prediction"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Festival organizers have ------- the crafts vendors that set-up assistance will be offered before the event.",
+      "options": {
+        "A": "announced",
+        "B": "notified",
+        "C": "declared",
+        "D": "expressed"
+      },
+      "answer": "B"
+    }
+  ]

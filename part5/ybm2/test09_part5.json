@@ -1,0 +1,332 @@
+[
+    {
+      "id": 101,
+      "question": "Invited guests must confirm their intention to attend the banquet ------- the end of the week.",
+      "options": {
+        "A": "behind",
+        "B": "by",
+        "C": "on",
+        "D": "across"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Applicants will be asked to provide proof of ------- accounting certification at the first interview.",
+      "options": {
+        "A": "they",
+        "B": "them",
+        "C": "their",
+        "D": "themselves"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "------- resembling sculptures from previous eras, Mr. Florence's artwork depicts everyday scenes.",
+      "options": {
+        "A": "Closer",
+        "B": "Close",
+        "C": "Closely",
+        "D": "Closest"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "Mr. Parza will take part in a contract ------- in Singapore to finalize the details of the acquisition.",
+      "options": {
+        "A": "negotiate",
+        "B": "negotiation",
+        "C": "negotiates",
+        "D": "negotiator"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "The audience gave an enthusiastic round of applause when the musicians stepped ------- the stage.",
+      "options": {
+        "A": "onto",
+        "B": "until",
+        "C": "with",
+        "D": "as"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "Hikers should bring ------- they need with them, as there are no shops along the trail.",
+      "options": {
+        "A": "wherever",
+        "B": "this",
+        "C": "everything",
+        "D": "then"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "question": "Upon examination, Ms. Seo discovered that the figures her department ------- last week were incorrect.",
+      "options": {
+        "A": "has calculated",
+        "B": "calculates",
+        "C": "will calculate",
+        "D": "calculated"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "question": "Partnering with Apor Footwear could be a profitable ------- for Pasadena Department Store thanks to the retailer's excellent reputation.",
+      "options": {
+        "A": "atmosphere",
+        "B": "content",
+        "C": "arrangement",
+        "D": "source"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "------- the merger is authorized by the board members, an official valuation of the company must be made.",
+      "options": {
+        "A": "Before",
+        "B": "Despite",
+        "C": "Nor",
+        "D": "How"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "Fairnay Manufacturing ------- standards set by the National Health and Safety Association regarding exposure to chemicals.",
+      "options": {
+        "A": "insisted",
+        "B": "conducted",
+        "C": "adopted",
+        "D": "underwent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "The increase in mobile phone usage brought ------- the need for stricter laws against texting while driving.",
+      "options": {
+        "A": "among",
+        "B": "toward",
+        "C": "down",
+        "D": "about"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "Visitors to Bellucci Orchard can become active ------- in the harvest process by registering for a VIP tour.",
+      "options": {
+        "A": "participants",
+        "B": "participate",
+        "C": "participatory",
+        "D": "participation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "The resort offers a daily pass and a season ticket, ------- of which can be used to access the ski lift.",
+      "options": {
+        "A": "either",
+        "B": "it",
+        "C": "those",
+        "D": "what"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "The company's CEO reacted ------- to the news that stockholders had called for a last-minute meeting.",
+      "options": {
+        "A": "predictable",
+        "B": "predictably",
+        "C": "predicts",
+        "D": "prediction"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "An extensive construction project on Highway 17 has ------- the exit ramps to improve motorist safety.",
+      "options": {
+        "A": "broad",
+        "B": "broaden",
+        "C": "broadly",
+        "D": "broadened"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 116,
+      "question": "The community basketball tournament is supported ------- by city government funds, with local businesses making up the remainder.",
+      "options": {
+        "A": "partially",
+        "B": "approximately",
+        "C": "overly",
+        "D": "briefly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "Only employees with ------- sales of $30,000 for domestic and international goods will be eligible for promotions.",
+      "options": {
+        "A": "combines",
+        "B": "combined",
+        "C": "to have combined",
+        "D": "to combine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "The upcoming city council meeting is intended for residents ------- wish to voice concerns about the proposed commercial district expansion.",
+      "options": {
+        "A": "several",
+        "B": "others",
+        "C": "but",
+        "D": "who"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "Although the costs of the top-selling hybrid vehicles differ -------, the gas mileage results are nearly the same.",
+      "options": {
+        "A": "signify",
+        "B": "significant",
+        "C": "significantly",
+        "D": "signifying"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "question": "Many passengers choose to travel solely with a carry-on bag ------- than pay the required fee for checked luggage.",
+      "options": {
+        "A": "whenever",
+        "B": "rather",
+        "C": "better",
+        "D": "regardless"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "Driven by demand for ways to share information quickly, a number of new social media sites ------- in the past year alone.",
+      "options": {
+        "A": "to emerge",
+        "B": "are emerged",
+        "C": "have emerged",
+        "D": "will emerge"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "An online education platform, Eleshade allows users to take technology courses from the ------- of their own home.",
+      "options": {
+        "A": "appreciation",
+        "B": "decoration",
+        "C": "layout",
+        "D": "comfort"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 123,
+      "question": "Management chose to ------- the office picnic due to a forecast of adverse weather.",
+      "options": {
+        "A": "call off",
+        "B": "fill out",
+        "C": "back up",
+        "D": "hand in"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "The San Marino Ballet Company will perform at Welburn Theater, and troupe members will sign autographs -------.",
+      "options": {
+        "A": "somewhat",
+        "B": "afterward",
+        "C": "alike",
+        "D": "otherwise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Attendees of the International Unity Summit come from ------- cultural backgrounds and speak a variety of languages.",
+      "options": {
+        "A": "ongoing",
+        "B": "conscious",
+        "C": "adjustable",
+        "D": "diverse"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "The report demonstrated that rush hour traffic downtown and the average congestion on Nicall Bridge are roughly -------.",
+      "options": {
+        "A": "compares",
+        "B": "comparable",
+        "C": "comparing",
+        "D": "comparison"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Each club official must remain in office ------- to the expiration date of his or her term of office until a successor can be found.",
+      "options": {
+        "A": "prospective",
+        "B": "subsequent",
+        "C": "likely",
+        "D": "eager"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "When she concludes her assignment overseas on June 30, Ms. Adrian ------- one hundred production facilities.",
+      "options": {
+        "A": "would inspect",
+        "B": "will be inspected",
+        "C": "is inspecting",
+        "D": "will have inspected"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "Items that do not meet customers' expectations may be returned for a refund or exchanged for merchandise of ------- value.",
+      "options": {
+        "A": "competent",
+        "B": "receptive",
+        "C": "initial",
+        "D": "equivalent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "question": "University administration asked the committee to analyze the ------- of the change for faculty and students.",
+      "options": {
+        "A": "implications",
+        "B": "alliances",
+        "C": "aptitudes",
+        "D": "supplements"
+      },
+      "answer": "A"
+    }
+  ]
