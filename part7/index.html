@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JIM TOEIC - READING PART 7</title>
+
+<style>
+:root {
+    --accent:#1a73e8;
+    --success:#10b981;
+    --danger:#ef4444;
+    --bg:#f8f9fa;
+    --border:#dadce0;
+    --text:#202124;
+}
+
+body{
+    margin:0;
+    font-family:system-ui,-apple-system,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.5;
+}
+
+.topbar{
+    background:#fff;
+    padding:12px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 1px 3px rgba(0,0,0,.1);
+}
+
+.brand{
+    font-weight:700;
+    font-size:1.2rem;
+    color:var(--accent);
+    white-space:nowrap;
+}
+
+.topbar-actions{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.btn{
+    border:1px solid var(--accent);
+    background:#fff;
+    color:var(--accent);
+    padding:7px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+}
+
+.btn:hover{ background:#f8faff; }
+
+.control{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:6px 10px;
+}
+
+.control label{
+    font-size:.9rem;
+    color:#5f6368;
+    font-weight:600;
+}
+
+.control select{
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:.95rem;
+    min-width:110px;
+}
+
+.container{
+    max-width:900px;
+    margin:20px auto;
+    padding:0 12px;
+}
+
+.summary{
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.progress-bar{
+    height:8px;
+    background:#e8eaed;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    width:0%;
+    background:var(--accent);
+    transition:width .25s ease;
+}
+
+.hint{
+    margin-top:8px;
+    font-size:.85rem;
+    color:#5f6368;
+}
+
+.passage-group{
+    background:#fff;
+    padding:20px;
+    margin:20px 0 30px;
+    border-radius:12px;
+    border:1px solid var(--border);
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.passage-header{
+    font-weight:700;
+    color:var(--accent);
+    margin-bottom:14px;
+    padding-bottom:8px;
+    border-bottom:2px solid #e8f0fe;
+}
+
+.passage-image{
+    width:100%;
+    display:block;
+    margin-bottom:22px;
+    border-radius:8px;
+    border:1px solid #eee;
+}
+
+.card{
+    margin-bottom:28px;
+    padding-top:16px;
+    border-top:1px dashed #eee;
+}
+
+.card:first-of-type{
+    border-top:none;
+    padding-top:0;
+}
+
+.q-title{
+    font-weight:600;
+    font-size:1.02rem;
+    margin-bottom:14px;
+}
+
+.options{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.option{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px 16px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+    background:#fff;
+}
+
+.option:hover{
+    background:#f8f9fa;
+}
+
+.option.selected{
+    border-color:var(--accent);
+    background:#e8f0fe;
+}
+
+.option.correct{
+    background:#e6f4ea;
+    border-color:var(--success);
+    color:#137333;
+}
+
+.option.wrong{
+    background:#fce8e6;
+    border-color:var(--danger);
+    color:#c5221f;
+}
+
+.label{
+    width:26px;
+    height:26px;
+    background:#f1f3f4;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    font-size:.85rem;
+    flex-shrink:0;
+}
+
+.loading{
+    text-align:center;
+    padding:50px;
+    color:#5f6368;
+}
+</style>
+</head>
+
+<body>
+<header class="topbar">
+    <div class="brand">JIM TOEIC PART 7</div>
+
+    <div class="topbar-actions">
+        <a href="../index.html" class="btn">← Back</a>
+        <div class="control">
+            <label for="folderSelect">Folder</label>
+            <select id="folderSelect"></select>
+        </div>
+        <div class="control">
+            <label for="testSelect">Test</label>
+            <select id="testSelect"></select>
+        </div>
+        <button class="btn" id="resetBtn">Reset</button>
+    </div>
+</header>
+
+<main class="container">
+    <div class="summary" id="summary">0 / 0 answered</div>
+    <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+    <div class="hint" id="hint"></div>
+
+    <div id="quiz-container" style="margin-top:20px;">
+        <div class="loading">Đang tải dữ liệu bài đọc...</div>
+    </div>
+</main>
+
+<script>
+const el = (id) => document.getElementById(id);
+
+const folders = ["jim"];
+
+const folderSelect = el("folderSelect");
+const testSelect = el("testSelect");
+const resetBtn = el("resetBtn");
+const quizContainer = el("quiz-container");
+const hint = el("hint");
+
+let questionsData = [];
+let groupsData = [];
+let userAnswers = {};
+let availableTests = [];
+let currentFolder = "jim";
+let currentTest = "";
+
+function pad2(n) {
+    return String(n).padStart(2, "0");
+}
+
+function qFile(folder, testNo) {
+    return `${folder}/test${pad2(testNo)}.json`;
+}
+
+function gFile(folder, testNo) {
+    return `${folder}/test${pad2(testNo)}_group.json`;
+}
+
+async function fileExists(url) {
+    try {
+        const res = await fetch(url, { cache: "no-store" });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+function saveState() {
+    localStorage.setItem("toeic_part7_folder", currentFolder);
+    localStorage.setItem("toeic_part7_test", currentTest);
+}
+
+function initFolders() {
+    folderSelect.innerHTML = "";
+    folders.forEach(folder => {
+        const opt = document.createElement("option");
+        opt.value = folder;
+        opt.textContent = folder;
+        folderSelect.appendChild(opt);
+    });
+
+    const savedFolder = localStorage.getItem("toeic_part7_folder");
+    if (savedFolder && folders.includes(savedFolder)) {
+        folderSelect.value = savedFolder;
+    } else {
+        folderSelect.value = folders[0];
+    }
+
+    currentFolder = folderSelect.value;
+}
+
+async function scanTests(folder) {
+    const tests = [];
+    for (let i = 1; i <= 200; i++) {
+        const [qOk, gOk] = await Promise.all([
+            fileExists(qFile(folder, i)),
+            fileExists(gFile(folder, i))
+        ]);
+
+        if (qOk && gOk) {
+            tests.push(i);
+        } else {
+            break;
+        }
+    }
+    return tests;
+}
+
+function renderTests(list) {
+    testSelect.innerHTML = "";
+
+    if (!list.length) {
+        const opt = document.createElement("option");
+        opt.value = "";
+        opt.textContent = "No test found";
+        testSelect.appendChild(opt);
+        currentTest = "";
+        return;
+    }
+
+    list.forEach(i => {
+        const opt = document.createElement("option");
+        opt.value = String(i);
+        opt.textContent = `test${pad2(i)}`;
+        testSelect.appendChild(opt);
+    });
+
+    const savedTest = localStorage.getItem("toeic_part7_test");
+    if (savedTest && list.includes(parseInt(savedTest, 10))) {
+        testSelect.value = savedTest;
+    } else {
+        testSelect.value = String(list[0]);
+    }
+
+    currentTest = testSelect.value;
+}
+
+async function loadSelectedTest() {
+    currentFolder = folderSelect.value;
+    currentTest = testSelect.value;
+
+    if (!currentFolder || !currentTest) {
+        quizContainer.innerHTML = `<div class="loading">Không có test hợp lệ.</div>`;
+        document.getElementById("summary").innerText = "0 / 0 answered";
+        document.getElementById("progressFill").style.width = "0%";
+        hint.textContent = "";
+        saveState();
+        return;
+    }
+
+    hint.textContent = `Folder: ${currentFolder} • Test: test${pad2(currentTest)}`;
+    quizContainer.innerHTML = `<div class="loading">Đang tải dữ liệu bài đọc...</div>`;
+    userAnswers = {};
+
+    saveState();
+
+    try {
+        const [resQ, resG] = await Promise.all([
+            fetch(qFile(currentFolder, currentTest), { cache: "no-store" }),
+            fetch(gFile(currentFolder, currentTest), { cache: "no-store" })
+        ]);
+
+        if (!resQ.ok || !resG.ok) {
+            throw new Error("Không tải được file JSON");
+        }
+
+        questionsData = await resQ.json();
+        groupsData = await resG.json();
+        renderQuiz();
+    } catch (err) {
+        console.error(err);
+        quizContainer.innerHTML = `<div class="loading">Không thể tải dữ liệu test${pad2(currentTest)} trong folder "${currentFolder}".</div>`;
+        document.getElementById("summary").innerText = "0 / 0 answered";
+        document.getElementById("progressFill").style.width = "0%";
+    }
+}
+
+function renderQuiz() {
+    const container = quizContainer;
+    container.innerHTML = "";
+
+    const totalQuestions = questionsData.length;
+    document.getElementById("summary").innerText = `0 / ${totalQuestions} answered`;
+    document.getElementById("progressFill").style.width = "0%";
+
+    groupsData.forEach(group => {
+        const passageDiv = document.createElement("div");
+        passageDiv.className = "passage-group";
+
+        const header = document.createElement("div");
+        header.className = "passage-header";
+        header.innerText = `Questions ${group.from} - ${group.to}`;
+        passageDiv.appendChild(header);
+
+        const img = document.createElement("img");
+        img.className = "passage-image";
+        img.src = group.url;
+        img.alt = `Reading passage ${group.from}-${group.to}`;
+        passageDiv.appendChild(img);
+
+        const groupQuestions = questionsData.filter(q => q.id >= group.from && q.id <= group.to);
+
+        groupQuestions.forEach(q => {
+            const qCard = document.createElement("div");
+            qCard.className = "card";
+            qCard.innerHTML = `<div class="q-title">${q.id}. ${q.question}</div>`;
+
+            const optionsDiv = document.createElement("div");
+            optionsDiv.className = "options";
+
+            Object.keys(q.options).forEach(key => {
+                const optBtn = document.createElement("div");
+                optBtn.className = "option";
+                optBtn.innerHTML = `
+                    <div class="label">${key}</div>
+                    <div class="opt-text">${q.options[key]}</div>
+                `;
+
+                optBtn.onclick = () => handleSelect(q.id, key, q.answer, optBtn, optionsDiv);
+                optionsDiv.appendChild(optBtn);
+            });
+
+            qCard.appendChild(optionsDiv);
+            passageDiv.appendChild(qCard);
+        });
+
+        container.appendChild(passageDiv);
+    });
+
+    updateProgress();
+}
+
+function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) {
+    if (userAnswers[questionId]) return;
+
+    userAnswers[questionId] = selectedKey;
+
+    const allOptions = parentEl.querySelectorAll(".option");
+    allOptions.forEach(opt => {
+        const label = opt.querySelector(".label").innerText;
+        if (label === correctKey) {
+            opt.classList.add("correct");
+        } else if (label === selectedKey && selectedKey !== correctKey) {
+            opt.classList.add("wrong");
+        }
+    });
+
+    currentEl.classList.add("selected");
+    updateProgress();
+}
+
+function updateProgress() {
+    const answeredCount = Object.keys(userAnswers).length;
+    const totalCount = questionsData.length || 0;
+    const percent = totalCount ? (answeredCount / totalCount) * 100 : 0;
+
+    document.getElementById("summary").innerText = `${answeredCount} / ${totalCount} answered`;
+    document.getElementById("progressFill").style.width = `${percent}%`;
+}
+
+function resetSelections() {
+    userAnswers = {};
+    renderQuiz();
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+async function refreshTestsAndLoad() {
+    currentFolder = folderSelect.value;
+
+    availableTests = await scanTests(currentFolder);
+    renderTests(availableTests);
+
+    await loadSelectedTest();
+}
+
+folderSelect.addEventListener("change", refreshTestsAndLoad);
+testSelect.addEventListener("change", loadSelectedTest);
+resetBtn.addEventListener("click", resetSelections);
+
+window.onload = async () => {
+    initFolders();
+    availableTests = await scanTests(folderSelect.value);
+    renderTests(availableTests);
+    await loadSelectedTest();
+};
+</script>
+</body>
+</html>

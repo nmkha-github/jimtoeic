@@ -1,0 +1,530 @@
+[
+    {
+        "id": 153,
+        "question": "Which of the following is NOT a condition placed on receiving the discount?",
+        "options": {
+            "A": "A guest must use a specific type of credit card to pay for a room.",
+            "B": "The booking must be done well in advance of checking into the hotel.",
+            "C": "The reservations must be carried out by calling the toll-free number.",
+            "D": "Guests must make their payments in cash."
+        },
+        "answer": "D"
+    },
+    {
+        "id": 154,
+        "question": "What will the discount apply to?",
+        "options": {
+            "A": "Accommodations",
+            "B": "Meals",
+            "C": "Transportation",
+            "D": "Sales tax"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 155,
+        "question": "What can be implied from the advertisement?",
+        "options": {
+            "A": "Most travelers don't make a habit of making reservations prior to checking in.",
+            "B": "There is a business relationship between the credit card company and the hotel.",
+            "C": "The hotel gets very busy during the summer season.",
+            "D": "It usually takes a minimum of 10 days for a credit card to clear."
+        },
+        "answer": "B"
+    },
+    {
+        "id": 156,
+        "question": "What is the main purpose of the article?",
+        "options": {
+            "A": "To provide information about the steps required in owning a home",
+            "B": "To inform the public about the types of mortgages available today",
+            "C": "To report the opinions of the experts in the real estate market",
+            "D": "To encourage people to work harder to achieve their career goals"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 157,
+        "question": "Which of the following is NOT a trend mentioned by the analysts?",
+        "options": {
+            "A": "Women are placing less importance on their traditional roles as homemakers.",
+            "B": "Men are giving in to the pressure and settling down early.",
+            "C": "Women are taking over positions that were normally held by men.",
+            "D": "Men are less likely to chase after sound investment advice."
+        },
+        "answer": "B"
+    },
+    {
+        "id": 158,
+        "question": "What do the experts at the institute predict?",
+        "options": {
+            "A": "Men are beginning to show an interest in the real estate market.",
+            "B": "Men will reclaim the positions they lost to women.",
+            "C": "Women will continue to invest in homes.",
+            "D": "Women will resort to marriage for emotional security."
+        },
+        "answer": "C"
+    },
+    {
+        "id": 159,
+        "question": "How can one become eligible to win the contest?",
+        "options": {
+            "A": "By sending the coupon to the company",
+            "B": "By picking up a blender",
+            "C": "By looking inside the box",
+            "D": "By filling out a contest entry form"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 160,
+        "question": "Which of the following is NOT true about the Futora Blender and Juicer?",
+        "options": {
+            "A": "It is priced under $100.",
+            "B": "It is not very difficult to clean.",
+            "C": "It comes with various accessories.",
+            "D": "It includes instructions on how to make drinks."
+        },
+        "answer": "C"
+    },
+    {
+        "id": 161,
+        "question": "What is the main reason for writing this news?",
+        "options": {
+            "A": "To alert the public about a new health product",
+            "B": "To report the finding of a study conducted by a magazine",
+            "C": "To correct false information printed in an earlier article",
+            "D": "To suggest some food for a healthy breakfast"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 162,
+        "question": "What does the article advise the consumers to do?",
+        "options": {
+            "A": "Always eat breakfast",
+            "B": "Consume less food",
+            "C": "Stay away from health bars",
+            "D": "Read the labels carefully"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 163,
+        "question": "What can be inferred from the article?",
+        "options": {
+            "A": "Health bars will be taken off the store shelves.",
+            "B": "Many health bars are found to be excessively wrapped.",
+            "C": "Many people are substituting at least one meal with health bars.",
+            "D": "Health bars have all the nutrients a body needs."
+        },
+        "answer": "B"
+    },
+    {
+        "id": 164,
+        "question": "What is the general view of the experts on computer usage?",
+        "options": {
+            "A": "It is causing serious health hazards to the public.",
+            "B": "It has become necessary to survive in today's world.",
+            "C": "It has made the lives of millions of people much easier.",
+            "D": "It is taking up most of our time in the workplace."
+        },
+        "answer": "A"
+    },
+    {
+        "id": 165,
+        "question": "What is NOT mentioned about computer game addicts?",
+        "options": {
+            "A": "They often suffer from medical side effects.",
+            "B": "They spend too much time online.",
+            "C": "They neglect their everyday chores.",
+            "D": "They suffer from mental breakdowns."
+        },
+        "answer": "D"
+    },
+    {
+        "id": 166,
+        "question": "Where did Dr. Parsons first make his suggestive solution be known?",
+        "options": {
+            "A": "In a magazine",
+            "B": "In a newspaper",
+            "C": "On a webpage",
+            "D": "In a television interview"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 167,
+        "question": "Which of the following is NOT stated by Dr. Parsons in comparing computer games and fishing?",
+        "options": {
+            "A": "Fishing brings less strain to the eyes.",
+            "B": "A real sense of achievement cannot be attained by computer games.",
+            "C": "Fishing is unpredictable.",
+            "D": "Computer games cannot be played outdoors."
+        },
+        "answer": "D"
+    },
+    {
+        "id": 168,
+        "question": "Who is the intended audience of this contest?",
+        "options": {
+            "A": "All residents of Tampa",
+            "B": "The owners of gardening stores",
+            "C": "The members of the Tampa City Council",
+            "D": "The judges of the competition"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 169,
+        "question": "What is the main purpose of this competition?",
+        "options": {
+            "A": "To promote gardening in the city",
+            "B": "To create jobs in the city",
+            "C": "To bring the community closer together",
+            "D": "To spruce up the look of the city"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 170,
+        "question": "What condition is placed on those who wish to enter the contest?",
+        "options": {
+            "A": "Their gardens must be out in the open.",
+            "B": "They must be referred by a city council member.",
+            "C": "They must submit a photo of their gardens.",
+            "D": "They can only enter one category of the contest."
+        },
+        "answer": "A"
+    },
+    {
+        "id": 171,
+        "question": "Which of the following will NOT be evaluated by the judges?",
+        "options": {
+            "A": "The condition of the flowers",
+            "B": "The arrangement of the garden",
+            "C": "The appearance of the garden",
+            "D": "The scent of the flowers"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 172,
+        "question": "When will the judging begin?",
+        "options": {
+            "A": "February 12",
+            "B": "April 25",
+            "C": "June 1",
+            "D": "August 3"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 173,
+        "question": "How is Ms. Reid asked to respond to the invitation?",
+        "options": {
+            "A": "By e-mail",
+            "B": "By fax",
+            "C": "By phone",
+            "D": "By letter"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 174,
+        "question": "Who is Brenton McLeod?",
+        "options": {
+            "A": "A sales representative",
+            "B": "The company president",
+            "C": "A client",
+            "D": "A health care specialist"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 175,
+        "question": "Which of the following information is NOT included in the invitation?",
+        "options": {
+            "A": "The seminar date",
+            "B": "The lunch menu",
+            "C": "The place of the seminar",
+            "D": "The main speaker"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 176,
+        "question": "What has Ms. Jones done lately?",
+        "options": {
+            "A": "She began her own business.",
+            "B": "She was promoted to HR manager.",
+            "C": "She merged her company with another.",
+            "D": "She developed a new product."
+        },
+        "answer": "A"
+    },
+    {
+        "id": 177,
+        "question": "According to Karen, which of the following companies does she NOT deal with?",
+        "options": {
+            "A": "Companies that are just beginning",
+            "B": "Firms that retail items to the general public",
+            "C": "Corporations that have recently joined together",
+            "D": "Industries that have gone through an organizational change"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 178,
+        "question": "What kind of work does Karen do?",
+        "options": {
+            "A": "She merges two companies to make one stronger company.",
+            "B": "She helps companies hire the best people for the jobs required.",
+            "C": "She consults companies to recognize and rectify their problems.",
+            "D": "She brings together business contacts to help one another."
+        },
+        "answer": "C"
+    },
+    {
+        "id": 179,
+        "question": "What does Mr. Chiu ask Margaret to do for him?",
+        "options": {
+            "A": "Take a trip to Toronto to check out the factory operation",
+            "B": "Arrange a meeting with her Canadian counterpart",
+            "C": "Show his president around the plant site",
+            "D": "Get in touch with the Singapore president"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 180,
+        "question": "Where does Margaret work?",
+        "options": {
+            "A": "The United States",
+            "B": "Canada",
+            "C": "Singapore",
+            "D": "Hong Kong"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 181,
+        "question": "The word 'outstanding' in the first letter, line 2 is closest in meaning to",
+        "options": {
+            "A": "superior",
+            "B": "noticeable",
+            "C": "unpaid",
+            "D": "essential"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 182,
+        "question": "How will Mr. Chalmers remit the payment?",
+        "options": {
+            "A": "He will send a check every month.",
+            "B": "It will be taken out of his bank account.",
+            "C": "It will automatically be deducted from his paycheck.",
+            "D": "He will bring cash to the company."
+        },
+        "answer": "B"
+    },
+    {
+        "id": 183,
+        "question": "Why did Mr. Brown write the letter?",
+        "options": {
+            "A": "To request an overdue payment",
+            "B": "To ask for an extension on payment due",
+            "C": "To notify the client that the account has been settled",
+            "D": "To offer a special type of a service"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 184,
+        "question": "According to the second letter, when should Jason contact Mr. Brown again?",
+        "options": {
+            "A": "If he runs into further problems with payments",
+            "B": "As soon as he is ready to make the payment",
+            "C": "If he is in need of using the service again",
+            "D": "Once he finishes paying off all the money"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 185,
+        "question": "How long did it take for the account to be cleared?",
+        "options": {
+            "A": "Two months",
+            "B": "Six months",
+            "C": "One year",
+            "D": "Two years"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 186,
+        "question": "For whom is the announcement intended?",
+        "options": {
+            "A": "Artists",
+            "B": "Residents",
+            "C": "Jim",
+            "D": "Judges"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 187,
+        "question": "How much would an elderly couple in their mid-sixties have to pay to enter the exhibit?",
+        "options": {
+            "A": "$5.00",
+            "B": "$10.00",
+            "C": "$15.00",
+            "D": "$20.00"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 188,
+        "question": "What is NOT mentioned about the awards?",
+        "options": {
+            "A": "They will be judged by more than one person.",
+            "B": "Money will be given away to the winners.",
+            "C": "Winners will get a chance to go away next summer.",
+            "D": "The winning pieces will be presented in an art museum."
+        },
+        "answer": "D"
+    },
+    {
+        "id": 189,
+        "question": "In the notice, what are the participants asked to do by next Friday?",
+        "options": {
+            "A": "Submit their artwork",
+            "B": "Pay the entry fee",
+            "C": "Speak to the coordinator",
+            "D": "Send in their checks"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 190,
+        "question": "On which day was the notice posted?",
+        "options": {
+            "A": "September 21",
+            "B": "October 21",
+            "C": "November 1",
+            "D": "November 21"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 191,
+        "question": "What is NOT a requirement for this job?",
+        "options": {
+            "A": "Strong computer programming skills",
+            "B": "A bachelor's degree in business",
+            "C": "The ability to take on many things at once",
+            "D": "The flexibility to move around"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 192,
+        "question": "When is the last day to apply for the position with the General Foods Company?",
+        "options": {
+            "A": "September 3",
+            "B": "September 24",
+            "C": "September 30",
+            "D": "October 3"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 193,
+        "question": "What can be inferred about Jack White?",
+        "options": {
+            "A": "He is between jobs at the moment.",
+            "B": "He is not happy with where he is now.",
+            "C": "He hopes to enter the food industry.",
+            "D": "He is eager to take on more responsibilities."
+        },
+        "answer": "D"
+    },
+    {
+        "id": 194,
+        "question": "What does Mr. White say he will do in the next few days?",
+        "options": {
+            "A": "Mail his resume",
+            "B": "Call to double check on something he sent",
+            "C": "Meet with the General Foods Company staff",
+            "D": "Come by the company to drop off some documents"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 195,
+        "question": "Which of the following actions contradict what is stated in the ad?",
+        "options": {
+            "A": "Jack asking if it's okay to make a follow-up call",
+            "B": "Jack sending his resume by e-mail",
+            "C": "Jack requesting to meet in person",
+            "D": "Jack revealing sensitive information about the food industry"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 196,
+        "question": "What does the article suggest?",
+        "options": {
+            "A": "To take a course in international business relationships at the institute",
+            "B": "Always to be alert of hints that can damage an ongoing business relationship",
+            "C": "Not to mix business and pleasure when dealing with any culture",
+            "D": "To know the culture of your business counterpart"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 197,
+        "question": "In the article, the word 'consternation' is closest in meaning to",
+        "options": {
+            "A": "alarm",
+            "B": "admiration",
+            "C": "fear",
+            "D": "assurance"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 198,
+        "question": "What does Ms. Luddon want to do?",
+        "options": {
+            "A": "Inquire about the source of information mentioned in the article",
+            "B": "Contradict what Dr. Steiner had said in his article",
+            "C": "Learn as many languages as possible",
+            "D": "Pursue a career in cross-cultural communication"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 199,
+        "question": "What can be inferred about Julie Luddon?",
+        "options": {
+            "A": "She is writing a book about cultural negotiations.",
+            "B": "She has already received a bachelor's degree.",
+            "C": "She is studying to become a university professor.",
+            "D": "She wants to work in a foreign country."
+        },
+        "answer": "B"
+    },
+    {
+        "id": 200,
+        "question": "What do Julie and Dr. Steiner have in common?",
+        "options": {
+            "A": "Both are interested in the same subject.",
+            "B": "Both have lived overseas in the past.",
+            "C": "Both are writing books.",
+            "D": "Both work in the same university."
+        },
+        "answer": "A"
+    }
+]

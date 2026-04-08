@@ -1,0 +1,530 @@
+[
+    {
+        "id": 153,
+        "question": "What is the main purpose of this letter?",
+        "options": {
+            "A": "To provide information about the club's history",
+            "B": "To notify the members of a yearly meeting",
+            "C": "To welcome the newest member to the club",
+            "D": "To invite the members to an upcoming event"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 154,
+        "question": "Which of the following will NOT be part of the event?",
+        "options": {
+            "A": "Discussions",
+            "B": "Entertainment",
+            "C": "Presentations",
+            "D": "Dinner"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 155,
+        "question": "According to Mr. Connelly, what led him to hold the event there?",
+        "options": {
+            "A": "It has become a tradition at the club",
+            "B": "He has specialties with the hotel staff",
+            "C": "The hotel is located close to the club",
+            "D": "He was impressed with its menu"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 156,
+        "question": "For whom are the guidelines intended?",
+        "options": {
+            "A": "Host families",
+            "B": "Foreign students",
+            "C": "School staff",
+            "D": "Airline worker"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 157,
+        "question": "Which of the following is NOT mentioned in the guidelines?",
+        "options": {
+            "A": "Find out how you should address the host family",
+            "B": "Always be prepared for the unexpected",
+            "C": "Be prompt during mealtimes",
+            "D": "Establish a rapport with the host family"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 158,
+        "question": "What might be an appropriate present for the host family?",
+        "options": {
+            "A": "A toy train",
+            "B": "A bottle of whiskey",
+            "C": "A camera",
+            "D": "A cellular phone"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 159,
+        "question": "What is implied by the guidelines?",
+        "options": {
+            "A": "Americans prefer to address each other formally",
+            "B": "Newly arrived students often get lost in the city",
+            "C": "Host families come from educated backgrounds",
+            "D": "Students will depend on the host family to settle in"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 160,
+        "question": "Who does this advertisement mainly target?",
+        "options": {
+            "A": "Anyone who failed at dieting during the summer",
+            "B": "People without much time on their hands",
+            "C": "Athletes training for upcoming competitions",
+            "D": "People who need a little nudge at getting into shape"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 161,
+        "question": "What is NOT offered in the advertisement?",
+        "options": {
+            "A": "Continuation of organized lessons",
+            "B": "Personalized coaching to suit individuals' needs",
+            "C": "Free signup",
+            "D": "Annual membership discounts"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 162,
+        "question": "Where would this information most likely be posted?",
+        "options": {
+            "A": "At a bus stop",
+            "B": "In a hotel lobby",
+            "C": "At a shopping center",
+            "D": "At a post office"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 163,
+        "question": "According to the information, which can be performed at 1 o'clock in the morning?",
+        "options": {
+            "A": "Withdrawing some cash",
+            "B": "Working out at the gym",
+            "C": "Getting medicine for a cold",
+            "D": "Getting pictures developed"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 164,
+        "question": "What can be inferred from the information?",
+        "options": {
+            "A": "A ride to the airport is available very infrequently",
+            "B": "Packages can be sent during business hours",
+            "C": "Guests can get their suits pressed right from their rooms",
+            "D": "Help with the bags is available with just a phone call"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 165,
+        "question": "What is the main purpose of the memorandum?",
+        "options": {
+            "A": "To recruit talented people to work on an advertising project",
+            "B": "To announce the company's future plans",
+            "C": "To inform the staff members about a television documentary",
+            "D": "To find a model spokesperson for the posters"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 166,
+        "question": "Who is the target audience for the new products being launched?",
+        "options": {
+            "A": "Babies",
+            "B": "Children",
+            "C": "Adults",
+            "D": "Seniors"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 167,
+        "question": "What can be inferred from the memorandum?",
+        "options": {
+            "A": "Local television is airing a special on the company",
+            "B": "The company is breaking into a new market",
+            "C": "An article about the company has been printed in the local paper",
+            "D": "The subway and bus strikes will affect the company"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 168,
+        "question": "How many times will the ad be aired on a weekday on one station?",
+        "options": {
+            "A": "3 times",
+            "B": "4 times",
+            "C": "5 times",
+            "D": "6 times"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 169,
+        "question": "Which of the following is NOT true about the newspaper ad?",
+        "options": {
+            "A": "It will be printed in various colors",
+            "B": "It will be featured on the front page",
+            "C": "It will offer discount vouchers",
+            "D": "It will be included in the weekend editions"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 170,
+        "question": "What is the primary reason for taking out this notice?",
+        "options": {
+            "A": "To announce a medical breakthrough in curing ragweed allergies",
+            "B": "To inform the public about the spread of a new type of an allergy",
+            "C": "To recruit people who are willing to come forward for a medical cause",
+            "D": "To provide the results of a test conducted by the research institute"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 171,
+        "question": "What can be implied about ragweed allergies from the notice?",
+        "options": {
+            "A": "They're most prevalent during the late summer months",
+            "B": "Research about them has been ongoing for the entire summer",
+            "C": "They have been the main public issue in recent months",
+            "D": "They affect a great number of people living in hot climates"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 172,
+        "question": "Which of the following information is NOT found in the notice?",
+        "options": {
+            "A": "A number where interested people could call",
+            "B": "The specific compensation each participant will receive for volunteering",
+            "C": "The subject of the study being conducted",
+            "D": "The conditions required for those who want to make a contribution"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 173,
+        "question": "Who is the intended audience of this advertisement?",
+        "options": {
+            "A": "People who are in legal trouble",
+            "B": "Anyone who is having financial problems",
+            "C": "Businesses that are in need of tax breaks",
+            "D": "Workers who must do their yearly income taxes"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 174,
+        "question": "What type of service does the company offer?",
+        "options": {
+            "A": "It helps those who are in debt",
+            "B": "It lends money at low interest",
+            "C": "It invests in potential companies",
+            "D": "It provides legal counseling to people in trouble"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 175,
+        "question": "Why did Ms. Wong send the fax?",
+        "options": {
+            "A": "To reserve a room at the hotel",
+            "B": "To convey a message on behalf of her boss",
+            "C": "To ask about the price of a room at the hotel",
+            "D": "To cancel a meeting with a customer"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 176,
+        "question": "Who is the intended recipient of this fax?",
+        "options": {
+            "A": "HanKyu Services Limited",
+            "B": "Ron Devereux",
+            "C": "Mark Newman",
+            "D": "Island Pacific Hotel"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 177,
+        "question": "What will the recipient of the fax do?",
+        "options": {
+            "A": "Check out of the hotel",
+            "B": "Get his room key",
+            "C": "Go to Mr. Devereux's office",
+            "D": "Make a telephone call"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 178,
+        "question": "Who is Maggie Wong?",
+        "options": {
+            "A": "The president of HanKyu Services Limited",
+            "B": "A hotel front desk clerk",
+            "C": "A guest who is staying at the hotel",
+            "D": "The personal assistant of the person sending the fax"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 179,
+        "question": "How can one receive a meal for free?",
+        "options": {
+            "A": "By paying for the meal in cash",
+            "B": "By ordering over a certain amount",
+            "C": "By picking up the food",
+            "D": "By coming to the restaurant at a certain hour"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 180,
+        "question": "What can be inferred from the menu?",
+        "options": {
+            "A": "The restaurant accepts credit cards",
+            "B": "Delivery is not available during weekends",
+            "C": "Only one coupon can be used at one time",
+            "D": "All the food that is picked up is 20% off the regular price"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 181,
+        "question": "Why did Mr. Robinson write the letter?",
+        "options": {
+            "A": "To make a complaint about a late delivery",
+            "B": "To ask for a change in the delivery date",
+            "C": "To invite Ms. Rogers to an auto show",
+            "D": "To cancel an order he had made"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 182,
+        "question": "What service does Mr. Robinson's business provide?",
+        "options": {
+            "A": "Selling and renting office furniture",
+            "B": "Manufacturing automobiles",
+            "C": "Arranging large organized affairs",
+            "D": "Delivering heavy equipment"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 183,
+        "question": "What does Suzanne say about Michael's company?",
+        "options": {
+            "A": "It has been a loyal customer of her company for a number of years",
+            "B": "It will eventually get itself out of the unfortunate situation it is facing",
+            "C": "It should outsource some of the work to speed up the process",
+            "D": "It needs to expand into other areas of business"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 184,
+        "question": "What will probably happen when Ms. Rogers meets with Mr. Robinson?",
+        "options": {
+            "A": "They will drive down to the auto show together",
+            "B": "Ms. Rogers will apologize for her mistakes",
+            "C": "They will have a look around the warehouse",
+            "D": "Mr. Robinson will hand over a check"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 185,
+        "question": "Which of the following does Ms. Rogers say she will NOT be able to provide?",
+        "options": {
+            "A": "Chairs",
+            "B": "Tables",
+            "C": "Partitions",
+            "D": "Pop-up displays"
+        },
+        "answer": "D"
+    },
+    {
+        "id": 186,
+        "question": "For whom is this advertisement most likely intended?",
+        "options": {
+            "A": "Newlyweds who are looking for a cozy place",
+            "B": "People who have financially established themselves",
+            "C": "Anyone who is looking for a bargain",
+            "D": "Families with many children"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 187,
+        "question": "Who is John Connor?",
+        "options": {
+            "A": "An architect",
+            "B": "A real estate agent",
+            "C": "An artist",
+            "D": "A history professor"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 188,
+        "question": "According to the e-mail, which place will most likely suit Ms. Brown?",
+        "options": {
+            "A": "Santa Rosa",
+            "B": "Warehouse Conversion",
+            "C": "Victorian Terrace",
+            "D": "None of them"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 189,
+        "question": "What is the main purpose of the e-mail?",
+        "options": {
+            "A": "To receive information about an art exhibit",
+            "B": "To set up an appointment",
+            "C": "To put her apartment on the market",
+            "D": "To reply to an inquiry she received"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 190,
+        "question": "What can be implied about Ms. Brown?",
+        "options": {
+            "A": "She is an artist",
+            "B": "She buys and sells properties",
+            "C": "She is interested in taking out an ad",
+            "D": "She coordinates seminars and conferences"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 191,
+        "question": "Which of the following is NOT stated in the policy?",
+        "options": {
+            "A": "All regular employees are allowed at least three weeks off in a year",
+            "B": "Any request for time off can be rejected depending on the circumstances",
+            "C": "Any vacation time not taken will be compensated at the end of the year",
+            "D": "A three week holiday can be granted if a legitimate reason is provided"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 192,
+        "question": "According to the policy, how many vacation weeks would an employee with 11 years receive?",
+        "options": {
+            "A": "Three",
+            "B": "Four",
+            "C": "Five",
+            "D": "Six"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 193,
+        "question": "Why did Mary write the memo?",
+        "options": {
+            "A": "To make a request well ahead of time",
+            "B": "To inform the staff of the new policy",
+            "C": "To point out a mistake in the policy",
+            "D": "To ask for a day off next week"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 194,
+        "question": "What can be inferred about Mary from the memo?",
+        "options": {
+            "A": "She has been with the company for less than three months",
+            "B": "She has not met her family for over two years",
+            "C": "She has close ties to important people in the company",
+            "D": "She took her last vacation in November 2006"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 195,
+        "question": "Which of the following is true?",
+        "options": {
+            "A": "Mary will most likely get exempted from rule number 2",
+            "B": "Mary is not abiding by rule number 3",
+            "C": "Mary is entitled to take advantage of rule number 1",
+            "D": "Mary only has a year left to be considered for rule number 6"
+        },
+        "answer": "A"
+    },
+    {
+        "id": 196,
+        "question": "What is asked to be sent with the application form?",
+        "options": {
+            "A": "The membership card",
+            "B": "A passport sized picture",
+            "C": "The document processing fee",
+            "D": "The annual membership fee"
+        },
+        "answer": "C"
+    },
+    {
+        "id": 197,
+        "question": "How can someone make further inquiries?",
+        "options": {
+            "A": "By fax",
+            "B": "By e-mail",
+            "C": "By phone",
+            "D": "By mail"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 198,
+        "question": "What information is NOT requested in the form?",
+        "options": {
+            "A": "Last name",
+            "B": "Birthplace",
+            "C": "Contact number",
+            "D": "Today's date"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 199,
+        "question": "How will Sally Hancock receive the card?",
+        "options": {
+            "A": "By regular mail",
+            "B": "By showing up in person",
+            "C": "By sending her assistant",
+            "D": "By special delivery"
+        },
+        "answer": "B"
+    },
+    {
+        "id": 200,
+        "question": "When will Sally Hancock's application be approved?",
+        "options": {
+            "A": "September 25",
+            "B": "October 9",
+            "C": "October 16",
+            "D": "October 30"
+        },
+        "answer": "B"
+    }
+]
