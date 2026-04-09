@@ -474,56 +474,56 @@
     },
     {
         "id": 196,
-        "question": "What is the purpose of the e-mail?",
+        "question": "What will Terry most likely be doing first Monday morning?",
         "options": {
-            "A": "To request more information about a subscription",
-            "B": "To clarify a misunderstanding with an order",
-            "C": "To update the information in a company's database",
-            "D": "To express dissatisfaction with a recent purchase"
+            "A": "Meeting with the leader of the company",
+            "B": "Preparing for his 10 o'clock conference",
+            "C": "Talking to the newest member of the company",
+            "D": "Enjoying a tour around the factory site"
         },
         "answer": "C"
     },
     {
         "id": 197,
-        "question": "Which of the following did the company NOT mention in their message?",
+        "question": "Who most likely will read the memo?",
         "options": {
-            "A": "Information about the current expiration date",
-            "B": "A special discount offer to regular customers",
-            "C": "A contact person in case of any inquiries",
-            "D": "The renewal fee for the upcoming year"
+            "A": "Nick Jackson",
+            "B": "John Harvey",
+            "C": "Terry's assistant",
+            "D": "The president's secretary"
         },
         "answer": "C"
     },
     {
         "id": 198,
-        "question": "Why did Mr. Moore write the letter?",
+        "question": "When will the meeting mentioned in the memo for everyone to attend take place?",
         "options": {
-            "A": "To confirm his interest in the magazine",
-            "B": "To ask for a price reduction on a subscription",
-            "C": "To correct an error made by the sender of the e-mail",
-            "D": "To report a problem with the delivery of the issues"
+            "A": "Monday at 8:00 a.m.",
+            "B": "Monday at 10:00 a.m.",
+            "C": "Tuesday at 3:00 p.m.",
+            "D": "Tuesday at 5:00 p.m."
         },
         "answer": "D"
     },
     {
         "id": 199,
-        "question": "What is the expiration date of Mr. Moore's current subscription?",
+        "question": "On which day was the memo written?",
         "options": {
-            "A": "March 20th",
-            "B": "April 15th",
-            "C": "June 1st",
-            "D": "July 1st"
+            "A": "Thursday, November 7",
+            "B": "Friday, November 8",
+            "C": "Monday, November 11",
+            "D": "Tuesday, November 12"
         },
         "answer": "A"
     },
     {
         "id": 200,
-        "question": "Which of the following will Mr. Moore likely do next?",
+        "question": "What does the writer say he will need to have for his 3 o'clock meeting on Tuesday?",
         "options": {
-            "A": "Send a check for $45",
-            "B": "Call the customer service department",
-            "C": "Cancel his current subscription",
-            "D": "Send a copy of a receipt"
+            "A": "10 copies of the draft notes",
+            "B": "The updated version of a report",
+            "C": "A parcel",
+            "D": "The factory tour schedule"
         },
         "answer": "C"
     }
