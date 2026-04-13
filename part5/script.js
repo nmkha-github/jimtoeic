@@ -1,4 +1,4 @@
-const KNOWN_FOLDERS = ["jim", "ybm2"];
+const KNOWN_FOLDERS = ["jim", "ybm2", "old_test"];
 const MAX_TRIES = 99;
 const STOP_AFTER_MISSES = 3;
 

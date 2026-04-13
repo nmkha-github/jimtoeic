@@ -1,0 +1,783 @@
+[
+    {
+      "id": 101,
+      "question": "According to the sign posted in front of the main office, the repair center is now …………new management.",
+      "options": {
+        "A": "over",
+        "B": "around",
+        "C": "between",
+        "D": "under"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "………….you are no doubt aware, the new security system requires the installation of a backup power source in case an emergency situation arises.",
+      "options": {
+        "A": "As",
+        "B": "For",
+        "C": "With",
+        "D": "So"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 103,
+      "question": "After a highly profitable first six months, the restaurant's profits for the second half of the year were a great…………..",
+      "options": {
+        "A": "disappoints",
+        "B": "disappointed",
+        "C": "disappointing",
+        "D": "disappointment"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 104,
+      "question": "Naturally, our company utilizes the production process ……….. guarantees the most satisfactory results.",
+      "options": {
+        "A": "that",
+        "B": "who",
+        "C": "what",
+        "D": "how"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "The unexpected surge in the prices of steel and other minerals will result in a dramatic increase in tax ………….. this year.",
+      "options": {
+        "A": "rates",
+        "B": "charges",
+        "C": "expenses",
+        "D": "revenues"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "Company strategists ……………. predicted that conditions in the Middle East would eventually stabilize and result in expanded sales.",
+      "options": {
+        "A": "wrong",
+        "B": "wronged",
+        "C": "wrongly",
+        "D": "wrongness"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "question": "The director …………….. has often been seen to take his lunch in the staff canteen along with the other workers.",
+      "options": {
+        "A": "him",
+        "B": "his",
+        "C": "himself",
+        "D": "he"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "The secretary filling in at the reception desk has been performing so well that management is considering offering her a ………….. position.",
+      "options": {
+        "A": "durable",
+        "B": "periodic",
+        "C": "binding",
+        "D": "permanent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "Ms. Harris was extremely ……………… to take an opportunity to thank you for all of the hard-working and dedication.",
+      "options": {
+        "A": "happy",
+        "B": "happily",
+        "C": "happier",
+        "D": "happiness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "………………. in computer technology have allowed technicians to perform multi-dimensional graphics far better than ever before.",
+      "options": {
+        "A": "Advance",
+        "B": "Advancing",
+        "C": "Advancement",
+        "D": "Advances"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "To gain access to confidential company documents, employees require ………………. from the operations manager.",
+      "options": {
+        "A": "clear",
+        "B": "clarify",
+        "C": "clarity",
+        "D": "clearance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "The Department of the Environment supports the replacement of introduced plants with ……………. plants that require much less watering.",
+      "options": {
+        "A": "native",
+        "B": "nativity",
+        "C": "natively",
+        "D": "nativeness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "Ms. Julie Kennedy and her innovative marketing team have gained renown for creating …………………. products for struggling companies.",
+      "options": {
+        "A": "promote",
+        "B": "promotes",
+        "C": "promotion",
+        "D": "promotional"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 114,
+      "question": "The Department of Social Welfare's report this year indicated that it is focusing ………….on the homeless and long-term unemployed.",
+      "options": {
+        "A": "distinctly",
+        "B": "individually",
+        "C": "exceptionally",
+        "D": "particularly"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "ABC Shoe Store asked …………….. to make their final selections and bring them to cashiers' stations within 30 minutes.",
+      "options": {
+        "A": "shopper",
+        "B": "shopping",
+        "C": "to shop",
+        "D": "shoppers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 116,
+      "question": "In next month's issue, …………..coupons offering a steep discount for new subscriptions only.",
+      "options": {
+        "A": "were inserting",
+        "B": "have been inserted",
+        "C": "had inserted",
+        "D": "will be inserting"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "Under ……………. circumstances, the CEO would have approved the pay increases, but this year it was not possible.",
+      "options": {
+        "A": "favorable",
+        "B": "favorably",
+        "C": "favor",
+        "D": "favorite"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "question": "Consultation with the appropriate experts is essential if we are to arrive at an ………….. decision.",
+      "options": {
+        "A": "informed",
+        "B": "obtained",
+        "C": "enlightened",
+        "D": "acquainted"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "As of October 1, Carla Fishermen will …………….. the company as its interface in all dealings with the local government.",
+      "options": {
+        "A": "accommodate",
+        "B": "perform",
+        "C": "attend",
+        "D": "represent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 120,
+      "question": "Although he did not perform ………………. well as a student, he went on to become one of the most respected scholars in his field.",
+      "options": {
+        "A": "especially",
+        "B": "sufficiently",
+        "C": "desperately",
+        "D": "excellently"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 121,
+      "question": "After the earthquake, the building was ……………. unsafe since its foundation was badly damaged.",
+      "options": {
+        "A": "maximized",
+        "B": "erected",
+        "C": "arranged",
+        "D": "declared"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 122,
+      "question": "The upcoming convention invites …………….. from anyone working or having research interests in the field.",
+      "options": {
+        "A": "contributions",
+        "B": "solutions",
+        "C": "additions",
+        "D": "subscription"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "Health inspections are conducted …………….. at restaurants throughout the province for the purpose of maintaining high standards of hygiene.",
+      "options": {
+        "A": "extremely",
+        "B": "marginally",
+        "C": "overly",
+        "D": "routinely"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "Several exciting new pieces of equipment ………………………. in our gymnasium, and we invite you to come and try them out at no cost during the next week.",
+      "options": {
+        "A": "install",
+        "B": "installed",
+        "C": "have install",
+        "D": "have been installed"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 125,
+      "question": "All drivers are required to maintain ……….. logbooks accurately and to hand them in to the central office before leaving on Friday night.",
+      "options": {
+        "A": "its",
+        "B": "his",
+        "C": "our",
+        "D": "their"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "As you would expect at one of the world's most reputable hotels, the ……………. is prompt, efficient, and discreet.",
+      "options": {
+        "A": "exertion",
+        "B": "decision",
+        "C": "challenge",
+        "D": "service"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 127,
+      "question": "Rexington Engineering has recently set up an entire new research …………… because of the increasing interest in robotic technology.",
+      "options": {
+        "A": "separation",
+        "B": "partition",
+        "C": "segmentation",
+        "D": "division"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 128,
+      "question": "A small group of contestants has been selected following a nationwide search …………….. over the last six months.",
+      "options": {
+        "A": "alerted",
+        "B": "engaged",
+        "C": "protected",
+        "D": "conducted"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "The chief financial officer believes that we should maintain the present course, …………. his deputy.",
+      "options": {
+        "A": "as to",
+        "B": "whereas",
+        "C": "as does",
+        "D": "as long as"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "One of the leading companies, Big Star agreed to buy ………… drug company for 10 billion dollars.",
+      "options": {
+        "A": "rival",
+        "B": "compromising",
+        "C": "renewed",
+        "D": "contrasting"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "Because there were too many participants at the seminar, we should ………… them into smaller groups for discussion.",
+      "options": {
+        "A": "divisible",
+        "B": "division",
+        "C": "dividing",
+        "D": "divide"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "question": "……………. wanting to apply for maternity leave should let their immediate supervisor know about their plans at least one month in advance.",
+      "options": {
+        "A": "Them",
+        "B": "That",
+        "C": "One",
+        "D": "Those"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 133,
+      "question": "Electron Recycling has developed a profitable business by recycling metals retrieved from ……………. electronic components.",
+      "options": {
+        "A": "discarded",
+        "B": "extended",
+        "C": "unoccupied",
+        "D": "suppressed"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "question": "The new head of marketing is already making his mark on the company even though he only ……………. 6 weeks ago.",
+      "options": {
+        "A": "carried",
+        "B": "elapsed",
+        "C": "deliberated",
+        "D": "arrived"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "question": "The FM convenience store in the central park is ………….. situated and it is always busy with many customers.",
+      "options": {
+        "A": "conveniently",
+        "B": "promptly",
+        "C": "greatly",
+        "D": "widely"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "Once you have paid the appropriate student fees, you will be able to …………. the medical, recreational, and other facilities.",
+      "options": {
+        "A": "access",
+        "B": "accessed",
+        "C": "accessory",
+        "D": "accessible"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "question": "Although the ……………… for the best design will be very fierce, Mr. Gozalas has a good chance of getting the award.",
+      "options": {
+        "A": "competitively",
+        "B": "competitive",
+        "C": "compete",
+        "D": "competition"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 138,
+      "question": "While we still take telephone calls, other …………….. of correspondence are encouraged to avoid tying up telephone lines unnecessarily.",
+      "options": {
+        "A": "profiles",
+        "B": "views",
+        "C": "outlines",
+        "D": "forms"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 139,
+      "question": "Numerous speakers came forward to express their gratitude ………. the retiring secretary's unfailing courtesy and efficiency.",
+      "options": {
+        "A": "for",
+        "B": "at",
+        "C": "to",
+        "D": "with"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 140,
+      "question": "……………. more factory workers are hired, we cannot meet the deadline for the products on time.",
+      "options": {
+        "A": "Unless",
+        "B": "Also",
+        "C": "Except",
+        "D": "Therefore"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "……………… the recent sales campaign was not as successful as we had expected, our new range of goods has been well reviewed by consumer groups.",
+      "options": {
+        "A": "Instead of",
+        "B": "Notwithstanding",
+        "C": "Although",
+        "D": "Whereas"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "The giant pharmaceutical company insists that its new drug is …………….. safe as long as it is used under the supervision of a doctor.",
+      "options": {
+        "A": "perfect",
+        "B": "perfection",
+        "C": "perfectly",
+        "D": "perfecting"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 143,
+      "question": "……………. you have familiarized yourself with the basic commands, we can begin to learn some of this program's more creative features.",
+      "options": {
+        "A": "Already",
+        "B": "Before",
+        "C": "Once",
+        "D": "Earlier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "question": "It is true that the number of traffic accidents involving cyclists has increased ……………… over the last 10 years.",
+      "options": {
+        "A": "meagerly",
+        "B": "fundamentally",
+        "C": "significantly",
+        "D": "adequately"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "question": "Students can ……………… in the university’s education program starting July 6th.",
+      "options": {
+        "A": "Enroll",
+        "B": "Admit",
+        "C": "Apply",
+        "D": "Subscribe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "Hyssop Chemists is ………….. experienced pharmacists for the eight new locations they have opened this year.",
+      "options": {
+        "A": "seeking",
+        "B": "looking",
+        "C": "entering",
+        "D": "requiring"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "question": "This is an excellent time to consider changing jobs because of the large number of positions------ available in the mining sector.",
+      "options": {
+        "A": "commonly",
+        "B": "currently",
+        "C": "actively",
+        "D": "approvingly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "The waitress said there weren't any tables open, but she would call my name once one became ..............",
+      "options": {
+        "A": "availability",
+        "B": "availably",
+        "C": "avail",
+        "D": "available"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 149,
+      "question": "A light and healthy lunch followed by some exercise will make workers ------- more productive in the afternoon.",
+      "options": {
+        "A": "complete",
+        "B": "much",
+        "C": "ample",
+        "D": "greatly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "question": "It is becoming.............. more difficult to find designers who are familiar with this software.",
+      "options": {
+        "A": "progress",
+        "B": "progressive",
+        "C": "progression",
+        "D": "progressively"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 151,
+      "question": "Of the six employees in ______ department he is the hardest working one.",
+      "options": {
+        "A": "himself",
+        "B": "him",
+        "C": "he",
+        "D": "his"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 152,
+      "question": "The Technical Department is currently formulating written guidelines ------- the use of our micro-publishing facilities.",
+      "options": {
+        "A": "in",
+        "B": "for",
+        "C": "at",
+        "D": "with"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "question": "Actually, the Department of Transportation is responsible .............. approving roadwork permits in the county.",
+      "options": {
+        "A": "by",
+        "B": "to",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 154,
+      "question": "------- leaving school, she has worked in a variety of positions but has not yet found one which suits her talents or interests.",
+      "options": {
+        "A": "Despite",
+        "B": "Since",
+        "C": "In spite of",
+        "D": "If"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 155,
+      "question": "Analysts regarded the ..............between the construction giants a win-win situation for both companies.",
+      "options": {
+        "A": "factor",
+        "B": "management",
+        "C": "authority",
+        "D": "alliance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 156,
+      "question": "For such a large building project, you'll need to take out a massive loan to raise the necessary..............",
+      "options": {
+        "A": "assistance",
+        "B": "timeline",
+        "C": "institution",
+        "D": "capital"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 157,
+      "question": "An investment ________ gradually increases in value over the years can be more profitable than more short-term alternatives.",
+      "options": {
+        "A": "that",
+        "B": "they",
+        "C": "what",
+        "D": "when"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 158,
+      "question": "Maurice Robertson, _________an executive at a small company, became the CEO of Bradshaw Industries four months ago.",
+      "options": {
+        "A": "once",
+        "B": "often",
+        "C": "soon",
+        "D": "now"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 159,
+      "question": "An independent investigator ------- a report on the company's financial operations which, for some unknown reason,was never released.",
+      "options": {
+        "A": "contracted",
+        "B": "confirmed",
+        "C": "compiled",
+        "D": "converted"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 160,
+      "question": "Windpower Co. is faced with financial hardship, so in order to overcome this crisis, ______ ﬁnancial support is needed.",
+      "options": {
+        "A": "extend",
+        "B": "extent",
+        "C": "extensive",
+        "D": "extending"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 161,
+      "question": "Thanks to the advances in technology the state-of-the-art device is made _______ out of plastic.",
+      "options": {
+        "A": "totaling",
+        "B": "total",
+        "C": "totally",
+        "D": "totaled"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "question": "Mr. Fukui _______ washes his hands with anti-bacterial detergent right after coming home.",
+      "options": {
+        "A": "habitual",
+        "B": "habit",
+        "C": "habitually",
+        "D": "habits"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 163,
+      "question": "Please read the -- ----- passages carefully, and then answer the multiple choice questions below within the time allotted.",
+      "options": {
+        "A": "consecutive",
+        "B": "constant",
+        "C": "following",
+        "D": "subsequent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "question": "The sudden rainstorm arrived - -----, leaving a trail of damage which many predict will take some time to repair.",
+      "options": {
+        "A": "unexpected",
+        "B": "unexpectant",
+        "C": "unexpectedly",
+        "D": "unexpectedness"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 165,
+      "question": "Please accept our _______ apology for the mistakes that we made on the last project.",
+      "options": {
+        "A": "accurate",
+        "B": "estimated",
+        "C": "sincere",
+        "D": "completed"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 166,
+      "question": "BMC publishing company will be checking the article _______ mistakes and edit it before printing.",
+      "options": {
+        "A": "barring",
+        "B": "over",
+        "C": "for",
+        "D": "from"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 167,
+      "question": "Please place your luggage in the overhead locker, and ensure that the locker is closed --------.",
+      "options": {
+        "A": "secure",
+        "B": "securely",
+        "C": "securable",
+        "D": "secureness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "We would like to inform our employees that any complaints should be ------- to their union representative at first.",
+      "options": {
+        "A": "outlined",
+        "B": "addressed",
+        "C": "focused",
+        "D": "applied"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "question": "The new tax cuts are designed ------ low-income earners and those with young families.",
+      "options": {
+        "A": "benefits",
+        "B": "to benefit",
+        "C": "benefited",
+        "D": "benefiting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "question": "The budget to be released later this week will ------- reduce spending on employee facilities such as the sports center.",
+      "options": {
+        "A": "due to",
+        "B": "most likely",
+        "C": "want",
+        "D": "be"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "question": "Following media criticism ------- the Defense Secretary's performance, the President today spoke in his defense at a special press conference.",
+      "options": {
+        "A": "at",
+        "B": "of",
+        "C": "for",
+        "D": "from"
+      },
+      "answer": "B"
+    }
+  ]

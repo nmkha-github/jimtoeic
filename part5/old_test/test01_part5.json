@@ -1,0 +1,442 @@
+[
+    {
+      "id": 101,
+      "question": "The secretary filling in at the reception desk has been performing so well that management is considering offering her a ______ position.",
+      "options": {
+        "A": "durable",
+        "B": "periodic",
+        "C": "binding",
+        "D": "permanent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "The sales manager often takes the employees in his team out to dinner ______ his own expense.",
+      "options": {
+        "A": "at",
+        "B": "by",
+        "C": "from",
+        "D": "with"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 103,
+      "question": "There ______ some speculation among reporters that Governor Angela Gray may not show up at her weekly press briefing tomorrow.",
+      "options": {
+        "A": "is",
+        "B": "to be",
+        "C": "are",
+        "D": "being"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "question": "According to the sign posted in front of the main office, the repair center is now ______ new management.",
+      "options": {
+        "A": "over",
+        "B": "around",
+        "C": "between",
+        "D": "under"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 105,
+      "question": "Participants are welcome to ______ important questions with the seminar leader at any time during the presentation.",
+      "options": {
+        "A": "make",
+        "B": "raise",
+        "C": "give",
+        "D": "reach"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "The new advertising campaign has already proven to be much more effective ______ the previous one.",
+      "options": {
+        "A": "than",
+        "B": "as",
+        "C": "so",
+        "D": "for"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "question": "Entries for the Science Fair competition should be sent to the Lacefield Community Center ______ June 17 at the latest.",
+      "options": {
+        "A": "until",
+        "B": "by",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "Health inspections are conducted ______ at restaurants throughout the province for the purpose of maintaining high standards of hygiene.",
+      "options": {
+        "A": "extremely",
+        "B": "marginally",
+        "C": "overly",
+        "D": "routinely"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "Once ______ into the program, interns will go through an orientation course designed to familiarize them with the division's procedures.",
+      "options": {
+        "A": "accept",
+        "B": "accepting",
+        "C": "accepted",
+        "D": "acceptance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "______ wanting to apply for maternity leave should let their immediate supervisor know about their plans at least one month in advance.",
+      "options": {
+        "A": "Them",
+        "B": "That",
+        "C": "One",
+        "D": "Those"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "By clicking on the web-link below, you will ______ your customer account with Johnson's Online Shopping.",
+      "options": {
+        "A": "energize",
+        "B": "activate",
+        "C": "stimulate",
+        "D": "prompt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Since June 2006, the customer relations department ______ over 50 complaints from clients.",
+      "options": {
+        "A": "has received",
+        "B": "was received",
+        "C": "receive",
+        "D": "will have received"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "King's Technical College, which was founded in 1611, is the ______ educational institution in the region.",
+      "options": {
+        "A": "old",
+        "B": "older",
+        "C": "oldest",
+        "D": "elderly"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "question": "Recent statistics indicate that young people are becoming more interested in ______ a career in the hospitality industry.",
+      "options": {
+        "A": "attracting",
+        "B": "facilitating",
+        "C": "pursuing",
+        "D": "organizing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "question": "There will be several breaks ______ the day in order to give conference attendees time to get refreshments and use the bathroom facilities.",
+      "options": {
+        "A": "throughout",
+        "B": "under",
+        "C": "as",
+        "D": "among"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "The management at Gina's Tropical resort would like to remind guests to search ______ room for personal belongings before checking out at reception.",
+      "options": {
+        "A": "they",
+        "B": "their",
+        "C": "theirs",
+        "D": "them"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "______ merchandise has been packaged and is now ready to be transported from the warehouse to the retail outlets.",
+      "options": {
+        "A": "A",
+        "B": "Each",
+        "C": "Some",
+        "D": "These"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "To gain access to confidential company documents, employees require ______ from the operations manager.",
+      "options": {
+        "A": "clear",
+        "B": "clarify",
+        "C": "clarity",
+        "D": "clearance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "In order to ______ a yearly growth rate of six percent, we'll need to expand our product line while increasing the size of our investment.",
+      "options": {
+        "A": "remain",
+        "B": "organize",
+        "C": "sustain",
+        "D": "aim"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "question": "There is a ______ in the agreement for either side to back out of the deal if certain terms are not fulfilled.",
+      "options": {
+        "A": "provision",
+        "B": "projection",
+        "C": "property",
+        "D": "profession"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "Next year, our agent in Shanghai will be in charge ______ distributing our products throughout China.",
+      "options": {
+        "A": "for",
+        "B": "by",
+        "C": "of",
+        "D": "from"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "Mr. Burroughs ______ in the human resources division for 25 years by the time he leaves the company next month.",
+      "options": {
+        "A": "has worked",
+        "B": "had worked",
+        "C": "will have worked",
+        "D": "would work"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 123,
+      "question": "Many candidates for Duostand Co. were pleased to see the application process ______ on the company website.",
+      "options": {
+        "A": "simplified",
+        "B": "reimbursed",
+        "C": "dominated",
+        "D": "obtained"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "We can either drive to the community center to attend the lecture ______ listen to it on the Internet.",
+      "options": {
+        "A": "or",
+        "B": "and",
+        "C": "nor",
+        "D": "but"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "In next month's issue, we ______ coupons was offering a steep discount for new subscriptions only.",
+      "options": {
+        "A": "were inserting",
+        "B": "have been inserted",
+        "C": "had inserted",
+        "D": "will be inserting"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "Our legal advisor suggested that it would be in our best interests to ______ the lawsuit as quickly as possible.",
+      "options": {
+        "A": "confess",
+        "B": "settle",
+        "C": "witness",
+        "D": "shield"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "One of our most ______ workers, Charles always completes his tasks ahead of team schedule.",
+      "options": {
+        "A": "efficient",
+        "B": "symbolic",
+        "C": "useless",
+        "D": "repeated"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "After the earthquake, the building was ______ unsafe since its foundation was badly damaged.",
+      "options": {
+        "A": "maximized",
+        "B": "erected",
+        "C": "arranged",
+        "D": "declared"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "The presenter showed a series of slides ______ detailed the results of her year-long study.",
+      "options": {
+        "A": "which",
+        "B": "whose",
+        "C": "whom",
+        "D": "who"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "An important ______ for this position is the ability to speak both Spanish and English.",
+      "options": {
+        "A": "notification",
+        "B": "publication",
+        "C": "qualification",
+        "D": "proportion"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "question": "The waitress said there weren't any tables open, but she would call my name once one became ______.",
+      "options": {
+        "A": "availability",
+        "B": "availably",
+        "C": "avail",
+        "D": "available"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "question": "Analysts regarded the ______ between the construction giants a win-win situation for both companies.",
+      "options": {
+        "A": "factor",
+        "B": "management",
+        "C": "authority",
+        "D": "alliance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 133,
+      "question": "Actually, the Department of Transportation is responsible ______ approving roadwork permits in the county.",
+      "options": {
+        "A": "by",
+        "B": "to",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 134,
+      "question": "Wedding cakes are the chef's ______, but he also creates wonderful Italian pasta dishes.",
+      "options": {
+        "A": "specialize",
+        "B": "specialty",
+        "C": "special",
+        "D": "specialist"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "question": "Once we receive verification that the shipment has been delivered, we will ______ the remainder of the unpaid bill.",
+      "options": {
+        "A": "suppose",
+        "B": "remit",
+        "C": "outsource",
+        "D": "standardize"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "question": "Since we have already ______ on a replacement for Ms. Leung, I think we can remove the topic from the meeting's agenda.",
+      "options": {
+        "A": "deciding",
+        "B": "decision",
+        "C": "decided",
+        "D": "decide"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 137,
+      "question": "Later this month, Hideki Koiwa will deliver his ______ of the risks and benefits of investing in Chilean stocks.",
+      "options": {
+        "A": "expansion",
+        "B": "analysis",
+        "C": "shipment",
+        "D": "expert"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "Bridgeland Holding's ______ is to refrain from commenting on political issues, so we are unable to answer the reporter's questions.",
+      "options": {
+        "A": "policy",
+        "B": "innocence",
+        "C": "election",
+        "D": "summons"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "question": "It is becoming ______ more difficult to find designers who are familiar with this software.",
+      "options": {
+        "A": "progress",
+        "B": "progressive",
+        "C": "progression",
+        "D": "progressively"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 140,
+      "question": "For such a large building project, you'll need to take out a massive loan to raise the necessary ______.",
+      "options": {
+        "A": "assistance",
+        "B": "timeline",
+        "C": "institution",
+        "D": "capital"
+      },
+      "answer": "D"
+    }
+  ]

@@ -1,0 +1,486 @@
+[
+    {
+      "id": 101,
+      "question": "Naturally, our company utilizes the production process ______ guarantees the most satisfactory results.",
+      "options": {
+        "A": "that",
+        "B": "who",
+        "C": "what",
+        "D": "how"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "Rexington Engineering has recently set up an entire new research ______ because of the increasing interest in robotic technology.",
+      "options": {
+        "A": "separation",
+        "B": "partition",
+        "C": "segmentation",
+        "D": "division"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "Please place your luggage in the overhead locker, and ensure that the locker is closed ______.",
+      "options": {
+        "A": "secure",
+        "B": "securely",
+        "C": "securable",
+        "D": "secureness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "An independent investigator ______ a report on the company's financial operations which, for some unknown reason, was never released.",
+      "options": {
+        "A": "contracted",
+        "B": "confirmed",
+        "C": "compiled",
+        "D": "converted"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "question": "The Department of Social Welfare's report this year indicated that it is focusing ______ on the homeless and long-term unemployed.",
+      "options": {
+        "A": "distinctly",
+        "B": "individually",
+        "C": "exceptionally",
+        "D": "particularly"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 106,
+      "question": "After a highly profitable first six months, the restaurant's profits for the second half of the year were a great ______.",
+      "options": {
+        "A": "disappoints",
+        "B": "disappointed",
+        "C": "disappointing",
+        "D": "disappointment"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 107,
+      "question": "The secretary filling in at the reception desk has been performing so well that management is considering offering her a ______ position.",
+      "options": {
+        "A": "durable",
+        "B": "periodic",
+        "C": "binding",
+        "D": "permanent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "question": "Ms. Julie Kennedy and her innovative marketing team have gained renown for creating ______ products for struggling companies.",
+      "options": {
+        "A": "promote",
+        "B": "promotes",
+        "C": "promotion",
+        "D": "promotional"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "All drivers are required to maintain ______ logbooks accurately and to hand them in to the central office before leaving on Friday night.",
+      "options": {
+        "A": "its",
+        "B": "his",
+        "C": "our",
+        "D": "their"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 110,
+      "question": "According to the sign posted in front of the main office, the repair center is now ______ new management.",
+      "options": {
+        "A": "over",
+        "B": "around",
+        "C": "between",
+        "D": "under"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "The unexpected surge in the prices of steel and other minerals will result in a dramatic increase in tax ______ this year.",
+      "options": {
+        "A": "rates",
+        "B": "charges",
+        "C": "expenses",
+        "D": "revenues"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "The new head of marketing is already making his mark on the company even though he only ______ 6 weeks ago.",
+      "options": {
+        "A": "carried",
+        "B": "elapsed",
+        "C": "deliberated",
+        "D": "arrived"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "The chief financial officer believes that we should maintain the present course, and ______ his deputy.",
+      "options": {
+        "A": "as to",
+        "B": "whereas",
+        "C": "as does",
+        "D": "as long as"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "question": "The Technical Department is currently formulating written guidelines ______ the use of our micro-publishing facilities.",
+      "options": {
+        "A": "in",
+        "B": "for",
+        "C": "at",
+        "D": "with"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "As of October 1, Carla Fishermen will ______ the company as its interface in all dealings with the local government.",
+      "options": {
+        "A": "accommodate",
+        "B": "perform",
+        "C": "attend",
+        "D": "represent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 116,
+      "question": "Health inspections are conducted ______ at restaurants throughout the province for the purpose of maintaining high standards of hygiene.",
+      "options": {
+        "A": "extremely",
+        "B": "marginally",
+        "C": "overly",
+        "D": "routinely"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "Because there were too many participants at the seminar, we should ______ smaller groups for discussion.",
+      "options": {
+        "A": "divisible",
+        "B": "division",
+        "C": "dividing",
+        "D": "divide"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 118,
+      "question": "This is an excellent time to consider changing jobs because of the large number of positions ______ available in the mining sector.",
+      "options": {
+        "A": "commonly",
+        "B": "currently",
+        "C": "actively",
+        "D": "approvingly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "The Department of the Environment supports the replacement of introduced plants with ______ plants that require much less watering.",
+      "options": {
+        "A": "native",
+        "B": "nativity",
+        "C": "natively",
+        "D": "nativeness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "While we still take telephone calls, other ______ of correspondence are encouraged to avoid tying up telephone lines unnecessarily.",
+      "options": {
+        "A": "profiles",
+        "B": "views",
+        "C": "outlines",
+        "D": "forms"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 121,
+      "question": "Several exciting new pieces of equipment ______ in our gymnasium, and we invite you to come and try them out at no cost during the next week.",
+      "options": {
+        "A": "install",
+        "B": "installed",
+        "C": "have install",
+        "D": "have been installed"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 122,
+      "question": "The giant pharmaceutical company insists that its new drug is ______ safe as long as it is used under the supervision of a doctor.",
+      "options": {
+        "A": "perfect",
+        "B": "perfection",
+        "C": "perfectly",
+        "D": "perfecting"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 123,
+      "question": "ABC Shoe Store asked ______ to make their final selections and bring them to cashiers' stations within 30 minutes.",
+      "options": {
+        "A": "shopper",
+        "B": "shopping",
+        "C": "to shop",
+        "D": "shoppers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "To gain access to confidential company documents, employees require ______ from the operations manager.",
+      "options": {
+        "A": "clear",
+        "B": "clarify",
+        "C": "clarity",
+        "D": "clearance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 125,
+      "question": "It is true that the number of traffic accidents involving cyclists has increased ______ over the last 10 years.",
+      "options": {
+        "A": "meagerly",
+        "B": "fundamentally",
+        "C": "significantly",
+        "D": "adequately"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 126,
+      "question": "Company strategists ______ predicted that conditions in the Middle East would eventually stabilize and result in expanded sales.",
+      "options": {
+        "A": "wrong",
+        "B": "wronged",
+        "C": "wrongly",
+        "D": "wrongness"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "A light and healthy lunch followed by some exercise will make workers ______ more productive in the afternoon.",
+      "options": {
+        "A": "complete",
+        "B": "much",
+        "C": "ample",
+        "D": "greatly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "Although he did not perform ______ well as a student, he went on to become one of the most respected scholars in his field.",
+      "options": {
+        "A": "especially",
+        "B": "sufficiently",
+        "C": "desperately",
+        "D": "excellently"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "As you would expect at one of the world's most reputable hotels, the ______ is prompt, efficient, and discreet.",
+      "options": {
+        "A": "exertion",
+        "B": "decision",
+        "C": "challenge",
+        "D": "service"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 130,
+      "question": "A small group of contestants has been selected following a nationwide search ______ over the last six months.",
+      "options": {
+        "A": "alerted",
+        "B": "engaged",
+        "C": "protected",
+        "D": "conducted"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 131,
+      "question": "______ wanting to apply for maternity leave should let their immediate supervisor know about their plans at least one month in advance.",
+      "options": {
+        "A": "Them",
+        "B": "That",
+        "C": "One",
+        "D": "Those"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "question": "The director ______ has often been seen to take his lunch in the staff canteen along with the other workers.",
+      "options": {
+        "A": "him",
+        "B": "his",
+        "C": "himself",
+        "D": "he"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 133,
+      "question": "The budget to be released later this week will ______ reduce spending on employee facilities such as the sports center.",
+      "options": {
+        "A": "due to",
+        "B": "most likely",
+        "C": "want",
+        "D": "be"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "______ the recent sales campaign was not as successful as we had expected, our new range of goods has been well reviewed by consumer groups.",
+      "options": {
+        "A": "Instead of",
+        "B": "Notwithstanding",
+        "C": "Although",
+        "D": "Whereas"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 135,
+      "question": "______ in computer technology have allowed technicians to perform multi-dimensional graphics far better than ever before.",
+      "options": {
+        "A": "Advance",
+        "B": "Advancing",
+        "C": "Advancement",
+        "D": "Advances"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 136,
+      "question": "The upcoming convention invites ______ from anyone working or having research interests in the field.",
+      "options": {
+        "A": "contributions",
+        "B": "solutions",
+        "C": "additions",
+        "D": "subscription"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "question": "______ leaving school, she has worked in a variety of positions but has not yet found one which suits her talents or interests.",
+      "options": {
+        "A": "Despite",
+        "B": "Since",
+        "C": "In spite of",
+        "D": "If"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "______ good evaluations from their immediate bosses should be the main objective of those who wish to be promoted this year.",
+      "options": {
+        "A": "Attain",
+        "B": "Attained",
+        "C": "Attaining",
+        "D": "Attainable"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 139,
+      "question": "______ you have familiarized yourself with the basic commands, we can begin to learn some of this program's more creative features.",
+      "options": {
+        "A": "Already",
+        "B": "Before",
+        "C": "Once",
+        "D": "Earlier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "question": "Although the ______ for the best design will be very fierce, Mr. Gozalas has a good chance of getting the award.",
+      "options": {
+        "A": "competitively",
+        "B": "competitive",
+        "C": "compete",
+        "D": "competition"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 141,
+      "question": "Would the person ______ muddy jogging clothes were found in the staff shower room please claim them at the lost and found office?",
+      "options": {
+        "A": "who",
+        "B": "that",
+        "C": "whose",
+        "D": "which"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "Even professional marketers are never sure ______ some new products are runaway successes while others fail miserably.",
+      "options": {
+        "A": "for",
+        "B": "why",
+        "C": "since",
+        "D": "whoever"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "question": "The Security Department has warned that any ______ use of the car park on weekends will result in the vehicle being towed.",
+      "options": {
+        "A": "unauthorize",
+        "B": "unauthorizes",
+        "C": "unauthorizing",
+        "D": "unauthorized"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 144,
+      "question": "A new strategic plan ______ increasing productivity was introduced at the last meeting of the board of directors.",
+      "options": {
+        "A": "in",
+        "B": "by",
+        "C": "for",
+        "D": "to"
+      },
+      "answer": "C"
+    }
+  ]

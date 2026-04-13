@@ -1,0 +1,442 @@
+[
+    {
+      "id": 101,
+      "question": "Under more ______ circumstances, the CEO would have approved the pay increases, but this year it was not possible.",
+      "options": {
+        "A": "favorable",
+        "B": "favorably",
+        "C": "favor",
+        "D": "favorite"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "BMC publishing company will be checking the article ______ mistakes and edit it before printing.",
+      "options": {
+        "A": "barring",
+        "B": "over",
+        "C": "for",
+        "D": "from"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "Although the ______ for the best design will be very fierce, Mr. Gozalas has a good chance of getting the award.",
+      "options": {
+        "A": "competitively",
+        "B": "competitive",
+        "C": "compete",
+        "D": "competition"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 104,
+      "question": "Many people are waiting outside for the box office to open so they can ______ tickets for the famous singer’s concert.",
+      "options": {
+        "A": "approve",
+        "B": "purchase",
+        "C": "achieve",
+        "D": "replace"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Thanks to the advances in technology, the state-of-the-art device is made ______ out of plastic.",
+      "options": {
+        "A": "totaling",
+        "B": "total",
+        "C": "totally",
+        "D": "totaled"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "Because there were too many participants at the seminar, we should ______ into smaller groups for discussion.",
+      "options": {
+        "A": "divisible",
+        "B": "division",
+        "C": "dividing",
+        "D": "divide"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 107,
+      "question": "ABC Shoe Store asked ______ to make their final selections and bring them to cashiers’ stations within 30 minutes.",
+      "options": {
+        "A": "shopper",
+        "B": "shopping",
+        "C": "to shop",
+        "D": "shoppers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "question": "One of the leading companies, Big Star agreed to buy ______ Get-Well drug company for 10 billion dollars.",
+      "options": {
+        "A": "rival",
+        "B": "compromising",
+        "C": "renewed",
+        "D": "contrasting"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 109,
+      "question": "______ in computer technology have allowed technicians to perform multi-dimensional graphics far better than ever before.",
+      "options": {
+        "A": "Advance",
+        "B": "Advancing",
+        "C": "Advancement",
+        "D": "Advances"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 110,
+      "question": "Mr. Fukui ______ washes his hands with anti-bacterial detergent right after coming home.",
+      "options": {
+        "A": "habitual",
+        "B": "habit",
+        "C": "habitually",
+        "D": "habits"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "Windpower Co. is faced with financial hardship, so in order to overcome this crisis, ______ financial support is needed.",
+      "options": {
+        "A": "extend",
+        "B": "extent",
+        "C": "extensive",
+        "D": "extending"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "question": "The FM convenience store in the central park is ______ located and it is always busy with many customers.",
+      "options": {
+        "A": "conveniently",
+        "B": "promptly",
+        "C": "greatly",
+        "D": "widely"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "Mr. Tallent handled all of the customers’ inquiries by ______ because the other sales representatives were out of the office.",
+      "options": {
+        "A": "itself",
+        "B": "himself",
+        "C": "themselves",
+        "D": "herself"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "As of October 1, Carla Fishermen will ______ the company as its interface in all dealings with the local government.",
+      "options": {
+        "A": "accommodate",
+        "B": "perform",
+        "C": "attend",
+        "D": "represent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "Ms. Harris was extremely ______ to take an opportunity to thank you for all of the hard-working and dedication.",
+      "options": {
+        "A": "happy",
+        "B": "happily",
+        "C": "happier",
+        "D": "happiness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "______ we hire more factory workers, we cannot meet the deadline for the products on time.",
+      "options": {
+        "A": "Unless",
+        "B": "Also",
+        "C": "Except",
+        "D": "Therefore"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "The managers selected three attorneys to help with future contract ______.",
+      "options": {
+        "A": "negotiates",
+        "B": "negotiations",
+        "C": "negotiator",
+        "D": "negotiable"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Please accept our ______ apology for the mistakes that we made on the last project.",
+      "options": {
+        "A": "accurate",
+        "B": "estimated",
+        "C": "sincere",
+        "D": "completed"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 119,
+      "question": "Any errors in your paycheck should be reported to the payroll department ______ so corrections can be made in a timely manner.",
+      "options": {
+        "A": "prompt",
+        "B": "promptly",
+        "C": "prompted",
+        "D": "prompting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "Please ______ Mr. Draper’s assistant of your arrival as soon as you get to his office tomorrow.",
+      "options": {
+        "A": "speak",
+        "B": "notify",
+        "C": "report",
+        "D": "respond"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "An investment ______ gradually increases in value over the years can be more profitable than more short-term alternatives.",
+      "options": {
+        "A": "that",
+        "B": "they",
+        "C": "what",
+        "D": "when"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "question": "New department heads must attend meetings ______ in order to be exposed to new ideas from other team members.",
+      "options": {
+        "A": "frequent",
+        "B": "frequenting",
+        "C": "frequently",
+        "D": "frequency"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 123,
+      "question": "Several ______ errors with the new software delayed the release date by two months.",
+      "options": {
+        "A": "overdue",
+        "B": "minor",
+        "C": "reliable",
+        "D": "rapid"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Our aim is to focus on customers’ needs and satisfaction by ______ introducing exceptional goods.",
+      "options": {
+        "A": "consist",
+        "B": "consistently",
+        "C": "consistent",
+        "D": "consisting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Students can ______ in the university’s education program starting July 6th.",
+      "options": {
+        "A": "enroll",
+        "B": "admit",
+        "C": "apply",
+        "D": "subscribe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "Our firm received ______ from numerous clients for our excellent work over the past twenty years.",
+      "options": {
+        "A": "compliment",
+        "B": "complimented",
+        "C": "compliments",
+        "D": "complimentary"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "Beginning next April, financial benefits will be available ______ to those customers who signed the necessary contract.",
+      "options": {
+        "A": "exclusiveness",
+        "B": "exclusively",
+        "C": "exclusionary",
+        "D": "exclusion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "Hyssop Chemists is ______ experienced pharmacists for the eight new locations they have opened this year.",
+      "options": {
+        "A": "seeking",
+        "B": "looking",
+        "C": "entering",
+        "D": "requiring"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "______ the concert finished late, the audience still waited for me.",
+      "options": {
+        "A": "Nevertheless",
+        "B": "Still",
+        "C": "Although",
+        "D": "However"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "If you wish to make the trip to Auckland ______ the other department heads, please let Ms. Berlin know immediately.",
+      "options": {
+        "A": "where",
+        "B": "both",
+        "C": "with",
+        "D": "but"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "question": "Maurice Robertson, ______ an executive at a small company, became the CEO of Bradshaw Industries four months ago.",
+      "options": {
+        "A": "once",
+        "B": "often",
+        "C": "soon",
+        "D": "now"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "While we still take telephone calls, other ______ of correspondence are encouraged to avoid tying up telephone lines unnecessarily.",
+      "options": {
+        "A": "profiles",
+        "B": "views",
+        "C": "outlines",
+        "D": "forms"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 133,
+      "question": "Finding qualified students for this job may be ______ difficult.",
+      "options": {
+        "A": "extreme",
+        "B": "extremes",
+        "C": "extremely",
+        "D": "extremity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 134,
+      "question": "Ms. Julie Kennedy and her innovative marketing team have gained renown for creating ______ products for struggling companies.",
+      "options": {
+        "A": "promote",
+        "B": "promotes",
+        "C": "promotion",
+        "D": "promotional"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "question": "New customer service personnel are trained to ______ to inquiries within a reasonable amount of time.",
+      "options": {
+        "A": "promise",
+        "B": "respond",
+        "C": "advise",
+        "D": "explain"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "question": "For the researcher, a properly maintained notebook can be a ______ of useful information for many years.",
+      "options": {
+        "A": "variety",
+        "B": "resource",
+        "C": "source",
+        "D": "choice"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 137,
+      "question": "Alvinson Clothiers’ branch in Milan has been open since last August ______ is quickly becoming our busiest location.",
+      "options": {
+        "A": "and",
+        "B": "also",
+        "C": "than",
+        "D": "or"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "question": "There will be a panel ______ of pharmaceutical company spokesperson and consumer advocates to debate current health concerns.",
+      "options": {
+        "A": "consist",
+        "B": "consisting",
+        "C": "will consist",
+        "D": "to be consisted"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Please omit ______ details when you are reporting the findings revealed at the symposium.",
+      "options": {
+        "A": "decreased",
+        "B": "insufficient",
+        "C": "incidental",
+        "D": "prerequisite"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "question": "______ working with the research department some of the time, the marketing team comes up with fresh ideas for the company’s new ads.",
+      "options": {
+        "A": "By",
+        "B": "During",
+        "C": "Because",
+        "D": "So that"
+      },
+      "answer": "A"
+    }
+  ]
