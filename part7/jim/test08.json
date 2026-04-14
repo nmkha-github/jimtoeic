@@ -1,530 +1,595 @@
 [
     {
-        "id": 153,
-        "question": "Why was this e-mail written?",
-        "options": {
-            "A": "To invite Mr. Wills to a conference",
-            "B": "To ask Mr. Wills to contribute to the environment",
-            "C": "To interview Mr. Willis for the next newsletter",
-            "D": "To show appreciation for his part in the conference"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775752911/test08_153-154_kw2vx7.png",
+        "queries": [
+            {
+                "id": 153,
+                "question": "Why was this e-mail written?",
+                "options": {
+                    "A": "To invite Mr. Wills to a conference",
+                    "B": "To ask Mr. Wills to contribute to the environment",
+                    "C": "To interview Mr. Willis for the next newsletter",
+                    "D": "To show appreciation for his part in the conference"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 154,
+                "question": "Why will Mr. Wills' topic of discussion be further outlined?",
+                "options": {
+                    "A": "A lot of the attendees did not understand it.",
+                    "B": "There was a demand for further explanations.",
+                    "C": "Many could not actually attend the seminar.",
+                    "D": "There were many points not discussed."
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": 154,
-        "question": "Why will Mr. Wills' topic of discussion be further outlined?",
-        "options": {
-            "A": "A lot of the attendees did not understand it.",
-            "B": "There was a demand for further explanations.",
-            "C": "Many could not actually attend the seminar.",
-            "D": "There were many points not discussed."
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753016/test08_155-157_xcj15u.png",
+        "queries": [
+            {
+                "id": 155,
+                "question": "What is the main purpose of the fax?",
+                "options": {
+                    "A": "To find out why a co-worker has decided to leave the company",
+                    "B": "To catch up on the current situation at the office",
+                    "C": "To congratulate a co-worker on a new business venture",
+                    "D": "To bring a colleague up-to-date of the situation at the office"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 156,
+                "question": "According to the fax, how will the company likely fill George's position?",
+                "options": {
+                    "A": "By taking out a placement ad in the paper",
+                    "B": "By laying off some of the workers",
+                    "C": "By dividing the work amongst the rest of the employees",
+                    "D": "By recruiting someone from the head office"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 157,
+                "question": "What does Kent imply might be forthcoming?",
+                "options": {
+                    "A": "A co-worker's return from retirement",
+                    "B": "A visit by the senior management staff",
+                    "C": "An adjustment within the company",
+                    "D": "A budget cut in the next quarter"
+                },
+                "answer": "C"
+            }
+        ]
     },
     {
-        "id": 155,
-        "question": "What is the main purpose of the fax?",
-        "options": {
-            "A": "To find out why a co-worker has decided to leave the company",
-            "B": "To catch up on the current situation at the office",
-            "C": "To congratulate a co-worker on a new business venture",
-            "D": "To bring a colleague up-to-date of the situation at the office"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753033/test08_158-160_ntst6a.png",
+        "queries": [
+            {
+                "id": 158,
+                "question": "The word \"omnipotent\" in Paragraph 2, Line 8 is closest in meaning to",
+                "options": {
+                    "A": "strong",
+                    "B": "all-powerful",
+                    "C": "unlimited",
+                    "D": "divine"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 159,
+                "question": "What best describes the digital convergence mentioned in the report?",
+                "options": {
+                    "A": "A requirement of being wired in today's business",
+                    "B": "A single product with the performance of many products",
+                    "C": "The breakthrough in digital technology",
+                    "D": "The rising cost of highly-functional super gadgets"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 160,
+                "question": "According to the report, what may become a reality in the future?",
+                "options": {
+                    "A": "The average person will be able to use complicated machines.",
+                    "B": "All businessmen will own PDAs.",
+                    "C": "The general public will be able to afford high-tech goods.",
+                    "D": "The Internet will be accessible anywhere and anytime."
+                },
+                "answer": "C"
+            }
+        ]
     },
     {
-        "id": 156,
-        "question": "According to the fax, how will the company likely fill George's position?",
-        "options": {
-            "A": "By taking out a placement ad in the paper",
-            "B": "By laying off some of the workers",
-            "C": "By dividing the work amongst the rest of the employees",
-            "D": "By recruiting someone from the head office"
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753088/test08_161-163_qqcioi.png",
+        "queries": [
+            {
+                "id": 161,
+                "question": "Where would this information most likely be posted?",
+                "options": {
+                    "A": "At a fire station",
+                    "B": "At a security office",
+                    "C": "In an elevator",
+                    "D": "In an office building"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 162,
+                "question": "Which of the following is NOT a part of the list of what to do in an emergency situation?",
+                "options": {
+                    "A": "Determine the nearest way out",
+                    "B": "Do not use elevators",
+                    "C": "Take precautionary measures to avoid inhaling smoke",
+                    "D": "Gather only important items"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 163,
+                "question": "In which of the following situations does the information say the responsibility shifts to each individual?",
+                "options": {
+                    "A": "If one has not read the guidebook",
+                    "B": "If the fire gets out of control",
+                    "C": "If the elevators are not in working order",
+                    "D": "If the exit doors become too crowded"
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": 157,
-        "question": "What does Kent imply might be forthcoming?",
-        "options": {
-            "A": "A co-worker's return from retirement",
-            "B": "A visit by the senior management staff",
-            "C": "An adjustment within the company",
-            "D": "A budget cut in the next quarter"
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753104/test08_164-168_fp3j5f.png",
+        "queries": [
+            {
+                "id": 164,
+                "question": "What is the purpose of the letter?",
+                "options": {
+                    "A": "To volunteer for a charity",
+                    "B": "To plead for more donations",
+                    "C": "To promote a new education program",
+                    "D": "To express gratitude for an act of kindness"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 165,
+                "question": "Who is the recipient of this letter?",
+                "options": {
+                    "A": "John Manor",
+                    "B": "Mark Allen",
+                    "C": "Jennifer Ward",
+                    "D": "A doctor"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 166,
+                "question": "How long has the organization been in existence?",
+                "options": {
+                    "A": "9 months",
+                    "B": "1 year",
+                    "C": "8 years",
+                    "D": "9 years"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 167,
+                "question": "What is One Child's Tomorrow?",
+                "options": {
+                    "A": "A public school",
+                    "B": "A newspaper company",
+                    "C": "A catering company",
+                    "D": "A charitable organization"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 168,
+                "question": "How much was Mr. Allen able to amass on behalf of the Jagar Industries?",
+                "options": {
+                    "A": "$300",
+                    "B": "$3,000",
+                    "C": "$5,000",
+                    "D": "$250,000"
+                },
+                "answer": "C"
+            }
+        ]
     },
     {
-        "id": 158,
-        "question": "The word \"omnipotent\" in Paragraph 2, Line 8 is closest in meaning to",
-        "options": {
-            "A": "strong",
-            "B": "all-powerful",
-            "C": "unlimited",
-            "D": "divine"
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753289/test08_169-171_xupszk.png",
+        "queries": [
+            {
+                "id": 169,
+                "question": "How does the company play a part in promoting environmental causes?",
+                "options": {
+                    "A": "It contributes part of its profits to an environmental group.",
+                    "B": "It plans to implement an environmental policy in the company.",
+                    "C": "It reuses paper for printing purposes.",
+                    "D": "It educates its staff to be environmentally conscious."
+                },
+                "answer": "C"
+            },
+            {
+                "id": 170,
+                "question": "Which of the following is NOT found in the information?",
+                "options": {
+                    "A": "The company's mission",
+                    "B": "The company's beliefs",
+                    "C": "The company's objectives",
+                    "D": "The company's history"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 171,
+                "question": "What can be inferred about the company?",
+                "options": {
+                    "A": "It compensates its employees for their hard work.",
+                    "B": "It spends a lot of money and time promoting environmental issues.",
+                    "C": "It invests a lot of money on advertisements.",
+                    "D": "It uses a large portion of its profits educating its employees."
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": 159,
-        "question": "What best describes the digital convergence mentioned in the report?",
-        "options": {
-            "A": "A requirement of being wired in today's business",
-            "B": "A single product with the performance of many products",
-            "C": "The breakthrough in digital technology",
-            "D": "The rising cost of highly-functional super gadgets"
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753307/test08_172-174_balhrq.png",
+        "queries": [
+            {
+                "id": 172,
+                "question": "What does the notice imply?",
+                "options": {
+                    "A": "Many people in today's society don't know how to get along with others.",
+                    "B": "Relationships with co-workers correlate with work productivity.",
+                    "C": "Stress can help one work more efficiently with a little training.",
+                    "D": "Most companies don't consider the mental well-being of their employees."
+                },
+                "answer": "B"
+            },
+            {
+                "id": 173,
+                "question": "Which of the following will NOT be covered in the seminar?",
+                "options": {
+                    "A": "How to deal with rude co-workers",
+                    "B": "How to work effectively in short time",
+                    "C": "How to avoid misunderstandings with others",
+                    "D": "How to become stable by being optimistic"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 174,
+                "question": "What will the seminar participants receive?",
+                "options": {
+                    "A": "A free booklet",
+                    "B": "Refreshments",
+                    "C": "An invitation to the second session",
+                    "D": "A box of tools"
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": 160,
-        "question": "According to the report, what may become a reality in the future?",
-        "options": {
-            "A": "The average person will be able to use complicated machines.",
-            "B": "All businessmen will own PDAs.",
-            "C": "The general public will be able to afford high-tech goods.",
-            "D": "The Internet will be accessible anywhere and anytime."
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753325/test08_175-178_kfdf4p.png",
+        "queries": [
+            {
+                "id": 175,
+                "question": "Why did Ms. Young write to Mr. Thomas?",
+                "options": {
+                    "A": "To offer him a job at her company",
+                    "B": "To order some art supplies for her firm",
+                    "C": "To receive permission to use his work in her book",
+                    "D": "To hire him for some photo shoots"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 176,
+                "question": "How did Amanda first learn of Wayne's work?",
+                "options": {
+                    "A": "From a magazine",
+                    "B": "From a staff member",
+                    "C": "From a book",
+                    "D": "From a friend"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 177,
+                "question": "According to the letter, what should Wayne do if he is interested in Amanda's offer?",
+                "options": {
+                    "A": "Get in touch with her at her office",
+                    "B": "Wait for a phone call",
+                    "C": "Visit the company in person",
+                    "D": "Send some sample artwork"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 178,
+                "question": "The word \"range\" in Paragraph 1, Line 2 is closest in meaning to",
+                "options": {
+                    "A": "extent",
+                    "B": "assortment",
+                    "C": "circle",
+                    "D": "series"
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": 161,
-        "question": "Where would this information most likely be posted?",
-        "options": {
-            "A": "At a fire station",
-            "B": "At a security office",
-            "C": "In an elevator",
-            "D": "In an office building"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753434/test08_179-180_sj2ivi.png",
+        "queries": [
+            {
+                "id": 179,
+                "question": "Which of the following is NOT mentioned in the reminder?",
+                "options": {
+                    "A": "Everyone should line up to board the bus.",
+                    "B": "Do not go astray from the group.",
+                    "C": "Refrain from giving any crackers to the animals.",
+                    "D": "Keep in mind that the tour could last longer than expected."
+                },
+                "answer": "D"
+            },
+            {
+                "id": 180,
+                "question": "What is the consequence for those who do not follow the rules?",
+                "options": {
+                    "A": "They may be removed from the group.",
+                    "B": "They could be put into another group.",
+                    "C": "They won't be able to come back for a year.",
+                    "D": "They will be forced to stay on the bus."
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": 162,
-        "question": "Which of the following is NOT a part of the list of what to do in an emergency situation?",
-        "options": {
-            "A": "Determine the nearest way out",
-            "B": "Do not use elevators",
-            "C": "Take precautionary measures to avoid inhaling smoke",
-            "D": "Gather only important items"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753472/test08_181-185_tqi7yf.png",
+        "queries": [
+            {
+                "id": 181,
+                "question": "What is the main purpose of the letter?",
+                "options": {
+                    "A": "To complain about the progress of the work",
+                    "B": "To terminate a work contract",
+                    "C": "To warn of some dangers in the work area",
+                    "D": "To request reimbursement for some damages"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 182,
+                "question": "Which of the following is NOT a complaint made by Mr. Martin?",
+                "options": {
+                    "A": "Workers didn't show up to work on time.",
+                    "B": "The crew did not clean after themselves.",
+                    "C": "Workers slacked off too much.",
+                    "D": "The crew didn't offer to work overtime."
+                },
+                "answer": "D"
+            },
+            {
+                "id": 183,
+                "question": "What does Mr. Warner offer to do?",
+                "options": {
+                    "A": "Replace the work crew",
+                    "B": "Provide a discount on labor costs",
+                    "C": "Forgo all the fees other than the material cost",
+                    "D": "Meet with Mr. Martin to listen to his proposal"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 184,
+                "question": "What can be inferred about Warner Associates Incorporated?",
+                "options": {
+                    "A": "The company has a history of performing bad work.",
+                    "B": "Mr. Warner has a habit of giving excuses for everything.",
+                    "C": "Some of the senior managers are unreliable.",
+                    "D": "The company cares about what others think."
+                },
+                "answer": "B"
+            },
+            {
+                "id": 185,
+                "question": "Why will Mr. Warner call the client?",
+                "options": {
+                    "A": "To try to convince Mr. Martin to sign the agreement",
+                    "B": "To discuss further about the details of the contract",
+                    "C": "To demand payment for the work they have done to date",
+                    "D": "To see if he can convince Mr. Martin to allow the crew back on the site"
+                },
+                "answer": "D"
+            }
+        ]
     },
     {
-        "id": 163,
-        "question": "In which of the following situations does the information say the responsibility shifts to each individual?",
-        "options": {
-            "A": "If one has not read the guidebook",
-            "B": "If the fire gets out of control",
-            "C": "If the elevators are not in working order",
-            "D": "If the exit doors become too crowded"
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753590/test08_186-190_urrq0w.png",
+        "queries": [
+            {
+                "id": 186,
+                "question": "What is the main purpose of the poll?",
+                "options": {
+                    "A": "To establish a definite hierarchy within the workplace",
+                    "B": "To resolve the difference of opinions between managers and staff members",
+                    "C": "To get a grasp of how the managers are managing the members of their teams",
+                    "D": "To better understand the relationship between employees and their managers to improve the working environment"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 187,
+                "question": "Which question did NOT address the relationship aspect of the managers and employees?",
+                "options": {
+                    "A": "Question 1",
+                    "B": "Question 2",
+                    "C": "Question 3",
+                    "D": "Question 4"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 188,
+                "question": "What can be inferred from the results of Question 4?",
+                "options": {
+                    "A": "Many employees feel distant from their bosses.",
+                    "B": "The managers neglect being supportive in the employees' personal goals.",
+                    "C": "A large portion of the employees wants to be treated with respect from their bosses.",
+                    "D": "The working environment allows the staff members to meet often to discuss issues."
+                },
+                "answer": "C"
+            },
+            {
+                "id": 189,
+                "question": "What best describes the outcome of the study results?",
+                "options": {
+                    "A": "The interactions between workers and management are heading in the right direction.",
+                    "B": "Most of the managers prefer to be addressed by their full title.",
+                    "C": "The relationship with senior managers still needs to be improved a great deal.",
+                    "D": "A majority of the staff members share the same feeling that they are being treated as workhorses."
+                },
+                "answer": "A"
+            },
+            {
+                "id": 190,
+                "question": "In the analysis, the word \"corresponds\" in Paragraph 1, Line 2 is closest in meaning to",
+                "options": {
+                    "A": "compares",
+                    "B": "correlates",
+                    "C": "conforms",
+                    "D": "comes to"
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": 164,
-        "question": "What is the purpose of the letter?",
-        "options": {
-            "A": "To volunteer for a charity",
-            "B": "To plead for more donations",
-            "C": "To promote a new education program",
-            "D": "To express gratitude for an act of kindness"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753689/test08_191-195_j9epnc.png",
+        "queries": [
+            {
+                "id": 191,
+                "question": "Which information is NOT included in the invoice?",
+                "options": {
+                    "A": "The number of items ordered",
+                    "B": "The price of each item",
+                    "C": "The sender's address",
+                    "D": "The markdown rate"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 192,
+                "question": "How much more would Ms. Little have saved if she had ordered another desk lamp?",
+                "options": {
+                    "A": "$79.96",
+                    "B": "$19.99",
+                    "C": "$39.98",
+                    "D": "$1.99"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 193,
+                "question": "Why did Ms. Little write to Cascade?",
+                "options": {
+                    "A": "To request quicker service in the future",
+                    "B": "To correct a mistake on the invoice",
+                    "C": "To place her next order",
+                    "D": "To show her appreciation for the special treatment"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 194,
+                "question": "How long did it take to receive the items?",
+                "options": {
+                    "A": "They came on the same day.",
+                    "B": "They took less than a week.",
+                    "C": "They arrived exactly a week later.",
+                    "D": "They took longer than a week."
+                },
+                "answer": "B"
+            },
+            {
+                "id": 195,
+                "question": "What is the main reason why Jane is planning to order from Cascade again?",
+                "options": {
+                    "A": "The items in the store are the cheapest in town.",
+                    "B": "Her company is planning an extension project.",
+                    "C": "She forgot to order some items in her last order.",
+                    "D": "The store is planning to have a big sale soon."
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": 165,
-        "question": "Who is the recipient of this letter?",
-        "options": {
-            "A": "John Manor",
-            "B": "Mark Allen",
-            "C": "Jennifer Ward",
-            "D": "A doctor"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 166,
-        "question": "How long has the organization been in existence?",
-        "options": {
-            "A": "9 months",
-            "B": "1 year",
-            "C": "8 years",
-            "D": "9 years"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 167,
-        "question": "What is One Child's Tomorrow?",
-        "options": {
-            "A": "A public school",
-            "B": "A newspaper company",
-            "C": "A catering company",
-            "D": "A charitable organization"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 168,
-        "question": "How much was Mr. Allen able to amass on behalf of the Jagar Industries?",
-        "options": {
-            "A": "$300",
-            "B": "$3,000",
-            "C": "$5,000",
-            "D": "$250,000"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 169,
-        "question": "How does the company play a part in promoting environmental causes?",
-        "options": {
-            "A": "It contributes part of its profits to an environmental group.",
-            "B": "It plans to implement an environmental policy in the company.",
-            "C": "It reuses paper for printing purposes.",
-            "D": "It educates its staff to be environmentally conscious."
-        },
-        "answer": "C"
-    },
-    {
-        "id": 170,
-        "question": "Which of the following is NOT found in the information?",
-        "options": {
-            "A": "The company's mission",
-            "B": "The company's beliefs",
-            "C": "The company's objectives",
-            "D": "The company's history"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 171,
-        "question": "What can be inferred about the company?",
-        "options": {
-            "A": "It compensates its employees for their hard work.",
-            "B": "It spends a lot of money and time promoting environmental issues.",
-            "C": "It invests a lot of money on advertisements.",
-            "D": "It uses a large portion of its profits educating its employees."
-        },
-        "answer": "A"
-    },
-    {
-        "id": 172,
-        "question": "What does the notice imply?",
-        "options": {
-            "A": "Many people in today's society don't know how to get along with others.",
-            "B": "Relationships with co-workers correlate with work productivity.",
-            "C": "Stress can help one work more efficiently with a little training.",
-            "D": "Most companies don't consider the mental well-being of their employees."
-        },
-        "answer": "B"
-    },
-    {
-        "id": 173,
-        "question": "Which of the following will NOT be covered in the seminar?",
-        "options": {
-            "A": "How to deal with rude co-workers",
-            "B": "How to work effectively in short time",
-            "C": "How to avoid misunderstandings with others",
-            "D": "How to become stable by being optimistic"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 174,
-        "question": "What will the seminar participants receive?",
-        "options": {
-            "A": "A free booklet",
-            "B": "Refreshments",
-            "C": "An invitation to the second session",
-            "D": "A box of tools"
-        },
-        "answer": "A"
-    },
-    {
-        "id": 175,
-        "question": "Why did Ms. Young write to Mr. Thomas?",
-        "options": {
-            "A": "To offer him a job at her company",
-            "B": "To order some art supplies for her firm",
-            "C": "To receive permission to use his work in her book",
-            "D": "To hire him for some photo shoots"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 176,
-        "question": "How did Amanda first learn of Wayne's work?",
-        "options": {
-            "A": "From a magazine",
-            "B": "From a staff member",
-            "C": "From a book",
-            "D": "From a friend"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 177,
-        "question": "According to the letter, what should Wayne do if he is interested in Amanda's offer?",
-        "options": {
-            "A": "Get in touch with her at her office",
-            "B": "Wait for a phone call",
-            "C": "Visit the company in person",
-            "D": "Send some sample artwork"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 178,
-        "question": "The word \"range\" in Paragraph 1, Line 2 is closest in meaning to",
-        "options": {
-            "A": "extent",
-            "B": "assortment",
-            "C": "circle",
-            "D": "series"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 179,
-        "question": "Which of the following is NOT mentioned in the reminder?",
-        "options": {
-            "A": "Everyone should line up to board the bus.",
-            "B": "Do not go astray from the group.",
-            "C": "Refrain from giving any crackers to the animals.",
-            "D": "Keep in mind that the tour could last longer than expected."
-        },
-        "answer": "D"
-    },
-    {
-        "id": 180,
-        "question": "What is the consequence for those who do not follow the rules?",
-        "options": {
-            "A": "They may be removed from the group.",
-            "B": "They could be put into another group.",
-            "C": "They won't be able to come back for a year.",
-            "D": "They will be forced to stay on the bus."
-        },
-        "answer": "A"
-    },
-    {
-        "id": 181,
-        "question": "What is the main purpose of the letter?",
-        "options": {
-            "A": "To complain about the progress of the work",
-            "B": "To terminate a work contract",
-            "C": "To warn of some dangers in the work area",
-            "D": "To request reimbursement for some damages"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 182,
-        "question": "Which of the following is NOT a complaint made by Mr. Martin?",
-        "options": {
-            "A": "Workers didn't show up to work on time.",
-            "B": "The crew did not clean after themselves.",
-            "C": "Workers slacked off too much.",
-            "D": "The crew didn't offer to work overtime."
-        },
-        "answer": "D"
-    },
-    {
-        "id": 183,
-        "question": "What does Mr. Warner offer to do?",
-        "options": {
-            "A": "Replace the work crew",
-            "B": "Provide a discount on labor costs",
-            "C": "Forgo all the fees other than the material cost",
-            "D": "Meet with Mr. Martin to listen to his proposal"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 184,
-        "question": "What can be inferred about Warner Associates Incorporated?",
-        "options": {
-            "A": "The company has a history of performing bad work.",
-            "B": "Mr. Warner has a habit of giving excuses for everything.",
-            "C": "Some of the senior managers are unreliable.",
-            "D": "The company cares about what others think."
-        },
-        "answer": "B"
-    },
-    {
-        "id": 185,
-        "question": "Why will Mr. Warner call the client?",
-        "options": {
-            "A": "To try to convince Mr. Martin to sign the agreement",
-            "B": "To discuss further about the details of the contract",
-            "C": "To demand payment for the work they have done to date",
-            "D": "To see if he can convince Mr. Martin to allow the crew back on the site"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 186,
-        "question": "What is the main purpose of the poll?",
-        "options": {
-            "A": "To establish a definite hierarchy within the workplace",
-            "B": "To resolve the difference of opinions between managers and staff members",
-            "C": "To get a grasp of how the managers are managing the members of their teams",
-            "D": "To better understand the relationship between employees and their managers to improve the working environment"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 187,
-        "question": "Which question did NOT address the relationship aspect of the managers and employees?",
-        "options": {
-            "A": "Question 1",
-            "B": "Question 2",
-            "C": "Question 3",
-            "D": "Question 4"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 188,
-        "question": "What can be inferred from the results of Question 4?",
-        "options": {
-            "A": "Many employees feel distant from their bosses.",
-            "B": "The managers neglect being supportive in the employees' personal goals.",
-            "C": "A large portion of the employees wants to be treated with respect from their bosses.",
-            "D": "The working environment allows the staff members to meet often to discuss issues."
-        },
-        "answer": "C"
-    },
-    {
-        "id": 189,
-        "question": "What best describes the outcome of the study results?",
-        "options": {
-            "A": "The interactions between workers and management are heading in the right direction.",
-            "B": "Most of the managers prefer to be addressed by their full title.",
-            "C": "The relationship with senior managers still needs to be improved a great deal.",
-            "D": "A majority of the staff members share the same feeling that they are being treated as workhorses."
-        },
-        "answer": "A"
-    },
-    {
-        "id": 190,
-        "question": "In the analysis, the word \"corresponds\" in Paragraph 1, Line 2 is closest in meaning to",
-        "options": {
-            "A": "compares",
-            "B": "correlates",
-            "C": "conforms",
-            "D": "comes to"
-        },
-        "answer": "B"
-    },
-    {
-        "id": 191,
-        "question": "Which information is NOT included in the invoice?",
-        "options": {
-            "A": "The number of items ordered",
-            "B": "The price of each item",
-            "C": "The sender's address",
-            "D": "The markdown rate"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 192,
-        "question": "How much more would Ms. Little have saved if she had ordered another desk lamp?",
-        "options": {
-            "A": "$79.96",
-            "B": "$19.99",
-            "C": "$39.98",
-            "D": "$1.99"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 193,
-        "question": "Why did Ms. Little write to Cascade?",
-        "options": {
-            "A": "To request quicker service in the future",
-            "B": "To correct a mistake on the invoice",
-            "C": "To place her next order",
-            "D": "To show her appreciation for the special treatment"
-        },
-        "answer": "D"
-    },
-    {
-        "id": 194,
-        "question": "How long did it take to receive the items?",
-        "options": {
-            "A": "They came on the same day.",
-            "B": "They took less than a week.",
-            "C": "They arrived exactly a week later.",
-            "D": "They took longer than a week."
-        },
-        "answer": "B"
-    },
-    {
-        "id": 195,
-        "question": "What is the main reason why Jane is planning to order from Cascade again?",
-        "options": {
-            "A": "The items in the store are the cheapest in town.",
-            "B": "Her company is planning an extension project.",
-            "C": "She forgot to order some items in her last order.",
-            "D": "The store is planning to have a big sale soon."
-        },
-        "answer": "B"
-    },
-    {
-        "id": 196,
-        "question": "What will Terry most likely be doing first Monday morning?",
-        "options": {
-            "A": "Meeting with the leader of the company",
-            "B": "Preparing for his 10 o'clock conference",
-            "C": "Talking to the newest member of the company",
-            "D": "Enjoying a tour around the factory site"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 197,
-        "question": "Who most likely will read the memo?",
-        "options": {
-            "A": "Nick Jackson",
-            "B": "John Harvey",
-            "C": "Terry's assistant",
-            "D": "The president's secretary"
-        },
-        "answer": "C"
-    },
-    {
-        "id": 198,
-        "question": "When will the meeting mentioned in the memo for everyone to attend take place?",
-        "options": {
-            "A": "Monday at 8:00 a.m.",
-            "B": "Monday at 10:00 a.m.",
-            "C": "Tuesday at 3:00 p.m.",
-            "D": "Tuesday at 5:00 p.m."
-        },
-        "answer": "D"
-    },
-    {
-        "id": 199,
-        "question": "On which day was the memo written?",
-        "options": {
-            "A": "Thursday, November 7",
-            "B": "Friday, November 8",
-            "C": "Monday, November 11",
-            "D": "Tuesday, November 12"
-        },
-        "answer": "A"
-    },
-    {
-        "id": 200,
-        "question": "What does the writer say he will need to have for his 3 o'clock meeting on Tuesday?",
-        "options": {
-            "A": "10 copies of the draft notes",
-            "B": "The updated version of a report",
-            "C": "A parcel",
-            "D": "The factory tour schedule"
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775753709/test08_196-200_kofxvo.png",
+        "queries": [
+            {
+                "id": 196,
+                "question": "What will Terry most likely be doing first Monday morning?",
+                "options": {
+                    "A": "Meeting with the leader of the company",
+                    "B": "Preparing for his 10 o'clock conference",
+                    "C": "Talking to the newest member of the company",
+                    "D": "Enjoying a tour around the factory site"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 197,
+                "question": "Who most likely will read the memo?",
+                "options": {
+                    "A": "Nick Jackson",
+                    "B": "John Harvey",
+                    "C": "Terry's assistant",
+                    "D": "The president's secretary"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 198,
+                "question": "When will the meeting mentioned in the memo for everyone to attend take place?",
+                "options": {
+                    "A": "Monday at 8:00 a.m.",
+                    "B": "Monday at 10:00 a.m.",
+                    "C": "Tuesday at 3:00 p.m.",
+                    "D": "Tuesday at 5:00 p.m."
+                },
+                "answer": "D"
+            },
+            {
+                "id": 199,
+                "question": "On which day was the memo written?",
+                "options": {
+                    "A": "Thursday, November 7",
+                    "B": "Friday, November 8",
+                    "C": "Monday, November 11",
+                    "D": "Tuesday, November 12"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 200,
+                "question": "What does the writer say he will need to have for his 3 o'clock meeting on Tuesday?",
+                "options": {
+                    "A": "10 copies of the draft notes",
+                    "B": "The updated version of a report",
+                    "C": "A parcel",
+                    "D": "The factory tour schedule"
+                },
+                "answer": "C"
+            }
+        ]
     }
 ]

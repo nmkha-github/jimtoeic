@@ -1,0 +1,662 @@
+[
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775923044/test10_153-154_zoj7fn.png",
+        "queries": [
+            {
+                "id": "153",
+                "question": "What is NOT being offered with the job?",
+                "options": {
+                    "A": "Good wages",
+                    "B": "Housing",
+                    "C": "Health insurance",
+                    "D": "A car"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "154",
+                "question": "What will be the duties of the person being hired?",
+                "options": {
+                    "A": "Buying and leasing properties",
+                    "B": "Providing career counseling to other workers",
+                    "C": "Cleaning and maintaining an apartment complex",
+                    "D": "Motivating the sales staff of the company"
+                },
+                "answer": "C"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667671/test03_165-167_klvqdo.png",
+        "queries": [
+            {
+                "id": "165",
+                "question": "What is NOT stated in the policy?",
+                "options": {
+                    "A": "Goods must be brought back in their original form.",
+                    "B": "The original receipt must accompany the returned item.",
+                    "C": "A time limit is placed on items being returned.",
+                    "D": "A full refund will be provided for all items if returned within 24 hours."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "166",
+                "question": "In which of the following situations would a person have to show photo identification?",
+                "options": {
+                    "A": "When returning items that are valued over $100 before tax",
+                    "B": "If the merchandise was originally bought by someone other than the person returning it",
+                    "C": "In situations where the boxes have been opened and used",
+                    "D": "If a credit card was used when making the purchase"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "167",
+                "question": "According to the policy, how long will it take to get a refund for a purchase made under $100?",
+                "options": {
+                    "A": "It depends on the product purchased.",
+                    "B": "A refund will be provided right away.",
+                    "C": "At least 3 business days",
+                    "D": "24 hours if receipt is provided"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775750993/test06_161-164_kcs5bo.png",
+        "queries": [
+            {
+                "id": "161",
+                "question": "What is the purpose of the announcement?",
+                "options": {
+                    "A": "To restrict unnecessary staff members from visiting the work area",
+                    "B": "To provide a timetable for some office renovation work",
+                    "C": "To thank employees for their support in the work",
+                    "D": "To prepare for an unexpected shipment delay"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "162",
+                "question": "Where will employees on the ground floor likely be on March 15?",
+                "options": {
+                    "A": "The first floor",
+                    "B": "The second floor",
+                    "C": "The third floor",
+                    "D": "The fourth floor"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "163",
+                "question": "The word \"urge\" in paragraph 2, line 2 is closest in meaning to",
+                "options": {
+                    "A": "influence",
+                    "B": "encourage",
+                    "C": "support",
+                    "D": "command"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "164",
+                "question": "During which period will the employees on the fourth floor not be affected?",
+                "options": {
+                    "A": "April 11-20",
+                    "B": "April 21-30",
+                    "C": "May 1-9",
+                    "D": "May 10-19"
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667559/test03_159-160_mztmto.png",
+        "queries": [
+            {
+                "id": "159",
+                "question": "Which of the following is NOT true about the results of the questionnaire?",
+                "options": {
+                    "A": "Mr. Williams felt that the restaurant was understaffed.",
+                    "B": "Mr. Williams liked the food he had today.",
+                    "C": "Mr. Williams felt that the price was very unreasonable.",
+                    "D": "Mr. Williams thought the menu selection needs were limited."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "160",
+                "question": "What can be implied about Mr. Williams?",
+                "options": {
+                    "A": "He had dinner at the restaurant.",
+                    "B": "He came with several guests.",
+                    "C": "He is a regular customer.",
+                    "D": "He is a very picky person."
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775752285/test07_167-171_wwfkht.png",
+        "queries": [
+            {
+                "id": 167,
+                "question": "What is Mr. Bridges' main purpose in writing this letter?",
+                "options": {
+                    "A": "To thank the customer for subscribing to their magazine",
+                    "B": "To make a complaint about some bad service",
+                    "C": "To renew the subscription for another year",
+                    "D": "To provide an answer to an inquiry the customer had made"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 168,
+                "question": "When did Ms. Parker send the letter?",
+                "options": {
+                    "A": "October 18",
+                    "B": "September 28",
+                    "C": "November 1",
+                    "D": "October 19"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 169,
+                "question": "What will Ms. Parker receive as compensation?",
+                "options": {
+                    "A": "A 25% discount on her next subscription",
+                    "B": "Other publications from the same company at no cost",
+                    "C": "A check for the missing magazines",
+                    "D": "An apology letter from the president of the company"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 170,
+                "question": "The phrase \"up for\" in paragraph 1, line 4 is closest in meaning to",
+                "options": {
+                    "A": "owed",
+                    "B": "appropriated",
+                    "C": "expected",
+                    "D": "suited"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 171,
+                "question": "What is being sent with this letter?",
+                "options": {
+                    "A": "Magazines",
+                    "B": "A check",
+                    "C": "An envelope",
+                    "D": "A receipt of purchase"
+                },
+                "answer": "C"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667792/test03_171-175_jw69kc.png",
+        "queries": [
+            {
+                "id": "171",
+                "question": "What is true about Gaz International?",
+                "options": {
+                    "A": "It is a Russian-owned company.",
+                    "B": "It took control of another company.",
+                    "C": "Its stock price has slipped due to a false rumor.",
+                    "D": "It was involved in a multi-million dollar transaction recently."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "172",
+                "question": "Which of the following will be the result of a deal mentioned in the article?",
+                "options": {
+                    "A": "Gaz International will become the leading company in its field.",
+                    "B": "Yevgeni Star seems to have gotten the better end of the deal.",
+                    "C": "Gaz International will now focus on establishing its business in new areas.",
+                    "D": "Yevgeni Star will distribute shares to its top management staff."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "173",
+                "question": "Who is Mr. Fritz Faschier?",
+                "options": {
+                    "A": "A reporter for a local newspaper",
+                    "B": "The president of Gaz International",
+                    "C": "A spokesperson for Yevgeni Star",
+                    "D": "A Russian authority"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "174",
+                "question": "According to the article, when will the deal be finalized?",
+                "options": {
+                    "A": "In 2015",
+                    "B": "In five years",
+                    "C": "Within the following weeks",
+                    "D": "By early next year"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "175",
+                "question": "What is the main cause of the delay in closing the deal?",
+                "options": {
+                    "A": "Both companies want to take it slow.",
+                    "B": "Some complications have surfaced regarding legal issues.",
+                    "C": "The Russian authorities usually take a long time to process a new license.",
+                    "D": "There are many details to be worked out."
+                },
+                "answer": "D"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776181720/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_22.48.09_pt010l.png",
+        "queries": [
+          {
+            "id": 173,
+            "question": "What kind of business is Valance Center?",
+            "options": {
+              "A": "An organic food store",
+              "B": "A conference room",
+              "C": "A playroom",
+              "D": "A fitness club"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 174,
+            "question": "How frequently should membership fees be paid?",
+            "options": {
+              "A": "Once every two weeks",
+              "B": "Once a month",
+              "C": "Once every six months",
+              "D": "Once a year"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 175,
+            "question": "What can new members receive for free?",
+            "options": {
+              "A": "Childcare service",
+              "B": "Personal training",
+              "C": "Swimming classes",
+              "D": "Dance classes"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 176,
+            "question": "How many days they offer a free trial pass?",
+            "options": {
+              "A": "1 day",
+              "B": "7 days",
+              "C": "2 days",
+              "D": "5 days"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776182106/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_22.54.49_sjqpdl.png",
+        "queries": [
+          {
+            "id": 177,
+            "question": "What is the purpose of this document?",
+            "options": {
+              "A": "To explain how to make a reservation for moving",
+              "B": "To outline the services of moving",
+              "C": "To illustrate the problem of using a phone overseas",
+              "D": "To provide a list of travel guideline"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 178,
+            "question": "What is implied about FastnGo service?",
+            "options": {
+              "A": "It is inconvenient to call.",
+              "B": "It gives competitive prices.",
+              "C": "It has an extended warranty.",
+              "D": "It is hard to cancel."
+            },
+            "answer": "B"
+          },
+          {
+            "id": 179,
+            "question": "How can a caller avoid the cancellation fee?",
+            "options": {
+              "A": "By notifying 2 days before the moving date",
+              "B": "By reviewing the page",
+              "C": "By purchasing the insurance",
+              "D": "By paying with a credit card"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 180,
+            "question": "For whom is the document most likely intended?",
+            "options": {
+              "A": "A truck rental customer",
+              "B": "Business movers",
+              "C": "A customer service representative",
+              "D": "FastnGo Marketing Department"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+    
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776180874/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_22.34.12_k85qqi.png",
+        "queries": [
+          {
+            "id": 186,
+            "question": "For whom is Ms. Miller's email intended?",
+            "options": {
+              "A": "A delivery person",
+              "B": "A shipping company executive",
+              "C": "A coworker at her company",
+              "D": "Her department supervisor"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 187,
+            "question": "Why does Mr. Beamer want to change shipping agents?",
+            "options": {
+              "A": "The current firm is unreliable for overseas deliveries.",
+              "B": "Mr. Varela told him about a provider with lower rates.",
+              "C": "His company needs to send urgent shipments.",
+              "D": "Hamilton Express is relocating its facilities overseas."
+            },
+            "answer": "A"
+          },
+          {
+            "id": 188,
+            "question": "What can be inferred from Mr. Varela's comments about the current shipping agent?",
+            "options": {
+              "A": "He concurs with Mr. Reamer's opinion.",
+              "B": "He thinks it is more capable than its rivals.",
+              "C": "He is unaware of recent industry developments.",
+              "D": "He disagrees that the company should change agents."
+            },
+            "answer": "A"
+          },
+          {
+            "id": 189,
+            "question": "Which company will probably have the lowest prices?",
+            "options": {
+              "A": "FMH Airmail",
+              "B": "U.S. Parcels",
+              "C": "Worldwide Delivery, Inc.",
+              "D": "Hamilton Express"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 190,
+            "question": "What does Mr. Varela offer to help with?",
+            "options": {
+              "A": "The creation of a new contract",
+              "B": "Emailing alternative shipping firms",
+              "C": "The reorganization of a department",
+              "D": "Hiring a new shipping manager"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776182689/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.04.16_vxilmz.png",
+        "queries": [
+          {
+            "id": 186,
+            "question": "What kind of company is Bastion, Inc.?",
+            "options": {
+              "A": "A pipe manufacturer",
+              "B": "An oil drilling company",
+              "C": "A steel production plant",
+              "D": "A gas processing facility"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 187,
+            "question": "What is Mr. Young's job?",
+            "options": {
+              "A": "An engineer",
+              "B": "A company manager",
+              "C": "A factory supervisor",
+              "D": "A construction worker"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 188,
+            "question": "What is the purpose of the second email?",
+            "options": {
+              "A": "To request more staff",
+              "B": "To send a design proposal",
+              "C": "To report a working process",
+              "D": "To ask for supplementary supplies"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 189,
+            "question": "When does Mr. Young expect production to be finished?",
+            "options": {
+              "A": "In one month",
+              "B": "In five months",
+              "C": "In ten months",
+              "D": "In eleven months"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 190,
+            "question": "How does Mr. Young satisfy Mr. Turner's request?",
+            "options": {
+              "A": "He suggests a production schedule.",
+              "B": "He sends an analysis of the materials.",
+              "C": "He offers to work at the Chester plant.",
+              "D": "He calculates monthly overhead costs."
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776182926/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.08.25_tzeevx.png",
+        "queries": [
+          {
+            "id": 191,
+            "question": "What is the purpose of this memo?",
+            "options": {
+              "A": "To warn about a recent security risk",
+              "B": "To request ideas regarding a new program",
+              "C": "To ask employees to explain a recent disruption",
+              "D": "To inform about an interruption in computer service"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 192,
+            "question": "Why is the new software being installed?",
+            "options": {
+              "A": "To make up for a failed maintenance session",
+              "B": "To avoid future delays in computer processing",
+              "C": "To set up a more efficient messaging system",
+              "D": "To increase memory in the computer hard drives"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 193,
+            "question": "Who will receive this email?",
+            "options": {
+              "A": "A project coordinator",
+              "B": "A department supervisor",
+              "C": "Health services worker",
+              "D": "A company vice president"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 194,
+            "question": "What is Ms. Copland's complaint?",
+            "options": {
+              "A": "The office will not be open on Friday.",
+              "B": "There are not enough computers for her team.",
+              "C": "The network shutdown was given on short notice.",
+              "D": "The deadline for the presentation was made hastily."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 195,
+            "question": "What is Ms. Copland asking in the email?",
+            "options": {
+              "A": "Change the presentation schedule",
+              "B": "Fix the computer system right away",
+              "C": "Find a solution to the team's problem",
+              "D": "Arrange extra members for the project"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776183094/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.11.11_bp5g18.png",
+        "queries": [
+          {
+            "id": 196,
+            "question": "What is the purpose of Jilles LeDuc's e-mail?",
+            "options": {
+              "A": "To offer free food",
+              "B": "To answer a customer's concerns",
+              "C": "To get customer feedback",
+              "D": "To ask a friend for dinner"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 197,
+            "question": "What did David find the best about the restaurant?",
+            "options": {
+              "A": "The food",
+              "B": "The service",
+              "C": "The ambiance",
+              "D": "The wait"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 198,
+            "question": "How did David feel about his most recent meal at Le Bistro Lamoure?",
+            "options": {
+              "A": "It was quite disappointing.",
+              "B": "It was horrible.",
+              "C": "It was excellent.",
+              "D": "It was pretty much okay."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 199,
+            "question": "How can David take advantage of the complimentary dessert?",
+            "options": {
+              "A": "Make arrangements with the head chef",
+              "B": "Make a reservation",
+              "C": "Reply to the manager's email",
+              "D": "Say hello to the manager when he goes next"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 200,
+            "question": "What has the restaurant done to help their service problem?",
+            "options": {
+              "A": "Expanded the dining room",
+              "B": "Crammed more tables in the dining room",
+              "C": "Made the food faster",
+              "D": "Made the waiters run"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775669085/test04_186-190_xxpeuu.png",
+        "queries": [
+            {
+                "id": 186,
+                "question": "Why was the first letter written?",
+                "options": {
+                    "A": "To inform an existing customer about a new kind of magazine",
+                    "B": "To solicit the magazine to get a new customer",
+                    "C": "To notify a customer of a payment made",
+                    "D": "To remind someone of an upcoming subscription renewal"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 187,
+                "question": "According to the first letter, what is an added advantage of responding within the next month?",
+                "options": {
+                    "A": "A number of issues will be given away at no cost.",
+                    "B": "A savings of 80% off the cover price will be provided.",
+                    "C": "A surprise gift will be sent along with the first issue.",
+                    "D": "An annual package of travel coupons will be mailed."
+                },
+                "answer": "A"
+            },
+            {
+                "id": 188,
+                "question": "How does Ms. Lawrence respond?",
+                "options": {
+                    "A": "She will renew her subscription for another year.",
+                    "B": "She will only renew if she gets additional discounts.",
+                    "C": "She wishes to cancel her subscription.",
+                    "D": "She wants a little time to think about renewing."
+                },
+                "answer": "C"
+            },
+            {
+                "id": 189,
+                "question": "What does Ms. Lawrence mention about the magazine?",
+                "options": {
+                    "A": "She thinks there are too many ads.",
+                    "B": "She will refer it to her co-workers.",
+                    "C": "She is not very happy with the stories.",
+                    "D": "She wants it sent to another office."
+                },
+                "answer": "B"
+            },
+            {
+                "id": 190,
+                "question": "What would Ms. Lawrence have received for subscribing to the magazine if she had renewed her subscription?",
+                "options": {
+                    "A": "Free flight tickets",
+                    "B": "A free subscription for a year",
+                    "C": "A gold pendant",
+                    "D": "A free stay at a hotel"
+                },
+                "answer": "D"
+            }
+        ]
+    }
+]

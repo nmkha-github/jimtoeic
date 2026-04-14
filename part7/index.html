@@ -255,16 +255,18 @@ body{
 <script>
 const el = (id) => document.getElementById(id);
 
-const folders = ["jim"];
+const folders = ["jim", "old_test"];
 
 const folderSelect = el("folderSelect");
 const testSelect = el("testSelect");
 const resetBtn = el("resetBtn");
 const quizContainer = el("quiz-container");
 const hint = el("hint");
+const summaryEl = el("summary");
+const progressFill = el("progressFill");
 
-let questionsData = [];
 let groupsData = [];
+let allQuestionsData = [];
 let userAnswers = {};
 let availableTests = [];
 let currentFolder = "jim";
@@ -276,10 +278,6 @@ function pad2(n) {
 
 function qFile(folder, testNo) {
     return `${folder}/test${pad2(testNo)}.json`;
-}
-
-function gFile(folder, testNo) {
-    return `${folder}/test${pad2(testNo)}_group.json`;
 }
 
 async function fileExists(url) {
@@ -296,8 +294,33 @@ function saveState() {
     localStorage.setItem("toeic_part7_test", currentTest);
 }
 
+function toInt(v) {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : NaN;
+}
+
+function normalizeGroups(data) {
+    if (!Array.isArray(data)) return [];
+
+    return data.map(group => {
+        const queries = Array.isArray(group.queries) ? group.queries : [];
+        return {
+            url: group.url || "",
+            queries: queries
+                .map(q => ({
+                    ...q,
+                    id: toInt(q.id),
+                    answer: String(q.answer ?? ""),
+                }))
+                .filter(q => Number.isFinite(q.id))
+                .sort((a, b) => a.id - b.id)
+        };
+    });
+}
+
 function initFolders() {
     folderSelect.innerHTML = "";
+
     folders.forEach(folder => {
         const opt = document.createElement("option");
         opt.value = folder;
@@ -317,18 +340,16 @@ function initFolders() {
 
 async function scanTests(folder) {
     const tests = [];
-    for (let i = 1; i <= 200; i++) {
-        const [qOk, gOk] = await Promise.all([
-            fileExists(qFile(folder, i)),
-            fileExists(gFile(folder, i))
-        ]);
 
-        if (qOk && gOk) {
+    for (let i = 1; i <= 200; i++) {
+        const ok = await fileExists(qFile(folder, i));
+        if (ok) {
             tests.push(i);
         } else {
             break;
         }
     }
+
     return tests;
 }
 
@@ -367,8 +388,8 @@ async function loadSelectedTest() {
 
     if (!currentFolder || !currentTest) {
         quizContainer.innerHTML = `<div class="loading">Không có test hợp lệ.</div>`;
-        document.getElementById("summary").innerText = "0 / 0 answered";
-        document.getElementById("progressFill").style.width = "0%";
+        summaryEl.innerText = "0 / 0 answered";
+        progressFill.style.width = "0%";
         hint.textContent = "";
         saveState();
         return;
@@ -381,23 +402,22 @@ async function loadSelectedTest() {
     saveState();
 
     try {
-        const [resQ, resG] = await Promise.all([
-            fetch(qFile(currentFolder, currentTest), { cache: "no-store" }),
-            fetch(gFile(currentFolder, currentTest), { cache: "no-store" })
-        ]);
+        const resQ = await fetch(qFile(currentFolder, currentTest), { cache: "no-store" });
 
-        if (!resQ.ok || !resG.ok) {
+        if (!resQ.ok) {
             throw new Error("Không tải được file JSON");
         }
 
-        questionsData = await resQ.json();
-        groupsData = await resG.json();
+        const rawData = await resQ.json();
+        groupsData = normalizeGroups(rawData);
+        allQuestionsData = groupsData.flatMap(g => g.queries || []);
+
         renderQuiz();
     } catch (err) {
         console.error(err);
         quizContainer.innerHTML = `<div class="loading">Không thể tải dữ liệu test${pad2(currentTest)} trong folder "${currentFolder}".</div>`;
-        document.getElementById("summary").innerText = "0 / 0 answered";
-        document.getElementById("progressFill").style.width = "0%";
+        summaryEl.innerText = "0 / 0 answered";
+        progressFill.style.width = "0%";
     }
 }
 
@@ -405,36 +425,37 @@ function renderQuiz() {
     const container = quizContainer;
     container.innerHTML = "";
 
-    const totalQuestions = questionsData.length;
-    document.getElementById("summary").innerText = `0 / ${totalQuestions} answered`;
-    document.getElementById("progressFill").style.width = "0%";
+    const totalQuestions = allQuestionsData.length;
+    summaryEl.innerText = `0 / ${totalQuestions} answered`;
+    progressFill.style.width = "0%";
 
-    groupsData.forEach(group => {
+    groupsData.forEach((group, groupIndex) => {
+        const queries = Array.isArray(group.queries) ? group.queries : [];
+        if (!queries.length) return;
+
         const passageDiv = document.createElement("div");
         passageDiv.className = "passage-group";
 
         const header = document.createElement("div");
         header.className = "passage-header";
-        header.innerText = `Questions ${group.from} - ${group.to}`;
+        header.innerText = `Passage ${groupIndex + 1}`;
         passageDiv.appendChild(header);
 
         const img = document.createElement("img");
         img.className = "passage-image";
-        img.src = group.url;
-        img.alt = `Reading passage ${group.from}-${group.to}`;
+        img.src = group.url || "";
+        img.alt = `Reading passage ${groupIndex + 1}`;
         passageDiv.appendChild(img);
 
-        const groupQuestions = questionsData.filter(q => q.id >= group.from && q.id <= group.to);
-
-        groupQuestions.forEach(q => {
+        queries.forEach(q => {
             const qCard = document.createElement("div");
             qCard.className = "card";
-            qCard.innerHTML = `<div class="q-title">${q.id}. ${q.question}</div>`;
+            qCard.innerHTML = `<div class="q-title">${q.id}. ${q.question ?? ""}</div>`;
 
             const optionsDiv = document.createElement("div");
             optionsDiv.className = "options";
 
-            Object.keys(q.options).forEach(key => {
+            Object.keys(q.options || {}).forEach(key => {
                 const optBtn = document.createElement("div");
                 optBtn.className = "option";
                 optBtn.innerHTML = `
@@ -442,7 +463,7 @@ function renderQuiz() {
                     <div class="opt-text">${q.options[key]}</div>
                 `;
 
-                optBtn.onclick = () => handleSelect(q.id, key, q.answer, optBtn, optionsDiv);
+                optBtn.onclick = () => handleSelect(String(q.id), key, String(q.answer), optBtn, optionsDiv);
                 optionsDiv.appendChild(optBtn);
             });
 
@@ -463,7 +484,7 @@ function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) 
 
     const allOptions = parentEl.querySelectorAll(".option");
     allOptions.forEach(opt => {
-        const label = opt.querySelector(".label").innerText;
+        const label = opt.querySelector(".label")?.innerText;
         if (label === correctKey) {
             opt.classList.add("correct");
         } else if (label === selectedKey && selectedKey !== correctKey) {
@@ -477,26 +498,23 @@ function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) 
 
 function updateProgress() {
     const answeredCount = Object.keys(userAnswers).length;
-    const totalCount = questionsData.length || 0;
+    const totalCount = allQuestionsData.length || 0;
     const percent = totalCount ? (answeredCount / totalCount) * 100 : 0;
 
-    document.getElementById("summary").innerText = `${answeredCount} / ${totalCount} answered`;
-    document.getElementById("progressFill").style.width = `${percent}%`;
+    summaryEl.innerText = `${answeredCount} / ${totalCount} answered`;
+    progressFill.style.width = `${percent}%`;
 }
 
 function resetSelections() {
     userAnswers = {};
     renderQuiz();
-
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 async function refreshTestsAndLoad() {
     currentFolder = folderSelect.value;
-
     availableTests = await scanTests(currentFolder);
     renderTests(availableTests);
-
     await loadSelectedTest();
 }
 

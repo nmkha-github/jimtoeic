@@ -1,0 +1,589 @@
+[
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776183473/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.17.24_mkvhea.png",
+        "queries": [
+          {
+            "id": 153,
+            "question": "What is the coupon for?",
+            "options": {
+              "A": "A grocery store",
+              "B": "A sightseeing trip",
+              "C": "A restaurant",
+              "D": "A golf course"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 154,
+            "question": "What restriction is placed on the coupon?",
+            "options": {
+              "A": "It can be used only on Saturday or Sunday.",
+              "B": "It can be used only at lunchtime.",
+              "C": "It cannot be used before December 31.",
+              "D": "It cannot be used as money."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776181720/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_22.48.09_pt010l.png",
+        "queries": [
+          {
+            "id": 173,
+            "question": "What kind of business is Valance Center?",
+            "options": {
+              "A": "An organic food store",
+              "B": "A conference room",
+              "C": "A playroom",
+              "D": "A fitness club"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 174,
+            "question": "How frequently should membership fees be paid?",
+            "options": {
+              "A": "Once every two weeks",
+              "B": "Once a month",
+              "C": "Once every six months",
+              "D": "Once a year"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 175,
+            "question": "What can new members receive for free?",
+            "options": {
+              "A": "Childcare service",
+              "B": "Personal training",
+              "C": "Swimming classes",
+              "D": "Dance classes"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 176,
+            "question": "How many days they offer a free trial pass?",
+            "options": {
+              "A": "1 day",
+              "B": "7 days",
+              "C": "2 days",
+              "D": "5 days"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776183601/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.19.49_hffnic.png",
+        "queries": [
+          {
+            "id": 159,
+            "question": "How long did Jenny Smith work for Gardner Agency?",
+            "options": {
+              "A": "5 years",
+              "B": "10 years",
+              "C": "20 years",
+              "D": "30 years"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 160,
+            "question": "When will the party be held?",
+            "options": {
+              "A": "In January",
+              "B": "In October",
+              "C": "In November",
+              "D": "In December"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 161,
+            "question": "Who should employees contact if they plan to attend?",
+            "options": {
+              "A": "Jenny Smith",
+              "B": "Jenny Rodriguez",
+              "C": "Gardner Agency",
+              "D": "Victoria Rodriguez"
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776183813/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.23.21_bvqn5f.png",
+        "queries": [
+          {
+            "id": 162,
+            "question": "What problem is mentioned in the memo?",
+            "options": {
+              "A": "A meeting had to be rescheduled.",
+              "B": "A meeting time had to be adjusted.",
+              "C": "Spending had to be reduced.",
+              "D": "A presentation was too long."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 163,
+            "question": "What is Mr. Parker expected to do on Monday?",
+            "options": {
+              "A": "Approve a budget",
+              "B": "Call a supplier",
+              "C": "Attend a theater performance",
+              "D": "Give a speech"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776183951/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.25.40_di8fsf.png",
+        "queries": [
+          {
+            "id": 164,
+            "question": "What is the purpose of this fax?",
+            "options": {
+              "A": "To submit a request for shopping",
+              "B": "To conduct a customer satisfaction survey",
+              "C": "To describe some brochure",
+              "D": "To reply to a letter"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 165,
+            "question": "What does Mr. Gerald Franks request that Mr. Norton Reuben do?",
+            "options": {
+              "A": "Visit Kaylot department store",
+              "B": "Fill out the survey sheet",
+              "C": "Call Kaylot department store",
+              "D": "Confirm receipt of five pages"
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776182106/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_22.54.49_sjqpdl.png",
+        "queries": [
+          {
+            "id": 177,
+            "question": "What is the purpose of this document?",
+            "options": {
+              "A": "To explain how to make a reservation for moving",
+              "B": "To outline the services of moving",
+              "C": "To illustrate the problem of using a phone overseas",
+              "D": "To provide a list of travel guideline"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 178,
+            "question": "What is implied about FastnGo service?",
+            "options": {
+              "A": "It is inconvenient to call.",
+              "B": "It gives competitive prices.",
+              "C": "It has an extended warranty.",
+              "D": "It is hard to cancel."
+            },
+            "answer": "B"
+          },
+          {
+            "id": 179,
+            "question": "How can a caller avoid the cancellation fee?",
+            "options": {
+              "A": "By notifying 2 days before the moving date",
+              "B": "By reviewing the page",
+              "C": "By purchasing the insurance",
+              "D": "By paying with a credit card"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 180,
+            "question": "For whom is the document most likely intended?",
+            "options": {
+              "A": "A truck rental customer",
+              "B": "Business movers",
+              "C": "A customer service representative",
+              "D": "FastnGo Marketing Department"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776184401/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.33.08_q34atf.png",
+        "queries": [
+          {
+            "id": 170,
+            "question": "What is the main purpose of the letter?",
+            "options": {
+              "A": "To inform the company that he has failed to give an advanced notice",
+              "B": "To let an applicant know that the job he for is no longer vacant",
+              "C": "To arrange an interview with an applicant",
+              "D": "To inform resignation"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 171,
+            "question": "When did he have to give the company notice?",
+            "options": {
+              "A": "2 weeks",
+              "B": "3 weeks",
+              "C": "4 weeks",
+              "D": "The last day"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 172,
+            "question": "Why does Mr. Weaver decide to leave the Casa de Franches?",
+            "options": {
+              "A": "To apply for one of the branch offices",
+              "B": "To send in a new cover letter and resume",
+              "C": "To pursue his long-term career goals",
+              "D": "To move to another state"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776184530/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.35.13_znftdl.png",
+        "queries": [
+          {
+            "id": 173,
+            "question": "What is the purpose of the e-mail?",
+            "options": {
+              "A": "To confirm a hotel reservation",
+              "B": "To provide a schedule of events",
+              "C": "To inform employees of an updated policy",
+              "D": "To invite people to a conference"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 174,
+            "question": "What kind of conference is this?",
+            "options": {
+              "A": "An industrial conference",
+              "B": "An academic conference",
+              "C": "A commercial conference",
+              "D": "A religious conference"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 175,
+            "question": "What is going to happen in the conference?",
+            "options": {
+              "A": "A formal speech",
+              "B": "An election of the leader of an organization",
+              "C": "A forum and an exchange of information",
+              "D": "Participants’ registration"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185131/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.44.14_kiwrla.png",
+        "queries": [
+          {
+            "id": 176,
+            "question": "By what time should the car be picked up?",
+            "options": {
+              "A": "10 p.m",
+              "B": "9 p.m",
+              "C": "7 a.m",
+              "D": "10 a.m"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 177,
+            "question": "What is NOT mentioned as a benefit of Rush-Rental?",
+            "options": {
+              "A": "Car upgrades",
+              "B": "Easy to return",
+              "C": "No late charges",
+              "D": "Drop-off service"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185263/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.47.31_my2k6z.png",
+        "queries": [
+          {
+            "id": 178,
+            "question": "Where is this information most likely to be found?",
+            "options": {
+              "A": "In a registration booklet",
+              "B": "In a membership brochure",
+              "C": "In a resort website",
+              "D": "In the resort section of the telephone directory"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 179,
+            "question": "What type of room costs $735 to rent on a weekly basis?",
+            "options": {
+              "A": "The Classic suite",
+              "B": "The Classic",
+              "C": "The Valley suite",
+              "D": "The Apartment"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 180,
+            "question": "What is the late date that the special rates apply?",
+            "options": {
+              "A": "November 1",
+              "B": "September 1",
+              "C": "September 15",
+              "D": "October 2"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185422/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.50.04_vsilyv.png",
+        "queries": [
+          {
+            "id": 181,
+            "question": "According to the list, who works on the eleventh floor?",
+            "options": {
+              "A": "Bill Simpson",
+              "B": "Harry Jackson",
+              "C": "Ben Binchy",
+              "D": "Linda Pearl"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 182,
+            "question": "What does Heather Grey mention in her e-mail?",
+            "options": {
+              "A": "She is in the office Ms. Lee used to be.",
+              "B": "She is meeting many clients.",
+              "C": "She just updated the telephone directory.",
+              "D": "She requested to change her room."
+            },
+            "answer": "A"
+          },
+          {
+            "id": 183,
+            "question": "In the e-mail, the word \"resigned\" in paragraph 1, line 2 is closest in meaning to",
+            "options": {
+              "A": "resumed",
+              "B": "restored",
+              "C": "refurnished",
+              "D": "quit"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 184,
+            "question": "Why is Heather Grey missing so many calls?",
+            "options": {
+              "A": "Her phone has not been connected.",
+              "B": "The employee directory has not been updated.",
+              "C": "She has been busy correcting the employee directory.",
+              "D": "She has been on vacation for a long time."
+            },
+            "answer": "B"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185524/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.51.50_flco8e.png",
+        "queries": [
+          {
+            "id": 186,
+            "question": "What is the main purpose of the advertisement?",
+            "options": {
+              "A": "To explain that belts cannot be discounted",
+              "B": "To get people to join the mailing list",
+              "C": "To give customers a discount coupon",
+              "D": "To reward clients who recently made a purchase"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 187,
+            "question": "Which of the following is NOT true about the situation?",
+            "options": {
+              "A": "Homer's Suit Gallery only sells clothing online.",
+              "B": "They are offering an online discount to some clients.",
+              "C": "The author of the e-mail message bought a suit recently.",
+              "D": "The online discount coupon does not apply to accessories."
+            },
+            "answer": "A"
+          },
+          {
+            "id": 188,
+            "question": "Where did Mr. Nguyen get the coupon?",
+            "options": {
+              "A": "In a magazine",
+              "B": "In a newspaper",
+              "C": "At a store",
+              "D": "On a special page on the website"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 189,
+            "question": "What happened when Mr. Nguyen signed up for the mailing list?",
+            "options": {
+              "A": "He received immediate notification.",
+              "B": "He received nothing from Homer's Suit Gallery.",
+              "C": "He got another 20% off coupon.",
+              "D": "He got a different coupon for savings."
+            },
+            "answer": "B"
+          },
+          {
+            "id": 190,
+            "question": "What is the most logical explanation for Mr. Nguyen's trouble online?",
+            "options": {
+              "A": "The promotional code number must be wrong.",
+              "B": "He did not provide the correct personal information",
+              "C": "He wanted to buy something from the Accessory Department.",
+              "D": "The promotion doesn't begin yet."
+            },
+            "answer": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185797/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.55.05_tfz6jp.png",
+        "queries": [
+          {
+            "id": 191,
+            "question": "How did Ms. Chung get to know about the Odyssey Restaurant?",
+            "options": {
+              "A": "Through a friend",
+              "B": "Through a brochure",
+              "C": "Through a website",
+              "D": "Through a mailing"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 192,
+            "question": "What will happen on October 10?",
+            "options": {
+              "A": "Ms. Chung’s birthday surprise party",
+              "B": "Ms. Chung’s daughter’s restaurant opening",
+              "C": "Ms. Chung’s daughter’s wedding ceremony",
+              "D": "Ms. Chung’s wedding anniversary"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 193,
+            "question": "What will Ms. Chung pay a special fee for?",
+            "options": {
+              "A": "Overdue gift certificate",
+              "B": "Special plate",
+              "C": "The gazebo area",
+              "D": "Surprise party"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 194,
+            "question": "Why is Ms. Chung able to get an additional discount off the total price of her order?",
+            "options": {
+              "A": "All the first clients get a discount.",
+              "B": "She has a discount coupon.",
+              "C": "The restaurant made a mistake on Ms. Chung’s order.",
+              "D": "Ms. Chung’s guests are more than 100 people."
+            },
+            "answer": "D"
+          },
+          {
+            "id": 195,
+            "question": "Why CANNOT Ms. Chung use her discount certificate?",
+            "options": {
+              "A": "The restaurant does not offer a discount certificate.",
+              "B": "It is only valid under Martha Martinez’s name.",
+              "C": "It has expired.",
+              "D": "There are too few guests"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776185937/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-14_lu%CC%81c_23.57.53_fehlzz.png",
+        "queries": [
+          {
+            "id": 196,
+            "question": "According to the advertisement, when is the due date for submitting a completed paper?",
+            "options": {
+              "A": "September 22",
+              "B": "October 22",
+              "C": "November 7",
+              "D": "November 21"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 197,
+            "question": "In the advertisement, the word \"integration\" in paragraph 1, line 4 is closest in meaning to",
+            "options": {
+              "A": "blending",
+              "B": "usage",
+              "C": "justification",
+              "D": "interaction"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 198,
+            "question": "What is the purpose of the advertisement?",
+            "options": {
+              "A": "To notify authors of article acceptance",
+              "B": "To offer subscriptions to a journal",
+              "C": "To invite people to an animation screening",
+              "D": "To encourage people to submit papers for a conference"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 199,
+            "question": "For what purpose does a paper have to be submitted within two weeks after the conference?",
+            "options": {
+              "A": "To be published",
+              "B": "To be reviewed",
+              "C": "To be submitted for another conference",
+              "D": "To be edited"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 200,
+            "question": "What is the purpose of Mr. Sean Kim's e-mail?",
+            "options": {
+              "A": "To solicit a paper",
+              "B": "To subscribe to a journal",
+              "C": "To apply for an animation job",
+              "D": "To inquire about the status of his proposal"
+            },
+            "answer": "D"
+          }
+        ]
+      }
+]

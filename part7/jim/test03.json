@@ -1,530 +1,595 @@
 [
     {
-        "id": "153",
-        "question": "How much would a combo special with Lemon Chicken and Curry Beef cost before tax?",
-        "options": {
-            "A": "$4.25",
-            "B": "$5.25",
-            "C": "$6.25",
-            "D": "$7.25"
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667413/test03_153-154_ix90a1.png",
+        "queries": [
+            {
+                "id": "153",
+                "question": "How much would a combo special with Lemon Chicken and Curry Beef cost before tax?",
+                "options": {
+                    "A": "$4.25",
+                    "B": "$5.25",
+                    "C": "$6.25",
+                    "D": "$7.25"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "154",
+                "question": "What can NOT be inferred from the menu?",
+                "options": {
+                    "A": "A cash payment must be made to get a discount on the daily combo specials.",
+                    "B": "A choice of any one dish on the menu will cost $4.25 plus tax.",
+                    "C": "A delivery charge will be added for orders that add up to a total of less than ten dollars.",
+                    "D": "Several kinds of credit cards are accepted by the restaurant."
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": "154",
-        "question": "What can NOT be inferred from the menu?",
-        "options": {
-            "A": "A cash payment must be made to get a discount on the daily combo specials.",
-            "B": "A choice of any one dish on the menu will cost $4.25 plus tax.",
-            "C": "A delivery charge will be added for orders that add up to a total of less than ten dollars.",
-            "D": "Several kinds of credit cards are accepted by the restaurant."
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667497/test03_155-158_khxykl.png",
+        "queries": [
+            {
+                "id": "155",
+                "question": "Who is the intended audience of this notice?",
+                "options": {
+                    "A": "Bank employees",
+                    "B": "Customers",
+                    "C": "Drivers",
+                    "D": "Security guards"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "156",
+                "question": "What is the purpose of the notice?",
+                "options": {
+                    "A": "To announce the holiday schedule",
+                    "B": "To notify customers of a holiday sale",
+                    "C": "To apologize for a mistake",
+                    "D": "To advertise a new type of service"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "157",
+                "question": "Which of the following services can be performed on the 25th?",
+                "options": {
+                    "A": "Paying utility bills at the teller's window",
+                    "B": "Receiving financial advice from the institution",
+                    "C": "Transferring money by telephone",
+                    "D": "Taking money out of a cash dispenser"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "158",
+                "question": "What will happen to regular payments that fall on the 26th this year?",
+                "options": {
+                    "A": "The payments will have to be mailed out.",
+                    "B": "They won't be taken care of until the 29th.",
+                    "C": "The transactions will occur on that day.",
+                    "D": "They will go out a few days early."
+                },
+                "answer": "D"
+            }
+        ]
     },
     {
-        "id": "155",
-        "question": "Who is the intended audience of this notice?",
-        "options": {
-            "A": "Bank employees",
-            "B": "Customers",
-            "C": "Drivers",
-            "D": "Security guards"
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667559/test03_159-160_mztmto.png",
+        "queries": [
+            {
+                "id": "159",
+                "question": "Which of the following is NOT true about the results of the questionnaire?",
+                "options": {
+                    "A": "Mr. Williams felt that the restaurant was understaffed.",
+                    "B": "Mr. Williams liked the food he had today.",
+                    "C": "Mr. Williams felt that the price was very unreasonable.",
+                    "D": "Mr. Williams thought the menu selection needs were limited."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "160",
+                "question": "What can be implied about Mr. Williams?",
+                "options": {
+                    "A": "He had dinner at the restaurant.",
+                    "B": "He came with several guests.",
+                    "C": "He is a regular customer.",
+                    "D": "He is a very picky person."
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": "156",
-        "question": "What is the purpose of the notice?",
-        "options": {
-            "A": "To announce the holiday schedule",
-            "B": "To notify customers of a holiday sale",
-            "C": "To apologize for a mistake",
-            "D": "To advertise a new type of service"
-        },
-        "answer": "A"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667616/test03_161-164_icivbs.png",
+        "queries": [
+            {
+                "id": "161",
+                "question": "What is the main purpose of this notice?",
+                "options": {
+                    "A": "To announce the passing away of Mr. Michael Gordon",
+                    "B": "To find a missing person",
+                    "C": "To remember a person who did good deeds",
+                    "D": "To inform people of a due date to make claims against a person"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "162",
+                "question": "In which part of the newspaper would this notice be printed?",
+                "options": {
+                    "A": "In the editorial section",
+                    "B": "In the obituary section",
+                    "C": "In the business section",
+                    "D": "In the want ad section"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "163",
+                "question": "Who most likely took out this notice?",
+                "options": {
+                    "A": "Mr. Gordon's family",
+                    "B": "Michael",
+                    "C": "A law firm",
+                    "D": "A bank"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "164",
+                "question": "According to the notice, what is going to occur after December 22?",
+                "options": {
+                    "A": "A funeral will be held in honor of Mr. Gordon.",
+                    "B": "Creditors will get a chance to submit their claims to the debtor.",
+                    "C": "Michael's estate will be distributed among those who made a claim.",
+                    "D": "The appointment of the executors of the will is going to take place."
+                },
+                "answer": "C"
+            }
+        ]
     },
     {
-        "id": "157",
-        "question": "Which of the following services can be performed on the 25th?",
-        "options": {
-            "A": "Paying utility bills at the teller's window",
-            "B": "Receiving financial advice from the institution",
-            "C": "Transferring money by telephone",
-            "D": "Taking money out of a cash dispenser"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667671/test03_165-167_klvqdo.png",
+        "queries": [
+            {
+                "id": "165",
+                "question": "What is NOT stated in the policy?",
+                "options": {
+                    "A": "Goods must be brought back in their original form.",
+                    "B": "The original receipt must accompany the returned item.",
+                    "C": "A time limit is placed on items being returned.",
+                    "D": "A full refund will be provided for all items if returned within 24 hours."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "166",
+                "question": "In which of the following situations would a person have to show photo identification?",
+                "options": {
+                    "A": "When returning items that are valued over $100 before tax",
+                    "B": "If the merchandise was originally bought by someone other than the person returning it",
+                    "C": "In situations where the boxes have been opened and used",
+                    "D": "If a credit card was used when making the purchase"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "167",
+                "question": "According to the policy, how long will it take to get a refund for a purchase made under $100?",
+                "options": {
+                    "A": "It depends on the product purchased.",
+                    "B": "A refund will be provided right away.",
+                    "C": "At least 3 business days",
+                    "D": "24 hours if receipt is provided"
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": "158",
-        "question": "What will happen to regular payments that fall on the 26th this year?",
-        "options": {
-            "A": "The payments will have to be mailed out.",
-            "B": "They won't be taken care of until the 29th.",
-            "C": "The transactions will occur on that day.",
-            "D": "They will go out a few days early."
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667732/test03_168-170_cpidy1.png",
+        "queries": [
+            {
+                "id": "168",
+                "question": "Why was this e-mail written?",
+                "options": {
+                    "A": "To request a shipment",
+                    "B": "To notify someone of an upcoming schedule",
+                    "C": "To send an invitation for a celebration",
+                    "D": "To inquire about a shipment"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "169",
+                "question": "What will happen to an incoming shipment heading to a small town on October 21?",
+                "options": {
+                    "A": "It will be returned to the sender.",
+                    "B": "It will be held until the 30th.",
+                    "C": "It will reach its destination after the 6th of November.",
+                    "D": "It will be delivered the next day."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "170",
+                "question": "When was this e-mail sent?",
+                "options": {
+                    "A": "October 4th",
+                    "B": "October 20th",
+                    "C": "October 30th",
+                    "D": "November 4th"
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": "159",
-        "question": "Which of the following is NOT true about the results of the questionnaire?",
-        "options": {
-            "A": "Mr. Williams felt that the restaurant was understaffed.",
-            "B": "Mr. Williams liked the food he had today.",
-            "C": "Mr. Williams felt that the price was very unreasonable.",
-            "D": "Mr. Williams thought the menu selection needs were limited."
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667792/test03_171-175_jw69kc.png",
+        "queries": [
+            {
+                "id": "171",
+                "question": "What is true about Gaz International?",
+                "options": {
+                    "A": "It is a Russian-owned company.",
+                    "B": "It took control of another company.",
+                    "C": "Its stock price has slipped due to a false rumor.",
+                    "D": "It was involved in a multi-million dollar transaction recently."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "172",
+                "question": "Which of the following will be the result of a deal mentioned in the article?",
+                "options": {
+                    "A": "Gaz International will become the leading company in its field.",
+                    "B": "Yevgeni Star seems to have gotten the better end of the deal.",
+                    "C": "Gaz International will now focus on establishing its business in new areas.",
+                    "D": "Yevgeni Star will distribute shares to its top management staff."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "173",
+                "question": "Who is Mr. Fritz Faschier?",
+                "options": {
+                    "A": "A reporter for a local newspaper",
+                    "B": "The president of Gaz International",
+                    "C": "A spokesperson for Yevgeni Star",
+                    "D": "A Russian authority"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "174",
+                "question": "According to the article, when will the deal be finalized?",
+                "options": {
+                    "A": "In 2015",
+                    "B": "In five years",
+                    "C": "Within the following weeks",
+                    "D": "By early next year"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "175",
+                "question": "What is the main cause of the delay in closing the deal?",
+                "options": {
+                    "A": "Both companies want to take it slow.",
+                    "B": "Some complications have surfaced regarding legal issues.",
+                    "C": "The Russian authorities usually take a long time to process a new license.",
+                    "D": "There are many details to be worked out."
+                },
+                "answer": "D"
+            }
+        ]
     },
     {
-        "id": "160",
-        "question": "What can be implied about Mr. Williams?",
-        "options": {
-            "A": "He had dinner at the restaurant.",
-            "B": "He came with several guests.",
-            "C": "He is a regular customer.",
-            "D": "He is a very picky person."
-        },
-        "answer": "A"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667857/test03_176-178_oxrgzo.png",
+        "queries": [
+            {
+                "id": "176",
+                "question": "Why did Julie write this letter?",
+                "options": {
+                    "A": "To place an order for some ink cartridges",
+                    "B": "To voice her disappointment regarding the store's rules",
+                    "C": "To find out if the store carries a specific type of cartridge",
+                    "D": "To get the printer serviced by a technician"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "177",
+                "question": "Why was Ms. Nixon's request turned down by the store?",
+                "options": {
+                    "A": "The goods were brought back too late.",
+                    "B": "The boxes of the items were opened.",
+                    "C": "The proof of purchase could not be provided.",
+                    "D": "The store has a no-refund policy."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "178",
+                "question": "Why were the cartridges returned to the store?",
+                "options": {
+                    "A": "They were not the right model.",
+                    "B": "They were expired.",
+                    "C": "They were damaged.",
+                    "D": "They were the wrong color."
+                },
+                "answer": "B"
+            }
+        ]
     },
     {
-        "id": "161",
-        "question": "What is the main purpose of this notice?",
-        "options": {
-            "A": "To announce the passing away of Mr. Michael Gordon",
-            "B": "To find a missing person",
-            "C": "To remember a person who did good deeds",
-            "D": "To inform people of a due date to make claims against a person"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667987/test03_179-180_qgb4zw.png",
+        "queries": [
+            {
+                "id": "179",
+                "question": "What is being asked of those who do not want their bedsheets changed to do?",
+                "options": {
+                    "A": "Call the management staff",
+                    "B": "Talk to the hotel maid",
+                    "C": "Leave a do-not-disturb sign on the door",
+                    "D": "Place the card on the bed"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "180",
+                "question": "What can be inferred about the hotel?",
+                "options": {
+                    "A": "It is trying to do its part to help a good cause.",
+                    "B": "It is trying to cut down on its cleaning costs.",
+                    "C": "It is short of cleaning staff.",
+                    "D": "It only uses environment-friendly products."
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": "162",
-        "question": "In which part of the newspaper would this notice be printed?",
-        "options": {
-            "A": "In the editorial section",
-            "B": "In the obituary section",
-            "C": "In the business section",
-            "D": "In the want ad section"
-        },
-        "answer": "B"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775668051/test03_181-185_y0ct1q.png",
+        "queries": [
+            {
+                "id": "181",
+                "question": "What kind of business is being advertised?",
+                "options": {
+                    "A": "An insurance company",
+                    "B": "An equipment rental company",
+                    "C": "A moving company",
+                    "D": "A web design company"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "182",
+                "question": "Which of the following does NOT describe Door2Door?",
+                "options": {
+                    "A": "It uses the best type of equipment.",
+                    "B": "It is internationally connected.",
+                    "C": "It has experienced workers.",
+                    "D": "It is a family-operated business."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "183",
+                "question": "What is the purpose of the letter?",
+                "options": {
+                    "A": "To apply to an overseas company",
+                    "B": "To seek information about some musical equipment",
+                    "C": "To get a cost assessment of some personal possessions",
+                    "D": "To arrange an appointment to get a consultation"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "184",
+                "question": "What is Mr. Steddon scheduled to do early next year?",
+                "options": {
+                    "A": "Take French lessons",
+                    "B": "Meet with an overseas client",
+                    "C": "Work at a consulting firm",
+                    "D": "Teach in a foreign country"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "185",
+                "question": "For which of the following reasons will Door2Door be able to help Robert?",
+                "options": {
+                    "A": "Door2Door has a business relationship in the country Robert will be moving to.",
+                    "B": "Door2Door has a special discounted package that Robert can take advantage of.",
+                    "C": "Door2Door specializes in storing valuable goods at a reasonable cost.",
+                    "D": "Door2Door has offices all around the country especially in the city that Robert lives."
+                },
+                "answer": "A"
+            }
+        ]
     },
     {
-        "id": "163",
-        "question": "Who most likely took out this notice?",
-        "options": {
-            "A": "Mr. Gordon's family",
-            "B": "Michael",
-            "C": "A law firm",
-            "D": "A bank"
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775668120/test03_186-190_elwzui.png",
+        "queries": [
+            {
+                "id": "186",
+                "question": "What is the purpose of the first letter?",
+                "options": {
+                    "A": "To point out a mistake on an invoice",
+                    "B": "To complain about a late delivery",
+                    "C": "To show appreciation for good service",
+                    "D": "To inquire about a product on sale"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "187",
+                "question": "What is suggested about Ms. Jones?",
+                "options": {
+                    "A": "She has never shopped at the supermarket before.",
+                    "B": "She has had problems with her bill before.",
+                    "C": "She only has a limited income.",
+                    "D": "She will never shop at the store again."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "188",
+                "question": "What caused the problem to occur?",
+                "options": {
+                    "A": "An accounting error by one of the staff members",
+                    "B": "A malfunction in the computer program",
+                    "C": "A delivery mix-up at the warehouse",
+                    "D": "A shortage of staff in the Accounting Department"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "189",
+                "question": "When should Ms. Jones contact Julie London?",
+                "options": {
+                    "A": "If the problem persists",
+                    "B": "As soon as the next bill arrives",
+                    "C": "If she is curious to know the cause of the problem",
+                    "D": "If she wants the correct statement right away"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "190",
+                "question": "How many days after the store sent out its bill did Ms. Jones write back?",
+                "options": {
+                    "A": "2 days",
+                    "B": "3 days",
+                    "C": "4 days",
+                    "D": "5 days"
+                },
+                "answer": "D"
+            }
+        ]
     },
     {
-        "id": "164",
-        "question": "According to the notice, what is going to occur after December 22?",
-        "options": {
-            "A": "A funeral will be held in honor of Mr. Gordon.",
-            "B": "Creditors will get a chance to submit their claims to the debtor.",
-            "C": "Michael's estate will be distributed among those who made a claim.",
-            "D": "The appointment of the executors of the will is going to take place."
-        },
-        "answer": "C"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775668154/test03_191-195_elrrml.png",
+        "queries": [
+            {
+                "id": "191",
+                "question": "What is an attractive feature being offered?",
+                "options": {
+                    "A": "All new customers who sign up for a year will receive a new phone as a gift.",
+                    "B": "The new service allows a year's worth of overseas calls for free.",
+                    "C": "The rates for international calls have been reduced by 59% for everyone.",
+                    "D": "The basic monthly charge has been deleted from everyone's bill altogether."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "192",
+                "question": "How can an interested person become eligible for this special offer?",
+                "options": {
+                    "A": "By signing up for a new service",
+                    "B": "By purchasing a phone",
+                    "C": "By having used the service for one year",
+                    "D": "By making a certain number of international calls"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "193",
+                "question": "What can be inferred from the second ad?",
+                "options": {
+                    "A": "There was an explosion of interest from the first ad.",
+                    "B": "The phone company spent a lot of money on marketing.",
+                    "C": "The first ad did not go as well as they had hoped.",
+                    "D": "The existing customers are not happy with the offer."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "194",
+                "question": "What is the main reason for the offer being extended?",
+                "options": {
+                    "A": "The company wants to provide an opportunity to more of its faithful customers.",
+                    "B": "The company felt that the original offer period was too short.",
+                    "C": "The company wants to improve its image by prolonging the attention they are getting.",
+                    "D": "The company is afraid that their sales might drop if the offer ends."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "195",
+                "question": "How many customers will get the free gift?",
+                "options": {
+                    "A": "1,000",
+                    "B": "2,000",
+                    "C": "3,000",
+                    "D": "4,000"
+                },
+                "answer": "D"
+            }
+        ]
     },
     {
-        "id": "165",
-        "question": "What is NOT stated in the policy?",
-        "options": {
-            "A": "Goods must be brought back in their original form.",
-            "B": "The original receipt must accompany the returned item.",
-            "C": "A time limit is placed on items being returned.",
-            "D": "A full refund will be provided for all items if returned within 24 hours."
-        },
-        "answer": "D"
-    },
-    {
-        "id": "166",
-        "question": "In which of the following situations would a person have to show photo identification?",
-        "options": {
-            "A": "When returning items that are valued over $100 before tax",
-            "B": "If the merchandise was originally bought by someone other than the person returning it",
-            "C": "In situations where the boxes have been opened and used",
-            "D": "If a credit card was used when making the purchase"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "167",
-        "question": "According to the policy, how long will it take to get a refund for a purchase made under $100?",
-        "options": {
-            "A": "It depends on the product purchased.",
-            "B": "A refund will be provided right away.",
-            "C": "At least 3 business days",
-            "D": "24 hours if receipt is provided"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "168",
-        "question": "Why was this e-mail written?",
-        "options": {
-            "A": "To request a shipment",
-            "B": "To notify someone of an upcoming schedule",
-            "C": "To send an invitation for a celebration",
-            "D": "To inquire about a shipment"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "169",
-        "question": "What will happen to an incoming shipment heading to a small town on October 21?",
-        "options": {
-            "A": "It will be returned to the sender.",
-            "B": "It will be held until the 30th.",
-            "C": "It will reach its destination after the 6th of November.",
-            "D": "It will be delivered the next day."
-        },
-        "answer": "C"
-    },
-    {
-        "id": "170",
-        "question": "When was this e-mail sent?",
-        "options": {
-            "A": "October 4th",
-            "B": "October 20th",
-            "C": "October 30th",
-            "D": "November 4th"
-        },
-        "answer": "A"
-    },
-    {
-        "id": "171",
-        "question": "What is true about Gaz International?",
-        "options": {
-            "A": "It is a Russian-owned company.",
-            "B": "It took control of another company.",
-            "C": "Its stock price has slipped due to a false rumor.",
-            "D": "It was involved in a multi-million dollar transaction recently."
-        },
-        "answer": "D"
-    },
-    {
-        "id": "172",
-        "question": "Which of the following will be the result of a deal mentioned in the article?",
-        "options": {
-            "A": "Gaz International will become the leading company in its field.",
-            "B": "Yevgeni Star seems to have gotten the better end of the deal.",
-            "C": "Gaz International will now focus on establishing its business in new areas.",
-            "D": "Yevgeni Star will distribute shares to its top management staff."
-        },
-        "answer": "C"
-    },
-    {
-        "id": "173",
-        "question": "Who is Mr. Fritz Faschier?",
-        "options": {
-            "A": "A reporter for a local newspaper",
-            "B": "The president of Gaz International",
-            "C": "A spokesperson for Yevgeni Star",
-            "D": "A Russian authority"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "174",
-        "question": "According to the article, when will the deal be finalized?",
-        "options": {
-            "A": "In 2015",
-            "B": "In five years",
-            "C": "Within the following weeks",
-            "D": "By early next year"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "175",
-        "question": "What is the main cause of the delay in closing the deal?",
-        "options": {
-            "A": "Both companies want to take it slow.",
-            "B": "Some complications have surfaced regarding legal issues.",
-            "C": "The Russian authorities usually take a long time to process a new license.",
-            "D": "There are many details to be worked out."
-        },
-        "answer": "D"
-    },
-    {
-        "id": "176",
-        "question": "Why did Julie write this letter?",
-        "options": {
-            "A": "To place an order for some ink cartridges",
-            "B": "To voice her disappointment regarding the store's rules",
-            "C": "To find out if the store carries a specific type of cartridge",
-            "D": "To get the printer serviced by a technician"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "177",
-        "question": "Why was Ms. Nixon's request turned down by the store?",
-        "options": {
-            "A": "The goods were brought back too late.",
-            "B": "The boxes of the items were opened.",
-            "C": "The proof of purchase could not be provided.",
-            "D": "The store has a no-refund policy."
-        },
-        "answer": "C"
-    },
-    {
-        "id": "178",
-        "question": "Why were the cartridges returned to the store?",
-        "options": {
-            "A": "They were not the right model.",
-            "B": "They were expired.",
-            "C": "They were damaged.",
-            "D": "They were the wrong color."
-        },
-        "answer": "B"
-    },
-    {
-        "id": "179",
-        "question": "What is being asked of those who do not want their bedsheets changed to do?",
-        "options": {
-            "A": "Call the management staff",
-            "B": "Talk to the hotel maid",
-            "C": "Leave a do-not-disturb sign on the door",
-            "D": "Place the card on the bed"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "180",
-        "question": "What can be inferred about the hotel?",
-        "options": {
-            "A": "It is trying to do its part to help a good cause.",
-            "B": "It is trying to cut down on its cleaning costs.",
-            "C": "It is short of cleaning staff.",
-            "D": "It only uses environment-friendly products."
-        },
-        "answer": "A"
-    },
-    {
-        "id": "181",
-        "question": "What kind of business is being advertised?",
-        "options": {
-            "A": "An insurance company",
-            "B": "An equipment rental company",
-            "C": "A moving company",
-            "D": "A web design company"
-        },
-        "answer": "C"
-    },
-    {
-        "id": "182",
-        "question": "Which of the following does NOT describe Door2Door?",
-        "options": {
-            "A": "It uses the best type of equipment.",
-            "B": "It is internationally connected.",
-            "C": "It has experienced workers.",
-            "D": "It is a family-operated business."
-        },
-        "answer": "D"
-    },
-    {
-        "id": "183",
-        "question": "What is the purpose of the letter?",
-        "options": {
-            "A": "To apply to an overseas company",
-            "B": "To seek information about some musical equipment",
-            "C": "To get a cost assessment of some personal possessions",
-            "D": "To arrange an appointment to get a consultation"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "184",
-        "question": "What is Mr. Steddon scheduled to do early next year?",
-        "options": {
-            "A": "Take French lessons",
-            "B": "Meet with an overseas client",
-            "C": "Work at a consulting firm",
-            "D": "Teach in a foreign country"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "185",
-        "question": "For which of the following reasons will Door2Door be able to help Robert?",
-        "options": {
-            "A": "Door2Door has a business relationship in the country Robert will be moving to.",
-            "B": "Door2Door has a special discounted package that Robert can take advantage of.",
-            "C": "Door2Door specializes in storing valuable goods at a reasonable cost.",
-            "D": "Door2Door has offices all around the country especially in the city that Robert lives."
-        },
-        "answer": "A"
-    },
-    {
-        "id": "186",
-        "question": "What is the purpose of the first letter?",
-        "options": {
-            "A": "To point out a mistake on an invoice",
-            "B": "To complain about a late delivery",
-            "C": "To show appreciation for good service",
-            "D": "To inquire about a product on sale"
-        },
-        "answer": "A"
-    },
-    {
-        "id": "187",
-        "question": "What is suggested about Ms. Jones?",
-        "options": {
-            "A": "She has never shopped at the supermarket before.",
-            "B": "She has had problems with her bill before.",
-            "C": "She only has a limited income.",
-            "D": "She will never shop at the store again."
-        },
-        "answer": "C"
-    },
-    {
-        "id": "188",
-        "question": "What caused the problem to occur?",
-        "options": {
-            "A": "An accounting error by one of the staff members",
-            "B": "A malfunction in the computer program",
-            "C": "A delivery mix-up at the warehouse",
-            "D": "A shortage of staff in the Accounting Department"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "189",
-        "question": "When should Ms. Jones contact Julie London?",
-        "options": {
-            "A": "If the problem persists",
-            "B": "As soon as the next bill arrives",
-            "C": "If she is curious to know the cause of the problem",
-            "D": "If she wants the correct statement right away"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "190",
-        "question": "How many days after the store sent out its bill did Ms. Jones write back?",
-        "options": {
-            "A": "2 days",
-            "B": "3 days",
-            "C": "4 days",
-            "D": "5 days"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "191",
-        "question": "What is an attractive feature being offered?",
-        "options": {
-            "A": "All new customers who sign up for a year will receive a new phone as a gift.",
-            "B": "The new service allows a year's worth of overseas calls for free.",
-            "C": "The rates for international calls have been reduced by 59% for everyone.",
-            "D": "The basic monthly charge has been deleted from everyone's bill altogether."
-        },
-        "answer": "B"
-    },
-    {
-        "id": "192",
-        "question": "How can an interested person become eligible for this special offer?",
-        "options": {
-            "A": "By signing up for a new service",
-            "B": "By purchasing a phone",
-            "C": "By having used the service for one year",
-            "D": "By making a certain number of international calls"
-        },
-        "answer": "A"
-    },
-    {
-        "id": "193",
-        "question": "What can be inferred from the second ad?",
-        "options": {
-            "A": "There was an explosion of interest from the first ad.",
-            "B": "The phone company spent a lot of money on marketing.",
-            "C": "The first ad did not go as well as they had hoped.",
-            "D": "The existing customers are not happy with the offer."
-        },
-        "answer": "A"
-    },
-    {
-        "id": "194",
-        "question": "What is the main reason for the offer being extended?",
-        "options": {
-            "A": "The company wants to provide an opportunity to more of its faithful customers.",
-            "B": "The company felt that the original offer period was too short.",
-            "C": "The company wants to improve its image by prolonging the attention they are getting.",
-            "D": "The company is afraid that their sales might drop if the offer ends."
-        },
-        "answer": "A"
-    },
-    {
-        "id": "195",
-        "question": "How many customers will get the free gift?",
-        "options": {
-            "A": "1,000",
-            "B": "2,000",
-            "C": "3,000",
-            "D": "4,000"
-        },
-        "answer": "D"
-    },
-    {
-        "id": "196",
-        "question": "Which of the following is being sold due to the owner moving overseas?",
-        "options": {
-            "A": "A woman's fur coat",
-            "B": "A wedding dress",
-            "C": "Bedroom furniture",
-            "D": "Used books"
-        },
-        "answer": "C"
-    },
-    {
-        "id": "197",
-        "question": "What do the ads have in common?",
-        "options": {
-            "A": "All of them sell second-hand items.",
-            "B": "All of them offer free delivery.",
-            "C": "All of them have contact numbers.",
-            "D": "All of them are priced under $500."
-        },
-        "answer": "C"
-    },
-    {
-        "id": "198",
-        "question": "Where most likely is the advertisement located?",
-        "options": {
-            "A": "In a magazine",
-            "B": "In a newspaper",
-            "C": "In a book",
-            "D": "In a brochure"
-        },
-        "answer": "B"
-    },
-    {
-        "id": "199",
-        "question": "Which of the following items is NOT sold online?",
-        "options": {
-            "A": "Miniature cars",
-            "B": "Teddy bears",
-            "C": "Rings",
-            "D": "Pastels"
-        },
-        "answer": "C"
-    },
-    {
-        "id": "200",
-        "question": "For whom will the free delivery NOT apply?",
-        "options": {
-            "A": "Those who buy items worth a certain amount of money",
-            "B": "Those who live within a certain area",
-            "C": "Those who make purchases within a given time",
-            "D": "Those who submit vouchers offered in the ad"
-        },
-        "answer": "D"
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775668253/test03_196-200_qb11am.png",
+        "queries": [
+            {
+                "id": "196",
+                "question": "Which of the following is being sold due to the owner moving overseas?",
+                "options": {
+                    "A": "A woman's fur coat",
+                    "B": "A wedding dress",
+                    "C": "Bedroom furniture",
+                    "D": "Used books"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "197",
+                "question": "What do the ads have in common?",
+                "options": {
+                    "A": "All of them sell second-hand items.",
+                    "B": "All of them offer free delivery.",
+                    "C": "All of them have contact numbers.",
+                    "D": "All of them are priced under $500."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "198",
+                "question": "Where most likely is the advertisement located?",
+                "options": {
+                    "A": "In a magazine",
+                    "B": "In a newspaper",
+                    "C": "In a book",
+                    "D": "In a brochure"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "199",
+                "question": "Which of the following items is NOT sold online?",
+                "options": {
+                    "A": "Miniature cars",
+                    "B": "Teddy bears",
+                    "C": "Rings",
+                    "D": "Pastels"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "200",
+                "question": "For whom will the free delivery NOT apply?",
+                "options": {
+                    "A": "Those who buy items worth a certain amount of money",
+                    "B": "Those who live within a certain area",
+                    "C": "Those who make purchases within a given time",
+                    "D": "Those who submit vouchers offered in the ad"
+                },
+                "answer": "D"
+            }
+        ]
     }
 ]
