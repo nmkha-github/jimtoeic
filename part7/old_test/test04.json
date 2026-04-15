@@ -417,5 +417,65 @@
                 "answer": "A"
             }
         ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775752577/test07_186-190_qih1ux.png",
+        "queries": [
+            {
+                "id": 186,
+                "question": "Which of the following is NOT mentioned in the advertisement?",
+                "options": {
+                    "A": "The description of the items on sale",
+                    "B": "The beginning date of the sales period",
+                    "C": "The discounts on the items",
+                    "D": "The name of the store"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 187,
+                "question": "According to the ad, how much would it cost to purchase a 4-man tent and a sleeping bag?",
+                "options": {
+                    "A": "$130",
+                    "B": "$150",
+                    "C": "$238",
+                    "D": "$285"
+                },
+                "answer": "C"
+            },
+            {
+                "id": 188,
+                "question": "What is the purpose of the letter?",
+                "options": {
+                    "A": "To clarify a misprint in an ad",
+                    "B": "To make a complaint about a defective item",
+                    "C": "To ask for a refund for a product purchased",
+                    "D": "To accuse the store of false advertising"
+                },
+                "answer": "D"
+            },
+            {
+                "id": 189,
+                "question": "In the letter, the word \"attached\" in paragraph 1, line 2 is closest in meaning to",
+                "options": {
+                    "A": "fastened",
+                    "B": "included",
+                    "C": "restrained",
+                    "D": "disposed"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 190,
+                "question": "Who did Mr. Wilkinson write the letter to?",
+                "options": {
+                    "A": "The manager of the Irvine store",
+                    "B": "The store clerk he spoke with",
+                    "C": "The main office of the store",
+                    "D": "The advertising division of the newspaper"
+                },
+                "answer": "C"
+            }
+        ]
     }
 ]
