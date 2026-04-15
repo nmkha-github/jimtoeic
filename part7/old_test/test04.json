@@ -1,0 +1,361 @@
+[
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775667792/test03_171-175_jw69kc.png",
+        "queries": [
+            {
+                "id": "171",
+                "question": "What is true about Gaz International?",
+                "options": {
+                    "A": "It is a Russian-owned company.",
+                    "B": "It took control of another company.",
+                    "C": "Its stock price has slipped due to a false rumor.",
+                    "D": "It was involved in a multi-million dollar transaction recently."
+                },
+                "answer": "D"
+            },
+            {
+                "id": "172",
+                "question": "Which of the following will be the result of a deal mentioned in the article?",
+                "options": {
+                    "A": "Gaz International will become the leading company in its field.",
+                    "B": "Yevgeni Star seems to have gotten the better end of the deal.",
+                    "C": "Gaz International will now focus on establishing its business in new areas.",
+                    "D": "Yevgeni Star will distribute shares to its top management staff."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "173",
+                "question": "Who is Mr. Fritz Faschier?",
+                "options": {
+                    "A": "A reporter for a local newspaper",
+                    "B": "The president of Gaz International",
+                    "C": "A spokesperson for Yevgeni Star",
+                    "D": "A Russian authority"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "174",
+                "question": "According to the article, when will the deal be finalized?",
+                "options": {
+                    "A": "In 2015",
+                    "B": "In five years",
+                    "C": "Within the following weeks",
+                    "D": "By early next year"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "175",
+                "question": "What is the main cause of the delay in closing the deal?",
+                "options": {
+                    "A": "Both companies want to take it slow.",
+                    "B": "Some complications have surfaced regarding legal issues.",
+                    "C": "The Russian authorities usually take a long time to process a new license.",
+                    "D": "There are many details to be worked out."
+                },
+                "answer": "D"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775750993/test06_161-164_kcs5bo.png",
+        "queries": [
+            {
+                "id": "161",
+                "question": "What is the purpose of the announcement?",
+                "options": {
+                    "A": "To restrict unnecessary staff members from visiting the work area",
+                    "B": "To provide a timetable for some office renovation work",
+                    "C": "To thank employees for their support in the work",
+                    "D": "To prepare for an unexpected shipment delay"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "162",
+                "question": "Where will employees on the ground floor likely be on March 15?",
+                "options": {
+                    "A": "The first floor",
+                    "B": "The second floor",
+                    "C": "The third floor",
+                    "D": "The fourth floor"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "163",
+                "question": "The word \"urge\" in paragraph 2, line 2 is closest in meaning to",
+                "options": {
+                    "A": "influence",
+                    "B": "encourage",
+                    "C": "support",
+                    "D": "command"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "164",
+                "question": "During which period will the employees on the fourth floor not be affected?",
+                "options": {
+                    "A": "April 11-20",
+                    "B": "April 21-30",
+                    "C": "May 1-9",
+                    "D": "May 10-19"
+                },
+                "answer": "A"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775751073/test06_168-170_j1zvcc.png",
+        "queries": [
+            {
+                "id": "168",
+                "question": "What is being reported?",
+                "options": {
+                    "A": "The slow rise of the desktop division to the top of its field",
+                    "B": "The listing of a computer company on the stock market",
+                    "C": "The new spending budget for GEM Computer's R&D Department",
+                    "D": "The selling of a struggling division of GEM Computers"
+                },
+                "answer": "D"
+            },
+            {
+                "id": "169",
+                "question": "Why did GEM Computers make its decision to make the move?",
+                "options": {
+                    "A": "Electronica made an offer they couldn't refuse.",
+                    "B": "The company was on the verge of bankruptcy.",
+                    "C": "The division was not making enough profits.",
+                    "D": "The demand for computer desktops was low."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "170",
+                "question": "How is the news being interpreted by the market?",
+                "options": {
+                    "A": "GEM will soon become obsolete.",
+                    "B": "GEM got the best of the deal.",
+                    "C": "Electronica will start making a lot of money.",
+                    "D": "The desktop division will receive more funds."
+                },
+                "answer": "B"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775752120/test07_164-168_zotoio.png",
+        "queries": [
+            {
+                "id": 164,
+                "question": "Who is the recipient of this delivery?",
+                "options": {
+                    "A": "Mr. Mitchell",
+                    "B": "Mr. Lee",
+                    "C": "Mr. Chow",
+                    "D": "Mr. Mills"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 165,
+                "question": "How should the delivery be handled if it does not reach the recipient?",
+                "options": {
+                    "A": "Return it to the sender right away",
+                    "B": "Resend it to an alternate address",
+                    "C": "Keep it at the post office for safekeeping",
+                    "D": "Dispose of it after 30 days"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 166,
+                "question": "Which of the following information is NOT in the document?",
+                "options": {
+                    "A": "The shipping cost",
+                    "B": "The delivery date",
+                    "C": "The number of items",
+                    "D": "The sender's contact number"
+                },
+                "answer": "D"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775751773/test07_153-154_q4gjmq.png",
+        "queries": [
+            {
+                "id": 153,
+                "question": "What is suggested in the advertisement?",
+                "options": {
+                    "A": "The store will be celebrating its third year of business.",
+                    "B": "The price of items in the store will be slashed roughly by one third.",
+                    "C": "The sale period will last for two months.",
+                    "D": "The discounts will only be available to premier members."
+                },
+                "answer": "B"
+            },
+            {
+                "id": 154,
+                "question": "How can a customer receive the largest discount?",
+                "options": {
+                    "A": "By coming in early to the store",
+                    "B": "By purchasing two or more items",
+                    "C": "By signing up for a special membership card",
+                    "D": "By becoming a regular customer"
+                },
+                "answer": "C"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776269228/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-15_lu%CC%81c_23.06.23_ig2qcg.png",
+        "queries": [
+          {
+            "id": 163,
+            "question": "What problem is mentioned in the memo?",
+            "options": {
+              "A": "A meeting had to be rescheduled.",
+              "B": "A conference room is unavailable.",
+              "C": "Spending had to be reduced.",
+              "D": "Some money was lost."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 164,
+            "question": "What is Renée Walker expected to do on Friday?",
+            "options": {
+              "A": "Approve a budget",
+              "B": "Order equipment",
+              "C": "Attend a theater performance",
+              "D": "Plan a theater schedule"
+            },
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775751563/test06_191-195_w7xd2k.png",
+        "queries": [
+            {
+                "id": "191",
+                "question": "How much will Ms. Parker pay for domestic long distance calls?",
+                "options": {
+                    "A": "$0.00",
+                    "B": "$8.55",
+                    "C": "$15.60",
+                    "D": "$24.15"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "192",
+                "question": "What does the phone bill imply?",
+                "options": {
+                    "A": "Ms. Parker makes most of her calls from her cell phone.",
+                    "B": "The long distance calls are cheaper on the weekends.",
+                    "C": "There is a fixed rate on the telephone bill every month.",
+                    "D": "Angelina spends a lot of time surfing the Internet."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "193",
+                "question": "Which of the following service will NOT be available in July?",
+                "options": {
+                    "A": "Faster Internet connection",
+                    "B": "Speedier international calls",
+                    "C": "Quicker technical service",
+                    "D": "Availability of billing statements"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "194",
+                "question": "Starting in July, from which service will the users benefit?",
+                "options": {
+                    "A": "International calls",
+                    "B": "Domestic calls",
+                    "C": "Internet access",
+                    "D": "Basic subscription"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "195",
+                "question": "Looking at the telephone bill, which service will likely affect Ms. Parker the least in July?",
+                "options": {
+                    "A": "Internet access",
+                    "B": "International phone calls",
+                    "C": "Domestic calls to cell phones",
+                    "D": "Basic monthly fee"
+                },
+                "answer": "C"
+            }
+        ]
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776271343/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-15_lu%CC%81c_23.41.15_mqgn7g.png",
+        "queries": [
+          {
+            "id": 186,
+            "question": "According to the weather forecast in the first article, what is true?",
+            "options": {
+              "A": "The city would go through unprecedented temperatures.",
+              "B": "The rainstorm would begin on Thursday morning.",
+              "C": "The weather would turn sunny as soon as the rain stopped.",
+              "D": "The rain would last for the whole month."
+            },
+            "answer": "B"
+          },
+          {
+            "id": 187,
+            "question": "In the second article, what problem did Wasniak’s Parks and Recreation Department experience?",
+            "options": {
+              "A": "It couldn’t get enough funding from the city government.",
+              "B": "Its regional parking lots were flooded by rain.",
+              "C": "It had to cancel all of its scheduled events.",
+              "D": "Its operations director was demoted."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 188,
+            "question": "Why is August an important month for the Parks and Recreation Department?",
+            "options": {
+              "A": "It posts its yearly schedule of events.",
+              "B": "It postpones and cancels many events during that month.",
+              "C": "It generates a good portion of their yearly revenue.",
+              "D": "It provides the best weather for plant growth."
+            },
+            "answer": "C"
+          },
+          {
+            "id": 189,
+            "question": "In the second article, the word “maintenance” in paragraph 2, line 3 is closest in meaning to",
+            "options": {
+              "A": "consistency.",
+              "B": "upkeep",
+              "C": "defense",
+              "D": "declaration"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 190,
+            "question": "What were the forecasters correct about?",
+            "options": {
+              "A": "The sky was overcast.",
+              "B": "The temperature",
+              "C": "The rain",
+              "D": "The blustery wind"
+            },
+            "answer": "B"
+          }
+        ]
+      }
+]
