@@ -591,5 +591,65 @@
             "answer": "B"
           }
         ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776353260/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-16_lu%CC%81c_22.22.35_sdqstc.png",
+        "queries": [
+          {
+            "id": 186,
+            "question": "What is the purpose of this letter?",
+            "options": {
+              "A": "To ask for a replacement part for the bookshelf",
+              "B": "To request missing information",
+              "C": "To arrange for the shipping of more items",
+              "D": "To ask for a refund"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 187,
+            "question": "What would Ms. Hardy like to do soon?",
+            "options": {
+              "A": "Put her bookshelf together",
+              "B": "Have a sofa delivered",
+              "C": "Receive a refund in the email",
+              "D": "Get a new order number"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 188,
+            "question": "The word \"assembling\" in paragraph 2, line 2, in the letter is closest in meaning to",
+            "options": {
+              "A": "gathering",
+              "B": "meeting",
+              "C": "building",
+              "D": "changing"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 189,
+            "question": "Which item does MS. Hardy refer to in the letter?",
+            "options": {
+              "A": "The desk",
+              "B": "The chair",
+              "C": "The floor lamp",
+              "D": "The bookshelf"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 190,
+            "question": "What was the actual total cost?",
+            "options": {
+              "A": "$10",
+              "B": "$450",
+              "C": "$559",
+              "D": "$569"
+            },
+            "answer": "C"
+          }
+        ]
       }
 ]

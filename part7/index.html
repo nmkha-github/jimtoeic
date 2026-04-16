@@ -147,6 +147,49 @@ body{
     border:1px solid #eee;
 }
 
+.passage-content{
+    margin-bottom:22px;
+    padding:14px 16px;
+    border:1px solid #eee;
+    border-radius:8px;
+    background:#fafafa;
+    line-height:1.7;
+    font-size:1rem;
+}
+
+.passage-content p{
+    margin:8px 0;
+}
+
+.passage-content h1,
+.passage-content h2,
+.passage-content h3,
+.passage-content h4,
+.passage-content h5,
+.passage-content h6{
+    margin:10px 0 8px;
+    line-height:1.25;
+}
+
+.passage-content ul,
+.passage-content ol{
+    margin:8px 0 8px 22px;
+    padding:0;
+}
+
+.passage-content table{
+    width:100%;
+    border-collapse:collapse;
+    margin:10px 0;
+}
+
+.passage-content td,
+.passage-content th{
+    border:1px solid #ddd;
+    padding:8px;
+    vertical-align:top;
+}
+
 .card{
     margin-bottom:28px;
     padding-top:16px;
@@ -306,6 +349,7 @@ function normalizeGroups(data) {
         const queries = Array.isArray(group.queries) ? group.queries : [];
         return {
             url: group.url || "",
+            passage: group.passage || "",
             queries: queries
                 .map(q => ({
                     ...q,
@@ -343,11 +387,8 @@ async function scanTests(folder) {
 
     for (let i = 1; i <= 200; i++) {
         const ok = await fileExists(qFile(folder, i));
-        if (ok) {
-            tests.push(i);
-        } else {
-            break;
-        }
+        if (ok) tests.push(i);
+        else break;
     }
 
     return tests;
@@ -403,10 +444,7 @@ async function loadSelectedTest() {
 
     try {
         const resQ = await fetch(qFile(currentFolder, currentTest), { cache: "no-store" });
-
-        if (!resQ.ok) {
-            throw new Error("Không tải được file JSON");
-        }
+        if (!resQ.ok) throw new Error("Không tải được file JSON");
 
         const rawData = await resQ.json();
         groupsData = normalizeGroups(rawData);
@@ -419,6 +457,40 @@ async function loadSelectedTest() {
         summaryEl.innerText = "0 / 0 answered";
         progressFill.style.width = "0%";
     }
+}
+
+function renderPassage(group, groupIndex, passageDiv) {
+    if (group.passage) {
+        const passageContent = document.createElement("div");
+        passageContent.className = "passage-content";
+        passageContent.innerHTML = group.passage;
+        passageDiv.appendChild(passageContent);
+    } else if (group.url) {
+        const img = document.createElement("img");
+        img.className = "passage-image";
+        img.src = group.url;
+        img.alt = `Reading passage ${groupIndex + 1}`;
+        passageDiv.appendChild(img);
+    }
+}
+
+function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) {
+    if (userAnswers[questionId]) return;
+
+    userAnswers[questionId] = selectedKey;
+
+    const allOptions = parentEl.querySelectorAll(".option");
+    allOptions.forEach(opt => {
+        const label = opt.querySelector(".label")?.innerText;
+        if (label === correctKey) {
+            opt.classList.add("correct");
+        } else if (label === selectedKey && selectedKey !== correctKey) {
+            opt.classList.add("wrong");
+        }
+    });
+
+    currentEl.classList.add("selected");
+    updateProgress();
 }
 
 function renderQuiz() {
@@ -441,11 +513,7 @@ function renderQuiz() {
         header.innerText = `Passage ${groupIndex + 1}`;
         passageDiv.appendChild(header);
 
-        const img = document.createElement("img");
-        img.className = "passage-image";
-        img.src = group.url || "";
-        img.alt = `Reading passage ${groupIndex + 1}`;
-        passageDiv.appendChild(img);
+        renderPassage(group, groupIndex, passageDiv);
 
         queries.forEach(q => {
             const qCard = document.createElement("div");
@@ -474,25 +542,6 @@ function renderQuiz() {
         container.appendChild(passageDiv);
     });
 
-    updateProgress();
-}
-
-function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) {
-    if (userAnswers[questionId]) return;
-
-    userAnswers[questionId] = selectedKey;
-
-    const allOptions = parentEl.querySelectorAll(".option");
-    allOptions.forEach(opt => {
-        const label = opt.querySelector(".label")?.innerText;
-        if (label === correctKey) {
-            opt.classList.add("correct");
-        } else if (label === selectedKey && selectedKey !== correctKey) {
-            opt.classList.add("wrong");
-        }
-    });
-
-    currentEl.classList.add("selected");
     updateProgress();
 }
 

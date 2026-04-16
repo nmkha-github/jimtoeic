@@ -658,5 +658,65 @@
                 "answer": "D"
             }
         ]
-    }
+    },
+    {
+      "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1775666934/test02_196-200_brswuz.png",
+      "queries": [
+          {
+              "id": 196,
+              "question": "What does the article suggest?",
+              "options": {
+                  "A": "To take a course in international business relationships at the institute",
+                  "B": "Always to be alert of hints that can damage an ongoing business relationship",
+                  "C": "Not to mix business and pleasure when dealing with any culture",
+                  "D": "To know the culture of your business counterpart"
+              },
+              "answer": "D"
+          },
+          {
+              "id": 197,
+              "question": "In the article, the word 'consternation' is closest in meaning to",
+              "options": {
+                  "A": "alarm",
+                  "B": "admiration",
+                  "C": "fear",
+                  "D": "assurance"
+              },
+              "answer": "A"
+          },
+          {
+              "id": 198,
+              "question": "What does Ms. Luddon want to do?",
+              "options": {
+                  "A": "Inquire about the source of information mentioned in the article",
+                  "B": "Contradict what Dr. Steiner had said in his article",
+                  "C": "Learn as many languages as possible",
+                  "D": "Pursue a career in cross-cultural communication"
+              },
+              "answer": "D"
+          },
+          {
+              "id": 199,
+              "question": "What can be inferred about Julie Luddon?",
+              "options": {
+                  "A": "She is writing a book about cultural negotiations.",
+                  "B": "She has already received a bachelor's degree.",
+                  "C": "She is studying to become a university professor.",
+                  "D": "She wants to work in a foreign country."
+              },
+              "answer": "B"
+          },
+          {
+              "id": 200,
+              "question": "What do Julie and Dr. Steiner have in common?",
+              "options": {
+                  "A": "Both are interested in the same subject.",
+                  "B": "Both have lived overseas in the past.",
+                  "C": "Both are writing books.",
+                  "D": "Both work in the same university."
+              },
+              "answer": "A"
+          }
+      ]
+  }
 ]

@@ -1,0 +1,940 @@
+[
+    {
+      "passage": "<p>From: Joan Shelton</p><p>From: Joan Shelton</p><p>To: Customer Service</p><p>Subject: Game Console Problem</p><p>Dear Sir,</p><p>I&#x27;m writing to ask for help with my new Play Game console which I purchased three weeks ago. I made the purchase because one of the advertised strengths of Play Game is its ability to perform smoothly. However, games freeze while playing, and this happens very frequently.</p><p>I would prefer to solve the problem myself using your website, and I am perfectly competent to do so. Unfortunately, your website does not have a solution to this particular problem. I contacted the store where I purchased this game console, but the technicians there have been unable to provide me with assistance. Any information and suggestions you can offer in solving this problem would be much appreciated.</p><p>Faithfully,</p><p>Joan Shelton</p><p>From: Ethan Davison</p><p>To: Joan Shelton</p><p>Date: March 9, 2:48 p.m.</p><p>Re: Game Console Problem</p><p>Dear Ms. Shelton,</p><p>I have thoroughly reviewed the issue you reported with your Play Game console. Occasional lockups with video games can happen from time to time and do not necessarily indicate a need for repair or replacement. However, if you are experiencing frequent lockups, please see the information below.</p><p>- Make sure you are using only licensed accessories. Unlicensed products and accessories do not undergo the Play Game testing and evaluation process.</p><p>- If a game freezes while playing, try unplugging the AC adapter from the back of the console, then check the air vents to make sure they&#x27;re not being blocked. If your problem still persists, you may ship the console to our factory in New York for diagnosis by our team of specialists. If you determine that you must send your machine to the factory, please contact us so that we can assist you with a shipping label and further instructions.</p><p>Sincerely,</p><p>Ethan Davison</p><p>Technical Support Representative</p>",
+      "queries": [
+        {
+          "id": 186,
+          "question": "When did Joan Shelton buy the Play Game console?",
+          "options": {
+            "A": "Two days ago",
+            "B": "Two months ago",
+            "C": "Three weeks ago",
+            "D": "One year ago"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 187,
+          "question": "How would Joan Shelton prefer to solve the problem?",
+          "options": {
+            "A": "By using the website",
+            "B": "By calling the helpline",
+            "C": "By sending the game console to the factory",
+            "D": "By contacting the store"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 188,
+          "question": "According to the second e-mail, what should Joan Shelton do next?",
+          "options": {
+            "A": "Take the game console back to the store",
+            "B": "Contact a repair expert",
+            "C": "Check the air vents",
+            "D": "Refer to the website"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 189,
+          "question": "According to the first e-mail, when did Joan Shelton have a problem?",
+          "options": {
+            "A": "When loading",
+            "B": "When saving",
+            "C": "When exiting",
+            "D": "When playing"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 190,
+          "question": "What is NOT a possible cause of the problem?",
+          "options": {
+            "A": "The game console has a problem.",
+            "B": "The air vents are being blocked.",
+            "C": "She is using unlicensed game discs",
+            "D": "The factory technicians are underqualified."
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Don&#x27;t Miss This Unique Event!</p><p>Daniel Metzgert performs unplugged at Savoy Music</p><p>Daniel Metzgert, famous for his hits Stars over Mississippi and Saving My Love, will be in town October I 9-20. Metzgert’s smooth slide guitar playing and memorable voicehave enraptured audiences for over 15 years. It is Savoy Music’s pleasure to host Daniel Metzgert in a rare acoustic performance (198)   of his most loved tunes.</p><p>Location: Savoy Music (Downtown)</p><p>Dates: Friday (199) and Saturday, October 19-20</p><p>Show Time: 8:30 pm</p><p>Cost: $22 for adults, $I2 for children (12 and under)You can mail a check or money order to Savoy Music by October 18 if you wish to order tickets in advance. You can request that tickets be mailed to you or picked up at Will Call. In addition, you can use our ticket-by-phone service (credit card required) by calling 321 - 213-3243. Tickets will also be available the (196) night of the performance starting at 7 p.m. (cash will then be the only accepted form (197) of payment). Come early to get a good seat! For additional information, contact us at 321-213-3244 or send an email to our concert coordinator, Jamie Severn, at savoyperformances@savoy.com.</p><p>Jamie Severn</p><p>Savoy Music</p><p>43 Delany St.</p><p>Mt. Washington, CO 82312</p><p>October 10</p><p>Dear Ms. Severn:</p><p>I am thrilled to hear that Daniel Metzgert will be making an appearance at your store this month. Metzgert has been a favorite of mine for years, and I have enjoyed many concertsof his at other venues over the years. The show at the Savoy will be my first chance to see him play acoustically. Thank you for bringing him back to Colorado! Please reserve two adult tickets and one children’s ticket in my name. (200) Enclosed is a check for $56. Please hold my tickets at Will Call. I will be at the Savoy early on the 19th (198) to pick them up.</p><p>Thank you.</p><p>Janet Peters</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "After October 18, how can someone pay for a ticket?",
+          "options": {
+            "A": "In cash only",
+            "B": "By credit card",
+            "C": "By personal check",
+            "D": "By money order"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 197,
+          "question": "On the flyer, what does the word ‘form’ in line 13 refer to?",
+          "options": {
+            "A": "credit",
+            "B": "venue",
+            "C": "type",
+            "D": "check"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 198,
+          "question": "What does the flyer mention?",
+          "options": {
+            "A": "Tickets are sold out.",
+            "B": "The performer will play acoustic music",
+            "C": "There will be a performance on Sunday.",
+            "D": "The show will be held next to Savoy Music"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 199,
+          "question": "When will Ms. Peters attend the performance?",
+          "options": {
+            "A": "Thursday",
+            "B": "Friday",
+            "C": "Saturday",
+            "D": "Sunday"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 200,
+          "question": "What does the letter indicate about Ms.Peters ?",
+          "options": {
+            "A": "This is her first time to see Mr. Metzgert in concert.",
+            "B": "She plans to pay for the tickets by credit card.",
+            "C": "She would like the tickets mailed to her.",
+            "D": "She will attend the concert with other people."
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Lakeshore 305 Jefferson Avenue</p><p>Denver, CO 81 I62</p><p>Dear Mr. Leerberg,</p><p>Your advertisement for an I-IR assistant ﬁts my qualiﬁcations perfectly, and I am writing an express my interest in and enthusiasm for the position.</p><p>After completing a business degree from Colorado University in June, I enrolled in at Human Resources Development program to further enhance my credentials Ill the ﬁeld.</p><p>Based on your description of the ideal candidate, I also offer:</p><p>- A track record of excellent performance as a part-time/summer employee concurrent with full-time college enrollment</p><p>- Technical proﬁciency in database programs and MS Ofﬁce</p><p>If you agree that my services would be valuable to Lakeshore, I would very much like to meet in person to learn more about your HR support needs.</p><p>Sincerely yours,</p><p>Rebecca Plan</p><p>Rebecca Platt</p><p>3 Harbor Blvd.</p><p>Bridgeport, CT 06604</p><p>January 14</p><p>Dear Ms. Platt,</p><p>Thank you for your interest in our company. We received your letter and your résumé, and we are always interested in providing opportunities to recent graduates with experience and qualifications like you.</p><p>Unfortunately, the position has been already filled by another applicant, and there is no other job opening that matches your speciﬁc interest at the present time. On a more positive note, however, we are looking for a trainee to help conduct employment labor relations polls.</p><p>It is a temporary position that could lead to an offer of permanent employment. If this type of work interests you, I suggest you contact Legg Mason, the head of our Human Resources Department, to discuss the responsibilities of the position.</p><p>Yours truly,</p><p>Will Leerberg</p><p>Lakeshore</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "What position is Ms. Platt interested in?",
+          "options": {
+            "A": "Assistant manager",
+            "B": "Trainee",
+            "C": "HR assistant",
+            "D": "Director"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 197,
+          "question": "What qualification does Ms. Platt mention?",
+          "options": {
+            "A": "She enrolled in a Human Resources Development program.",
+            "B": "She taught a labor relations course.",
+            "C": "She worked as an HR assistant.",
+            "D": "She was a telephone marketer."
+          },
+          "answer": "A"
+        },
+        {
+          "id": 198,
+          "question": "What news does Mr. Leerberg give Ms. Platt?",
+          "options": {
+            "A": "She does not have sufficient work experience.",
+            "B": "The position has been filled.",
+            "C": "She needs more education to qualify for the job.",
+            "D": "The company is not offering any job openings at presen"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 199,
+          "question": "Why should Ms. Platt contact Legg Mason?",
+          "options": {
+            "A": "To set up a training session",
+            "B": "To obtain work documents",
+            "C": "To be included in a poll",
+            "D": "To learn more about an opportunity"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 200,
+          "question": "In the second letter, the word \"positive\" in paragraph 2, line 3 is closest in meaning to",
+          "options": {
+            "A": "convinced",
+            "B": "plausible",
+            "C": "optimistic",
+            "D": "absolute"
+          },
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Sarah</p><p>March 29</p><p>Mr. and Mrs. Sdchs</p><p>12 Mountain View Road,</p><p>Denver, Colorado</p><p>Dear Mr and Mrs sachs,</p><p>l&#x27;m very sorry that your stay wíth us was not satisf actory. On the week that you visited, we had three school groups also visiting, which has never happened before. unfortunatety our staff were not prepared, and this resulted in the deficiencies of cleanliness and service that you experienced.</p><p>Ih order to change your opinion of us, we would líke to invite you to stay with us again, at no charge. l&#x27;ve enclosed a coupon in the letter f or a week&#x27;s accommodation redeemable at any of our lodges.</p><p>l hope you will take up our off er to experience our usual, phenomenal service.</p><p>sincerely,</p><p>Jose campbell</p><p>customer services</p><p>Crystal ski Resorts ]enn</p><p>Crystal Ski Resorts</p><p>Lnvites you to enjOY free accommodation at the USA&#x27;s number one winter holiday destination.</p><p>The offer includes:</p><p>One week bed and breakfast at any of out sky lodges. Lifts and equiment renlal not include.</p><p>To be claimed by March 30 th, next year.</p><p>To claim this Coupon present it at the admission desk at the time of admission. Prior reservation required.</p><p>Offer code: 75934-AR-8003</p>",
+      "queries": [
+        {
+          "id": 191,
+          "question": "Why did Jose Campbell write to the Sachs?",
+          "options": {
+            "A": "to make a complaint",
+            "B": "to advertise the Crystal Ski Resort",
+            "C": "to respond to their enquiry",
+            "D": "to answer their complaint"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 192,
+          "question": "What did the Sachs most likely complain about?",
+          "options": {
+            "A": "Noise carried on all night,",
+            "B": "Room service didn't clean their room.",
+            "C": "There was no snow and the skiing was poor.",
+            "D": "Their room was too small and too dark."
+          },
+          "answer": "B"
+        },
+        {
+          "id": 193,
+          "question": "What is Mr, Campbell offering?",
+          "options": {
+            "A": "a free holiday",
+            "B": "reduced price accommodation",
+            "C": "free accommodation",
+            "D": "a refund"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 194,
+          "question": "How long do the Sachs have to use their Coupon?",
+          "options": {
+            "A": "They must use it immediately.",
+            "B": "They have about a month.",
+            "C": "They have about a year.",
+            "D": "They may use it whenever they want."
+          },
+          "answer": "C"
+        },
+        {
+          "id": 195,
+          "question": "The word \"deficiencies\" in paragraph 1, line 6, of the letter is closest in meaning to what?",
+          "options": {
+            "A": "lack",
+            "B": "errors",
+            "C": "misinterpretation",
+            "D": "glut"
+          },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "passage": "<p><strong>ABSOLUTE INTERIOR DESIGN</strong></p><p>Our work ranges from a single, small detail to com- plete residential projects.</p><p>Each job begins with either a brief telephone or email conversation at which time the basics of the client&#x27;s needs are discussed. There is no fee for this prelimi- nary service. This is followed by an Initial Consultation where more in-depth information about the client&#x27;s requirements, wishes and budget details are discussed.</p><p>Over the past twenty years we&#x27;ve found access to unique sources, both national and international, that include craftspeople with special talents which are not available in the general marketplace. Experience also allows us to carry out efficient projects which elimi- nate virtually all of the negative aspects and fears usually associated with larger scale renovations.</p><p>While we are effective with project supervision, we also are realistic when describing the dusty, messy and unpleasant times which are part and parcel of a major renovation project. We prepare the client, with as much information as possible, for the process IT which their home is about to undergo as it changes from a group of poorly functioning spaces into a dream home.</p><p>Date:</p><p>16 March</p><p>To: Alyssa Jamison</p><p>From: Bob Brown</p><p>Subject: Consultation</p><p>Good Morning Ms. Jamison,</p><p>Following our telephone conversation of Friday the 12th March, and much discussion with my wife, I&#x27;m delighted to tell you we wish to proceed with the proposed project.</p><p>If you recall, we wish to alter our small kitchen into an open-plan kitchen and living area.</p><p>I believe the next step is for you to come to our home and begin discussion of the details.</p><p>We would like to get this project underway as soon as possible with an aim of finishing by early July.</p><p>Please let me know when you are available for the Initial Consultation.</p><p>Sincerely,</p><p>Bob Brown</p>",
+      "queries": [
+        {
+          "id": 186,
+          "question": "What was the purpose of Bob Brown's e-mail?",
+          "options": {
+            "A": "to ask what to expect from the renovation",
+            "B": "to accept Ms. Jamison's job offer",
+            "C": "to complain about the work being slow",
+            "D": "to hire Absolute Interior Design"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 187,
+          "question": "The word \"brief\" in paragraph 2, line 1, of the advertisement is closest in meaning to what?",
+          "options": {
+            "A": "short",
+            "B": "free",
+            "C": "factual",
+            "D": "inadequate"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 188,
+          "question": "What can Absolute offer their clients?",
+          "options": {
+            "A": "help only with very large projects",
+            "B": "the complete absence of dust",
+            "C": "exceptional craftspeople",
+            "D": "quality work at budget prices"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 189,
+          "question": "What does Absolute feel must be treated realistically?",
+          "options": {
+            "A": "the supervision of the project",
+            "B": "the client's dream",
+            "C": "the mess that will be caused",
+            "D": "the client's budget"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 190,
+          "question": "What will most likely happen next?",
+          "options": {
+            "A": "They will discuss the project on the phone.",
+            "B": "They will begin the renovation.",
+            "C": "They will arrange the Initial Consultation.",
+            "D": "Ms. Jamison will decline the invitation."
+          },
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Jennifer Romero</p><p>Panacea Pharmaceuticals</p><p>7887 Akerley Blvd.</p><p>Plymouth, WV 10228</p><p>March 22, 2007</p><p>SleepWell Inn</p><p>25 Rochester St.</p><p>Plymouth, WV 10293</p><p>To the Management,</p><p>We at Panacea Pharmaceuticals have received many positive reviews of your hotel’s conference rooms and related business services. Therefore, our company executives have decided to hold our annual training session at SleepWell Inn.</p><p>We would like to reserve a conference room for Tuesday. April 7 to Thursday, April 19 for morning sessions beginning at 9 a.m. and afternoon sessions ending at 4 p.m. We’ll need a room that can accommodate 45 people comfortably. Along with the conference room, we would like to order lunch for the three days of our session. We will also need a podium for our instructors, a microphone, and a sound system at our disposal throughout the day.</p><p>Please let me know at your earliest convenience whether your hotel can fulfill our request for the above-mentioned dates. If so, I would like you to send me a menu of lunch option for the three days we will be using the conference room. When you send these. please include a cost estimate for the entire service . I look forward to hearing from you.</p><p>Sincerely,</p><p>Jennifer Romero, Director of Sales</p><p>jromero@panacea.com</p><p>Dear Ms. Romero,</p><p>It would be our pleasure to accommodate your company’s training session from April 17 to 19. Our cost estimate for three days is $1,620.</p><p>This includes:</p><p>Conference room, capacity 50                                     $150/day</p><p>Standard lunch for 45 people                                      $8/person   = $360/day</p><p>Microphone and sound system                                   $30/day</p><p>If you find our quote to be fair, I will go ahead with the arrangements. If you have another price proposal, we are open to considering it. According to your request, I’ve attached our lunch menu options to this email.</p><p>Regards,</p><p>Duncan Martin, General Manager</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "What is the purpose of this letter?",
+          "options": {
+            "A": "To reserve a large meeting space",
+            "B": "To arrange a yearly company banquet",
+            "C": "To inquire about the hotel's location",
+            "D": "To request an instructor for a training session"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 197,
+          "question": "What will Panacea Pharmaceuticals do in April?",
+          "options": {
+            "A": "Update a product line",
+            "B": "Teach employees new skills",
+            "C": "Have an executive lunch meeting",
+            "D": "Write a review of the SleepWell Inn"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 198,
+          "question": "How much will it cost to rent the equipment?",
+          "options": {
+            "A": "$8 a day",
+            "B": "$30 a day",
+            "C": "$45 a day",
+            "D": "$50 a day"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 199,
+          "question": "What will Mr. Martin most likely do next?",
+          "options": {
+            "A": "Order lunch",
+            "B": "Book a room",
+            "C": "Wait for a reply",
+            "D": "Send an invoice"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 200,
+          "question": "What does Mr. Martin NOT mention in his email?",
+          "options": {
+            "A": "The total price",
+            "B": "The cost of a meal",
+            "C": "An appropriate-sized room",
+            "D": "A raised platform for instructors"
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "passage": "<p>To:             Good Day, Inc. &lt;goodday@co.us&gt;</p><p>From:        Sanjay Singh &lt;singhyaho@ecosys.net&gt;</p><p>Subject:    Request for Proposals #34b</p><p>This is in response to a recent request for proposals published in the Journal of Commerce seeking a supplier of recycled paper for your company’s line of eco-friendly greeting cards. My company is a wholesale supplier with a long tradition of producing recycled paper. We are based in India, but our customers are located around the world.</p><p>Due to our low production costs, the price of our exported paper is extremely competitive compared with your country’s domestic products. We further lower our costs by exporting in bulk to regional partners who keep and distribute our products.</p><p>Based on the quantities outlined in your request, we can offer you high-quality recycled paper suitable for greeting cards at the price of only $2 per ream. Please see the attached report for a breakdown of costs and the specifics of our premium paper.</p><p>We are currently the exclusive supplier of recycled paper products for eleven companies located in the United States and Canada. The names and contact information of our customers can be supplied on request. If your company accepts our proposal, we can make our first delivery within twenty days of notification.</p><p>Please contact me if you have any questions about our proposal. I look forward to hearing from you.</p><p>Sincerely,</p><p>Sanjay Singh</p><p>President and CEO</p><p>EcoSystems , Ltd.</p><p>Elsa  Lawrence</p><p>Procurement  Coordinator</p><p>Good Day, Inc.</p><p>1523 North  Weller Boulevard</p><p>Seattle,  Washington 98105</p><p>March 2, 2007</p><p>Sanjay Singh</p><p>EcoSystems, Ltd.</p><p>Bartholomew Building, M.G. Road Mumbai, Maharashtra,  India</p><p>Dear Mr. Singh:</p><p>This is to notify you that we have received your company’s proposal . Due to the large number of responses to  our Request For Proposals, we won’t be announcing the winning proposal until the end of the month. We will be in contact with every company who submitted proposals  at that time. Thank you for your patience.</p><p>Sincerely,</p><p>Elsa  Lawrence</p>",
+      "queries": [
+        {
+          "id": 186,
+          "question": "What is the purpose of Mr. Singh’s proposal?",
+          "options": {
+            "A": "To become the supplier of paper products for a company",
+            "B": "To purchase a large amount of recycled paper from India",
+            "C": "To develop a new form of high-quality recycled paper",
+            "D": "To form a partnership with a North American company"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 187,
+          "question": "What does Mr. Singh NOT mention as a competitive edge of his company?",
+          "options": {
+            "A": "Years of experience",
+            "B": "A network of partners",
+            "C": "State-of-the-art technology",
+            "D": "Relatively affordable pricing"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 188,
+          "question": "What kind of company does Ms. Lawrence work for?",
+          "options": {
+            "A": "A producer of recycled products",
+            "B": "An import/export business",
+            "C": "A manufacturer of greeting cards",
+            "D": "A paper design company"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 189,
+          "question": "What is the purpose of Ms. Lawrence’s reply?",
+          "options": {
+            "A": "To confirm receipt of a proposal",
+            "B": "To announce a winning proposal",
+            "C": "To reject an incomplete proposal",
+            "D": "To request submission of a proposal"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 190,
+          "question": "The word “exclusive” in paragraph 4, line 1 of the email is closest in meaning to",
+          "options": {
+            "A": "former",
+            "B": "only",
+            "C": "first",
+            "D": "best"
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Clarity Telecom</p><p>Unlimited Incoming Local Calls</p><p>On Canus, Hawk, and Mothius mobile phones</p><p>Offer ends Dec. 31. Order now by calling 1-800-266-3654.</p><p>The Unlimited Incoming Calls package cannot be received concurrently with the Priority Number service. If you are a subscriber to the Priority Number service, you can cancel this deal and begin receiving the Unlimited Incoming Calls package with no start-up fee.</p><p>*Priority Number service - unlimited calls to any two pre-chosen numbers for a discounted monthly charge</p><p>Gaven McGuinty 422 Rosemont Ave.</p><p>Newcastle NSW</p><p>November 13, 2008</p><p>Clarity Telecom</p><p>1290 Young Ave.</p><p>Southport NSW B3J6F5</p><p>To the management at Clarity Telecom</p><p>I&#x27;m sending this letter in advance of filing a complaint to the Department of Consumer Affairs, to give your company a chance to explain the following matter.</p><p>I called last week to subscribe to the new Unlimited Incoming Calls package, and your sales operator informed me that I had to enter into a three-year agreement with Clarity in order to receive this service. Your advertisement did not specify that a customer must sign up for a three- year contract before being eligible to receive this deal.</p><p>I decided to enter into the agreement anyway and drop my Priority Number service When 1 received my first bill, I noticed that I had been charged with what you called a change of service fee&#x27; for requesting the new package. In your advertisement, it specifically states that when switching from the Priority Number service to the Unlimited Incoming Calls, no start up fee would be applied</p><p>It is obvious to me that your advertisement campaign is intentionally misleading In the first instance, your advertisement fails to mention - even in small print the three-year stipulation And in the second instance, the language is deceiving, and I believe, in violation of advertising laws</p><p>If I have misunderstood something that you feel you can clarify, I am willing to consider an explanation. If I do not hear anything from you, I will be filing a complaint.</p><p>Sincerely</p><p>Gaven McGuinty</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "What is being advertised?",
+          "options": {
+            "A": "A new kind of Internet protocol",
+            "B": "A cellular phone plan",
+            "C": "A home wireless phone connection",
+            "D": "A sale on PDAs"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 197,
+          "question": "What can a customer do under the Priority Number service?",
+          "options": {
+            "A": "Receive limitless long-distance calls",
+            "B": "Make unrestricted calls to two numbers",
+            "C": "Receive unlimited calls from twonumbers",
+            "D": "Make unrestricted long-distance calls to two numbers"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 198,
+          "question": "The word \"drop\" in paragraph 3, line 1 of the letter is closest in meaning to",
+          "options": {
+            "A": "deliver",
+            "B": "stop",
+            "C": "fall",
+            "D": "lower"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 199,
+          "question": "What is Mr. McGuinty giving the company a chance to do?",
+          "options": {
+            "A": "Explain its actions",
+            "B": "Remove an extra charge",
+            "C": "Offer him a special deal",
+            "D": "Change its advertisement"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 200,
+          "question": "What did Clarity Telecom do that contradicted its advertisement?",
+          "options": {
+            "A": "They imposed a limit on incoming calls.",
+            "B": "They charged a fee for switchingservices.",
+            "C": "They ignored a minimum age requirement.",
+            "D": "They permitted two services simultaneously."
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "passage": "<p>March 26, 2006</p><p>Mr. Samuel Brown Truestar Corporation</p><p>Finance Department Manager</p><p>Re: Account # 2958A</p><p>Dear Mr. Brown,</p><p>I want to thank you for the conversation that we had earlier today and for agreeing to a reduction in payment for my outstanding account. As discussed, I will implement a bi- weekly payment of $250, effective Friday, March 31. I will ensure that payment is in my bank account for your automatic withdrawal by 10:00 a.m. every Friday payment period until my account is paid in full.</p><p>I very much appreciate your understanding my current financial situation, and will contact you should things improve.</p><p>Please do not hesitate to contact me if you have any questions.</p><p>Best regards,</p><p>Jason Chalmers</p><p>September 3, 2006 Jason Chalmers 21 Reelster Boulevard Vancouver, BC</p><p>Dear Jason,</p><p>I am writing to update you on your account status (#2958A) with Truestar Corporation. As a result of our consolidated efforts to restructure your repayment plan in March of this year, it is with great satisfaction that I let you know that your account has now been cleared and paid in full.</p><p>With diligence and cooperation, we have successfully worked through this financial situation.</p><p>We would be pleased to offer our services should you need them again in the future. Please contact us with your request.</p><p>Best wishes, and we look forward to working with you again soon.</p><p>Samuel Brown</p><p>Truestar Corporation</p><p>Finance Department Manager</p>",
+      "queries": [
+        {
+          "id": 1,
+          "question": "The word \"outstanding\" in the first letter is closest in meaning to",
+          "options": {
+            "A": "superior",
+            "B": "essential",
+            "C": "noticeable",
+            "D": "unpaid"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 2,
+          "question": "How will Mr. Chalmers remit the payment?",
+          "options": {
+            "A": "It will be taken out of his bank account.",
+            "B": "He will bring cash to the company.",
+            "C": "He will send a check every month.",
+            "D": "It will automatically be deleted from his paycheck"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Why did Mr. Brown write the letter?",
+          "options": {
+            "A": "To ask for an extension on payment due",
+            "B": "To notify the client that the account has been settled",
+            "C": "To offer a special type of a service",
+            "D": "To request an overdue payment"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "question": "According to the second letter, when should Jason contact Mr. Brown again?",
+          "options": {
+            "A": "If he runs into further problems with payments",
+            "B": "Once he finishes paying off all the money",
+            "C": "If he is in need of using the service again",
+            "D": "As soon as he is ready to make the payment"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 5,
+          "question": "How long did it take for the account to be cleared?",
+          "options": {
+            "A": "Two months",
+            "B": "Two years",
+            "C": "One year",
+            "D": "Six months"
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "passage": "<p><strong>PROPERTY FOR SALE</strong></p><p>Bedrooms: 3</p><p>Bathrooms: 2</p><p>Price: $309,700</p><p>Town/City: New Hartford</p><p>Description:</p><p>Bright and cozy family home close to downtown. Within walking distance to Market Street shopping area and Schooner Lake recreational park. Large kitchen with new appliances and new paint and carpeting in all rooms. Electrical wiring replaced 5 years ago. Spacious backyard with trees and gardening area. Perfect for a young family.</p><p>For more information, email Jackie Baxter(real estate agent) atjbax@coremail.net.</p><p>From: Alan Webb &lt;webbalan@lionst.edu&gt;</p><p>To: Jackie Baxter &lt;jbax@coremail.net&gt;</p><p>Date: 02-12-07</p><p>Subject: New Hartford 3-bedroom ad</p><p>Hello, Ms. Baxter,</p><p>My name is Alan Webb, and I saw your advertisement for a 3-bedroom, 2-bath house in the New Hartford local newspaper. I am a professor at Lion State University in New Hartford. My family and I are searching for a new home in town. The advertised house sounds like the kind of place we&#x27;re looking for, but I would like to ask you for a little more information about it.</p><p>First, could you specify the sizes of the three bedrooms? There are only three people in my family: my wife, my daughter, and I. Since we would only need two of the bedrooms, my wife would like to turn the third into a comfortable home office. Are the rooms big enough to be used in this way?</p><p>I was also wondering exactly how large the backyard is. We are planning to install a swimming pool at our new home, so the yard must be big enough to accommodate this. What are the measurements of the backyard?</p><p>And finally, were any of the previous residents smokers? Cigarette smoke leaves a very unpleasant smell behind. I wouldn&#x27;t want to move into a house that had been smoked in.</p><p>It would be great to hear from you at your earliest convenience because we are hoping to move as soon as possible. You can either reply to this email or give me a call at 273- 0343.</p><p>Thank you,</p><p>Alan Webb.</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "Where would the advertisement most likely be seen?",
+          "options": {
+            "A": "In a current events publication",
+            "B": "In a journal about architecture",
+            "C": "In a paper's classified section",
+            "D": "In a company newsletter"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 197,
+          "question": "What is a feature of the house?",
+          "options": {
+            "A": "Brand-new electrical wiring",
+            "B": "Freshly painted rooms",
+            "C": "Location on Market Street",
+            "D": "Kitchen with a lake view"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 198,
+          "question": "Why does Mr. Webb contact Ms. Baxter?",
+          "options": {
+            "A": "To request information about a town",
+            "B": "To ask specific questions about a property",
+            "C": "To apply for a position at the agency",
+            "D": "To inquire about the size of a swimming"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 199,
+          "question": "How many rooms will Mr. Webb's family use as bedrooms?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 200,
+          "question": "What information does Mr. Webb request?",
+          "options": {
+            "A": "If any previous inhabitants had regularly smoked inside",
+            "B": "If the living room facilities are of premium quality",
+            "C": "If the house's interior has ever been damaged by fire",
+            "D": "If the previous residents replaced the wallpaper"
+          },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "passage": "<p><strong>EverMore</strong></p><p>Why shop anywhere else?</p><p>Mall fashions are here but definitely none</p><p>at mall prices!</p><p>We feature:</p><p>A fantastic collection of the season&#x27;s hottest styles and top brand names up to 60% off department store prices.</p><p>A wide assortment of favorite products, guaranteed customer satisfaction, friendly service, convenient hours (24 hours, 7 days a week) and a great online shopping experience.</p><p>A great selection of high-quality merchandise, of course at prices so low, you can&#x27;t imagine!</p><p>Use our EverMore outlet card - save 10% when you open a credit card account.</p><p>Find your store and see any special events in your area: www.EverMore.com.</p><p>June 29</p><p>Chief Director</p><p>Customer Service</p><p>1067 Sienna Dr.</p><p>Columbus, Ohio 26875</p><p>Dear Manager,</p><p>I recently bought a red dotted chiffon dress for $45 through the EverMore outlet Internet shopping mall. When I tried to use this item, I discovered that the hem&#x27;s backstitch was a little bit tilted. It made the length of right side shorter than the other side.</p><p>I visited your shop in Norton, and the shop assistant, Stanley Hood, said that complaints were dealt with by your department since I bought this through the Internet. I drove 30 minutes all the way to Norton and had to write this letter to you for an exchange. This is so inconvenient. I believe you should reform your exchange procedure in the future.</p><p>I have enclosed my dress and my receipt. I would like you to exchange my dress in good condition. I look forward to your reply within 14 days and hope this matter can be sorted out quickly.</p><p>Yours sincerely, Jamie Ligewith</p>",
+      "queries": [
+        {
+          "id": 186,
+          "question": "What kind of business is EveryMore?",
+          "options": {
+            "A": "A designer store",
+            "B": "A website designing company",
+            "C": "An avdvertising company",
+            "D": "A discount outlet store"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 187,
+          "question": "What information is given on the website?",
+          "options": {
+            "A": "An updated delivery schedule",
+            "B": "The store location",
+            "C": "Available brands",
+            "D": "Product prices"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 188,
+          "question": "What is the main purpose of this letter?",
+          "options": {
+            "A": "To complain about poor service",
+            "B": "To cancel the visit to the EverMore store",
+            "C": "To cancel an order",
+            "D": "To order a new desk"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 189,
+          "question": "What is implied about Jamie Ligewith?",
+          "options": {
+            "A": "She purchased an item from the website.",
+            "B": "She is the new customer of Work Max.",
+            "C": "She has recently read an Ever More advertisement.",
+            "D": "She received a new replacement item"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 190,
+          "question": "Which claim of the advertisement is disputed in the letter?",
+          "options": {
+            "A": "The company stocks a variety of brands.",
+            "B": "The company guarantees customer's satisfaction.",
+            "C": "The company has trained customer service personnel.",
+            "D": "The company has many different store locations."
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Rockford Daily Classified ad</p><p>Company: Wilson Paper Products</p><p>Location: New England Region</p><p>Pay Level: 20,000 dollars per year plus commission</p><p>Job Description:</p><p>Wilson Paper Products is hiring a sales representative for the New England Region. Our representatives are responsible for researching and contacting businesses in their area and conduct sales demonstrations. The majority of our products are office supplies. Compensation is based on your performance, but can easily exceed $80,000/per year.</p><p>The requirements for the job are as follows:</p><p>At least one year of sales experience</p><p>A university degree in business or a related field</p><p>Your own transportation for the work</p><p>Positive, motivated personality</p><p>Serious applicants should send their resume and a letter requesting an interview to:</p><p>Wilson Paper Products</p><p>Claudia Ingersoll, Personnel Department</p><p>340 Cornell Blvd.</p><p>Wilson, OH</p><p>Wilson Paper Products</p><p>Claudia Ingersoll, Personnel Department</p><p>340 Cornell Blvd.</p><p>Wilson, OH</p><p>Dear Ms. Ingersoll:</p><p>This letter is in response to your company’s employment ad listed in the Rockford</p><p>Daily. I feel that I would be a great candidate for the position of sales representative.</p><p>I am a native of New England with six years of experience in sales. During this</p><p>time, I have worked for several very different companies including a medical</p><p>supplies distributor and a mail-order clothing manufacturer. In my current position</p><p>as a used car salesperson, I have frequently been selected as “Employee of the</p><p>Month” because of my strong performance. Please consult the attached resume for</p><p>more information about my work history.</p><p>If you contact some of my old supervisors, I’m sure they will tell you that I am a</p><p>very positive and motivated person. I also own my own vehicle, so traveling around</p><p>the New England region for Wilson Paper Products would not be a problem.</p><p>I would greatly appreciate the opportunity to have an interview for this position.</p><p>You can reach me anytime at (393) 555-2929. I look forward to speaking with you.</p><p>Sincerely,</p><p>Derek McDonald</p>",
+      "queries": [
+        {
+          "id": 196,
+          "question": "Who is the audience for the advertisement?",
+          "options": {
+            "A": "Jobseekers with experience in sales",
+            "B": "Students in a university business course",
+            "C": "Professionals in need of paper products",
+            "D": "Travelers in New England"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 197,
+          "question": "Which qualification is NOT necessary to obtain the position?",
+          "options": {
+            "A": "A working vehicle",
+            "B": "A year of managerial experience",
+            "C": "An enthusiastic character",
+            "D": "An appropriate educational background"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 198,
+          "question": "What is the purpose of Mr. McDonald's letter?",
+          "options": {
+            "A": "To ask if a company is hiring",
+            "B": "To express thanks for an award",
+            "C": "To subscribe to a newspaper",
+            "D": "To request an interview"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 199,
+          "question": "For whom is Mr. McDonald working now?",
+          "options": {
+            "A": "A used car dealership",
+            "B": "An office supply distributor",
+            "C": "A clothing manufacturer",
+            "D": "A medical equipment retailer"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 200,
+          "question": "Who might Ms. Ingersoll consult about Mr. McDonald's personality?",
+          "options": {
+            "A": "A Wilson Paper Products supervisor",
+            "B": "Company clients",
+            "C": "His current coworkers",
+            "D": "His previous managers"
+          },
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Your View Tonic LCD monitor</p><p><strong>WARRANTY</strong></p><p>This VT-TX-24 LCD monitor does not need to be registered. This was done at the shop when you purchased it. To insure the integrity of this contract, it is important to keep the bill of sale from the point of sale. If you do happen to have a problem, you will need it to make a claim.</p><p>Coverage includes a part and service package that covers a full year from the purchase date. This includes the replacement of defective parts with new ones, and the labor free of charge. This part of the warranty will be void if the customer decides to dismantle or attempts to fix the monitor in any way.</p><p>This warranty covers the original owner and any successive owner as long as the receipt of purchase is still in their possession. If the product is sold as a secondhand item, the t</p><p>receipt should be signed again by the first owner to show a passing of ownership.</p><p><strong>THE WARRANTY DOES NOT COVER:</strong></p><p>- Dismantling of the product</p><p>- Improper use of power cables (i.e. voltage, current spikes)</p><p>- Any accidental damage to the product (i.e. dropping, hitting, flooding, etc.)</p><p>- Using unsafe settings on your video card (See manual for details)</p><p>- The effect of the installation of the drivers on your home computer</p><p>It is important to read the owner&#x27;s manual as it contains all the details for proper usage. If you are having technical difficulties, please send an e-mail to our customer service division. We also have a website for the downloading and installation of new drivers for your monitor. This warranty is a legal document and can be used in a court of law, but can be overridden by a specific state law. Check your local state laws for conflicts.</p><p>April 22</p><p>From: customer service &lt;cs@viewtonic.com&gt;</p><p>To: Mr. Nick Low &lt;lowman@gmail.com&gt;</p><p>Dear Customer,</p><p>It was stated that you purchased our VT-TX-24 LCD monitor last month at Future Store at your local mall and you are having problems with it. Have you installed the drivers that came with the monitor? Have you checked the setting on your video card? I suggest you first unplug the monitor and restart the computer and then plug it in again.</p><p>If you are still having problems with your monitor and computer, I suggest that you bring it in to any one of our 10 convenient locations in your area. Unfortunately, we might have to charge you for the service time, because we do not cover any driver issues that might arise due to our software.</p><p>Sincerely,</p><p>Tina Baker</p><p>Customer Service Representative</p>",
+      "queries": [
+        {
+          "id": 1,
+          "question": "What must the person do when filing a warranty claim?",
+          "options": {
+            "A": "Bring the product",
+            "B": "Pay for shipping",
+            "C": "Pay for the labor on it",
+            "D": "Show a proof of purchase"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 2,
+          "question": "What should customers do if they are not sure how to operate the monitor?",
+          "options": {
+            "A": "Get a home visit from customer service",
+            "B": "Call customer service",
+            "C": "Check their user manual",
+            "D": "Return the product"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 3,
+          "question": "How is the warranty different for a second-hand owner?",
+          "options": {
+            "A": "The warranty is longer",
+            "B": "The first owner must sign the receipt",
+            "C": "The product must be returned first",
+            "D": "There is no warranty"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 4,
+          "question": "Why won't View Tonic honor Mr. Low's warranty?",
+          "options": {
+            "A": "The monitor's drivers caused a problem",
+            "B": "The owner opened the monitor",
+            "C": "The monitor's warranty ran out",
+            "D": "The range was not installed correctly"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 5,
+          "question": "According to the passages, what can be inferred?",
+          "options": {
+            "A": "The monitor that Mr. Low purchased was not registered",
+            "B": "Mr. Low will probably take his monitor back to Future Store",
+            "C": "Mr. Low may have to pay some money to get the monitor fixed",
+            "D": "View Tonic provides a one-year guarantee without any condition attached"
+          },
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "passage": "<p>UK citizens donated a record $12 billion in 2006, up 28 percent from 2005.</p><p>Analysts say that last year ‘s flood in Central America was the main reason for the sharp increase. In November last year, non-profit organizations around the “country spent weeks collecting donations to contribute to the emergency aid effort in that region.</p><p>The flood aid was reminiscent of another recent catastrophe – the earthquake that struck Southeast Asia in 2004. Donations to charities rose dramatically that year in response to the call for emergency aid. However, donations then dipped slightly in 2005.</p><p>In contrast to the sharp rise in donations between 2005 and 2006 , the number of people who donated money increased only one percent from the previous year. The Statistics Board reported that there were eight million donors nationwide in 2006. According to the Board, one household represents one donor.</p><p>Analysts say a steady inflation rate and an optimistic economic outlook helped to make mid-to-high income earners feel that they had more to donate.</p>",
+      "queries": [
+        {
+          "id": 178,
+          "question": "What reason is given for the sharp rise in 2006 donations?",
+          "options": {
+            "A": "Growth on the stock market",
+            "B": "A decrease in the inflation rate",
+            "C": "A higher gross national product",
+            "D": "A natural disaster in a foreign country"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 179,
+          "question": "What remained relatively constant between 2005 and 2006?",
+          "options": {
+            "A": "The country's population",
+            "B": "The amount of contributions",
+            "C": "The number of donors",
+            "D": "The average income"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 180,
+          "question": "According to the analysts, what accelerated the donation?",
+          "options": {
+            "A": "The support from non-profit organizations",
+            "B": "The hopeful economic situation",
+            "C": "The expansion of donation campaigns",
+            "D": "The peaceful natural environment"
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "passage": "<p>Customer Claim Form</p><p>Sabrina’s Women’s Clothing</p><p>……………………………….</p><p>Date: October 2</p><p>Your claim has been filed and assigned reference number 274-10-012. Please be advised that most claims are resolved within seven days of the date when the claim is filed.</p><p>We apologize for the inconvenience you experienced with your order. Our record indicates that your order was shipped on August 30 via standard ground shipping. We are currently investigating this matter further and will contact you with our findings within 48 hours. If your claim is approved, we will issue a refund in the same form as your original payment was made.</p><p>Credit card reimbursement takes five business days to process, while refunds for checks and money orders are sent within 24 hours by special delivery.</p><p>Helen Garcia</p><p>Customer Service Department</p><p>Sabrina&#x27;s Women&#x27;s Clothing</p>",
+      "queries": [
+        {
+          "id": 191,
+          "question": "Why did Amy send the claim form?",
+          "options": {
+            "A": "Because the item she ordered was damaged",
+            "B": "Because she never received what she ordered",
+            "C": "Because she wanted to cancel her payment",
+            "D": "Because she was charged twice for the same order"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 192,
+          "question": "What did Amy do before she sent the claim form?",
+          "options": {
+            "A": "She e-mailed the company several times.",
+            "B": "She canceled the order.",
+            "C": "She returned the product immediately.",
+            "D": "She called the company."
+          },
+          "answer": "D"
+        },
+        {
+          "id": 193,
+          "question": "Why did the company send Amy an e-mail?",
+          "options": {
+            "A": "To check when the product was delivered",
+            "B": "To inform that her claim was already resolved",
+            "C": "To tell Amy that her claim will likely be approved",
+            "D": "To apologize for a delay"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 194,
+          "question": "In the e-mail, the word \"filed\" in paragraph 1 line 1 is closest in meaning to?",
+          "options": {
+            "A": "cut back",
+            "B": "lined up",
+            "C": "sent in",
+            "D": "put away"
+          },
+          "answer": "C"
+        },
+        {
+          "id": 195,
+          "question": "What will the company do for Amy's claim?",
+          "options": {
+            "A": "The company will send the money via her credit card account.",
+            "B": "The company will use the express mail delivery to send her a check.",
+            "C": "The company will give her the credit when she buys something on the website next time.",
+            "D": "The company will give her another claim form for free."
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "passage": "<p>August 20</p><p>Welcome to Bethune College Residence</p><p>We would like to welcome freshmen and returning students to our residence We hope that this year will be as good if not better than the last We have made some renovations to the building that we think you will really enjoy, including a new lounge with four pool tables, and three foosball tables This lounge will be open from I am until II p.m and will be supported by a cafe that will offer a wide range of beverages and snacks for your pleasure</p><p>For all of us to have a fun and safe year it is important to set up some ground rules for your behavior It is very important to note that breaking these rules can result in suspension of privileges, eviction from the residence, and possibly expulsion from school In addition, you are responsible for the action of any guest that you bring into the residence This means that upon entry and exit, any guest that you wish to stay with you MUST sign in and out The maximum number of guests per person is two With this in mind these are the cardinal rules:</p><p>1. Drinking in the common spaces, i.e outside of your room is prohibited</p><p>2. Illegal drugs of any kind are banned</p><p>3. Violence of any kind is prohibited</p><p>4. Damage to the property is not tolerated</p><p>5. Smoking inside the building is not allowed</p><p>6. Noise in the hallways after I p.m is prohibited</p><p>We hope that these main rules will help everyone have a safe and educational year in Bethune Residence For further details of the rules and by- laws of the residence refer to your student handbook, and if you have any questions please ask the Resident Tutor, Doug McCain November r Dear Mr Camber:</p><p>This letter is being sent to formally inform you that you are being summoned to the residence committee meeting this Friday, November The actions of your guests on the night of October 31 were not in line with our rules, and you, as stated in our welcome flier, are responsible for their actions</p><p>Allegedly, your guests were involved in drinking and fighting in the hallways of the 12th floor at r o&#x27;clock in the morning Upon arrival of the resident counselor they were disrespectful and were shoving her around This is completely unacceptable and requires us to take action</p><p>You will have to join this meeting on the nth floor of Passy Hall with the 264 Economy RC 1000 www.nhantriviet.com Resident Board of Directors and committee They will decide your ultimate fate</p><p>Sincerely,</p><p>Doug McCain Resident Tutor</p>",
+      "queries": [
+        {
+          "id": 181,
+          "question": "Why did the residence post the notice of August20?",
+          "options": {
+            "A": "To tell the students about the dorm",
+            "B": "To establish a basic set of ground rules",
+            "C": "To warn the students about other bad students",
+            "D": "To tell the students how to get into the residence"
+          },
+          "answer": "B"
+        },
+        {
+          "id": 182,
+          "question": "To whom is the notice of August 20th mainly directed?",
+          "options": {
+            "A": "The new resident tutor",
+            "B": "The friends of people living in Bethune",
+            "C": "The students who don't live in Bethune",
+            "D": "The residents of Bethune dorm"
+          },
+          "answer": "D"
+        },
+        {
+          "id": 183,
+          "question": "Why was the letter of November written?",
+          "options": {
+            "A": "Mr Camber's guest broke the rules",
+            "B": "Mr McCain broke the rules",
+            "C": "Mr Camber's friends were having fun",
+            "D": "Mr Camber himself broke the rules"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 184,
+          "question": "What action was taken against Mr Camber's guests?",
+          "options": {
+            "A": "They were approached by the resident counselor",
+            "B": "They were arrested by the police",
+            "C": "They were still drinking and laughing",
+            "D": "They were left alone"
+          },
+          "answer": "A"
+        },
+        {
+          "id": 185,
+          "question": "What will most likely happen to Mr Camber?",
+          "options": {
+            "A": "He will be kicked out of the residence",
+            "B": "He will graduate early",
+            "C": "He will go unpunished",
+            "D": "His friends will be allowed back"
+          },
+          "answer": "A"
+        }
+      ]
+    }
+  ]

@@ -526,5 +526,125 @@
                 "answer": "D"
             }
         ]
-    }
+    },
+    {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776351658/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-16_lu%CC%81c_21.56.34_hx426l.png",
+        "queries": [
+          {
+            "id": 1,
+            "question": "What can be inferred about Tenda Electronics?",
+            "options": {
+              "A": "It is in search of the right person to replace its current vice president.",
+              "B": "Its plan includes expanding to other continents, including Asia.",
+              "C": "Its first office is due to have its grand opening in Hong Kong.",
+              "D": "It does business with neighboring countries."
+            },
+            "answer": "B"
+          },
+          {
+            "id": 2,
+            "question": "What is NOT a requirement mentioned in the ad?",
+            "options": {
+              "A": "The ability to communicate in two or more languages",
+              "B": "A post-graduate degree",
+              "C": "Knowledge of the electronics industry",
+              "D": "Previous managerial experience"
+            },
+            "answer": "B"
+          },
+          {
+            "id": 3,
+            "question": "Which of the following duties will be a responsibility of the newly hired employee?",
+            "options": {
+              "A": "Ensure the safe arrival of monitors and electronic parts to its headquarters",
+              "B": "Traveling to different regional offices in Asia to conduct seminars",
+              "C": "Personally hand-select a team of subordinates to work with",
+              "D": "Prepare translation works for meeting with their Chinese clients"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 4,
+            "question": "Which candidate does NOT meet all the job requirements mentioned in the ad?",
+            "options": {
+              "A": "Alicia Wang",
+              "B": "Hugh Lennon",
+              "C": "Andrew Patterson",
+              "D": "Bob Lo"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 5,
+            "question": "What makes Alicia Wang's qualifications stand out amongst the other candidates?",
+            "options": {
+              "A": "Her experience in sales",
+              "B": "Her ability to speak English",
+              "C": "Her level of education",
+              "D": "Her managerial experience"
+            },
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "url": "https://res.cloudinary.com/dddblrb2h/image/upload/v1776352666/A%CC%89nh_ma%CC%80n_hi%CC%80nh_2026-04-16_lu%CC%81c_22.15.25_s88kan.png",
+        "queries": [
+          {
+            "id": 1,
+            "question": "Why did Mr. Spencer bring his car to Yankee Automotive?",
+            "options": {
+              "A": "To have his windshield replaced",
+              "B": "To order a new headlight",
+              "C": "To purchase a new fan belt",
+              "D": "To have his tires changed"
+            },
+            "answer": "D"
+          },
+          {
+            "id": 2,
+            "question": "Who is Bob Lang?",
+            "options": {
+              "A": "A customer",
+              "B": "A salesperson",
+              "C": "A mechanic",
+              "D": "A manager"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 3,
+            "question": "According to the invoice, how much was Mr. Spencer charged in total?",
+            "options": {
+              "A": "$500.36",
+              "B": "$420.00",
+              "C": "$429.99",
+              "D": "$30.00"
+            },
+            "answer": "A"
+          },
+          {
+            "id": 4,
+            "question": "What is the purpose of Ms. Patel's letter?",
+            "options": {
+              "A": "To bill the customer for work done on his car",
+              "B": "To apologize for a previous billing error",
+              "C": "To request payment of an outstanding balance",
+              "D": "To thank the customer for a partial payment"
+            },
+            "answer": "C"
+          },
+          {
+            "id": 5,
+            "question": "What does Ms. Patel offer to Mr. Spencer?",
+            "options": {
+              "A": "They will accept a partial payment of $200.",
+              "B": "They will consider an alternative payment plan.",
+              "C": "They will pay him back in monthly installments.",
+              "D": "They will reduce his outstanding balance by 1%."
+            },
+            "answer": "B"
+          }
+        ]
+      }
 ]
