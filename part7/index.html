@@ -91,6 +91,17 @@ body{
     min-width:110px;
 }
 
+.control.checkbox-control{
+    gap:10px;
+}
+
+.control.checkbox-control input{
+    width:16px;
+    height:16px;
+    accent-color:var(--accent);
+    cursor:pointer;
+}
+
 .container{
     max-width:900px;
     margin:20px auto;
@@ -273,14 +284,22 @@ body{
 
     <div class="topbar-actions">
         <a href="../index.html" class="btn">← Back</a>
+
         <div class="control">
             <label for="folderSelect">Folder</label>
             <select id="folderSelect"></select>
         </div>
+
         <div class="control">
             <label for="testSelect">Test</label>
             <select id="testSelect"></select>
         </div>
+
+        <div class="control checkbox-control">
+            <label for="shuffleToggle">Shuffle</label>
+            <input type="checkbox" id="shuffleToggle">
+        </div>
+
         <button class="btn" id="resetBtn">Reset</button>
     </div>
 </header>
@@ -303,6 +322,7 @@ const folders = ["jim", "old_test"];
 const folderSelect = el("folderSelect");
 const testSelect = el("testSelect");
 const resetBtn = el("resetBtn");
+const shuffleToggle = el("shuffleToggle");
 const quizContainer = el("quiz-container");
 const hint = el("hint");
 const summaryEl = el("summary");
@@ -314,6 +334,9 @@ let userAnswers = {};
 let availableTests = [];
 let currentFolder = "jim";
 let currentTest = "";
+let questionOrderMap = {};
+
+const DISPLAY_KEYS = ["A", "B", "C", "D"];
 
 function pad2(n) {
     return String(n).padStart(2, "0");
@@ -335,6 +358,11 @@ async function fileExists(url) {
 function saveState() {
     localStorage.setItem("toeic_part7_folder", currentFolder);
     localStorage.setItem("toeic_part7_test", currentTest);
+    localStorage.setItem("toeic_part_7_shuffle", String(shuffleToggle.checked));
+}
+
+function isShuffleEnabled() {
+    return localStorage.getItem("toeic_part_7_shuffle") === "true";
 }
 
 function toInt(v) {
@@ -380,6 +408,7 @@ function initFolders() {
     }
 
     currentFolder = folderSelect.value;
+    shuffleToggle.checked = isShuffleEnabled();
 }
 
 async function scanTests(folder) {
@@ -423,6 +452,30 @@ function renderTests(list) {
     currentTest = testSelect.value;
 }
 
+function shuffledArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+function buildQuestionOrderMap() {
+    questionOrderMap = {};
+
+    allQuestionsData.forEach(q => {
+        const originalKeys = DISPLAY_KEYS.filter(k => q.options && Object.prototype.hasOwnProperty.call(q.options, k));
+        const sourceKeys = shuffleToggle.checked ? shuffledArray(originalKeys) : originalKeys.slice();
+
+        while (sourceKeys.length < DISPLAY_KEYS.length) {
+            sourceKeys.push("");
+        }
+
+        questionOrderMap[q.id] = sourceKeys;
+    });
+}
+
 async function loadSelectedTest() {
     currentFolder = folderSelect.value;
     currentTest = testSelect.value;
@@ -436,7 +489,7 @@ async function loadSelectedTest() {
         return;
     }
 
-    hint.textContent = `Folder: ${currentFolder} • Test: test${pad2(currentTest)}`;
+    hint.textContent = `Folder: ${currentFolder} • Test: test${pad2(currentTest)} • Shuffle: ${shuffleToggle.checked ? "ON" : "OFF"}`;
     quizContainer.innerHTML = `<div class="loading">Đang tải dữ liệu bài đọc...</div>`;
     userAnswers = {};
 
@@ -450,6 +503,7 @@ async function loadSelectedTest() {
         groupsData = normalizeGroups(rawData);
         allQuestionsData = groupsData.flatMap(g => g.queries || []);
 
+        buildQuestionOrderMap();
         renderQuiz();
     } catch (err) {
         console.error(err);
@@ -474,17 +528,17 @@ function renderPassage(group, groupIndex, passageDiv) {
     }
 }
 
-function handleSelect(questionId, selectedKey, correctKey, currentEl, parentEl) {
+function handleSelect(questionId, selectedDisplayKey, correctDisplayKey, currentEl, parentEl) {
     if (userAnswers[questionId]) return;
 
-    userAnswers[questionId] = selectedKey;
+    userAnswers[questionId] = selectedDisplayKey;
 
     const allOptions = parentEl.querySelectorAll(".option");
     allOptions.forEach(opt => {
         const label = opt.querySelector(".label")?.innerText;
-        if (label === correctKey) {
+        if (label === correctDisplayKey) {
             opt.classList.add("correct");
-        } else if (label === selectedKey && selectedKey !== correctKey) {
+        } else if (label === selectedDisplayKey && selectedDisplayKey !== correctDisplayKey) {
             opt.classList.add("wrong");
         }
     });
@@ -523,15 +577,20 @@ function renderQuiz() {
             const optionsDiv = document.createElement("div");
             optionsDiv.className = "options";
 
-            Object.keys(q.options || {}).forEach(key => {
+            const sourceKeys = questionOrderMap[q.id] || DISPLAY_KEYS.slice();
+            const correctSourceIndex = sourceKeys.indexOf(String(q.answer));
+            const correctDisplayKey = correctSourceIndex >= 0 ? DISPLAY_KEYS[correctSourceIndex] : String(q.answer);
+
+            DISPLAY_KEYS.forEach((displayKey, idx) => {
+                const sourceKey = sourceKeys[idx] || "";
                 const optBtn = document.createElement("div");
                 optBtn.className = "option";
                 optBtn.innerHTML = `
-                    <div class="label">${key}</div>
-                    <div class="opt-text">${q.options[key]}</div>
+                    <div class="label">${displayKey}</div>
+                    <div class="opt-text">${sourceKey ? (q.options?.[sourceKey] ?? "") : ""}</div>
                 `;
 
-                optBtn.onclick = () => handleSelect(String(q.id), key, String(q.answer), optBtn, optionsDiv);
+                optBtn.onclick = () => handleSelect(String(q.id), displayKey, correctDisplayKey, optBtn, optionsDiv);
                 optionsDiv.appendChild(optBtn);
             });
 
@@ -569,6 +628,17 @@ async function refreshTestsAndLoad() {
 
 folderSelect.addEventListener("change", refreshTestsAndLoad);
 testSelect.addEventListener("change", loadSelectedTest);
+
+shuffleToggle.addEventListener("change", async () => {
+    saveState();
+    if (allQuestionsData.length) {
+        userAnswers = {};
+        buildQuestionOrderMap();
+        renderQuiz();
+        hint.textContent = `Folder: ${currentFolder} • Test: test${pad2(currentTest)} • Shuffle: ${shuffleToggle.checked ? "ON" : "OFF"}`;
+    }
+});
+
 resetBtn.addEventListener("click", resetSelections);
 
 window.onload = async () => {
