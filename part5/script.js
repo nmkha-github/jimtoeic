@@ -2,6 +2,9 @@ const KNOWN_FOLDERS = ["jim", "ybm2", "old_test"];
 const MAX_TRIES = 99;
 const STOP_AFTER_MISSES = 3;
 
+const FOLDER_KEY = "toeic_part_5_folder";
+const SHUFFLE_KEY_PREFIX = "jim_part5_shuffle_";
+
 let FILES = [];
 
 const el = (id) => document.getElementById(id);
@@ -20,8 +23,6 @@ let allQuestions = [];
 let questions = [];
 let answers = {};
 
-const SHUFFLE_KEY_PREFIX = "jim_part5_shuffle_";
-
 // INIT
 function init() {
   KNOWN_FOLDERS.forEach((f) => {
@@ -31,9 +32,17 @@ function init() {
     folderSelect.appendChild(opt);
   });
 
-  folderSelect.value = KNOWN_FOLDERS[0];
+  loadFolderSetting();
 
-  folderSelect.addEventListener("change", onFolderChanged);
+  if (!folderSelect.value) {
+    folderSelect.value = KNOWN_FOLDERS[0];
+  }
+
+  folderSelect.addEventListener("change", () => {
+    saveFolderSetting();
+    onFolderChanged();
+  });
+
   shuffleToggle.addEventListener("change", () => {
     saveShuffleSetting();
     prepareQuestions();
@@ -46,7 +55,36 @@ function init() {
   onFolderChanged();
 }
 
+// =========================
+// LOCAL STORAGE
+// =========================
+function saveFolderSetting() {
+  localStorage.setItem(FOLDER_KEY, folderSelect.value);
+}
+
+function loadFolderSetting() {
+  const saved = localStorage.getItem(FOLDER_KEY);
+  if (saved && KNOWN_FOLDERS.includes(saved)) {
+    folderSelect.value = saved;
+  }
+}
+
+function getShuffleKey() {
+  return SHUFFLE_KEY_PREFIX + folderSelect.value;
+}
+
+function saveShuffleSetting() {
+  localStorage.setItem(getShuffleKey(), shuffleToggle.checked ? "1" : "0");
+}
+
+function loadShuffleSetting() {
+  const v = localStorage.getItem(getShuffleKey());
+  if (v !== null) shuffleToggle.checked = v === "1";
+}
+
+// =========================
 // DISCOVER FILES
+// =========================
 async function discoverFiles(folder) {
   const found = [];
   let misses = 0;
@@ -71,10 +109,12 @@ async function discoverFiles(folder) {
   return found;
 }
 
+// =========================
+// LOAD DATA
+// =========================
 async function onFolderChanged() {
   const folder = folderSelect.value;
 
-  // Show spinner
   discoverStatus.innerHTML = `<span class="spinner"></span> Đang load ${folder}...`;
 
   FILES = await discoverFiles(folder);
@@ -85,16 +125,13 @@ async function onFolderChanged() {
     return;
   }
 
-  // Still loading all JSON files — keep spinner
   discoverStatus.innerHTML = `<span class="spinner"></span> Đang tải ${FILES.length} bài test...`;
 
   await loadAll();
 
-  // Done — show clean status, no spinner
   discoverStatus.textContent = `✅ Đã tải ${FILES.length} bài test`;
 }
 
-// LOAD ALL
 async function loadAll() {
   const loads = await Promise.all(
     FILES.map(f => fetch(f).then(r => r.json()))
@@ -103,10 +140,11 @@ async function loadAll() {
   allQuestions = loads.flat();
   loadShuffleSetting();
   prepareQuestions();
-  // status is set by onFolderChanged after this resolves
 }
 
-// PREPARE
+// =========================
+// PREPARE QUESTIONS
+// =========================
 function prepareQuestions() {
   answers = {};
 
@@ -135,7 +173,9 @@ function prepareQuestions() {
   render();
 }
 
+// =========================
 // RENDER
+// =========================
 function render() {
   quiz.innerHTML = "";
 
@@ -157,7 +197,7 @@ function render() {
         <div>${o.text}</div>
       `;
 
-      opt.onclick = () => select(q, i, o.key, opt);
+      opt.onclick = () => select(q, i, o.key);
 
       wrap.appendChild(opt);
     });
@@ -169,8 +209,10 @@ function render() {
   updateProgress();
 }
 
-// SELECT (LUÔN HIỆN ĐÚNG SAI)
-function select(q, idx, key, el) {
+// =========================
+// SELECT
+// =========================
+function select(q, idx, key) {
   answers[idx] = key;
 
   const card = quiz.children[idx];
@@ -189,7 +231,9 @@ function select(q, idx, key, el) {
   updateProgress();
 }
 
+// =========================
 // PROGRESS
+// =========================
 function updateProgress() {
   const done = Object.keys(answers).length;
   const total = questions.length;
@@ -198,23 +242,12 @@ function updateProgress() {
   summary.textContent = `${done} / ${total}`;
 }
 
-// REDO
+// =========================
+// RESET
+// =========================
 function redoQuiz() {
   prepareQuestions();
 }
 
-// STORAGE
-function getShuffleKey() {
-  return SHUFFLE_KEY_PREFIX + folderSelect.value;
-}
-
-function saveShuffleSetting() {
-  localStorage.setItem(getShuffleKey(), shuffleToggle.checked ? "1" : "0");
-}
-
-function loadShuffleSetting() {
-  const v = localStorage.getItem(getShuffleKey());
-  if (v !== null) shuffleToggle.checked = v === "1";
-}
-
+// START
 init();
