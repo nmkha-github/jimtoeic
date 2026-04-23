@@ -390,6 +390,16 @@ function normalizeGroups(data) {
     });
 }
 
+function attachUniqueKeys(data) {
+    return data.map((group, groupIndex) => ({
+        ...group,
+        queries: (group.queries || []).map((q, questionIndex) => ({
+            ...q,
+            __key: `${groupIndex}-${questionIndex}`
+        }))
+    }));
+}
+
 function initFolders() {
     folderSelect.innerHTML = "";
 
@@ -465,6 +475,7 @@ function buildQuestionOrderMap() {
     questionOrderMap = {};
 
     allQuestionsData.forEach(q => {
+        const questionKey = q.__key;
         const originalKeys = DISPLAY_KEYS.filter(k => q.options && Object.prototype.hasOwnProperty.call(q.options, k));
         const sourceKeys = shuffleToggle.checked ? shuffledArray(originalKeys) : originalKeys.slice();
 
@@ -472,7 +483,7 @@ function buildQuestionOrderMap() {
             sourceKeys.push("");
         }
 
-        questionOrderMap[q.id] = sourceKeys;
+        questionOrderMap[questionKey] = sourceKeys;
     });
 }
 
@@ -492,7 +503,6 @@ async function loadSelectedTest() {
     hint.textContent = `Folder: ${currentFolder} • Test: test${pad2(currentTest)} • Shuffle: ${shuffleToggle.checked ? "ON" : "OFF"}`;
     quizContainer.innerHTML = `<div class="loading">Đang tải dữ liệu bài đọc...</div>`;
     userAnswers = {};
-
     saveState();
 
     try {
@@ -500,7 +510,7 @@ async function loadSelectedTest() {
         if (!resQ.ok) throw new Error("Không tải được file JSON");
 
         const rawData = await resQ.json();
-        groupsData = normalizeGroups(rawData);
+        groupsData = attachUniqueKeys(normalizeGroups(rawData));
         allQuestionsData = groupsData.flatMap(g => g.queries || []);
 
         buildQuestionOrderMap();
@@ -528,10 +538,10 @@ function renderPassage(group, groupIndex, passageDiv) {
     }
 }
 
-function handleSelect(questionId, selectedDisplayKey, correctDisplayKey, currentEl, parentEl) {
-    if (userAnswers[questionId]) return;
+function handleSelect(questionKey, selectedDisplayKey, correctDisplayKey, currentEl, parentEl) {
+    if (userAnswers[questionKey]) return;
 
-    userAnswers[questionId] = selectedDisplayKey;
+    userAnswers[questionKey] = selectedDisplayKey;
 
     const allOptions = parentEl.querySelectorAll(".option");
     allOptions.forEach(opt => {
@@ -541,6 +551,7 @@ function handleSelect(questionId, selectedDisplayKey, correctDisplayKey, current
         } else if (label === selectedDisplayKey && selectedDisplayKey !== correctDisplayKey) {
             opt.classList.add("wrong");
         }
+        opt.style.pointerEvents = "none";
     });
 
     currentEl.classList.add("selected");
@@ -569,7 +580,8 @@ function renderQuiz() {
 
         renderPassage(group, groupIndex, passageDiv);
 
-        queries.forEach(q => {
+        queries.forEach((q, questionIndex) => {
+            const questionKey = q.__key || `${groupIndex}-${questionIndex}`;
             const qCard = document.createElement("div");
             qCard.className = "card";
             qCard.innerHTML = `<div class="q-title">${q.id}. ${q.question ?? ""}</div>`;
@@ -577,7 +589,7 @@ function renderQuiz() {
             const optionsDiv = document.createElement("div");
             optionsDiv.className = "options";
 
-            const sourceKeys = questionOrderMap[q.id] || DISPLAY_KEYS.slice();
+            const sourceKeys = questionOrderMap[questionKey] || DISPLAY_KEYS.slice();
             const correctSourceIndex = sourceKeys.indexOf(String(q.answer));
             const correctDisplayKey = correctSourceIndex >= 0 ? DISPLAY_KEYS[correctSourceIndex] : String(q.answer);
 
@@ -590,7 +602,7 @@ function renderQuiz() {
                     <div class="opt-text">${sourceKey ? (q.options?.[sourceKey] ?? "") : ""}</div>
                 `;
 
-                optBtn.onclick = () => handleSelect(String(q.id), displayKey, correctDisplayKey, optBtn, optionsDiv);
+                optBtn.onclick = () => handleSelect(questionKey, displayKey, correctDisplayKey, optBtn, optionsDiv);
                 optionsDiv.appendChild(optBtn);
             });
 
