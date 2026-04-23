@@ -627,6 +627,12 @@ function updateProgress() {
 
 function resetSelections() {
     userAnswers = {};
+
+    // QUAN TRỌNG: nếu shuffle bật thì shuffle lại
+    if (shuffleToggle.checked) {
+        buildQuestionOrderMap();
+    }
+
     renderQuiz();
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
